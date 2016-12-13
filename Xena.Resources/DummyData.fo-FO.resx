@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DummyData_Order_OurReference" xml:space="preserve">
+    <value>342234 (okkara tilv.)</value>
+  </data>
+  <data name="DummyData_Order_YourReference" xml:space="preserve">
+    <value>6654-FA (tykkara tilv.)</value>
+  </data>
+  <data name="DummyData_Department_Administration" xml:space="preserve">
+    <value>Fyrisitingardeild</value>
+  </data>
+  <data name="DummyData_Lawyers" xml:space="preserve">
+    <value>Advokatar</value>
+  </data>
+  <data name="DummyData_Depreciation" xml:space="preserve">
+    <value>Avskriving</value>
+  </data>
+  <data name="DummyData_Stocks" xml:space="preserve">
+    <value>Partabrøv</value>
+  </data>
+  <data name="DummyData_ArticleGroup_Description_Second" xml:space="preserve">
+    <value>Annar vørubólkur</value>
+  </data>
+  <data name="DummyData_OrderTask_Second_Description" xml:space="preserve">
+    <value>Onnur ordrauppgávulýsing</value>
+  </data>
+  <data name="DummyData_OrderTask_Second_Details" xml:space="preserve">
+    <value>Onnur ordrauppgáva, tekst
+Onnur ordrauppgáva, linja tvey</value>
+  </data>
+  <data name="DummyData_Employees" xml:space="preserve">
+    <value>Starvsfólk</value>
+  </data>
+  <data name="DummyData_Article_Stock_Number" xml:space="preserve">
+    <value>B2k</value>
+  </data>
+  <data name="DummyData_Bank" xml:space="preserve">
+    <value>Banki</value>
+  </data>
+  <data name="DummyData_BankDebt" xml:space="preserve">
+    <value>Bankaskuld</value>
+  </data>
+  <data name="DummyData_BankDebt_First" xml:space="preserve">
+    <value>Bankakonto 1</value>
+  </data>
+  <data name="DummyData_BankDebt_Second" xml:space="preserve">
+    <value>Bankakonto 2</value>
+  </data>
+  <data name="DummyData_Cars" xml:space="preserve">
+    <value>Bilar</value>
+  </data>
+  <data name="DummyData_ReminderStep_Description" xml:space="preserve">
+    <value>Gjaldsáminning 1</value>
+  </data>
+  <data name="DummyData_Voucher_Description" xml:space="preserve">
+    <value>Fylgiskjalslýsing</value>
+  </data>
+  <data name="DummyData_Brochures" xml:space="preserve">
+    <value>Bóklingar</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Bulk" xml:space="preserve">
+    <value>Bulk</value>
+  </data>
+  <data name="DummyData_Partner_Second" xml:space="preserve">
+    <value>Fyritøkan A/S</value>
+  </data>
+  <data name="DummyData_Partner_Attention" xml:space="preserve">
+    <value>Stjórin</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_Zip" xml:space="preserve">
+    <value>DK-9000</value>
+  </data>
+  <data name="DummyData_Partner_OrgNumber" xml:space="preserve">
+    <value>DK-12345678</value>
+  </data>
+  <data name="DummyData_Partner_Zip" xml:space="preserve">
+    <value>DK-8000</value>
+  </data>
+  <data name="DummyData_Partner_Third" xml:space="preserve">
+    <value>Blómuhandilin pf.</value>
+  </data>
+  <data name="DummyData_Electricity" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="DummyData_Electricity_Tax" xml:space="preserve">
+    <value>El avgjald</value>
+  </data>
+  <data name="DummyData_VatSpecification_Company" xml:space="preserve">
+    <value>Xena Ltd.</value>
+  </data>
+  <data name="DummyData_Order_InvoiceEmail" xml:space="preserve">
+    <value>fakturi@test.fo</value>
+  </data>
+  <data name="DummyData_Partner_PlaceName" xml:space="preserve">
+    <value>Fakturastað</value>
+  </data>
+  <data name="DummyData_Partner_Street" xml:space="preserve">
+    <value>Fakturagøta 14</value>
+  </data>
+  <data name="DummyData_ArticleGroup_Description_First" xml:space="preserve">
+    <value>Fyrsta vørubólkur</value>
+  </data>
+  <data name="DummyData_OrderTask_First_Description" xml:space="preserve">
+    <value>Fyrsta uppgávulýsing</value>
+  </data>
+  <data name="DummyData_OrderTask_First_Details" xml:space="preserve">
+    <value>Fyrsta ordrauppgávutekstur
+Fyrsti uppgáva, linja 2</value>
+  </data>
+  <data name="DummyData_Stamps" xml:space="preserve">
+    <value>Frímerkir</value>
+  </data>
+  <data name="DummyData_Goodwill" xml:space="preserve">
+    <value>Goodwill</value>
+  </data>
+  <data name="DummyData_Hardware" xml:space="preserve">
+    <value>Tólbúnaður</value>
+  </data>
+  <data name="DummyData_Location_Dimension1" xml:space="preserve">
+    <value>Hylla 1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Hall1" xml:space="preserve">
+    <value>Høll 1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Shelf1" xml:space="preserve">
+    <value>Hylla 1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Shelf3" xml:space="preserve">
+    <value>Hylla 3</value>
+  </data>
+  <data name="DummyData_Partner_City" xml:space="preserve">
+    <value>Tórshavn</value>
+  </data>
+  <data name="DummyData_Partner_PhoneNumber" xml:space="preserve">
+    <value>Høvuðsnummar</value>
+  </data>
+  <data name="DummyData_Partner_URL" xml:space="preserve">
+    <value>http://xena.biz</value>
+  </data>
+  <data name="DummyData_Rent" xml:space="preserve">
+    <value>Húsaleiga</value>
+  </data>
+  <data name="DummyData_Vat_Ingoing_Abbreviation" xml:space="preserve">
+    <value>I25</value>
+  </data>
+  <data name="DummyData_Warehouse_Dimension2" xml:space="preserve">
+    <value>Hylla</value>
+  </data>
+  <data name="DummyData_Manual_Sales" xml:space="preserve">
+    <value>Boka sølu</value>
+  </data>
+  <data name="DummyData_MiscSalesCosts" xml:space="preserve">
+    <value>Ymsir sølukostnaðir</value>
+  </data>
+  <data name="DummyData_OfficeSupplies" xml:space="preserve">
+    <value>Skrivstovulutir</value>
+  </data>
+  <data name="DummyData_Rented_Officeequipment" xml:space="preserve">
+    <value>Leiga innbúgv</value>
+  </data>
+  <data name="DummyData_Variant_Large" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="DummyData_Warehouse_Description" xml:space="preserve">
+    <value>Goymslustað 1</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_Name" xml:space="preserve">
+    <value>Leveringsadressa 2</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_PlaceName" xml:space="preserve">
+    <value>Leveringsstað 1</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_Street" xml:space="preserve">
+    <value>Leveringsgate 23</value>
+  </data>
+  <data name="DummyData_Rented_Suppliers" xml:space="preserve">
+    <value>Leverandørar</value>
+  </data>
+  <data name="DummyData_Wages" xml:space="preserve">
+    <value>Lønir</value>
+  </data>
+  <data name="DummyData_Machinery" xml:space="preserve">
+    <value>Maskinur</value>
+  </data>
+  <data name="DummyData_Manual_Consumption" xml:space="preserve">
+    <value>Manuelt forbrúk</value>
+  </data>
+  <data name="DummyData_OccasionalVAT" xml:space="preserve">
+    <value>Manuelt MVG</value>
+  </data>
+  <data name="DummyData_VAT_Manual" xml:space="preserve">
+    <value>Manuelt MVG</value>
+  </data>
+  <data name="DummyData_Variant_Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="DummyData_Bonds" xml:space="preserve">
+    <value>Skuldarbræv</value>
+  </data>
+  <data name="DummyData_Partner_Note" xml:space="preserve">
+    <value>Vinnupartnaraupprit</value>
+  </data>
+  <data name="DummyData_Accounting" xml:space="preserve">
+    <value>Grannskoðari</value>
+  </data>
+  <data name="DummyData_Accounting_SetAside" xml:space="preserve">
+    <value>Grannskoðari, avsett</value>
+  </data>
+  <data name="DummyData_Accounting_SpecialAssignment" xml:space="preserve">
+    <value>Grannskoðari, seruppgáva</value>
+  </data>
+  <data name="DummyData_Accrual" xml:space="preserve">
+    <value>Tíðaravmarking</value>
+  </data>
+  <data name="DummyData_Advertising" xml:space="preserve">
+    <value>Lýsing</value>
+  </data>
+  <data name="DummyData_LedgerTag_Accounting" xml:space="preserve">
+    <value>Grannskoðari</value>
+  </data>
+  <data name="DummyData_Location_Description" xml:space="preserve">
+    <value>S1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Row1" xml:space="preserve">
+    <value>Rað 1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Row8" xml:space="preserve">
+    <value>Rað 8</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Section2" xml:space="preserve">
+    <value>Partur 2</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Section3" xml:space="preserve">
+    <value>Partur 3</value>
+  </data>
+  <data name="DummyData_Marketing" xml:space="preserve">
+    <value>Sølukostnaðir</value>
+  </data>
+  <data name="DummyData_Pensions" xml:space="preserve">
+    <value>Pensjónir</value>
+  </data>
+  <data name="DummyData_Representation" xml:space="preserve">
+    <value>Umboð</value>
+  </data>
+  <data name="DummyData_ShortDebt_Pensions" xml:space="preserve">
+    <value>Pensjónir</value>
+  </data>
+  <data name="DummyData_Warehouse_Dimension1" xml:space="preserve">
+    <value>Rað</value>
+  </data>
+</root>

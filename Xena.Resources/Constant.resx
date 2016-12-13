@@ -1,0 +1,1210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DueType_Cash" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="DueType_RunningMonth" xml:space="preserve">
+    <value>Running month</value>
+  </data>
+  <data name="IntervalType_Day" xml:space="preserve">
+    <value>day</value>
+  </data>
+  <data name="IntervalType_Days" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="IntervalType_Month" xml:space="preserve">
+    <value>month</value>
+  </data>
+  <data name="IntervalType_Months" xml:space="preserve">
+    <value>months</value>
+  </data>
+  <data name="IntervalType_Week" xml:space="preserve">
+    <value>week</value>
+  </data>
+  <data name="IntervalType_Weeks" xml:space="preserve">
+    <value>weeks</value>
+  </data>
+  <data name="IntervalType_Year" xml:space="preserve">
+    <value>year</value>
+  </data>
+  <data name="IntervalType_Years" xml:space="preserve">
+    <value>years</value>
+  </data>
+  <data name="Localized_DueType_xena_cash" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="Localized_DueType_xena_nett" xml:space="preserve">
+    <value>Net</value>
+  </data>
+  <data name="Localized_DueType_xena_running_month" xml:space="preserve">
+    <value>Running month</value>
+  </data>
+  <data name="Localized_Entity_Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="Localized_Entity_Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Localized_Entity_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Localized_IdentityType_AliasIdentification" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="Localized_IdentityType_EmailIdentification" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Localized_IdentityType_MobileIdentification" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Localized_UserGroup_Accountant" xml:space="preserve">
+    <value>Accountant</value>
+  </data>
+  <data name="Localized_UserGroup_Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="Localized_UserGroup_Bank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="Localized_UserGroup_Bookkeeper" xml:space="preserve">
+    <value>Bookkeeper</value>
+  </data>
+  <data name="Localized_UserGroup_SalesAssistent" xml:space="preserve">
+    <value>Sales assistent</value>
+  </data>
+  <data name="PartnerBalanceType_Customer" xml:space="preserve">
+    <value>Customer balances</value>
+  </data>
+  <data name="PartnerBalanceType_Supplier" xml:space="preserve">
+    <value>Supplier balances</value>
+  </data>
+  <data name="PartnerPostType_Adjustment" xml:space="preserve">
+    <value>Adjustment</value>
+  </data>
+  <data name="PartnerPostType_CustomerAdjustment" xml:space="preserve">
+    <value>Customer adjustment</value>
+  </data>
+  <data name="PartnerPostType_CustomerCreditNote" xml:space="preserve">
+    <value>Customer credit note</value>
+  </data>
+  <data name="PartnerPostType_CustomerInterest" xml:space="preserve">
+    <value>Customer interest</value>
+  </data>
+  <data name="PartnerPostType_CustomerInvoice" xml:space="preserve">
+    <value>Customer invoice</value>
+  </data>
+  <data name="PartnerPostType_CustomerPayment" xml:space="preserve">
+    <value>Customer payment</value>
+  </data>
+  <data name="PartnerPostType_CustomerPrimo" xml:space="preserve">
+    <value>Primo, customer</value>
+  </data>
+  <data name="PartnerPostType_SupplierAdjustment" xml:space="preserve">
+    <value>Supplier adjustment</value>
+  </data>
+  <data name="PartnerPostType_SupplierCreditNote" xml:space="preserve">
+    <value>Supplier credit note</value>
+  </data>
+  <data name="PartnerPostType_SupplierInterest" xml:space="preserve">
+    <value>Supplier interest</value>
+  </data>
+  <data name="PartnerPostType_SupplierInvoice" xml:space="preserve">
+    <value>Supplier invoice</value>
+  </data>
+  <data name="PartnerPostType_SupplierPayment" xml:space="preserve">
+    <value>Supplier payment</value>
+  </data>
+  <data name="PartnerPostType_SupplierPrimo" xml:space="preserve">
+    <value>Primo, supplier</value>
+  </data>
+  <data name="Reports_DefaultName_InventoryCountingList" xml:space="preserve">
+    <value>Inventory counting list</value>
+  </data>
+  <data name="Reports_DefaultName_LedgerTagStatement" xml:space="preserve">
+    <value>Ledger tag statement</value>
+  </data>
+  <data name="Reports_DefaultName_OrderDelivery" xml:space="preserve">
+    <value>Deliverynote</value>
+  </data>
+  <data name="Reports_DefaultName_OrderInvoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Reports_DefaultName_OrderOffer" xml:space="preserve">
+    <value>Offer</value>
+  </data>
+  <data name="Reports_DefaultName_OrderConfirmation" xml:space="preserve">
+    <value>Order confirmation</value>
+  </data>
+  <data name="Reports_DefaultName_PartnerBalance" xml:space="preserve">
+    <value>Partner balance</value>
+  </data>
+  <data name="Reports_DefaultName_PartnerStatement" xml:space="preserve">
+    <value>Partner statement</value>
+  </data>
+  <data name="Reports_DefaultName_PrimoFiscalBalance" xml:space="preserve">
+    <value>Primo fiscal balance</value>
+  </data>
+  <data name="Reports_DefaultName_Reminder" xml:space="preserve">
+    <value>Reminder</value>
+  </data>
+  <data name="Reports_DefaultName_VatSettlement" xml:space="preserve">
+    <value>Vat settlement</value>
+  </data>
+  <data name="VoucherDraftType_CreditorIncomingInvoice" xml:space="preserve">
+    <value>Incoming creditor invoice</value>
+  </data>
+  <data name="VoucherDraftType_Finance" xml:space="preserve">
+    <value>Finance</value>
+  </data>
+  <data name="VoucherDraftType_PartnerPayment" xml:space="preserve">
+    <value>Partner payment</value>
+  </data>
+  <data name="Xena_Fiscal_NewDocument_Description" xml:space="preserve">
+    <value>{0} has sent you a new document</value>
+  </data>
+  <data name="Xena_Fiscal_NewInvoice_Description" xml:space="preserve">
+    <value>{0} sent you an invoice</value>
+  </data>
+  <data name="Xena_User_NewDocument_Description" xml:space="preserve">
+    <value>New document from {0}</value>
+  </data>
+  <data name="Xena_User_NewInvoice_Description" xml:space="preserve">
+    <value>{0} sent you an invoice</value>
+  </data>
+  <data name="Reports_DefaultName_ArticlePostReportList" xml:space="preserve">
+    <value>Article post list</value>
+  </data>
+  <data name="Reports_DefaultName_LedgerPostReportList" xml:space="preserve">
+    <value>Ledger post list</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts" xml:space="preserve">
+    <value>Assets</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Advance_Payments" xml:space="preserve">
+    <value>Advance payments</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Cash" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Customer_Receivables" xml:space="preserve">
+    <value>Customer Receivables</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Financial_Fixed_Asset" xml:space="preserve">
+    <value>Financial Fixed Assets</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Intangible_Fixed_Asset" xml:space="preserve">
+    <value>Intangible Fixed Assets</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_ManualStock" xml:space="preserve">
+    <value>Manual stock</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Other_Receivables" xml:space="preserve">
+    <value>Other Receivables</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Stock" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Stock_Reception" xml:space="preserve">
+    <value>Stock reception</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Tangible_Fixed_Asset" xml:space="preserve">
+    <value>Tangible Fixed Assets</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Administration_Costs" xml:space="preserve">
+    <value>Administration costs</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Consolidation_Result" xml:space="preserve">
+    <value>Consolidation result</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Depreciation" xml:space="preserve">
+    <value>Depreciations</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Financial_Costs" xml:space="preserve">
+    <value>Financial costs</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Housing_Costs" xml:space="preserve">
+    <value>Housing costs</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Net_Turn_Over" xml:space="preserve">
+    <value>Nett turn over</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Product_Consumption" xml:space="preserve">
+    <value>Product consumption</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Sales_Costs" xml:space="preserve">
+    <value>Sales costs</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_System_Differences" xml:space="preserve">
+    <value>System differences</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Taxes" xml:space="preserve">
+    <value>Taxes</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Wages" xml:space="preserve">
+    <value>Personel costs</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts" xml:space="preserve">
+    <value>Liabilities</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_Equity" xml:space="preserve">
+    <value>Equity</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_Long_Term_Debt" xml:space="preserve">
+    <value>Long term debt</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_Other_Short_Term_Debt" xml:space="preserve">
+    <value>Other short term debt</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_Provisions" xml:space="preserve">
+    <value>Provisions</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_Trade_Payables" xml:space="preserve">
+    <value>Trade payables</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_UnPaid_Stock" xml:space="preserve">
+    <value>Unpaid stock</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_Vat_Debt" xml:space="preserve">
+    <value>Vat debt</value>
+  </data>
+  <data name="Reports_DefaultName_PartnerPostReportList" xml:space="preserve">
+    <value>Partner posts</value>
+  </data>
+  <data name="Reports_DefaultName_PartnerSaldoReportList" xml:space="preserve">
+    <value>Partner saldos</value>
+  </data>
+  <data name="ContextType_Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="ContextType_Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="xena_cash" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="xena_ledgerposttype_consumption" xml:space="preserve">
+    <value>Own consumption</value>
+  </data>
+  <data name="xena_ledgerposttype_resale" xml:space="preserve">
+    <value>For re-sale</value>
+  </data>
+  <data name="xena_nett" xml:space="preserve">
+    <value>Nett</value>
+  </data>
+  <data name="xena_running_month" xml:space="preserve">
+    <value>Running month</value>
+  </data>
+  <data name="xena_vatsettlement" xml:space="preserve">
+    <value>Vat settlement</value>
+  </data>
+  <data name="xena_vatsettlementadjustment" xml:space="preserve">
+    <value>Vat settlement adjustment</value>
+  </data>
+  <data name="xena_partnertype_company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="xena_partnertype_indeterminate" xml:space="preserve">
+    <value>Indeterminate</value>
+  </data>
+  <data name="xena_partnertype_person" xml:space="preserve">
+    <value>Private person</value>
+  </data>
+  <data name="Reports_DefaultName_LedgerAccountSpecificationReportList" xml:space="preserve">
+    <value>Ledger account specification</value>
+  </data>
+  <data name="PartnerInviteHistoryEntry" xml:space="preserve">
+    <value>Partner invitation</value>
+  </data>
+  <data name="Invite" xml:space="preserve">
+    <value>Invite</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="SMS" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="Domain_VoucherDraftTexts_Payment" xml:space="preserve">
+    <value>Payment by {0}</value>
+  </data>
+  <data name="Localized_ContextType_ContextType_Customer" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="Localized_ContextType_ContextType_Supplier" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="Reports_DefaultName_FiscalBalance" xml:space="preserve">
+    <value>Fiscal balance</value>
+  </data>
+  <data name="SubscriptionInvoiceStates_Invoiced" xml:space="preserve">
+    <value>Invoiced</value>
+  </data>
+  <data name="SubscriptionInvoiceStates_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="SubscriptionInvoiceStates_Paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="Localized_RecipientAddressType_DKCVR" xml:space="preserve">
+    <value>CVR (Denmark)</value>
+  </data>
+  <data name="Localized_RecipientAddressType_GLN" xml:space="preserve">
+    <value>GLN</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Pending" xml:space="preserve">
+    <value>Electronic invoice created (step 1 of 3)</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Error" xml:space="preserve">
+    <value>Electronic invoice rejected</value>
+  </data>
+  <data name="Command_ElectronicInvoice_OK" xml:space="preserve">
+    <value>Electronic invoice delivered (step 3 af 3)</value>
+  </data>
+  <data name="Command_ElectronicInvoice" xml:space="preserve">
+    <value>Electronic invoice</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Created" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Created_Details" xml:space="preserve">
+    <value>Electronic invoice created</value>
+  </data>
+  <data name="Command_ElectronicInvoice_SentOK" xml:space="preserve">
+    <value>Electronic invoice sent (step 2 of 3)</value>
+  </data>
+  <data name="Localized_RecipientAddressType_NOORGNO" xml:space="preserve">
+    <value>Org.nummer (Norway)</value>
+  </data>
+  <data name="Localized_RecipientAddressType_SEORGNO" xml:space="preserve">
+    <value>Org.nummer (Sweden)</value>
+  </data>
+  <data name="LedgerTagType_CurrencyDifference" xml:space="preserve">
+    <value>Currency differences</value>
+  </data>
+  <data name="LedgerTagType_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="LedgerTagType_Settlement" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="ArticleGroup" xml:space="preserve">
+    <value>Article group</value>
+  </data>
+  <data name="FiscalPeriod" xml:space="preserve">
+    <value>Fiscal period</value>
+  </data>
+  <data name="LedgerTag" xml:space="preserve">
+    <value>Ledger tag</value>
+  </data>
+  <data name="Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Vat" xml:space="preserve">
+    <value>VAT code</value>
+  </data>
+  <data name="LedgerLineType_Default" xml:space="preserve">
+    <value>Finance</value>
+  </data>
+  <data name="LedgerLineType_ManualSales" xml:space="preserve">
+    <value>Manual sales</value>
+  </data>
+  <data name="LedgerLineType_PartnerPayment" xml:space="preserve">
+    <value>Partner payment</value>
+  </data>
+  <data name="LedgerLineType_SupplierInvoice" xml:space="preserve">
+    <value>Supplier invoice</value>
+  </data>
+  <data name="Domain_Ledger_Default_Description" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="VatType_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="VatType_EUVat" xml:space="preserve">
+    <value>EU</value>
+  </data>
+  <data name="VatType_Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="VatType_Purchasing" xml:space="preserve">
+    <value>Purchasing</value>
+  </data>
+  <data name="VatType_Sales" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="ImportVatLineType_Customs" xml:space="preserve">
+    <value>Customs</value>
+  </data>
+  <data name="ImportVatLineType_Vat" xml:space="preserve">
+    <value>VAT</value>
+  </data>
+  <data name="LedgerLineType_ManualPurchase" xml:space="preserve">
+    <value>Manual purchase</value>
+  </data>
+  <data name="Domain_ImportVatTransaction_Cancelation" xml:space="preserve">
+    <value>{0} - cancellation</value>
+  </data>
+  <data name="Localized_Xena_InventoryStatus_InStock" xml:space="preserve">
+    <value>In stock</value>
+  </data>
+  <data name="Localized_Xena_InventoryStatus_InStockOtherDepartment" xml:space="preserve">
+    <value>In stock in other department</value>
+  </data>
+  <data name="Localized_Xena_InventoryStatus_NotInStock" xml:space="preserve">
+    <value>Not in stock</value>
+  </data>
+  <data name="Localized_Xena_InventoryStatus_NotInStockButOrdered" xml:space="preserve">
+    <value>Not in stock, but ordered</value>
+  </data>
+  <data name="Localized_Xena_InventoryStatus_PartiallyInStock" xml:space="preserve">
+    <value>Partially in stock</value>
+  </data>
+  <data name="Localized_Xena_InventoryStatus_UnknownStatus" xml:space="preserve">
+    <value>Unknown status</value>
+  </data>
+  <data name="Localized_Xena_InventoryStatus_Xena_InventoryStatus_NotInStockSomeOrdered" xml:space="preserve">
+    <value>Not in stock, some are ordered</value>
+  </data>
+  <data name="LedgerPostPreviewType_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="LedgerPostPreviewType_ManualPurchase" xml:space="preserve">
+    <value>Manual purchase</value>
+  </data>
+  <data name="LedgerPostPreviewType_Contra" xml:space="preserve">
+    <value>Contra</value>
+  </data>
+  <data name="LedgerPostPreviewType_ManualSales" xml:space="preserve">
+    <value>Manual sales</value>
+  </data>
+  <data name="BankPostingReconciliationSuggestionType_LedgerPost" xml:space="preserve">
+    <value>Ledger post</value>
+    <comment>BankPostingReconciliationSuggestionType_LedgerPost</comment>
+  </data>
+  <data name="BankPostingReconciliationSuggestionType_LedgerPostPreview" xml:space="preserve">
+    <value>Ledger post preview</value>
+  </data>
+  <data name="BankPostingReconciliationSuggestionType_PartnerPost" xml:space="preserve">
+    <value>Partner post</value>
+  </data>
+  <data name="BankPostingReconciliationSuggestionType_PartnerSaldo" xml:space="preserve">
+    <value>Partner saldo</value>
+  </data>
+  <data name="Reports_DefaultName_ArticleStockReportList" xml:space="preserve">
+    <value>Article stock</value>
+  </data>
+  <data name="PaymentMeansType_Bank" xml:space="preserve">
+    <value>Misc. bank account</value>
+  </data>
+  <data name="PaymentMeansType_Bank_Help" xml:space="preserve">
+    <value>Misc. bank accounts are printed on your invoice, but not included in electonic invoicing nor codelines used for online banking. You must supply at least an account number. Is not included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_DK_Bank" xml:space="preserve">
+    <value>Danish bank account</value>
+  </data>
+  <data name="PaymentMeansType_DK_Bank_Help" xml:space="preserve">
+    <value>Danish bank acount that is printed on your invoice with the information you supply for direct deposits to your bank account. Is included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_71" xml:space="preserve">
+    <value>Danish FIK account (Nets 71)</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_71_Help" xml:space="preserve">
+    <value>Danish Nets account that prints a line similar to +71&lt;123456123456781+12345678 on your invoices. Is included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_73" xml:space="preserve">
+    <value>Danish FIK account (Nets 73)</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_73_Help" xml:space="preserve">
+    <value>Danish Nets account that prints a line similar to +73&lt;   +12345678 on your invoices. Is included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_75" xml:space="preserve">
+    <value>Danish FIK account (Nets 75)</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_75_Help" xml:space="preserve">
+    <value>Danish Nets account that prints a line similar to +75&lt;0123456123456781+12345678 on your invoices. Is included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_01" xml:space="preserve">
+    <value>Danish Giro account (01)</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_01_Help" xml:space="preserve">
+    <value>Danish Giro account that prints a line similar to +01&lt;  +1234567 on your invoices. Is included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_04" xml:space="preserve">
+    <value>Danish Giro account (04)</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_04_Help" xml:space="preserve">
+    <value>Danish Giro account that prints a line similar to +04&lt;123456123456781+1234567 on your invoices. Is included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_15" xml:space="preserve">
+    <value>Danish Giro account (15)</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_15_Help" xml:space="preserve">
+    <value>Danish Giro account that prints a line similar to +15&lt;123456123456781+1234567 on your invoices. Is included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_DK_NemKonto" xml:space="preserve">
+    <value>Danish NemKonto</value>
+  </data>
+  <data name="PaymentMeansType_DK_NemKonto_Help" xml:space="preserve">
+    <value>Danish NemKonto is used for public entities. Is only used for electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_IBAN_Non_EU" xml:space="preserve">
+    <value>IBAN (Non-EU)</value>
+  </data>
+  <data name="PaymentMeansType_IBAN_Non_EU_Help" xml:space="preserve">
+    <value>IBAN (Non-EU) is used for international deposits to your bank account and will be shown on your invoices. Is included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_IBAN_SWIFT" xml:space="preserve">
+    <value>IBAN/SWIFT</value>
+  </data>
+  <data name="PaymentMeansType_IBAN_SWIFT_Help" xml:space="preserve">
+    <value>IBAN/SWIFT account is used for international EU deposits to your bank account and will be shown on your invoices. Is included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank" xml:space="preserve">
+    <value>Norweigan bank account</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank_Help" xml:space="preserve">
+    <value>Norweigan bank account that is printed on your invoice with the information you supply for direct inserts on your bank account. Is not included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank_Mod_10" xml:space="preserve">
+    <value>Norweigan bank account (Mod 10)</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank_Mod_10_Help" xml:space="preserve">
+    <value>Norweigan bank account that is printed as a code line on your invoice using modulus 10. Ask your bank for information whether your bank account should use Modulus 10 or 11, if in doubt. Is not included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank_Mod_11" xml:space="preserve">
+    <value>Norweigan bank account (Mod 11)</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank_Mod_11_Help" xml:space="preserve">
+    <value>Norweigan bank account that is printed as a code line on your invoice using modulus 11. Ask your bank for information whether your bank account should use Modulus 10 or 11, if in doubt. Is not included in electronic invoices.</value>
+  </data>
+  <data name="PaymentMeansType_Bank_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_Bank_AccountLabel" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="PaymentMeansType_DK_Bank_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_DK_Bank_AccountLabel" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_71_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_71_AccountLabel" xml:space="preserve">
+    <value>Supplier number</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_73_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_73_AccountLabel" xml:space="preserve">
+    <value>Supplier number</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_75_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_DK_FIK_75_AccountLabel" xml:space="preserve">
+    <value>Supplier number</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_01_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_01_AccountLabel" xml:space="preserve">
+    <value>Giro number</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_04_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_04_AccountLabel" xml:space="preserve">
+    <value>Giro number</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_15_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_DK_Giro_15_AccountLabel" xml:space="preserve">
+    <value>Giro number</value>
+  </data>
+  <data name="PaymentMeansType_DK_NemKonto_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_DK_NemKonto_AccountLabel" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="PaymentMeansType_IBAN_Non_EU_AccountIdentifierLabel" xml:space="preserve">
+    <value>Bank identifier</value>
+  </data>
+  <data name="PaymentMeansType_IBAN_Non_EU_AccountLabel" xml:space="preserve">
+    <value>IBAN number</value>
+  </data>
+  <data name="PaymentMeansType_IBAN_SWIFT_AccountIdentifierLabel" xml:space="preserve">
+    <value>SWIFT</value>
+  </data>
+  <data name="PaymentMeansType_IBAN_SWIFT_AccountLabel" xml:space="preserve">
+    <value>IBAN number</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank_AccountLabel" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank_Mod_10_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank_Mod_10_AccountLabel" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank_Mod_11_AccountIdentifierLabel" xml:space="preserve">
+    <value>Account identitifer</value>
+  </data>
+  <data name="PaymentMeansType_NO_Bank_Mod_11_AccountLabel" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="XenaApp_Category_CreditRating" xml:space="preserve">
+    <value>Credit rating</value>
+  </data>
+  <data name="XenaApp_Category_Maps" xml:space="preserve">
+    <value>Maps</value>
+  </data>
+  <data name="XenaApp_Category_Misc" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="XenaApp_Category_Reporting" xml:space="preserve">
+    <value>Reporting</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_Widget" xml:space="preserve">
+    <value>Widget</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_Tab_Contact" xml:space="preserve">
+    <value>Contact tab</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_Tab_Details" xml:space="preserve">
+    <value>Details tab</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_Tab_Main" xml:space="preserve">
+    <value>Main tab</value>
+  </data>
+  <data name="XenaApp_Visibility_Private" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="XenaApp_Visibility_Public" xml:space="preserve">
+    <value>Public</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_MainMenu_Finance" xml:space="preserve">
+    <value>Finance</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_MainMenu_FiscalSetup" xml:space="preserve">
+    <value>Fiscal setup</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_MainMenu_Purchasing" xml:space="preserve">
+    <value>Purchasing</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_MainMenu_Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_MainMenu_Sales" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_MainMenu_Setup" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_Tab_Setup" xml:space="preserve">
+    <value>Setup tab</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_Tab_Statistics" xml:space="preserve">
+    <value>Statistics tab</value>
+  </data>
+  <data name="XenaApp_PluginType_ArticleDetails" xml:space="preserve">
+    <value>Article details</value>
+  </data>
+  <data name="XenaApp_PluginType_ArticleOverview" xml:space="preserve">
+    <value>Article overview</value>
+  </data>
+  <data name="XenaApp_PluginType_MainMenuItem" xml:space="preserve">
+    <value>Main menu</value>
+  </data>
+  <data name="XenaApp_PluginType_OrderDetails" xml:space="preserve">
+    <value>Order details</value>
+  </data>
+  <data name="XenaApp_PluginType_OrderOverview" xml:space="preserve">
+    <value>Order overview</value>
+  </data>
+  <data name="XenaApp_PluginType_PartnerDetails" xml:space="preserve">
+    <value>Partner details</value>
+  </data>
+  <data name="XenaApp_PluginType_PartnerOverview" xml:space="preserve">
+    <value>Partner overview</value>
+  </data>
+  <data name="XenaApp_PluginType_SubscriptionDetails" xml:space="preserve">
+    <value>Subscription details</value>
+  </data>
+  <data name="XenaApp_PluginType_SubscriptionOverview" xml:space="preserve">
+    <value>Subscription overview</value>
+  </data>
+  <data name="Reports_DefaultName_PartnerSaldoAgeReportList" xml:space="preserve">
+    <value>Partner saldos age-distributed</value>
+  </data>
+  <data name="Reports_DefaultName_FiscalBalanceAccountant" xml:space="preserve">
+    <value>Fiscal balance for accountant</value>
+  </data>
+  <data name="Reports_DefaultName_LedgerJournal" xml:space="preserve">
+    <value>Ledger journal</value>
+  </data>
+  <data name="Localized_UserGroup_AccountantAdmin" xml:space="preserve">
+    <value>Accountant administrator</value>
+  </data>
+  <data name="Localized_UserGroup_AccountantBookkeeper" xml:space="preserve">
+    <value>Accountant bookkeeper</value>
+  </data>
+  <data name="XenaApp_Visibility_Internal" xml:space="preserve">
+    <value>Internal</value>
+  </data>
+  <data name="XenaApp_PluginType_FiscalSetupUserMemberships" xml:space="preserve">
+    <value>User memberships</value>
+  </data>
+  <data name="Localized_Theme_Blue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="Localized_Theme_Coffee" xml:space="preserve">
+    <value>Coffee</value>
+  </data>
+  <data name="Localized_Theme_Dark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="Localized_Theme_Dusty" xml:space="preserve">
+    <value>Dusty</value>
+  </data>
+  <data name="Localized_Theme_LightYellow" xml:space="preserve">
+    <value>Light yellow</value>
+  </data>
+  <data name="Localized_Theme_MintGreen" xml:space="preserve">
+    <value>Mint green</value>
+  </data>
+  <data name="Localized_Theme_NaviBlue" xml:space="preserve">
+    <value>Navi blue</value>
+  </data>
+  <data name="Localized_Theme_OceanBlue" xml:space="preserve">
+    <value>Ocean blue</value>
+  </data>
+  <data name="Localized_Theme_Pink" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="Localized_Theme_Prikly" xml:space="preserve">
+    <value>Prikly</value>
+  </data>
+  <data name="Localized_Theme_Purple" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="Localized_Theme_Rusty" xml:space="preserve">
+    <value>Rusty</value>
+  </data>
+  <data name="Localized_Theme_Standard" xml:space="preserve">
+    <value>Xena standard</value>
+  </data>
+  <data name="Localized_Theme_Yellow" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="Localized_Theme_Salmon" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="XenaApp_PluginType_HomeIndex" xml:space="preserve">
+    <value>My Disktop</value>
+  </data>
+  <data name="DataImport_FromC5" xml:space="preserve">
+    <value>Import from C5</value>
+  </data>
+  <data name="StockCountFriendlyData_ArticleDescription_Translated" xml:space="preserve">
+    <value>Article description</value>
+  </data>
+  <data name="StockCountFriendlyData_ArticleNumber_Translated" xml:space="preserve">
+    <value>Article number</value>
+  </data>
+  <data name="StockCountFriendlyData_ArticleVariantAbbreviation_Translated" xml:space="preserve">
+    <value>Article variant</value>
+  </data>
+  <data name="StockCountFriendlyData_Location_Translated" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="StockCountFriendlyData_QuantityCounted_Translated" xml:space="preserve">
+    <value>Quantity, counted</value>
+  </data>
+  <data name="StockCountFriendlyData_QuantityReserved_Translated" xml:space="preserve">
+    <value>Quantity, reserved</value>
+  </data>
+  <data name="StockCountFriendlyData_Quantity_Translated" xml:space="preserve">
+    <value>Quantity, in stock</value>
+  </data>
+  <data name="Localized_DeliveryStatus_SalesOrderDeliveryStatus_AllInStock" xml:space="preserve">
+    <value>All in stock</value>
+  </data>
+  <data name="Localized_DeliveryStatus_SalesOrderDeliveryStatus_BarredForDelivery" xml:space="preserve">
+    <value>Barred for delivery</value>
+  </data>
+  <data name="Localized_DeliveryStatus_SalesOrderDeliveryStatus_CannotDeliver" xml:space="preserve">
+    <value>Cannot deliver</value>
+  </data>
+  <data name="Localized_DeliveryStatus_SalesOrderDeliveryStatus_Delivered" xml:space="preserve">
+    <value>Delivered</value>
+  </data>
+  <data name="Localized_DeliveryStatus_SalesOrderDeliveryStatus_NotApplicable" xml:space="preserve">
+    <value>Not applicable</value>
+  </data>
+  <data name="Localized_DeliveryStatus_SalesOrderDeliveryStatus_NothingInStock" xml:space="preserve">
+    <value>Nothing in stock</value>
+  </data>
+  <data name="Localized_DeliveryStatus_SalesOrderDeliveryStatus_SomeInStock" xml:space="preserve">
+    <value>Some in stock</value>
+  </data>
+  <data name="CustomerEmail" xml:space="preserve">
+    <value>Customer email</value>
+  </data>
+  <data name="SupplierEmail" xml:space="preserve">
+    <value>Supplier email</value>
+  </data>
+  <data name="Localized_DueType_xena_prepaid" xml:space="preserve">
+    <value>Pre-paid</value>
+  </data>
+  <data name="Reports_DefaultName_OrderPickList" xml:space="preserve">
+    <value>Pick list</value>
+  </data>
+  <data name="Delivery_Cancelled" xml:space="preserve">
+    <value> (Cancelled)</value>
+  </data>
+  <data name="Voucher" xml:space="preserve">
+    <value>Voucher:</value>
+  </data>
+  <data name="DataImport_FromBillysBilling" xml:space="preserve">
+    <value>Import data from Billys Billing</value>
+  </data>
+  <data name="DataImport_FromEconomic" xml:space="preserve">
+    <value>Import data from e-conomic</value>
+  </data>
+  <data name="xena_importtasktype_articlegroupimport" xml:space="preserve">
+    <value>Article group import</value>
+  </data>
+  <data name="xena_importtasktype_articleimport" xml:space="preserve">
+    <value>Article import</value>
+  </data>
+  <data name="xena_importtasktype_customerimport" xml:space="preserve">
+    <value>Customer import</value>
+  </data>
+  <data name="xena_importtasktype_fiscalyearimport" xml:space="preserve">
+    <value>Fiscal year import</value>
+  </data>
+  <data name="xena_importtasktype_ledgerimport" xml:space="preserve">
+    <value>General ledger import</value>
+  </data>
+  <data name="xena_importtasktype_postingimport" xml:space="preserve">
+    <value>Ledger posting import</value>
+  </data>
+  <data name="xena_importtasktype_supplierimport" xml:space="preserve">
+    <value>Supplier import</value>
+  </data>
+  <data name="Localized_LedgerBookkeepingStatus_BankReconciliation_Inserted" xml:space="preserve">
+    <value>Bank reconciliation inserted</value>
+  </data>
+  <data name="Localized_LedgerBookkeepingStatus_Cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="Localized_LedgerBookkeepingStatus_Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="Localized_LedgerBookkeepingStatus_Documents_Moved_To_Vouchers" xml:space="preserve">
+    <value>Documents moved to vouchers</value>
+  </data>
+  <data name="Localized_LedgerBookkeepingStatus_History_Inserted" xml:space="preserve">
+    <value>History inserted</value>
+  </data>
+  <data name="Localized_LedgerBookkeepingStatus_Saving_Settlements" xml:space="preserve">
+    <value>Saving settlements</value>
+  </data>
+  <data name="Localized_LedgerBookkeepingStatus_Saving_Transaction" xml:space="preserve">
+    <value>Saving transaction</value>
+  </data>
+  <data name="Localized_LedgerBookkeepingStatus_Started" xml:space="preserve">
+    <value>Bookkeeping started</value>
+  </data>
+  <data name="Localized_LedgerBookkeepingStatus_Transactions_Created" xml:space="preserve">
+    <value>Transactions created</value>
+  </data>
+  <data name="Localized_LedgerBookkeepingStatus_Transactions_Validated" xml:space="preserve">
+    <value>Transactions validated</value>
+  </data>
+  <data name="Localized_LedgerBookkeepingStatus_Transactions_Validation_Failed" xml:space="preserve">
+    <value>Validations failed</value>
+  </data>
+  <data name="Localized_UserGroup_Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="EUType_Goods" xml:space="preserve">
+    <value>Goods</value>
+  </data>
+  <data name="EUType_Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="Reports_DefaultName_EUSalesVatFree" xml:space="preserve">
+    <value>EU sales without VAT</value>
+  </data>
+  <data name="EUType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="VatType_EUVat_Goods" xml:space="preserve">
+    <value>EU - goods</value>
+  </data>
+  <data name="VatType_EUVat_Services" xml:space="preserve">
+    <value>EU - services (reverse charge)</value>
+  </data>
+  <data name="xena_onestop_vatsettlement" xml:space="preserve">
+    <value>One-Stop VAT settlement</value>
+  </data>
+  <data name="xena_onestop_vatsettlementadjustment" xml:space="preserve">
+    <value>One-Stop VAT settlement adjustment</value>
+  </data>
+  <data name="Reports_DefaultName_VatSettlement_OneStop" xml:space="preserve">
+    <value>Vat settlement (One Stop VAT)</value>
+  </data>
+  <data name="DataImport_Manually" xml:space="preserve">
+    <value>Import data manually</value>
+  </data>
+  <data name="Localized_UserGroup_AccountantClientAccess" xml:space="preserve">
+    <value>Client access</value>
+  </data>
+  <data name="XenaApp_PluginType_AppDetails" xml:space="preserve">
+    <value>App details</value>
+  </data>
+  <data name="XenaApp_PluginType_DevDetails" xml:space="preserve">
+    <value>Developer details</value>
+  </data>
+  <data name="Localized_PartnerContextType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Localized_PartnerContextType_Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Localized_PartnerContextType_Resource" xml:space="preserve">
+    <value>Resource</value>
+  </data>
+  <data name="Localized_PartnerContextType_Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Domain_Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="XenaApp_PluginType_DevIndex" xml:space="preserve">
+    <value>Developer index</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Production_Costs" xml:space="preserve">
+    <value>Production costs</value>
+  </data>
+  <data name="XenaApp_PluginType_LedgerTagDetails" xml:space="preserve">
+    <value>Ledgertag details</value>
+  </data>
+  <data name="XenaApp_PluginType_SetupApp" xml:space="preserve">
+    <value>App setup</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_MainMenu_AppStore" xml:space="preserve">
+    <value>App store</value>
+  </data>
+  <data name="XenaApp_Category_Webshop" xml:space="preserve">
+    <value>Webshop</value>
+  </data>
+  <data name="WithVAT" xml:space="preserve">
+    <value> - with VAT</value>
+  </data>
+  <data name="VatType_OneStop" xml:space="preserve">
+    <value>One-Stop</value>
+  </data>
+  <data name="WithoutVAT" xml:space="preserve">
+    <value>- VAT free</value>
+  </data>
+  <data name="VATFree" xml:space="preserve">
+    <value>VAT exempt</value>
+  </data>
+  <data name="VATTaxable" xml:space="preserve">
+    <value>VAT taxable</value>
+  </data>
+  <data name="Reports_DefaultName_PriceAgreementReportList" xml:space="preserve">
+    <value>Price agremeent list</value>
+  </data>
+  <data name="Reports_DefaultName_HistoricStockValueReportList" xml:space="preserve">
+    <value>Historic stock value</value>
+  </data>
+  <data name="Reports_DefaultName_ArticleGroupStatisticReportList" xml:space="preserve">
+    <value>Article group margin list</value>
+  </data>
+  <data name="Reports_DefaultName_PartnerStatisticReportList" xml:space="preserve">
+    <value>Partner statistics</value>
+  </data>
+  <data name="Reports_DefaultName_LedgerTagStatisticReportList" xml:space="preserve">
+    <value>Ledger tag statistcis</value>
+  </data>
+  <data name="Reports_DefaultName_ArticleMarginReportList" xml:space="preserve">
+    <value>Article margins</value>
+  </data>
+  <data name="LocationType_Bulk" xml:space="preserve">
+    <value>Bulk</value>
+  </data>
+  <data name="LocationType_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="LocationType_Temporary" xml:space="preserve">
+    <value>Temporary</value>
+  </data>
+  <data name="XenaApp_PluginPlacement_MainMenu_Stock" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="XenaApp_PluginType_ArticleGroupDetails" xml:space="preserve">
+    <value>Article group details</value>
+  </data>
+  <data name="Domain_ReportEmailSetup_OrderConfirmation_DefaultBody" xml:space="preserve">
+    <value>Enclosed as PDF is the agreed confirmation.</value>
+  </data>
+  <data name="Domain_ReportEmailSetup_OrderConfirmation_DefaultSubject" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="Domain_ReportEmailSetup_OrderDelivery_DefaultBody" xml:space="preserve">
+    <value>Enclosed as PDF is the agreed delivery note.</value>
+  </data>
+  <data name="Domain_ReportEmailSetup_OrderDelivery_DefaultSubject" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="Domain_ReportEmailSetup_OrderInvoice_DefaultBody" xml:space="preserve">
+    <value>Enclosed as PDF is the agreed invoice.</value>
+  </data>
+  <data name="Domain_ReportEmailSetup_OrderInvoice_DefaultSubject" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Domain_ReportEmailSetup_OrderOffer_DefaultBody" xml:space="preserve">
+    <value>Enclosed as PDF is the agreed offer.</value>
+  </data>
+  <data name="Domain_ReportEmailSetup_OrderOffer_DefaultSubject" xml:space="preserve">
+    <value>Offer</value>
+  </data>
+</root>

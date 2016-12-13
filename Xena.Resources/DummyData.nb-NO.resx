@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DummyData_Article_SweatShirt_Number" xml:space="preserve">
+    <value>T38009-37</value>
+  </data>
+  <data name="DummyData_ArticleGroup_Description" xml:space="preserve">
+    <value>Varegruppe {0}</value>
+  </data>
+  <data name="DummyData_ArticleGroup_Description_First" xml:space="preserve">
+    <value>Første varegruppe</value>
+  </data>
+  <data name="DummyData_ArticleGroup_Description_Second" xml:space="preserve">
+    <value>Annen varegruppe</value>
+  </data>
+  <data name="DummyData_Bank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="DummyData_BankDebt" xml:space="preserve">
+    <value>Bankgjeld</value>
+  </data>
+  <data name="DummyData_BankDebt_First" xml:space="preserve">
+    <value>Bankkonto 1</value>
+  </data>
+  <data name="DummyData_BankDebt_Second" xml:space="preserve">
+    <value>Bankkonto 2</value>
+  </data>
+  <data name="DummyData_Bonds" xml:space="preserve">
+    <value>Obligasjoner</value>
+  </data>
+  <data name="DummyData_Brochures" xml:space="preserve">
+    <value>Brosjyrer</value>
+  </data>
+  <data name="DummyData_Cars" xml:space="preserve">
+    <value>Biler</value>
+  </data>
+  <data name="DummyData_Department_Administration" xml:space="preserve">
+    <value>Administrativ avd.</value>
+  </data>
+  <data name="DummyData_Depreciation" xml:space="preserve">
+    <value>Avskrivning</value>
+  </data>
+  <data name="DummyData_Electricity" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="DummyData_Electricity_Tax" xml:space="preserve">
+    <value>El-avgift</value>
+  </data>
+  <data name="DummyData_Employees" xml:space="preserve">
+    <value>Ansatte</value>
+  </data>
+  <data name="DummyData_Goodwill" xml:space="preserve">
+    <value>Goodwill</value>
+  </data>
+  <data name="DummyData_Hardware" xml:space="preserve">
+    <value>Hardware</value>
+  </data>
+  <data name="DummyData_Heating" xml:space="preserve">
+    <value>Varme</value>
+  </data>
+  <data name="DummyData_Lawyers" xml:space="preserve">
+    <value>Advokater</value>
+  </data>
+  <data name="DummyData_LedgerTag_Accounting" xml:space="preserve">
+    <value>Revisor</value>
+  </data>
+  <data name="DummyData_Location_Description" xml:space="preserve">
+    <value>S1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1" xml:space="preserve">
+    <value>Hylle 1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Bulk" xml:space="preserve">
+    <value>Bulk</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Hall1" xml:space="preserve">
+    <value>Hall 1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Row1" xml:space="preserve">
+    <value>Rekke 1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Row8" xml:space="preserve">
+    <value>Rekke 8</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Section2" xml:space="preserve">
+    <value>Seksjon 2</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Section3" xml:space="preserve">
+    <value>Seksjon 3</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Shelf1" xml:space="preserve">
+    <value>Hylle 1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Shelf3" xml:space="preserve">
+    <value>Hylle 3</value>
+  </data>
+  <data name="DummyData_Machinery" xml:space="preserve">
+    <value>Maskiner</value>
+  </data>
+  <data name="DummyData_Manual_Consumption" xml:space="preserve">
+    <value>Manuelt forbruk</value>
+  </data>
+  <data name="DummyData_Manual_Sales" xml:space="preserve">
+    <value>Manuelt salg</value>
+  </data>
+  <data name="DummyData_OccasionalVAT" xml:space="preserve">
+    <value>Manuell moms</value>
+  </data>
+  <data name="DummyData_OfficeSupplies" xml:space="preserve">
+    <value>Kontorartikler</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_City" xml:space="preserve">
+    <value>Oslo</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_Name" xml:space="preserve">
+    <value>Leveringsadresse 2</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_PlaceName" xml:space="preserve">
+    <value>Leveringssted 1</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_Street" xml:space="preserve">
+    <value>Leveringsgate 23</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_Zip" xml:space="preserve">
+    <value>NO-0921</value>
+  </data>
+  <data name="DummyData_Order_InvoiceEmail" xml:space="preserve">
+    <value>faktura@test.no</value>
+  </data>
+  <data name="DummyData_Order_OurReference" xml:space="preserve">
+    <value>342234 (vår ref.)</value>
+  </data>
+  <data name="DummyData_Order_YourReference" xml:space="preserve">
+    <value>6654-FA (deres ref.)</value>
+  </data>
+  <data name="DummyData_OrderTask_First_Description" xml:space="preserve">
+    <value>Første oppgavebeskrivelse</value>
+  </data>
+  <data name="DummyData_OrderTask_First_Details" xml:space="preserve">
+    <value>Første ordreoppgave-tekst
+Første ordreoppgave, linje 2</value>
+  </data>
+  <data name="DummyData_OrderTask_Second_Description" xml:space="preserve">
+    <value>Annen oppgavebeskrivelse</value>
+  </data>
+  <data name="DummyData_OrderTask_Second_Details" xml:space="preserve">
+    <value>Andre ordreoppgave-tekst
+Andre oppgave, linje 2</value>
+  </data>
+  <data name="DummyData_Partner_Attention" xml:space="preserve">
+    <value>Sjefen</value>
+  </data>
+  <data name="DummyData_Partner_City" xml:space="preserve">
+    <value>Bergen</value>
+  </data>
+  <data name="DummyData_Partner_First" xml:space="preserve">
+    <value>Virksomhet AS</value>
+  </data>
+  <data name="DummyData_Partner_Fourth" xml:space="preserve">
+    <value>Tilfeldig kunde</value>
+  </data>
+  <data name="DummyData_Partner_Name" xml:space="preserve">
+    <value>Virksomhet AS</value>
+  </data>
+  <data name="DummyData_Partner_Note" xml:space="preserve">
+    <value>Partnernotat</value>
+  </data>
+  <data name="DummyData_Partner_OrgNumber" xml:space="preserve">
+    <value>NO-12345678</value>
+  </data>
+  <data name="DummyData_Partner_PhoneNumber" xml:space="preserve">
+    <value>Hovednummer</value>
+  </data>
+  <data name="DummyData_Partner_PlaceName" xml:space="preserve">
+    <value>Fakturasted</value>
+  </data>
+  <data name="DummyData_Partner_Second" xml:space="preserve">
+    <value>Butikken AS</value>
+  </data>
+  <data name="DummyData_Partner_Street" xml:space="preserve">
+    <value>Fakturagate 14</value>
+  </data>
+  <data name="DummyData_Partner_Third" xml:space="preserve">
+    <value>Blomster AS</value>
+  </data>
+  <data name="DummyData_Partner_URL" xml:space="preserve">
+    <value>http://xena.biz</value>
+  </data>
+  <data name="DummyData_Partner_Zip" xml:space="preserve">
+    <value>NO-5003</value>
+  </data>
+  <data name="DummyData_Pensions" xml:space="preserve">
+    <value>Pensjoner</value>
+  </data>
+  <data name="DummyData_ReminderStep_Description" xml:space="preserve">
+    <value>Betalingspåminnelse 1</value>
+  </data>
+  <data name="DummyData_Rent" xml:space="preserve">
+    <value>Husleie</value>
+  </data>
+  <data name="DummyData_Rented_Officeequipment" xml:space="preserve">
+    <value>Leie av inventar</value>
+  </data>
+  <data name="DummyData_Rented_Suppliers" xml:space="preserve">
+    <value>Leverandører</value>
+  </data>
+  <data name="DummyData_Representation" xml:space="preserve">
+    <value>Representasjon</value>
+  </data>
+  <data name="DummyData_ShortDebt_Pensions" xml:space="preserve">
+    <value>Pensjoner</value>
+  </data>
+  <data name="DummyData_ShortDebt_Taxes" xml:space="preserve">
+    <value>Skatt</value>
+  </data>
+  <data name="DummyData_Stamps" xml:space="preserve">
+    <value>Frimerker</value>
+  </data>
+  <data name="DummyData_Stocks" xml:space="preserve">
+    <value>Aksjer</value>
+  </data>
+  <data name="DummyData_Telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="DummyData_Unit_Pcs_Abbreviation" xml:space="preserve">
+    <value>Stk.</value>
+  </data>
+  <data name="DummyData_Unit_Pcs_Description" xml:space="preserve">
+    <value>Stykk</value>
+  </data>
+  <data name="DummyData_Unit_Ton_Abbreviation" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="DummyData_Unit_Ton_Description" xml:space="preserve">
+    <value>Tonn</value>
+  </data>
+  <data name="DummyData_Variant_Large" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="DummyData_Variant_Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="DummyData_Variant_Small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="DummyData_Vat_Ingoing_Abbreviation" xml:space="preserve">
+    <value>I25</value>
+  </data>
+  <data name="DummyData_Vat_Ingoing_Description" xml:space="preserve">
+    <value>Inngående moms</value>
+  </data>
+  <data name="DummyData_VAT_Manual" xml:space="preserve">
+    <value>Manuell moms</value>
+  </data>
+  <data name="DummyData_Vat_Outgoing_Description" xml:space="preserve">
+    <value>Utgående moms</value>
+  </data>
+  <data name="DummyData_VatSpecification_Company" xml:space="preserve">
+    <value>Fabrikken AS</value>
+  </data>
+  <data name="DummyData_Voucher_Description" xml:space="preserve">
+    <value>Bilagsbeskrivelse</value>
+  </data>
+  <data name="DummyData_Wages" xml:space="preserve">
+    <value>Lønninger</value>
+  </data>
+  <data name="DummyData_Warehouse_Description" xml:space="preserve">
+    <value>Lager 1</value>
+  </data>
+  <data name="DummyData_Warehouse_Dimension1" xml:space="preserve">
+    <value>Rekke</value>
+  </data>
+  <data name="DummyData_Warehouse_Dimension2" xml:space="preserve">
+    <value>Hylle</value>
+  </data>
+  <data name="DummyData_Accounting" xml:space="preserve">
+    <value>Revisor</value>
+  </data>
+  <data name="DummyData_Accounting_SetAside" xml:space="preserve">
+    <value>Revisor, avsatt</value>
+  </data>
+  <data name="DummyData_Accounting_SpecialAssignment" xml:space="preserve">
+    <value>Revisor, spesialoppgave</value>
+  </data>
+  <data name="DummyData_Accrual" xml:space="preserve">
+    <value>Periodeavgrensningsposter</value>
+  </data>
+  <data name="DummyData_Article_First_Description" xml:space="preserve">
+    <value>Varebeskrivelse 1</value>
+  </data>
+  <data name="DummyData_Article_Second_Description" xml:space="preserve">
+    <value>Varebeskrivelse 2</value>
+  </data>
+  <data name="DummyData_Article_Stock_Descríption" xml:space="preserve">
+    <value>Skruer</value>
+  </data>
+  <data name="DummyData_Article_Stock_Number" xml:space="preserve">
+    <value>B2k</value>
+  </data>
+  <data name="DummyData_Advertising" xml:space="preserve">
+    <value>Reklame</value>
+  </data>
+  <data name="DummyData_Article_SweatShirt_Descríption" xml:space="preserve">
+    <value>Skjorte</value>
+  </data>
+  <data name="DummyData_Marketing" xml:space="preserve">
+    <value>Salgsomkostninger</value>
+  </data>
+  <data name="DummyData_MiscSalesCosts" xml:space="preserve">
+    <value>Diverse salgsomkostninger</value>
+  </data>
+  <data name="DummyData_Article_Third_Description" xml:space="preserve">
+    <value>Bøttesett</value>
+  </data>
+</root>

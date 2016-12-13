@@ -1,0 +1,4595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Views_Order_Details_LineNo" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Chart_OrderByArticleGroup_Misc" xml:space="preserve">
+    <value>Övrigt</value>
+  </data>
+  <data name="Command_SendEmail_Following_Emails_Are_Invalid" xml:space="preserve">
+    <value>Följande e-mailadress är inte giltig:</value>
+  </data>
+  <data name="Views_Welcome_Step5_Congratulations_Continue" xml:space="preserve">
+    <value>Fortsätt</value>
+  </data>
+  <data name="Views_Welcome_Step4_Continue" xml:space="preserve">
+    <value>Fortsätt</value>
+  </data>
+  <data name="Views_Welcome_Step1_Merge_Button" xml:space="preserve">
+    <value>Sammanfoga</value>
+  </data>
+  <data name="Views_Welcome_Step1_Merge_Password" xml:space="preserve">
+    <value>Lösenord:</value>
+  </data>
+  <data name="Views_Welcome_Step1_Merge_Text" xml:space="preserve">
+    <value>Om du redan har ett konto kan du sammanfoga detta med tidigare upprättat konto</value>
+  </data>
+  <data name="Views_Welcome_Step1_Merge_Username" xml:space="preserve">
+    <value>Användarnamn:</value>
+  </data>
+  <data name="Xena_ApiPartner_AccountCouldNotBeCreated" xml:space="preserve">
+    <value>Konto kunde inte upprättas</value>
+  </data>
+  <data name="Xena_Article_Validation_ArticleAlreadyExists" xml:space="preserve">
+    <value>Varan finns redan</value>
+  </data>
+  <data name="Xena_Document_DeleteRelation" xml:space="preserve">
+    <value>Du har inte tillåtelse att ta bort denna relation</value>
+  </data>
+  <data name="Xena_Document_DocumentAlreadyRelated" xml:space="preserve">
+    <value>Det här dokumentet har redan en existerande förbindelse till det här
+    </value>
+  </data>
+  <data name="Xena_Document_Error" xml:space="preserve">
+    <value>Ett fel uppstod</value>
+  </data>
+  <data name="Xena_Document_NotAllowedToShare" xml:space="preserve">
+    <value>Du får inte dela dokumentet</value>
+  </data>
+  <data name="Xena_Document_RenameFailed" xml:space="preserve">
+    <value>Det gick inte att ändra namn. Du måste ange: Namn</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Advance_Payments" xml:space="preserve">
+    <value>Förutbetalningar</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Cash" xml:space="preserve">
+    <value>Kontant</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_ManualStock" xml:space="preserve">
+    <value>Manuellt lager</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Stock" xml:space="preserve">
+    <value>Varulager</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Stock_Reception" xml:space="preserve">
+    <value>Varumottagning</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Administration_Costs" xml:space="preserve">
+    <value>Administrationskostnader</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Housing_Costs" xml:space="preserve">
+    <value>Kostnader för lokaler</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Net_Turn_Over" xml:space="preserve">
+    <value>Nettoomsättning</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Taxes" xml:space="preserve">
+    <value>Skatter och avgifter</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Wages" xml:space="preserve">
+    <value>Lön</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_Trade_Payables" xml:space="preserve">
+    <value>Leverantör</value>
+  </data>
+  <data name="Xena_Domain_OrderJournalEntry_Delivery" xml:space="preserve">
+    <value>Ordernr: {0} - leverans</value>
+  </data>
+  <data name="Xena_Domain_Voucher_Description_Delivery_OrderNumber" xml:space="preserve">
+    <value>Ordernr: {0} - leverans</value>
+  </data>
+  <data name="Xena_Domain_Voucher_Description_Invoice_OrderNumber" xml:space="preserve">
+    <value>Ordernr: {0} - faktura</value>
+  </data>
+  <data name="Xena_Fiscal_NewInvoice" xml:space="preserve">
+    <value>Ny faktura</value>
+  </data>
+  <data name="Xena_FiscalSetup_Default_Department" xml:space="preserve">
+    <value>Huvudavdelning</value>
+  </data>
+  <data name="Xena_ForgotPassword_EmailSent" xml:space="preserve">
+    <value>Ett e-mail för återställning av lösenordet har skickats till:</value>
+  </data>
+  <data name="Xena_ForgotPassword_InvalidEmail" xml:space="preserve">
+    <value>Ogiltig e-mail:</value>
+  </data>
+  <data name="Views_Home_EditProfile_AliasExplanation" xml:space="preserve">
+    <value>Om du upprättar ett alias (användarnamn) behöver du inte använda din e-mail när du loggar in. Du kan också tillföra fler e-mailadresser.</value>
+  </data>
+  <data name="Xena_LedgerPost_Reversal" xml:space="preserve">
+    <value>Motpost
+    </value>
+  </data>
+  <data name="xena_ledgerposttype_consumption" xml:space="preserve">
+    <value>Eget förbruk</value>
+  </data>
+  <data name="xena_ledgerposttype_resale" xml:space="preserve">
+    <value>Vidareförsäljning</value>
+  </data>
+  <data name="Xena_Notification_VCardUpdate_NoPartnerToupdate" xml:space="preserve">
+    <value>Ingen partner kan uppdateras. Den kan vara borttagen.</value>
+  </data>
+  <data name="Xena_Order_CancelMultiple_NoTransactions" xml:space="preserve">
+    <value>Inga överföringar har valts</value>
+  </data>
+  <data name="Shared_Menu_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Shared_Menu_Restore" xml:space="preserve">
+    <value>Återställ</value>
+  </data>
+  <data name="Xena_Password_PasswordChanged" xml:space="preserve">
+    <value>Lösenordet är ändrat</value>
+  </data>
+  <data name="Views_Report_Index_ReportExplanation" xml:space="preserve">
+    <value>Layouten på rapporter och utskrifter är förinställd. &lt;br/&gt;Du kan upprätta en personlig layout här.</value>
+  </data>
+  <data name="Xena_ReportTransaction_LedgerAccountSpecificationXml" xml:space="preserve">
+    <value>Kontospecifikation</value>
+  </data>
+  <data name="Xena_Transaction_NoPartnerFoundBy" xml:space="preserve">
+    <value>Ingen partner funnen med id:</value>
+  </data>
+  <data name="Xena_User_NewInvoice" xml:space="preserve">
+    <value>Faktura från partner</value>
+  </data>
+  <data name="Xena_User_UsernameNotFound" xml:space="preserve">
+    <value>Användarnamnet kan inte hittas</value>
+  </data>
+  <data name="Views_Partner_Details_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_Partner_Details_SetCustomerInvoice" xml:space="preserve">
+    <value>Sätt som kundmail</value>
+  </data>
+  <data name="Domain_TermsOfPayment_Description_Cash" xml:space="preserve">
+    <value>Kontant</value>
+  </data>
+  <data name="JsonFiscalSetup_FiscalSetupNotFound" xml:space="preserve">
+    <value>Räkenskapet kunde inte hittas</value>
+  </data>
+  <data name="Notification_PartnerAlreadyCreated" xml:space="preserve">
+    <value>Partner redan upprättad</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Ladda ner CSV</value>
+  </data>
+  <data name="Views_Home_DialogCreateAlternateIdentification_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_Home_DialogCreateAlternateIdentification_CreateAlternateIdentification" xml:space="preserve">
+    <value>Upprätta alias</value>
+  </data>
+  <data name="Views_Home_DialogCreateAlternateIdentification_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_Home_DialogCreateAlternateIdentification_UsernameOrEmail" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="Views_Menu_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_Menu_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Shared_Menu_Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="Views_Accountant_CaseWare_Accounts_CSV" xml:space="preserve">
+    <value>Konton, CSV</value>
+  </data>
+  <data name="Views_Accountant_CaseWare_EMail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Accountant_CaseWare_FiscalPeriod" xml:space="preserve">
+    <value>Räkenskapsår:</value>
+  </data>
+  <data name="Views_Accountant_DataExchange_Title" xml:space="preserve">
+    <value>Datautväxling</value>
+  </data>
+  <data name="Views_Accountant_FiscalPeriods_FiscalPeriods" xml:space="preserve">
+    <value>Räkenskapsår</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_Current" xml:space="preserve">
+    <value>Aktuell</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_MaxStock" xml:space="preserve">
+    <value>Max.</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_MinStock" xml:space="preserve">
+    <value>Min.</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_OpenOrders" xml:space="preserve">
+    <value>Öppna ordrar</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_Purchase" xml:space="preserve">
+    <value>Köp</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_Stock" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_Article_Details_Amount" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Article_Details_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Article_Details_Group" xml:space="preserve">
+    <value>Grupp</value>
+  </data>
+  <data name="Views_Article_Details_MaximumStock" xml:space="preserve">
+    <value>Varunummer</value>
+  </data>
+  <data name="Views_Article_Details_PriceDevelopment" xml:space="preserve">
+    <value>Prisutveckling</value>
+  </data>
+  <data name="Views_Article_Details_Setup_Quantiy" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Article_Details_Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="Views_Article_Details_Stock" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_Article_Details_Turnover" xml:space="preserve">
+    <value>Omsättning</value>
+  </data>
+  <data name="Views_Article_DialogCreateVariantRangeList_Add" xml:space="preserve">
+    <value>Tillför</value>
+  </data>
+  <data name="Views_Article_DialogCreateVariantRangeList_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Article_DialogCreateVariantRangeList_Remove" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_Article_Index_Index" xml:space="preserve">
+    <value>Varuöversikter</value>
+  </data>
+  <data name="Views_Article_LocationDetails_ArticleAvailability_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Article_LocationDetails_ArticleAvailability_ArticleVariant" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="Views_Article_LocationDetails_ArticleAvailability_AvailableQuantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Article_LocationDetails_ArticlePosts_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Article_LocationDetails_ArticlePosts_ArticleVariant" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="Views_Article_LocationDetails_ArticlePosts_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Article_LocationDetails_ArticlePosts_Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Article_ArticleAvailabilityList_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Article_ArticleAvailabilityList_Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Article_DialogCreate_ArticleNumberAlreadyExists" xml:space="preserve">
+    <value>Varunumret existerar redan</value>
+  </data>
+  <data name="Views_Article_DialogCreate_Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Article_Details_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Article_BarCodeList_CreateEANNumber" xml:space="preserve">
+    <value>Upprätta streckkod</value>
+  </data>
+  <data name="Views_Article_BarCodeList_EANNumber_Create" xml:space="preserve">
+    <value>Upprätta streckkod</value>
+  </data>
+  <data name="Views_Article_Details_InventoryContext_CurrentAverageCostPrice" xml:space="preserve">
+    <value>Nuvarande genomsnittspris</value>
+  </data>
+  <data name="Views_Article_SalesOrdersList_OrderNo" xml:space="preserve">
+    <value>Ordernummer</value>
+  </data>
+  <data name="Views_Article_SalesOrdersList_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_Article_Details_Posts_Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Article_Details_VariantManagement_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_Accounts" xml:space="preserve">
+    <value>Konton</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_ArticleGroup" xml:space="preserve">
+    <value>Varugrupp</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_Articles" xml:space="preserve">
+    <value>Varor</value>
+  </data>
+  <data name="Views_Article_ArticleGroupArticleList_CreateArticle" xml:space="preserve">
+    <value>Upprätta vara</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Article_ArticleGroupStatisticsSales_QuantityMonth" xml:space="preserve">
+    <value>Antal, period</value>
+  </data>
+  <data name="Views_Article_ArticleGroupStatisticsSales_QuantityYear" xml:space="preserve">
+    <value>Antal, år</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="Views_Article_ArticleGroupStatistics_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_CreateArticleGroup" xml:space="preserve">
+    <value>Upprätta varugrupp</value>
+  </data>
+  <data name="Views_Article_ArticleGroupStatistics_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Article_Index_ArticleNumber" xml:space="preserve">
+    <value>Varunummer</value>
+  </data>
+  <data name="Views_Article_Index_Articles" xml:space="preserve">
+    <value>Varor</value>
+  </data>
+  <data name="Views_Article_Index_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_BearerDetails_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_BearerDetails_FiscalFor" xml:space="preserve">
+    <value>Räkenskap för</value>
+  </data>
+  <data name="Views_BearerIndex_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_Create" xml:space="preserve">
+    <value>upprätta</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_Before" xml:space="preserve">
+    <value>Före</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_Bookkeepingresult" xml:space="preserve">
+    <value>Bokföringsresultat</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_CreatedAt" xml:space="preserve">
+    <value>Upprättad vid</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_CreateDepartment" xml:space="preserve">
+    <value>Upprätta avdelning</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_CreatePartner" xml:space="preserve">
+    <value>Upprätta partner</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_CreatePurpose" xml:space="preserve">
+    <value>Upprätta föremål</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_CreateVat" xml:space="preserve">
+    <value>Upprätta omskod</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Credit" xml:space="preserve">
+    <value>Kredit</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_LineDescription" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_MenuItemDelete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_MenuItemPost" xml:space="preserve">
+    <value>Bokför</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_Currency_Details_Abbrevation" xml:space="preserve">
+    <value>Valutakod</value>
+  </data>
+  <data name="Views_Currency_Details_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_Currency_Details_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_Currency_Details_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_CurrencyExchangeRate_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_CurrencyExchangeRateEdit_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_CurrencyExchangeRateEdit_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_CurrencyExchangeRateView_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_DepartmentCreate_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_DepartmentCreate_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_DepartmentDetails_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_DepartmentIndex_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_DepartmentIndex_CreateDepartment" xml:space="preserve">
+    <value>Upprätta avdelning</value>
+  </data>
+  <data name="Views_Desktop_Index_XenaPartnerBalance" xml:space="preserve">
+    <value>Partners</value>
+  </data>
+  <data name="Views_Desktop_ViewFiscal_Credit" xml:space="preserve">
+    <value>Kredit</value>
+  </data>
+  <data name="Shared_Filter_FiscalPeriod" xml:space="preserve">
+    <value>Räkenskapsår:</value>
+  </data>
+  <data name="Views_Desktop_ViewPartnerBalance_AccountNumber" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Desktop_ViewPartnerBalance_CalculatedBy" xml:space="preserve">
+    <value>Beräknad vid: </value>
+  </data>
+  <data name="Views_Order_ReminderList_CalculatedBy" xml:space="preserve">
+    <value>Beräknat vid:</value>
+  </data>
+  <data name="Views_Order_ReminderList_InvoiceNumber" xml:space="preserve">
+    <value>Fakturanummer</value>
+  </data>
+  <data name="Views_Order_ReminderList_OrderNumber" xml:space="preserve">
+    <value>Ordernummer</value>
+  </data>
+  <data name="Views_Order_ReminderList_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_DesktopIndex_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_DesktopIndex_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Shared_Dialog_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Shared_Dialog_Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Shared_Dialog_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_Document_ShareWithPartner_ErrorPartner" xml:space="preserve">
+    <value>Partner kunde inte hittas</value>
+  </data>
+  <data name="Views_DocumentCreate_ChooseFromDropbox" xml:space="preserve">
+    <value>Välj från Dropbox</value>
+  </data>
+  <data name="Views_DocumentCreate_CopyFilesToXena" xml:space="preserve">
+    <value>Kopiera filer till Xena</value>
+  </data>
+  <data name="Views_DocumentCreateRelation_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_DocumentCreateRelation_Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Views_DocumentCreateRelation_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_DocumentDetails_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_DocumentDetails_CreatedAt" xml:space="preserve">
+    <value>Upprättad vid</value>
+  </data>
+  <data name="Views_DocumentDetails_CreateRelation" xml:space="preserve">
+    <value>Upprätta relation</value>
+  </data>
+  <data name="Views_DocumentDetails_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_DocumentError_CouldNotDownloadFIle" xml:space="preserve">
+    <value>Kunde inte ladda ner filen</value>
+  </data>
+  <data name="Views_DocumentRelations_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_DocumentVersions_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_DocumentVersions_Created" xml:space="preserve">
+    <value>Upprättad</value>
+  </data>
+  <data name="Views_Email_CreateEmail_Body" xml:space="preserve">
+    <value>Innehåll</value>
+  </data>
+  <data name="Views_Email_CreateEmail_Cc" xml:space="preserve">
+    <value>Kopiera till</value>
+  </data>
+  <data name="Views_FiscalAddedAsPartnerAlreadyCreated_Description" xml:space="preserve">
+    <value>Klicka här för att gå till din partner</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Article_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Article_Number" xml:space="preserve">
+    <value>Varunummer</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Article_Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Articles" xml:space="preserve">
+    <value>Varor</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Credit" xml:space="preserve">
+    <value>Kredit</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Customers" xml:space="preserve">
+    <value>Kunder</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_PartnerAccount" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_FiscalPeriod_DialogCreate_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_FiscalPeriod_DialogCreate_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_FiscalPeriod_Index_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_FiscalPeriod_Index_CreateFiscalPeriod" xml:space="preserve">
+    <value>Upprätta räkensapsår</value>
+  </data>
+  <data name="Views_FiscalSetup_AddEmail" xml:space="preserve">
+    <value>Lägg till e-mail</value>
+  </data>
+  <data name="Views_FiscalSetup_Address_City_Placeholder" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="Views_FiscalSetup_AddTelephone" xml:space="preserve">
+    <value>Lägg till telefon</value>
+  </data>
+  <data name="Views_FiscalSetup_Adress" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="Views_FiscalSetup_BasicData" xml:space="preserve">
+    <value>Grundläggande data</value>
+  </data>
+  <data name="Views_FiscalSetup_BasicData_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogChangeSecuritygroup_Change" xml:space="preserve">
+    <value>Ändra</value>
+  </data>
+  <data name="Views_FiscalSetup_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_FiscalSetup_Create_MyNewFiscal" xml:space="preserve">
+    <value>Företagsnamn</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateISODetails_Explanation" xml:space="preserve">
+    <value>En kopia av data för detta räkenskap upprättas och du kommer informeras när den är färdig. Datakopian ligger härefter under dina dokument.</value>
+  </data>
+  <data name="Views_FiscalSetup_DeleteFiscalSetup" xml:space="preserve">
+    <value>Ta bort räkenskapet</value>
+  </data>
+  <data name="Views_FiscalSetup_Email_Email_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_FiscalSetup_FiscalSetupNotFound" xml:space="preserve">
+    <value>Räkenskapet kunde inte hittas</value>
+  </data>
+  <data name="Views_FiscalSetup_Index_Fiscal" xml:space="preserve">
+    <value>Räkenskap</value>
+  </data>
+  <data name="Views_FiscalSetup_Index_Tlf_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_FiscalSetup_Notifications_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_FiscalSetup_Overview_SwitchToFullFiscalExplanation" xml:space="preserve">
+    <value>Om du byter till ett fullt räkenskap kan du använda Xena för att upprätta ordrar, hantera varor, redigera resurser m.m.</value>
+  </data>
+  <data name="Views_FiscalSetup_UserMemberships_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_FiscalSetup_UserMemberships_ChangeRole" xml:space="preserve">
+    <value>Ändra roll</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateMembership_ChooseRoles" xml:space="preserve">
+    <value>Välj roller</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateMembership_Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Views_Home_DialogChangePassword_ChangePassword" xml:space="preserve">
+    <value>Ändra lösenord</value>
+  </data>
+  <data name="Views_Home_EditProfile_ChangePassword_ChangePasswordButton" xml:space="preserve">
+    <value>Ändra lösenord</value>
+  </data>
+  <data name="Views_Home_EditProfile_ChangePassword_Title" xml:space="preserve">
+    <value>Ändra lösenord</value>
+  </data>
+  <data name="Views_Home_EditProfile_ItMustBeActivated" xml:space="preserve">
+    <value>En bekräftelse har skickats till</value>
+  </data>
+  <data name="Views_Home_EditProfile_UserProfile_Address" xml:space="preserve">
+    <value>Adress:</value>
+  </data>
+  <data name="Views_HomeCreateFiscalSetup_Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Views_HomeCreateFiscalSetup_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_HomeCreateFiscalSetup_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Home_EditProfile_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_Home_Index_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Home_OtherUserLoggedIn_Message" xml:space="preserve">
+    <value>Klicka på länken nedan för att logga in igen (och tvinga den andra användaren att logga ut)</value>
+  </data>
+  <data name="Views_LedgerTag_DialogCreate_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_LedgerTag_Index_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_LedgerTag_Index_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_LedgerTag_DialogCreate_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_LedgerTag_DialogCreate_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_LedgerTag_Details_Credit" xml:space="preserve">
+    <value>Kredit</value>
+  </data>
+  <data name="Views_LedgerTag_Details_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_LedgerTagIndex_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_LocationDetails_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_LocationIndex_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_LocationIndex_Warehouse" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_Notifications_AddAsPartner" xml:space="preserve">
+    <value>Lägg till som partner</value>
+  </data>
+  <data name="Views_Notifications_AddAsPartnerNo" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="Views_Notifications_AddAsPartnerYes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Views_Notifications_AddedAsPartnerInFiscalAddAsPartner" xml:space="preserve">
+    <value>Vill du lägga till {0} som partner, så att ni också kan dela dokument och posteringar?</value>
+  </data>
+  <data name="Views_Notifications_Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Views_Notifications_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Notifications_Remove" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_NotificationViewPartner_PartnerCurrentAddress" xml:space="preserve">
+    <value>Partners nuvarande adress</value>
+  </data>
+  <data name="Views_NotificationViewPartner_UpdatesFromPartner" xml:space="preserve">
+    <value>Uppdateringar från partner</value>
+  </data>
+  <data name="Views_NotificationViewResource_ResourceCurrentAddress" xml:space="preserve">
+    <value>Medarbetares nuvarande adress</value>
+  </data>
+  <data name="Views_NotificationViewResource_UpdatesFromResource" xml:space="preserve">
+    <value>Medarbetares nya adress</value>
+  </data>
+  <data name="Views_Order_Details_CancelInvoices" xml:space="preserve">
+    <value>Annullera fakturor</value>
+  </data>
+  <data name="Views_Order_Details_Discount" xml:space="preserve">
+    <value>Rabatt%</value>
+  </data>
+  <data name="Views_Order_Details_IncludedIn" xml:space="preserve">
+    <value>Inkluderat i</value>
+  </data>
+  <data name="Views_Order_Details_ItemNo" xml:space="preserve">
+    <value>Varunummer</value>
+  </data>
+  <data name="Views_Order_Details_Price" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="Views_Order_Details_Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Order_Details_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Views_Order_Details_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_Order_Details_UpdatePartnerFromOrder" xml:space="preserve">
+    <value>Uppdatera partner</value>
+  </data>
+  <data name="Views_Order_DialogUpdatePartner_NoThanks" xml:space="preserve">
+    <value>Nej tack</value>
+  </data>
+  <data name="Views_Order_OrderCreatorFromArticleReplenishment_ArticleNotFound" xml:space="preserve">
+    <value>Varan (id: {0}) hittades ej</value>
+  </data>
+  <data name="Views_Order_OrderCreatorFromArticleReplenishment_OOrderLineAmountMustBePositive" xml:space="preserve">
+    <value>Beställningsantalet ska vara positivt</value>
+  </data>
+  <data name="Views_Order_DialogUpdatePartner_UpdatePartnerFromOrder" xml:space="preserve">
+    <value>Uppdatera partner mot bakgrund av informationen från ordern?</value>
+  </data>
+  <data name="Views_Order_Details_City" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="Views_Order_Details_Closed" xml:space="preserve">
+    <value>Stängd</value>
+  </data>
+  <data name="Views_Order_Details_CreateNewLine" xml:space="preserve">
+    <value>Upprätta ny linje</value>
+  </data>
+  <data name="Views_Order_Details_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_Order_Details_Deleted" xml:space="preserve">
+    <value>Borttaget</value>
+  </data>
+  <data name="Views_Order_Details_DeliveryAddress" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="Views_Order_Details_DeliveryAddresseSameAsInvoice" xml:space="preserve">
+    <value>Samma som fakturaadress</value>
+  </data>
+  <data name="Views_Order_Details_DeliveryNote" xml:space="preserve">
+    <value>Följesedel</value>
+  </data>
+  <data name="Views_Order_Details_Department" xml:space="preserve">
+    <value>Avdelning</value>
+  </data>
+  <data name="Views_Order_Details_Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="Views_Order_Details_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Order_Details_GoToArticle" xml:space="preserve">
+    <value>Gå till varan</value>
+  </data>
+  <data name="Views_Order_Details_Invoice" xml:space="preserve">
+    <value>Faktura</value>
+  </data>
+  <data name="Views_Order_Details_Line_Department" xml:space="preserve">
+    <value>Avdelning</value>
+  </data>
+  <data name="Views_Order_Details_Line_Group" xml:space="preserve">
+    <value>Grupp</value>
+  </data>
+  <data name="Views_Order_Details_Line_Location" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Views_Order_Details_Line_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_Order_Details_MenuItem_Copy" xml:space="preserve">
+    <value>Kopiera</value>
+  </data>
+  <data name="Views_Order_Details_MenuItem_CreateDeliverynote" xml:space="preserve">
+    <value>Upprätta följesedel</value>
+  </data>
+  <data name="Views_Order_Details_MenuItem_CreateInvoice" xml:space="preserve">
+    <value>Upprätta faktura</value>
+  </data>
+  <data name="Views_Order_Details_MenuItem_Createoffer" xml:space="preserve">
+    <value>Upprätta erbjudande</value>
+  </data>
+  <data name="Views_Order_Details_MenuItem_CreatePayment" xml:space="preserve">
+    <value>Upprätta betalning</value>
+  </data>
+  <data name="Views_Order_Details_MenuItem_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_Order_Details_MenuItem_Restore" xml:space="preserve">
+    <value>Återställ</value>
+  </data>
+  <data name="Views_Order_Details_MenuItem_ShowReport" xml:space="preserve">
+    <value>Visa rapport</value>
+  </data>
+  <data name="Views_Order_Details_Name" xml:space="preserve">
+    <value>Visa rapport</value>
+  </data>
+  <data name="Views_Order_Details_None" xml:space="preserve">
+    <value>ingen</value>
+  </data>
+  <data name="Views_Order_Details_NotFound" xml:space="preserve">
+    <value>Hittades ej</value>
+  </data>
+  <data name="Views_Order_Details_Offer" xml:space="preserve">
+    <value>Erbjudande</value>
+  </data>
+  <data name="Views_Order_Details_Open" xml:space="preserve">
+    <value>Öppen</value>
+  </data>
+  <data name="Views_Order_Details_Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Views_Order_Details_OurReference" xml:space="preserve">
+    <value>Vår referans</value>
+  </data>
+  <data name="Views_Order_Details_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_Order_Details_PaymentTerms" xml:space="preserve">
+    <value>Betalning</value>
+  </data>
+  <data name="Views_Order_Details_PaymentTerms_Days" xml:space="preserve">
+    <value>dagar</value>
+  </data>
+  <data name="Views_Order_Details_ProcessOrder" xml:space="preserve">
+    <value>Orderbehandling</value>
+  </data>
+  <data name="Views_Order_Details_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="Views_Order_Details_Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="Views_Order_Details_Street" xml:space="preserve">
+    <value>Gata</value>
+  </data>
+  <data name="Views_Order_Details_Summary_Discount" xml:space="preserve">
+    <value>Rabatt</value>
+  </data>
+  <data name="Views_Order_Details_Summary_Gross" xml:space="preserve">
+    <value>Brutto</value>
+  </data>
+  <data name="Views_Order_Details_Summary_Net" xml:space="preserve">
+    <value>Netto</value>
+  </data>
+  <data name="Views_Order_Details_Summary_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_Order_Details_Summary_Vat" xml:space="preserve">
+    <value>Moms</value>
+  </data>
+  <data name="Views_Order_Details_Tab_Delivery" xml:space="preserve">
+    <value>Leverans</value>
+  </data>
+  <data name="Views_Order_Details_Tab_Documents" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Views_Order_Details_Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="Views_Order_Details_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_Order_Details_User" xml:space="preserve">
+    <value>Användare</value>
+  </data>
+  <data name="Views_Order_Details_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Views_Order_Details_YourReference" xml:space="preserve">
+    <value>Din referans</value>
+  </data>
+  <data name="Views_Order_Details_ZIP" xml:space="preserve">
+    <value>Postnummer </value>
+  </data>
+  <data name="Views_Order_Index_Customer" xml:space="preserve">
+    <value>Kund</value>
+  </data>
+  <data name="Views_Order_Index_InvoiceList" xml:space="preserve">
+    <value>Fakturalista</value>
+  </data>
+  <data name="Views_Order_Index_InvoiceNo" xml:space="preserve">
+    <value>Fakturanummer</value>
+  </data>
+  <data name="Views_Order_Index_OrderNo" xml:space="preserve">
+    <value>Ordernummer</value>
+  </data>
+  <data name="Views_Order_Index_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_OrderViewJournal_CreatedBy" xml:space="preserve">
+    <value>Upprättad av</value>
+  </data>
+  <data name="Views_OrderViewJournal_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_PartnerContextTemplateEdit_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_PartnerContextTemplateEdit_InvoiceLayout" xml:space="preserve">
+    <value>Faktura layout</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_ChooseExisting" xml:space="preserve">
+    <value>Välj existerande</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_City_Placeholder" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Contact" xml:space="preserve">
+    <value>Kontaktperson:</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Label_Company" xml:space="preserve">
+    <value>Företag:</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_PartnerType" xml:space="preserve">
+    <value>Partnertyp:</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_PartnerType_Company" xml:space="preserve">
+    <value>Företag</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Title" xml:space="preserve">
+    <value>Upprätta partner</value>
+  </data>
+  <data name="Views_Partner_Details_CancelInvoice" xml:space="preserve">
+    <value>Annullera faktura</value>
+  </data>
+  <data name="Views_Partner_Details_Contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_Partner_Details_Details_Invoices" xml:space="preserve">
+    <value>Fakturor</value>
+  </data>
+  <data name="Views_Partner_Details_Details_Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Views_Partner_Details_Details_Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="Views_Partner_Details_Geography_AccountNumber" xml:space="preserve">
+    <value>Kontonummer</value>
+  </data>
+  <data name="Views_Partner_Details_Geography_City_Placeholder" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="Views_Partner_Details_Geography_PartnerType" xml:space="preserve">
+    <value>Partnertyp:</value>
+  </data>
+  <data name="Views_Partner_Details_History_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Partner_Details_InvoiceEmail" xml:space="preserve">
+    <value>Faktura e-mail</value>
+  </data>
+  <data name="Views_Email_CreateEmail_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_Partner_Details_MenuItem_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_Partner_Details_Order_InvoiceNo" xml:space="preserve">
+    <value>Fakturanummer</value>
+  </data>
+  <data name="Views_Partner_Details_Order_OrderNo" xml:space="preserve">
+    <value>Ordernummer</value>
+  </data>
+  <data name="Views_Partner_Details_Posts_CurrencyAmount" xml:space="preserve">
+    <value>Valutabelopp</value>
+  </data>
+  <data name="Views_PartnerEditContext_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_PartnerEditContext_InvoiceEmail" xml:space="preserve">
+    <value>Faktura e-mail</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForMail_BCC" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForMail_Body" xml:space="preserve">
+    <value>Innehåll</value>
+  </data>
+  <data name="Views_Partner_Index_List_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Partner_Index_List_City" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="Views_Partner_Index_List_Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Views_PartnerViewPartnerDocuments_Changed" xml:space="preserve">
+    <value>Ändrad</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Buttons_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Buttons_CreateDelivery" xml:space="preserve">
+    <value>Upprätta leverans</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Buttons_CreateInvoice" xml:space="preserve">
+    <value>Upprätta fakturor</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Buttons_CreateOffer" xml:space="preserve">
+    <value>Upprätta erbjudande</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Buttons_CreatePayment" xml:space="preserve">
+    <value>Upprätta betalning</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Invoicing_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Invoicing_Amount" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Invoicing_Date" xml:space="preserve">
+    <value>Fakturadatum</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Invoicing_Layout" xml:space="preserve">
+    <value>Faktura layout</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Payment_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Payment_Amount" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Payment_CurrencyAmount" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Payment_Invoice" xml:space="preserve">
+    <value>Faktura</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_PostProcess_Email_Title" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_PostProcess_Print" xml:space="preserve">
+    <value>Printa</value>
+  </data>
+  <data name="Views_Public_Confirmation" xml:space="preserve">
+    <value>Ett bekräftelsesmail har skickats till ditt konto.</value>
+  </data>
+  <data name="Views_Public_UserProfile_ConnectPartner" xml:space="preserve">
+    <value>Anslut som partner</value>
+  </data>
+  <data name="Views_Purpose_Create_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_PurposeCreate_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_PurposeCreate_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_PurposeDetails_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_PurposeIndex_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_PurposeIndex_CreatePurpose" xml:space="preserve">
+    <value>Upprätta föremål</value>
+  </data>
+  <data name="Views_ReminderCreate_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_ReminderDetails_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_ReminderIndex_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_ReminderIndex_CreateReminder" xml:space="preserve">
+    <value>Upprätta påminnelse</value>
+  </data>
+  <data name="Views_Report_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_Report_LedgerAccountSpecification_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Report_LedgerAccountSpecification_FiscalPeriod" xml:space="preserve">
+    <value>Räkenskapsår</value>
+  </data>
+  <data name="Views_Report_LedgerAccountSpecification_ToDate_Placeholder" xml:space="preserve">
+    <value>Datum till</value>
+  </data>
+  <data name="Views_Report_Ledgerposts_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Report_Ledgerposts_All" xml:space="preserve">
+    <value>Alla</value>
+  </data>
+  <data name="Views_Report_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Report_PartnerPosts_DueDate" xml:space="preserve">
+    <value>Förfallodatum</value>
+  </data>
+  <data name="Views_Report_PartnerPosts_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_Report_PartnerSaldoPosts_account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Report_PartnerSaldoPosts_accountFrom_Placeholder" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="Views_Report_PartnerSaldoPosts_AccountTo_Placeholder" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Views_Report_PartnerSaldoPosts_CalculatedBy" xml:space="preserve">
+    <value>Beräknad pr.</value>
+  </data>
+  <data name="Views_Report_ArticlePosts_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Report_ArticlePosts_Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Shared_LayoutHead_ChooseReportLayout" xml:space="preserve">
+    <value>Välj layout</value>
+  </data>
+  <data name="Views_ReportEditDetails_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_ReportEditDetails_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_Report_Index_CreateReportLayout" xml:space="preserve">
+    <value>Upprätta meddelande</value>
+  </data>
+  <data name="Views_Report_Index_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_Report_LedgerPosts_Amount" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Report_LedgerPosts_Articlegroup" xml:space="preserve">
+    <value>Varugrupp</value>
+  </data>
+  <data name="Views_Report_LedgerPosts_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_Report_LedgerPosts_CurrencyAmount" xml:space="preserve">
+    <value>Valutabelopp</value>
+  </data>
+  <data name="Views_Report_LedgerPosts_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_ResetPassword_Index_ChangePassword" xml:space="preserve">
+    <value>Ändra lösenord</value>
+  </data>
+  <data name="Views_ResetPassword_Index_Title" xml:space="preserve">
+    <value>Ändra lösenord</value>
+  </data>
+  <data name="Views_ResourceDetails_AddEmail" xml:space="preserve">
+    <value>Lägg till e-mail</value>
+  </data>
+  <data name="Views_ResourceDetails_Address" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="Views_ResourceDetails_AddTelephone" xml:space="preserve">
+    <value>Tillför telefon</value>
+  </data>
+  <data name="Views_ResourceDetails_Alias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="Views_ResourceDetails_Alias_Placeholder" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="Views_ResourceDetails_City_Placeholder" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="Views_ResourceDetails_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_ResourceDetails_Street_Placeholder" xml:space="preserve">
+    <value>Gata</value>
+  </data>
+  <data name="Views_Setup_Article_ArticleGroups" xml:space="preserve">
+    <value>Varugrupper</value>
+  </data>
+  <data name="Views_Setup_Ledger_Currencies" xml:space="preserve">
+    <value>Valutor</value>
+  </data>
+  <data name="Views_Setup_Ledger_FiscalPeriod_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Setup_Ledger_FiscalPeriod_IsClosed" xml:space="preserve">
+    <value>Stängd</value>
+  </data>
+  <data name="Views_Setup_Ledger_FiscalPeriods" xml:space="preserve">
+    <value>Räkenskapsår</value>
+  </data>
+  <data name="Views_Setup_Order_Bears_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Setup_Order_Currency_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_Setup_Order_Currency_CurrencySymbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="Views_Setup_Order_Currency_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Setup_Order_Departments_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Setup_Partner_ContextTemplate_ContextDescription" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_Setup_Partner_ContextTemplate_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_Setup_Partner_ContextTemplate_TermsOfPayment" xml:space="preserve">
+    <value>Villkor för betalning</value>
+  </data>
+  <data name="Views_Setup_Partner_ContextTemplates" xml:space="preserve">
+    <value>Standardmall</value>
+  </data>
+  <data name="Views_Setup_Partner_Reminders" xml:space="preserve">
+    <value>Påminnelser</value>
+  </data>
+  <data name="Views_Setup_Article_Units" xml:space="preserve">
+    <value>Enheter</value>
+  </data>
+  <data name="Views_Setup_Article_Warehouses" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_Shared_PrivateLayout_Build" xml:space="preserve">
+    <value>Bygg</value>
+  </data>
+  <data name="Views_Shared_DialogCreate_Dropbox" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="Views_Shared_DialogCreate_Xena" xml:space="preserve">
+    <value>Xena</value>
+  </data>
+  <data name="Views_Shared_Error_Message" xml:space="preserve">
+    <value>Ett uppstod under behandlingen av din efterfrågan.</value>
+  </data>
+  <data name="Views_ShareDocumentDetails_CreatedAt" xml:space="preserve">
+    <value>Upprättad</value>
+  </data>
+  <data name="Views_SharedRenameDocument_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_SharedViewDocument_Download" xml:space="preserve">
+    <value>Hämta</value>
+  </data>
+  <data name="Views_SharedViewDocuments_AnErrorOccurred" xml:space="preserve">
+    <value>Ett fel uppstod</value>
+  </data>
+  <data name="Views_SharedViewDocuments_Changed" xml:space="preserve">
+    <value>Ändrad</value>
+  </data>
+  <data name="Views_SharedViewDocuments_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Views_SharedViewDocuments_DeleteRelation" xml:space="preserve">
+    <value>Ta bort relation</value>
+  </data>
+  <data name="Views_SharedViewDocuments_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_SharedViewDocumentVersions_Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Views_Article_DialogSpecifyVariants_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Article_DialogSpecifyVariants_Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Subscription_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Subscription_Details_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Subscription_PartnerName" xml:space="preserve">
+    <value>Företagsnamn</value>
+  </data>
+  <data name="Views_Subscription_Details_ArticleNo" xml:space="preserve">
+    <value>Varunummer</value>
+  </data>
+  <data name="Views_Subscription_Details_CreateNewLine" xml:space="preserve">
+    <value>Upprätta ny linje</value>
+  </data>
+  <data name="Views_Subscription_Details_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_Subscription_Details_Price" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="Views_Subscription_Details_Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_Subscription_Details_Text" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="Views_Subscription_Details_Title" xml:space="preserve">
+    <value>Abonnemang</value>
+  </data>
+  <data name="Views_Subscription_Details_To" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Views_Subscription_Details_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_Subscription_Index_ByArticlegroup" xml:space="preserve">
+    <value>Pr. varugrupp</value>
+  </data>
+  <data name="Views_Table_Filter" xml:space="preserve">
+    <value>Filter:</value>
+  </data>
+  <data name="Views_TransactionViewLedgerAccount_FiscalPeriod" xml:space="preserve">
+    <value>Räkenskapsår</value>
+  </data>
+  <data name="Views_TransactionViewLedgerAccount_Group" xml:space="preserve">
+    <value>Grupp</value>
+  </data>
+  <data name="Views_Unit_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Unit_DialogCreate_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_Unit_DialogCreate_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_Unit_DialogCreate_Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="Views_Unit_Index_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_Unit_Index_CreateUnit" xml:space="preserve">
+    <value>Upprätta enhet</value>
+  </data>
+  <data name="Views_Unit_Index_EditUnit" xml:space="preserve">
+    <value>Redigera enhet</value>
+  </data>
+  <data name="Views_Home_MainMenu_Accountant_DataExchange" xml:space="preserve">
+    <value>Datautväxling</value>
+  </data>
+  <data name="Views_Home_MainMenu_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Home_MainMenu_ArticleOverview" xml:space="preserve">
+    <value>Varuöversikt</value>
+  </data>
+  <data name="Views_Home_MainMenu_CreateArticle" xml:space="preserve">
+    <value>Upprätta vara</value>
+  </data>
+  <data name="Views_Shared_PrivateLayout_CreateFiscal" xml:space="preserve">
+    <value>Upprätta räkenskap</value>
+  </data>
+  <data name="Views_Shared_PrivateLayout_CreateFiscal_TypeOfFiscal" xml:space="preserve">
+    <value>Upprätta nytt räkenskap</value>
+  </data>
+  <data name="Views_Home_MainMenu_Fiscal" xml:space="preserve">
+    <value>Företag</value>
+  </data>
+  <data name="Views_Home_MainMenu_FiscalSetup" xml:space="preserve">
+    <value>Företagsprofil</value>
+  </data>
+  <data name="Views_Home_MainMenu_FiscalView" xml:space="preserve">
+    <value>Kontoöversikt</value>
+  </data>
+  <data name="Views_Home_MainMenu_Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Views_Home_MainMenu_OrderOverview" xml:space="preserve">
+    <value>Orderöversikt</value>
+  </data>
+  <data name="Views_Home_MainMenu_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_Home_MainMenu_PartnerCreate" xml:space="preserve">
+    <value>Upprätta partner</value>
+  </data>
+  <data name="Views_Home_MainMenu_Report_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Home_MainMenu_Report_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_Article_DialogEditArticleVariantDetails_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_VariantRange_Create_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Article_VariantRangeList_Create" xml:space="preserve">
+    <value>Upprätta ny</value>
+  </data>
+  <data name="Views_VariantRangeIndex_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Vat_DialogCreate_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_Vat_DialogCreate_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Vat_Details_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Voucher_Details_ArticlePost_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Voucher_Details_ArticlePost_Number" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Voucher_Details_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Voucher_Details_Journal_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Voucher_Details_LedgerPosts_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Voucher_Details_LedgerPosts_Amount" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Voucher_Details_LedgerPosts_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Voucher_Details_PartnerPosts_Amount" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Voucher_Details_PartnerPosts_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_Voucher_Details_Transaction_CancelTransaction" xml:space="preserve">
+    <value>Annullera överföring</value>
+  </data>
+  <data name="Views_Voucher_Index_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Warehouse_Create_Address" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="Views_Article_WarehouseIndex_Description" xml:space="preserve">
+    <value>Besrivning</value>
+  </data>
+  <data name="Views_Welcome_Step3_City_Placeholder" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="Views_Welcome_Step3_Address" xml:space="preserve">
+    <value>Adress:</value>
+  </data>
+  <data name="Views_Welcome_Step3_Street_Placeholder" xml:space="preserve">
+    <value>Gata</value>
+  </data>
+  <data name="Views_Welcome_Step3_Zip_Placeholder" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="Views_Welcome_Step3_Name" xml:space="preserve">
+    <value>Namn:</value>
+  </data>
+  <data name="Views_Welcome_Step3_Name_Placeholder" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts" xml:space="preserve">
+    <value>Inkomst</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_Long_Term_Debt" xml:space="preserve">
+    <value>Långsiktig skuld</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_Other_Short_Term_Debt" xml:space="preserve">
+    <value>Annan kortsiktig skuld</value>
+  </data>
+  <data name="Xena_Domain_VariantRange_DefaultDescription" xml:space="preserve">
+    <value>Storlekar</value>
+  </data>
+  <data name="DocumentPublic_DocumentNotFound" xml:space="preserve">
+    <value>Dokumentet kunde inte hittas</value>
+  </data>
+  <data name="DocumentRotate_DocumentDoesNotExist" xml:space="preserve">
+    <value>Dokumentet existerar inte</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_GoToArticle" xml:space="preserve">
+    <value>Gå till vara</value>
+  </data>
+  <data name="Views_Article_LocationDetails_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_Article_DialogCreateBarCode_EANNumber" xml:space="preserve">
+    <value>Streckkod</value>
+  </data>
+  <data name="Views_Article_Details_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_Article_Details_Disable" xml:space="preserve">
+    <value>Avaktivera</value>
+  </data>
+  <data name="Views_Article_Details_EANNumber" xml:space="preserve">
+    <value>Streckkodnummer</value>
+  </data>
+  <data name="Views_Article_Details_Enable" xml:space="preserve">
+    <value>Aktivera</value>
+  </data>
+  <data name="Views_Article_Details_Menu_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_Article_SalesOrdersList_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Article_Details_Posts_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Article_DialogCreateArticleGroup_ExistingArticleGroups" xml:space="preserve">
+    <value>Existerande varugrupper</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_Article_DialogCreate_Group" xml:space="preserve">
+    <value>Grupp</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Debit" xml:space="preserve">
+    <value>Debet</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Department" xml:space="preserve">
+    <value>Avdelning</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Difference" xml:space="preserve">
+    <value>Differens</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_FiscalDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Currency_Details_ExchangeRates" xml:space="preserve">
+    <value>Valutakurser</value>
+  </data>
+  <data name="Views_CurrencyExchangeRate_EffectiveFrom" xml:space="preserve">
+    <value>Gällande från</value>
+  </data>
+  <data name="Views_CurrencyExchangeRate_ExchangeRate" xml:space="preserve">
+    <value>Valutakurs</value>
+  </data>
+  <data name="Views_CurrencyExchangeRateEdit_Effective" xml:space="preserve">
+    <value>Gällande</value>
+  </data>
+  <data name="Views_CurrencyExchangeRateView_EditCurrencyExchangeRate" xml:space="preserve">
+    <value>Redigera valutakursen</value>
+  </data>
+  <data name="Views_Department" xml:space="preserve">
+    <value>Avdelning</value>
+  </data>
+  <data name="Views_Desktop_ViewFiscal_Debit" xml:space="preserve">
+    <value>Debet</value>
+  </data>
+  <data name="Shared_Filter_From" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="Views_Order_ReminderList_DaysLate" xml:space="preserve">
+    <value>Dagar för sent</value>
+  </data>
+  <data name="Views_DesktopIndex_ChartExpences" xml:space="preserve">
+    <value>Utgifter</value>
+  </data>
+  <data name="Views_DesktopIndex_FinancialOverview" xml:space="preserve">
+    <value>Finansöversikt</value>
+  </data>
+  <data name="Views_DesktopIndex_FiscalPeriodRatios" xml:space="preserve">
+    <value>Översikt över räkenskapsåret</value>
+  </data>
+  <data name="Views_Document_ShareWithPartner_ErrorDocument" xml:space="preserve">
+    <value>Dokumentet kunde inte hittas</value>
+  </data>
+  <data name="Views_DocumentDetails_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_DocumentDetails_Document" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Views_DocumentDetails_EditOnline" xml:space="preserve">
+    <value>Redigera online</value>
+  </data>
+  <data name="Views_DocumentVersions_Down" xml:space="preserve">
+    <value>Hämta</value>
+  </data>
+  <data name="Views_DocumentVersions_Download" xml:space="preserve">
+    <value>Ladda ner</value>
+  </data>
+  <data name="Views_DocumentVersions_Filename" xml:space="preserve">
+    <value>Filnamn</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_EndDate" xml:space="preserve">
+    <value>Slutdatum</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Debit" xml:space="preserve">
+    <value>Debet</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_DueDate" xml:space="preserve">
+    <value>Förfallodatum</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Goto" xml:space="preserve">
+    <value>Gå till</value>
+  </data>
+  <data name="Views_FiscalSetup_BasicData_Department" xml:space="preserve">
+    <value>Avdelning</value>
+  </data>
+  <data name="Views_FiscalSetup_CreateMembership" xml:space="preserve">
+    <value>Ange användares e-mailadress för att bjuda in till</value>
+  </data>
+  <data name="Views_FiscalSetup_DeleteFiscalSetupWarningText" xml:space="preserve">
+    <value>Om räkenskapet tas bort raderas alla data permanent! D.v.s. alla partners, ordrar, bilagor och transaktioner raderas. Handlingen kan inte ångras så säkra en kopia som backup innan du fortsätter.</value>
+  </data>
+  <data name="Views_FiscalSetup_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_FiscalSetup_Email_Email_Placeholder" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_FiscalSetup_Notifications_NewDocument" xml:space="preserve">
+    <value>Dokumentdetaljer</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateMembership_FollowingUserHasBeenFound" xml:space="preserve">
+    <value>Följande användare kunde inte hittas utifrån angiven e-mailadress</value>
+  </data>
+  <data name="Views_Home_EditProfile_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Home_DialogNotFound_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Home_DialogNotFound_Event" xml:space="preserve">
+    <value>Begivenhet</value>
+  </data>
+  <data name="Views_HomePartnerDetails_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_HomePartnerDetails_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_LedgerTag_DialogCreate_ExistingLedgertags" xml:space="preserve">
+    <value>Existerande finanskonton</value>
+  </data>
+  <data name="Views_LedgerTag_Details_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_LedgerTag_Details_Debit" xml:space="preserve">
+    <value>Debet</value>
+  </data>
+  <data name="Views_LedgerTag_Details_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_LedgerTag_Details_Posts_Download" xml:space="preserve">
+    <value>Ladda ner</value>
+  </data>
+  <data name="Views_LedgerTag_Details_Posts_Email" xml:space="preserve">
+    <value>Skicka som e-mail</value>
+  </data>
+  <data name="Views_Article_DialogCreateLocation_Dimension1" xml:space="preserve">
+    <value>Dimension 1</value>
+  </data>
+  <data name="Views_Article_DialogCreateLocation_Dimension2" xml:space="preserve">
+    <value>Dimension 2</value>
+  </data>
+  <data name="Views_Article_DialogCreateLocation_Dimension3" xml:space="preserve">
+    <value>Dimension 3</value>
+  </data>
+  <data name="Views_Article_DialogCreateLocation_Dimension4" xml:space="preserve">
+    <value>Dimension 4</value>
+  </data>
+  <data name="Views_Article_DialogCreateLocation_Dimension5" xml:space="preserve">
+    <value>Dimension 5</value>
+  </data>
+  <data name="Views_LocationDetails_Dimension1" xml:space="preserve">
+    <value>Dimension 1</value>
+  </data>
+  <data name="Views_LocationDetails_Dimension2" xml:space="preserve">
+    <value>Dimension 2</value>
+  </data>
+  <data name="Views_LocationDetails_Dimension3" xml:space="preserve">
+    <value>Dimension 3</value>
+  </data>
+  <data name="Views_LocationDetails_Dimension4" xml:space="preserve">
+    <value>Dimension 4</value>
+  </data>
+  <data name="Views_LocationDetails_Dimension5" xml:space="preserve">
+    <value>Dimension 5</value>
+  </data>
+  <data name="Views_Order_Statistics_DistributionBetweenArticleGroups" xml:space="preserve">
+    <value>Fördelning mellan varugrupper</value>
+  </data>
+  <data name="Views_Order_Statistics_GroupDistribution" xml:space="preserve">
+    <value>Gruppfördelning</value>
+  </data>
+  <data name="Views_Order_Index_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_OrderViewJournal_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_PartnerContextTemplateEdit_DeliveryReportLayout" xml:space="preserve">
+    <value>Layout till leveransrapporter</value>
+  </data>
+  <data name="Views_Partner_ContextTemplateIndex_EditTemplate" xml:space="preserve">
+    <value>Redigera mall</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_DidYouMean" xml:space="preserve">
+    <value>Menade du:</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Email" xml:space="preserve">
+    <value>E-mail:</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Email_Placeholder" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Email_Address_Placeholder" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Email_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Emails" xml:space="preserve">
+    <value>E-mails</value>
+  </data>
+  <data name="Views_Partner_Details_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_Partner_Details_Details_Balance_BalanceDue" xml:space="preserve">
+    <value>Förfallen</value>
+  </data>
+  <data name="Views_Partner_Details_Details_Documents" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Views_Partner_Details_Geography" xml:space="preserve">
+    <value>Geografi</value>
+  </data>
+  <data name="Views_Partner_Details_Geography_Url_Placeholder" xml:space="preserve">
+    <value>http://</value>
+  </data>
+  <data name="Views_Partner_Details_History_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Partner_Details_History_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_Partner_Details_History_Details_Title" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_Partner_Details_Invite_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Partner_Details_Mail_TitleEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Partner_Details_Order_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Partner_Details_Order_Gross" xml:space="preserve">
+    <value>Brutto</value>
+  </data>
+  <data name="Views_Partner_Details_Posts_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_PartnerEditContext_Duetype" xml:space="preserve">
+    <value>Betalning</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForMail_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForMail_From" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForPhone_Duration" xml:space="preserve">
+    <value>Varaktighet</value>
+  </data>
+  <data name="Views_PartnerViewPartnerDocuments_Filename" xml:space="preserve">
+    <value>Filnamn</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Delivery" xml:space="preserve">
+    <value>Leverera</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Delivery_Date" xml:space="preserve">
+    <value>Leveransdatum</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Delivery_Layout" xml:space="preserve">
+    <value>Följesedel</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Invoicing_Deliver" xml:space="preserve">
+    <value>Leverera</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Invoicing_DeliveryLayout" xml:space="preserve">
+    <value>Följesedel</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Payment_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_PostProcess_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Tabs_Delivery" xml:space="preserve">
+    <value>Leverera</value>
+  </data>
+  <data name="Views_Public_FiscalProfile_NotConnectedPartner" xml:space="preserve">
+    <value>Om du vill ansluta det här företaget som partner ska du klicka på:</value>
+  </data>
+  <data name="Views_Public_Register_AccountAlreadyExists" xml:space="preserve">
+    <value>E-mailen finns redan. Har du glömt ditt lösenord?</value>
+  </data>
+  <data name="Views_Public_UserProfile_NotConnectedPartner" xml:space="preserve">
+    <value>Om du vill ansluta den här användaren som en partner ska du klicka på:</value>
+  </data>
+  <data name="Views_ReminderCreate_Fee" xml:space="preserve">
+    <value>Avgift</value>
+  </data>
+  <data name="Views_ReminderDetails_Fee" xml:space="preserve">
+    <value>Arvode</value>
+  </data>
+  <data name="Views_ReminderIndex_EditReminder" xml:space="preserve">
+    <value>Rätta påminnelse</value>
+  </data>
+  <data name="Views_Report_Example" xml:space="preserve">
+    <value>Exempel</value>
+  </data>
+  <data name="Views_Report_Group" xml:space="preserve">
+    <value>Grupp</value>
+  </data>
+  <data name="Views_Report_LedgerAccountSpecification_DownloadXML" xml:space="preserve">
+    <value>Ladda ner XML</value>
+  </data>
+  <data name="Views_Report_LedgerAccountSpecification_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Report_LedgerAccountSpecification_FromDate_Placeholder" xml:space="preserve">
+    <value>Data från</value>
+  </data>
+  <data name="Views_Report_PartnerSaldoPosts_From" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="Views_Report_ArticlePosts_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Report_ArticlePosts_DownloadCSV" xml:space="preserve">
+    <value>Ladda ner CSV</value>
+  </data>
+  <data name="Views_Report_ArticlePosts_DownloadXML" xml:space="preserve">
+    <value>Ladda ner XML</value>
+  </data>
+  <data name="Views_Report_ArticlePosts_EMail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Report_Details_Download" xml:space="preserve">
+    <value>Ladda ner</value>
+  </data>
+  <data name="Views_Report_Details_DownloadExample" xml:space="preserve">
+    <value>Ladda ner exempel</value>
+  </data>
+  <data name="Views_ReportEditDetails_Group" xml:space="preserve">
+    <value>Grupp</value>
+  </data>
+  <data name="Views_Report_LedgerPosts_date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Report_LedgerPosts_Department" xml:space="preserve">
+    <value>Avdelning</value>
+  </data>
+  <data name="Views_ResourceDetails_Department" xml:space="preserve">
+    <value>Standardavdelning</value>
+  </data>
+  <data name="Views_ResourceDetails_EditPicture" xml:space="preserve">
+    <value>Redigera bild</value>
+  </data>
+  <data name="Views_ResourceDetails_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_ResourceDetails_Email_Placeholder" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_ResourceDetails_MayBookkeepFinance" xml:space="preserve">
+    <value>Finansbokföring</value>
+  </data>
+  <data name="Views_ResourceDetails_Purpose" xml:space="preserve">
+    <value>Standardföremål</value>
+  </data>
+  <data name="Views_ResourceDetails_Warehouse" xml:space="preserve">
+    <value>Standardlager</value>
+  </data>
+  <data name="Views_Setup_Ledger_Departments" xml:space="preserve">
+    <value>Avdelningar</value>
+  </data>
+  <data name="Views_Setup_Ledger_FiscalPeriod_FiscalPeriodEnd" xml:space="preserve">
+    <value>Slut</value>
+  </data>
+  <data name="Views_ShareDocumentDetails_Download" xml:space="preserve">
+    <value>Ladda ner</value>
+  </data>
+  <data name="Views_SharedViewDocuments_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_SharedViewDocuments_Documents" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Views_SharedViewDocuments_File" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+  <data name="Views_SharedViewDocuments_Filename" xml:space="preserve">
+    <value>Filnamn</value>
+  </data>
+  <data name="Views_Subscription_Details_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_Subscription_Details_Discount" xml:space="preserve">
+    <value>Rabatt</value>
+  </data>
+  <data name="Views_Home_MainMenu_Document" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Views_Home_MainMenu_Document_DocumentOverview" xml:space="preserve">
+    <value>Dokumentöversikt</value>
+  </data>
+  <data name="Views_UserUserAddedToFiscalGoToDesktop" xml:space="preserve">
+    <value>Gå till skrivbord</value>
+  </data>
+  <data name="Views_Article_VariantRangeDetails_EditVariant" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="Views_Vat_DialogCreate_ExistingVats" xml:space="preserve">
+    <value>Existerande moms</value>
+  </data>
+  <data name="Views_Vat_Details_Posts_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Vat_Details_Posts_Debit" xml:space="preserve">
+    <value>Debet</value>
+  </data>
+  <data name="Views_Vat_SettleVat_From" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="Views_Vat_VatSettlementList_VatPeriodEnd" xml:space="preserve">
+    <value>Slut</value>
+  </data>
+  <data name="Views_Voucher_FromDate_Placeholder" xml:space="preserve">
+    <value>Från datum</value>
+  </data>
+  <data name="Views_Voucher_Details_ArticlePost_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Voucher_Details_ArticlePost_NumberDebit" xml:space="preserve">
+    <value>Debet</value>
+  </data>
+  <data name="Views_Voucher_Details_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Voucher_Details_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Views_Voucher_Details_Documents" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Views_Voucher_Details_Journal_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Voucher_Details_LedgerPosts_CurrencyAmount" xml:space="preserve">
+    <value>Valutabelopp</value>
+  </data>
+  <data name="Views_Voucher_Details_LedgerPosts_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Voucher_Details_LedgerPosts_Debit" xml:space="preserve">
+    <value>Debet</value>
+  </data>
+  <data name="Views_Voucher_Details_PartnerPosts_CurrencyAmount" xml:space="preserve">
+    <value>Valutabelopp</value>
+  </data>
+  <data name="Views_Voucher_Details_PartnerPosts_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Voucher_Details_PartnerPosts_Debit" xml:space="preserve">
+    <value>Debet</value>
+  </data>
+  <data name="Views_Voucher_Details_PartnerPosts_DueDate" xml:space="preserve">
+    <value>Förfallodatum</value>
+  </data>
+  <data name="Views_Voucher_Index_SearchText_Placeholder" xml:space="preserve">
+    <value>Ange söktext här</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Depreciation" xml:space="preserve">
+    <value>Avskrivningar</value>
+  </data>
+  <data name="Default_FiscalSetup_Description" xml:space="preserve">
+    <value>Mitt företag</value>
+  </data>
+  <data name="Shared_Password_Requirements_Match" xml:space="preserve">
+    <value>Lösenorden ska stämma överens</value>
+  </data>
+  <data name="Views_Article_Details_Item" xml:space="preserve">
+    <value>Varunummer</value>
+  </data>
+  <data name="Views_Article_ArticleAvailabilityList_Location" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Views_ArticleCreateArticle_HideAdditionalFields" xml:space="preserve">
+    <value>Dölj extra fält</value>
+  </data>
+  <data name="Views_Article_DialogEditArticleVariantDetails_CreateArticleVariant_IPossible" xml:space="preserve">
+    <value>Är möjligt</value>
+  </data>
+  <data name="Views_Article_Details_InventoryContext_Location" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Views_Article_Details_Posts_Location" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Views_Article_Details_VariantManagement_IsPossible" xml:space="preserve">
+    <value>Är möjligt</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_MergeArticleGroup" xml:space="preserve">
+    <value>Sammanfläta varugrupper</value>
+  </data>
+  <data name="Views_ArticleGroupMergeArticleGroup_ChoseArticleGroup" xml:space="preserve">
+    <value>Sammanfläta {0} med</value>
+  </data>
+  <data name="Views_ArticleGroupMergeArticleGroup_Merge" xml:space="preserve">
+    <value>Sammanfläta</value>
+  </data>
+  <data name="Views_Order_ReminderList_LastReminder" xml:space="preserve">
+    <value>Sista datum för påminnelse:</value>
+  </data>
+  <data name="Views_DesktopIndex_ChartIncome" xml:space="preserve">
+    <value>Intäkt</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Income" xml:space="preserve">
+    <value>Intäkt</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogInviteSupporter_InviteSupporter" xml:space="preserve">
+    <value>Bjud in</value>
+  </data>
+  <data name="Views_FiscalSetup_Logo" xml:space="preserve">
+    <value>Logotyp</value>
+  </data>
+  <data name="Views_FiscalSetup_UserMemberships_InviteSupport" xml:space="preserve">
+    <value>Bjud in support</value>
+  </data>
+  <data name="Views_FiscalSetup_UserMemberships_InviteUser" xml:space="preserve">
+    <value>Bjud in användare</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateMembership_InviteUser" xml:space="preserve">
+    <value>Bjud in användare</value>
+  </data>
+  <data name="Views_Home_EditProfile_UserProfile_Culture" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Views_Home_EditProfile_Merge" xml:space="preserve">
+    <value>Sammanfläta</value>
+  </data>
+  <data name="Views_Home_EditProfile_MergeExplanation" xml:space="preserve">
+    <value>Om du vill sammanfläta flera användare till en samlad användare, kan du fylla i användarnamn och lösenord för samtliga konton som du vill sammanfläta med det existerande kontot.</value>
+  </data>
+  <data name="Views_Home_EditProfile_MergeUser" xml:space="preserve">
+    <value>Sammanfläta användare</value>
+  </data>
+  <data name="Views_Home_Index_CustomerAt" xml:space="preserve">
+    <value>Jag är kund hos</value>
+  </data>
+  <data name="Views_Home_OtherUserLoggedIn_GotoLogin" xml:space="preserve">
+    <value>Inloggning</value>
+  </data>
+  <data name="Views_Location_Details_Title" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Views_Order_Details_Tab_Journal" xml:space="preserve">
+    <value>Journal</value>
+  </data>
+  <data name="Views_Partner_Details_Details_Log" xml:space="preserve">
+    <value>Logg</value>
+  </data>
+  <data name="Views_Partner_Details_Invite_InvitePartner" xml:space="preserve">
+    <value>Bjud in partner</value>
+  </data>
+  <data name="Views_Partner_Details_MergePartner" xml:space="preserve">
+    <value>Sammanfläta partners</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForInvite_InvitationWasSentAt" xml:space="preserve">
+    <value>Inbjudan har skickats.</value>
+  </data>
+  <data name="Views_Partner_Index_List" xml:space="preserve">
+    <value>Lista</value>
+  </data>
+  <data name="Views_Partner_Index_Map" xml:space="preserve">
+    <value>Karta</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Tabs_Invoicing" xml:space="preserve">
+    <value>Fakturering</value>
+  </data>
+  <data name="Views_Public_FiscalProfile_MissingPublicProfile" xml:space="preserve">
+    <value>Saknar offentlig profil</value>
+  </data>
+  <data name="Views_Public_Register_InvalidEmail" xml:space="preserve">
+    <value>Ogitig e-mail</value>
+  </data>
+  <data name="Views_Public_Register_InvalidPassword" xml:space="preserve">
+    <value>Ogiltigt lösenord.</value>
+  </data>
+  <data name="Views_Public_UserProfile_MissingPublicProfile" xml:space="preserve">
+    <value>Saknar offentlig profil</value>
+  </data>
+  <data name="Views_Report_ArticlePosts_Location" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Views_Report_Details_Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="Views_Setup_Article_Lecations" xml:space="preserve">
+    <value>Platser</value>
+  </data>
+  <data name="Views_Shared_Paging_ItemsPerPage" xml:space="preserve">
+    <value>Antal per sida</value>
+  </data>
+  <data name="Views_Shared_PrivateLayout_LogOut" xml:space="preserve">
+    <value>Logga ut</value>
+  </data>
+  <data name="Views_Article_DialogSpecifyVariants_Location" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Views_Subscription_IntervalDescription" xml:space="preserve">
+    <value>Intervall</value>
+  </data>
+  <data name="Views_Subscription_Details_Interval" xml:space="preserve">
+    <value>Intervall</value>
+  </data>
+  <data name="Views_UserUserAddedAsPartnerXenaDesktop" xml:space="preserve">
+    <value>Mitt Xena -&gt; Skrivbord</value>
+  </data>
+  <data name="Views_UserUserAddedToFiscalFirsttime" xml:space="preserve">
+    <value>Om det är första gången du har tillgång till ett räkenskap kan du hitta fler valmöjligheter i den utökade huvudmenyn till vänster.</value>
+  </data>
+  <data name="Views_Voucher_Details_ArticlePost_Location" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Views_Voucher_Details_Journals" xml:space="preserve">
+    <value>Journaler</value>
+  </data>
+  <data name="Xena_PhoneNumber_MainNumber" xml:space="preserve">
+    <value>Huvudnummer</value>
+  </data>
+  <data name="Views_AuditTrailDetails_NewValue" xml:space="preserve">
+    <value>Nytt värde</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_NoVat" xml:space="preserve">
+    <value>Ingen moms</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_No" xml:space="preserve">
+    <value>Nr.</value>
+  </data>
+  <data name="Views_Desktop_ViewPartnerBalance_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Order_ReminderList_NextReminderStep" xml:space="preserve">
+    <value>Nästa påminnelse</value>
+  </data>
+  <data name="Command_SendEmail_No_To_Address" xml:space="preserve">
+    <value>Ingen mottagaradress angiven</value>
+  </data>
+  <data name="Domain_Reminder_VoucherDescription" xml:space="preserve">
+    <value>Påminnelse: {0}</value>
+  </data>
+  <data name="Domain_TermsOfPayment_Description_NettCash" xml:space="preserve">
+    <value>Nettp + {0} dagar</value>
+  </data>
+  <data name="Domain_TermsOfPayment_Description_NettCash_Days" xml:space="preserve">
+    <value>Netto + {0} dagar</value>
+  </data>
+  <data name="Domain_TermsOfPayment_Description_RunningMonth" xml:space="preserve">
+    <value>Löpande månad</value>
+  </data>
+  <data name="Domain_TermsOfPayment_Description_RunningMonth_Days" xml:space="preserve">
+    <value>Löpande månad + {0} dagar</value>
+  </data>
+  <data name="Domain_Warehouse_DefaultDimension_Abbreviation_1" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="Domain_Warehouse_DefaultDimension_Description_1" xml:space="preserve">
+    <value>Rum</value>
+  </data>
+  <data name="Email_ProvideValidEmail" xml:space="preserve">
+    <value>Vänligen ange en giltig e-mailadress</value>
+  </data>
+  <data name="Views_ApiFiscalSetup_InviteSupporter_NoSupporterChosen" xml:space="preserve">
+    <value>Inga supportar valda</value>
+  </data>
+  <data name="Views_ApiFiscalSetup_InviteSupporter_NoSupporterWithTheGivenId" xml:space="preserve">
+    <value>Ingen supporter med angivet id</value>
+  </data>
+  <data name="Views_ArticleCreateArticle_Price" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="Views_ArticleCreateArticle_Purchasing" xml:space="preserve">
+    <value>Köper</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_AccountsAreOptional" xml:space="preserve">
+    <value>OBS: Konton är valfria och används bara i rapporteringssyfte och kompabilitet med äldre räkenskapssystem. Ovanstående konton påverkar inte hur Xena hanterar bokföring.</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_ProductPurchase" xml:space="preserve">
+    <value>Köp</value>
+  </data>
+  <data name="Views_Article_ArticleList_PurchasePrice" xml:space="preserve">
+    <value>Inköpspris</value>
+  </data>
+  <data name="Views_AuditTrailDetails_OldValue" xml:space="preserve">
+    <value>Tidigare värde</value>
+  </data>
+  <data name="Views_AuditTrailDetails_Property" xml:space="preserve">
+    <value>Egendom</value>
+  </data>
+  <data name="Views_BearerDetails_Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+  <data name="Views_CurrencyExchangeRateEdit_Rate" xml:space="preserve">
+    <value>Kurs</value>
+  </data>
+  <data name="Views_DepartmentDetails_Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+  <data name="Views_Desktop_ViewFiscal_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Views_DesktopIndex_ChartRevenue" xml:space="preserve">
+    <value>Intäkt</value>
+  </data>
+  <data name="Views_DesktopIndex_FiscalPeriod" xml:space="preserve">
+    <value>Räkenskapsår</value>
+  </data>
+  <data name="Views_DesktopIndex_Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+  <data name="Shared_Dialog_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Views_DocumentDetails_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_DocumentDetails_NoPreview" xml:space="preserve">
+    <value>Ingen förhandsvisning tillgänglig</value>
+  </data>
+  <data name="Views_DocumentDetails_Relations" xml:space="preserve">
+    <value>Förbindelser</value>
+  </data>
+  <data name="Views_DocumentDetails_RotateLeft" xml:space="preserve">
+    <value>Rotera till vänster</value>
+  </data>
+  <data name="Views_DocumentDetails_RotateRight" xml:space="preserve">
+    <value>Rotera till höger</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_PartnerName" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_FiscalSetup_Address_Name_Placeholder" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_FiscalSetup_Address_Placename_Placeholder" xml:space="preserve">
+    <value>Ställets namn</value>
+  </data>
+  <data name="Views_FiscalSetup_ChangeSecurityGroup_Role" xml:space="preserve">
+    <value>Roll</value>
+  </data>
+  <data name="Views_FiscalSetup_Email_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_FiscalSetup_Email_Name_Placeholder" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_FiscalSetup_Index_Tlf_Number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Views_FiscalSetup_Notifications_Newinvoice" xml:space="preserve">
+    <value>Ny faktura</value>
+  </data>
+  <data name="Views_FiscalSetup_Notifications_Notification" xml:space="preserve">
+    <value>Meddelande</value>
+  </data>
+  <data name="Views_FiscalSetup_Picture" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="Views_FiscalSetup_Tlf_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_FiscalSetup_Tlf_Name_Placeholder" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_FiscalSetup_Tlf_Number_Placeholder" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Views_FiscalSetup_UserMemberships_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateMembership_EmailAddressNoUser" xml:space="preserve">
+    <value>Ingen användare kunde hittas med angiven e-mailadress</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateMembership_SendInvite" xml:space="preserve">
+    <value>Skicka inbjudan till</value>
+  </data>
+  <data name="Views_Home_ActivateEmail_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Views_Home_DialogChangePassword_OldPassword_Label" xml:space="preserve">
+    <value>Gammalt lösenord</value>
+  </data>
+  <data name="Views_Home_DialogChangePassword_Password1_Label" xml:space="preserve">
+    <value>Nytt lösenord</value>
+  </data>
+  <data name="Views_Home_DialogChangePassword_Password2_Label" xml:space="preserve">
+    <value>Upprepa nytt lösenord</value>
+  </data>
+  <data name="Views_Home_EditProfile_UserProfile_Name" xml:space="preserve">
+    <value>Namn:</value>
+  </data>
+  <data name="Views_Home_EditProfile_UserProfile_Name_Placeholder" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Home_EditProfile_UserSettings_PersonalData" xml:space="preserve">
+    <value>Personliga data</value>
+  </data>
+  <data name="Views_Home_EditProfile_UserSettings_Title" xml:space="preserve">
+    <value>Personliga inställningar</value>
+  </data>
+  <data name="Views_HomeArgumentWronPage_Problem" xml:space="preserve">
+    <value>Problem med adressen</value>
+  </data>
+  <data name="Views_HomeArgumentWronPage_StandardValue" xml:space="preserve">
+    <value>Standardvärde</value>
+  </data>
+  <data name="Views_Home_EditProfile_AlternateUserResend" xml:space="preserve">
+    <value>Skicka igen</value>
+  </data>
+  <data name="Views_Home_EditProfile_NewsLetter" xml:space="preserve">
+    <value>Motta nyhetsbrev</value>
+  </data>
+  <data name="Views_Home_EditProfile_Password" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="Views_HomePartnerDetails_Documents" xml:space="preserve">
+    <value>Delade dokument</value>
+  </data>
+  <data name="Views_JsonUser_AddingAlternateUser_NotEmail" xml:space="preserve">
+    <value>Ogiltig e-mailadress</value>
+  </data>
+  <data name="Views_LedgerTag_DialogCreate_LedgertagSuggestions" xml:space="preserve">
+    <value>Förslag</value>
+  </data>
+  <data name="Views_LedgerTag_DialogCreate_Number" xml:space="preserve">
+    <value>Nr.</value>
+  </data>
+  <data name="Views_LedgerTag_Details_Number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Views_LedgerTag_Details_Posts_Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+  <data name="Views_Order_Details_Line_Payer" xml:space="preserve">
+    <value>Betalare</value>
+  </data>
+  <data name="Views_Order_Details_OurRef" xml:space="preserve">
+    <value>Vår ref.</value>
+  </data>
+  <data name="Views_Order_Details_Placename" xml:space="preserve">
+    <value>Ställets namn</value>
+  </data>
+  <data name="Views_Order_Statistics_Revenue" xml:space="preserve">
+    <value>Intäkt</value>
+  </data>
+  <data name="Views_Order_Index_HenceNotInvoiced" xml:space="preserve">
+    <value>ingen</value>
+  </data>
+  <data name="Views_Order_Index_Netto" xml:space="preserve">
+    <value>Netto</value>
+  </data>
+  <data name="Views_Order_Index_OfferList" xml:space="preserve">
+    <value>Erbjudandelista</value>
+  </data>
+  <data name="Views_Order_Index_OfferNumber" xml:space="preserve">
+    <value>Erbjudandenr.</value>
+  </data>
+  <data name="Views_Order_Index_OrderOverview" xml:space="preserve">
+    <value>Översikt</value>
+  </data>
+  <data name="Views_Order_Index_ShowDeactivated" xml:space="preserve">
+    <value>Vis inaktiva</value>
+  </data>
+  <data name="Views_Partner_DialogUpdateOrder_NoThanks" xml:space="preserve">
+    <value>Nej tack</value>
+  </data>
+  <data name="Views_PartnerContextTemplateEdit_OfferLayout" xml:space="preserve">
+    <value>Layout för erbjudande</value>
+  </data>
+  <data name="Views_PartnerContextTemplateEdit_Payment" xml:space="preserve">
+    <value>Betalning</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Label_Person" xml:space="preserve">
+    <value>Person:</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Name_Placeholder" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_PartnerType_Person" xml:space="preserve">
+    <value>Privatperson</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Phonenumber_Placeholder" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Placename_Placeholder" xml:space="preserve">
+    <value>Ställets namn</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Street_Placeholder" xml:space="preserve">
+    <value>Gata</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Email_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Email_Name_Placeholder" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Telephone_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Telephone_Name_Placeholder" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Telephone_Number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Telephone_Number_Placeholder" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Telephone_SMS" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="Views_Partner_Details_Details_Offers" xml:space="preserve">
+    <value>Erbjudande</value>
+  </data>
+  <data name="Views_Partner_Details_Details_Setup" xml:space="preserve">
+    <value>Uppsättning</value>
+  </data>
+  <data name="Views_Partner_Details_Details_Subscriptions" xml:space="preserve">
+    <value>Prenumerationer</value>
+  </data>
+  <data name="Views_Partner_Details_Geography_Name_Placeholder" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Partner_Details_Geography_PlaceName_Placeholder" xml:space="preserve">
+    <value>Ställets namn</value>
+  </data>
+  <data name="Views_Partner_Details_Geography_Street_Placeholder" xml:space="preserve">
+    <value>Gata</value>
+  </data>
+  <data name="Views_Partner_Details_Invite_Send" xml:space="preserve">
+    <value>Skicka</value>
+  </data>
+  <data name="Views_Email_CreateEmail_Send" xml:space="preserve">
+    <value>Skicka</value>
+  </data>
+  <data name="Views_Partner_Details_MenuItem_Restore" xml:space="preserve">
+    <value>Återställ</value>
+  </data>
+  <data name="Views_Partner_Details_Posts_ShowSettlement" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Views_Partner_Details_ShareDocumentWithPartner" xml:space="preserve">
+    <value>Dela dokument med partner</value>
+  </data>
+  <data name="Views_PartnerDetailsChart_Purchases" xml:space="preserve">
+    <value>Köp</value>
+  </data>
+  <data name="Views_PartnerDetailsChart_PurchasesSales" xml:space="preserve">
+    <value>Köp/sälj</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForMail_Subject" xml:space="preserve">
+    <value>Ämne</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForPhone_Phone" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="Views_PartnerHistoryEntryDetailsForSMS_Phone" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="Views_PartnerHistoryEntryDetailsForSMS_SenderNumber" xml:space="preserve">
+    <value>Avsändares nummer</value>
+  </data>
+  <data name="Views_Partner_Index_Header" xml:space="preserve">
+    <value>Partnerlista</value>
+  </data>
+  <data name="Views_Partner_Index_List_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Partner_Index_List_Search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="Views_Partner_Index_List_Street" xml:space="preserve">
+    <value>Gata</value>
+  </data>
+  <data name="Views_Partner_Index_Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+  <data name="Views_Partner_Index_Query_Placeholder" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="Views_Partner_DialogMerge_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Partner_Reports_Title" xml:space="preserve">
+    <value>Partnerrapporter</value>
+  </data>
+  <data name="Views_PartnerViewPartnerDocuments_Size" xml:space="preserve">
+    <value>Storlek</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Invoicing_PaidAmount" xml:space="preserve">
+    <value>Betalt belopp</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Invoicing_Pay" xml:space="preserve">
+    <value>Betala</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Invoicing_PayableAmount" xml:space="preserve">
+    <value>Belopp att betala</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Offer_Date" xml:space="preserve">
+    <value>Datum för erbjudande</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Offer_Layout" xml:space="preserve">
+    <value>Layout för erbjudande</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Payment_PayableAmount" xml:space="preserve">
+    <value>Belopp för betalning</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Payment_Payment" xml:space="preserve">
+    <value>Betalning</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_PostProcess_DoNothing" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Tabs_Offer" xml:space="preserve">
+    <value>Erbjudande</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Tabs_Payment" xml:space="preserve">
+    <value>Betalning</value>
+  </data>
+  <data name="Views_Public_Register" xml:space="preserve">
+    <value>Registrera</value>
+  </data>
+  <data name="Views_Public_Register_PasswordDontMatch" xml:space="preserve">
+    <value>Lösenorden matchar inte!</value>
+  </data>
+  <data name="Views_Public_UserProfile_ShowPartner" xml:space="preserve">
+    <value>Visa partner</value>
+  </data>
+  <data name="Views_PurposeDetails_Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+  <data name="Views_Reminder_CreateorEdit_Explanation" xml:space="preserve">
+    <value>Respitdagar är det antal dagar som det minimum ska gå efter förfallodatumet och till det att försändelsen av påminnelsen inträffar. &lt;br/&gt;Räntan är beräknad per månad (30 dagar).&lt;br/&gt;Ränta och avgifter kommer bokföras hos partnern.</value>
+  </data>
+  <data name="Views_ReminderCreate_ReportLayout" xml:space="preserve">
+    <value>Rapportera layout</value>
+  </data>
+  <data name="Views_Order_ReminderList_Reminder" xml:space="preserve">
+    <value>Påminnelse</value>
+  </data>
+  <data name="Views_Report_LedgerAccountSpecification_AccountNumber" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Views_Report_LedgerAccountSpecification_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="Views_Report_PartnerSaldoPosts_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Report_PartnerSaldoPosts_Saldo" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Views_Report_Report" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="Views_Report_ReportName" xml:space="preserve">
+    <value>Rapportera namn</value>
+  </data>
+  <data name="Views_Report_ArticlePosts_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="Views_Report_Details_ResetToDefault" xml:space="preserve">
+    <value>Återgå till förvalda inställningar</value>
+  </data>
+  <data name="Views_Report_Details_ResetToFactorySettings" xml:space="preserve">
+    <value>Återgå till standardinställningar</value>
+  </data>
+  <data name="Views_ResourceDetails_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_ResourceDetails_Name_Placeholder" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_ResourceDetails_Number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Views_ResourceDetails_Number_Placeholder" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Views_ResourceDetails_Picture" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="Views_ResourceDetails_PlaceName_Placeholder" xml:space="preserve">
+    <value>Ställets namn</value>
+  </data>
+  <data name="Views_ResourceDetails_Role" xml:space="preserve">
+    <value>Roll</value>
+  </data>
+  <data name="Views_ResourceDetails_Standard" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="Shared_Search_Search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="Views_Setup_Ledger_FiscalPeriod_FiscalPeriodStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Views_Setup_Partner_Title" xml:space="preserve">
+    <value>Partneruppsättning</value>
+  </data>
+  <data name="Views_Shared_Paging_PageOf_Of" xml:space="preserve">
+    <value>av</value>
+  </data>
+  <data name="Views_Shared_Paging_PageOf_Page" xml:space="preserve">
+    <value>Sida</value>
+  </data>
+  <data name="Views_ShareDocumentDetails_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_ShareDocumentDetails_Preview" xml:space="preserve">
+    <value>Förhandsgranska</value>
+  </data>
+  <data name="Views_ShareDocumentDetails_Size" xml:space="preserve">
+    <value>Storlek</value>
+  </data>
+  <data name="Views_SharedRenameDocument_Rename" xml:space="preserve">
+    <value>Döp om</value>
+  </data>
+  <data name="Views_SharedViewDocuments_NewDocumentFrom" xml:space="preserve">
+    <value>Nytt dokument från</value>
+  </data>
+  <data name="Views_SharedViewDocuments_NewVersion" xml:space="preserve">
+    <value>Ny version</value>
+  </data>
+  <data name="Views_SharedViewDocuments_SendByMail" xml:space="preserve">
+    <value>Skicka via e-mail</value>
+  </data>
+  <data name="Views_SharedViewDocuments_ShareWithPartner" xml:space="preserve">
+    <value>Dela med partner</value>
+  </data>
+  <data name="Views_SharedViewDocuments_Size" xml:space="preserve">
+    <value>Storlek</value>
+  </data>
+  <data name="Views_Subscription_Details_None" xml:space="preserve">
+    <value>ingen</value>
+  </data>
+  <data name="Views_SubscriptionIndex" xml:space="preserve">
+    <value>Prenumerationer</value>
+  </data>
+  <data name="Views_Home_MainMenu_PartnerOverview" xml:space="preserve">
+    <value>Översikt över partners</value>
+  </data>
+  <data name="Views_Home_MainMenu_PartnerSetup" xml:space="preserve">
+    <value>Partneruppsättning</value>
+  </data>
+  <data name="Views_Home_MainMenu_Reports" xml:space="preserve">
+    <value>Utskriftsuppsättning</value>
+  </data>
+  <data name="Views_Home_MainMenu_Setup" xml:space="preserve">
+    <value>Uppsättning</value>
+  </data>
+  <data name="Views_Vat_DialogCreate_Percentage" xml:space="preserve">
+    <value>Procent</value>
+  </data>
+  <data name="Views_Vat_Details_Percentage" xml:space="preserve">
+    <value>Procent</value>
+  </data>
+  <data name="Views_Vatsettlement_Error_PayDate" xml:space="preserve">
+    <value>Betalningsdatum måste anges</value>
+  </data>
+  <data name="Views_Vat_VatSettlementList_Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+  <data name="Views_Vat_VatSettlementList_VatPaymentTransaction" xml:space="preserve">
+    <value>Betalning</value>
+  </data>
+  <data name="Views_Vat_VatSettlementList_VatPeriodStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Views_Vcard_Image_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Views_VCard_ResetPicture" xml:space="preserve">
+    <value>Återställ bild</value>
+  </data>
+  <data name="Views_Voucher_Details_Journal_Show" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Views_Voucher_Details_LedgerPosts_ShowSettlement" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Views_Voucher_Details_PartnerPosts_ShowSettlement" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Views_Voucher_Index_No" xml:space="preserve">
+    <value>nr.</value>
+  </data>
+  <data name="Views_Voucher_Index_SearchText" xml:space="preserve">
+    <value>Söktext</value>
+  </data>
+  <data name="Views_Voucher_Index_Size" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Welcome_Step3_Placename_Placeholder" xml:space="preserve">
+    <value>Ställets namn</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Product_Consumption" xml:space="preserve">
+    <value>Varuförbruk</value>
+  </data>
+  <data name="Domain_Warehouse_DefaultDimension_Abbreviation_2" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Domain_Warehouse_DefaultDimension_Description_2" xml:space="preserve">
+    <value>Hylla</value>
+  </data>
+  <data name="Shared_Filter_ShowDeactivated" xml:space="preserve">
+    <value>Visa inaktiva</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_Sales" xml:space="preserve">
+    <value>Försäljning</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_Setup" xml:space="preserve">
+    <value>Uppsättning</value>
+  </data>
+  <data name="Views_Article_Details_SpecifyVariants" xml:space="preserve">
+    <value>Precisera variant</value>
+  </data>
+  <data name="Views_Article_Details_Supplier" xml:space="preserve">
+    <value>Leverantör</value>
+  </data>
+  <data name="Views_ArticleCreateArticle_Sales" xml:space="preserve">
+    <value>Försäljning</value>
+  </data>
+  <data name="Views_ArticleCreateArticle_ShowAdditionalFields" xml:space="preserve">
+    <value>Visa extra fält</value>
+  </data>
+  <data name="Views_Article_SalesOrdersList_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_NettTurnoverAccount" xml:space="preserve">
+    <value>Omsättning</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_NettTurnoverAccountVatFree" xml:space="preserve">
+    <value>Momsfri omsättning</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_Statistics_Sales" xml:space="preserve">
+    <value>Försäljningsstatistik</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_StockAccount" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_StockReceptionAccount" xml:space="preserve">
+    <value>Varumottagning</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_TurnOver" xml:space="preserve">
+    <value>Omsättning</value>
+  </data>
+  <data name="Views_Article_ArticleGroupDetails_UnpaidStockAccount" xml:space="preserve">
+    <value>Obetalt lager</value>
+  </data>
+  <data name="Views_Article_ArticleList_SalesPrice" xml:space="preserve">
+    <value>Försäljningspris</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_LineType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_ChangeSecurityRole_MustBeAdmin" xml:space="preserve">
+    <value>Det måste finnas minst en administrator</value>
+  </data>
+  <data name="Views_Currency_CurrencyExchangeRateEdit_Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="Shared_Filter_To" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Views_Order_ReminderList_Saldo" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Views_Shared_LayoutHead_Dialog_Error_Stacktrace" xml:space="preserve">
+    <value>Visa/Göm stacktrace</value>
+  </data>
+  <data name="Shared_Dialog_Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="Views_Document_ShareWithPartner" xml:space="preserve">
+    <value>Dela {0} med {1}</value>
+  </data>
+  <data name="Views_Document_ShareWithPartner_Share" xml:space="preserve">
+    <value>Dela</value>
+  </data>
+  <data name="Views_Document_ShareWithPartnerShare" xml:space="preserve">
+    <value>Kan delas</value>
+  </data>
+  <data name="Views_DocumentCreate_SelectFiles" xml:space="preserve">
+    <value>Välj filer</value>
+  </data>
+  <data name="Views_DocumentCreate_Upload" xml:space="preserve">
+    <value>Ladda upp</value>
+  </data>
+  <data name="Views_DocumentCreateRelation_Search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="Views_DocumentCreateRelation_SearchArticle" xml:space="preserve">
+    <value>Sök efter vara</value>
+  </data>
+  <data name="Views_DocumentCreateRelation_SearchOrder" xml:space="preserve">
+    <value>Sök efter order</value>
+  </data>
+  <data name="Views_DocumentCreateRelation_SearchPartner" xml:space="preserve">
+    <value>Sök efter partner</value>
+  </data>
+  <data name="Views_DocumentCreateRelation_SearchVoucher" xml:space="preserve">
+    <value>Sök efter bilaga</value>
+  </data>
+  <data name="Views_DocumentCreateRelation_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_DocumentDetails_Send" xml:space="preserve">
+    <value>Skicka</value>
+  </data>
+  <data name="Views_DocumentDetails_SendByMail" xml:space="preserve">
+    <value>Skicka via e-mail</value>
+  </data>
+  <data name="Views_DocumentVersions_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_Email_CreateEmail_Subject" xml:space="preserve">
+    <value>Ämne</value>
+  </data>
+  <data name="Views_Email_CreateEmail_To" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Views_FiscalAddedAsPartnerAlreadyCreated_Title" xml:space="preserve">
+    <value>Den här partnern har upprättat dig som partner.</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Sum" xml:space="preserve">
+    <value>Summa</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Suppliers" xml:space="preserve">
+    <value>Leverantörer</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Totals" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_StartDate" xml:space="preserve">
+    <value>Startdatum</value>
+  </data>
+  <data name="Views_FiscalSetup_Address_Street_Placeholder" xml:space="preserve">
+    <value>Gata</value>
+  </data>
+  <data name="Views_FiscalSetup_Notifications_UpdateVcard" xml:space="preserve">
+    <value>Uppdatera vCard</value>
+  </data>
+  <data name="Views_FiscalSetup_Overview_SwitchToFullFiscal" xml:space="preserve">
+    <value>Skifta till fullt räkenskap</value>
+  </data>
+  <data name="Views_FiscalSetup_Telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Views_FiscalSetup_UserMemberships_UserMemberships" xml:space="preserve">
+    <value>Användare</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateMembership_SelectAtLeastOne" xml:space="preserve">
+    <value>Välj minst en roll</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateMembership_UserDoesNotHaveVcard" xml:space="preserve">
+    <value>Emailadressen hittades men användaren har inte ett vCard</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateMembership_UserNotFound" xml:space="preserve">
+    <value>AnvändarID {0} hittades ej!</value>
+  </data>
+  <data name="Views_Home_EditProfile_UserProfile_UserName" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="Views_Home_HasConfirmedTheEmail" xml:space="preserve">
+    <value>E-mailen har bekräftats</value>
+  </data>
+  <data name="Views_Shared_PrivateLayout_SystemDate" xml:space="preserve">
+    <value>Systemdatum</value>
+  </data>
+  <data name="Views_HomeArgumentWronPage_Arguments" xml:space="preserve">
+    <value>Följande argument måste användas</value>
+  </data>
+  <data name="Views_HomeArgumentWronPage_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_Home_EditProfile_Username" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="Views_Home_EditProfile_UserNoVCard" xml:space="preserve">
+    <value>Användaren har inte ett vCard</value>
+  </data>
+  <data name="Views_Home_EditProfile_UseSimpleAccountingActivated" xml:space="preserve">
+    <value>Förenklat (+/-)</value>
+  </data>
+  <data name="Views_Home_Index_Saldo" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Views_HomeNotification_Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="Views_HomePartnerDetails_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_JsonUser_AddingAlternateUser_UserNameTaken" xml:space="preserve">
+    <value>Användarnamnet är upptaget.</value>
+  </data>
+  <data name="Views_LedgerReports_AccountingSpecification" xml:space="preserve">
+    <value>Kontoutdrag</value>
+  </data>
+  <data name="Views_Notifications_UpdateVcard" xml:space="preserve">
+    <value>Uppdatera vCard</value>
+  </data>
+  <data name="Views_Order_Details_SalesOrder" xml:space="preserve">
+    <value>Försäljningsorder</value>
+  </data>
+  <data name="Views_Order_Index_State" xml:space="preserve">
+    <value>Stadie</value>
+  </data>
+  <data name="Views_Order_Index_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_Order_Index_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_Partner_Details_UpdateOrdersFromPartner" xml:space="preserve">
+    <value>Uppdatera öppna ordrar</value>
+  </data>
+  <data name="Views_Partner_UpdateOrder" xml:space="preserve">
+    <value>Uppdatera öppna ordrar</value>
+  </data>
+  <data name="Views_Partner_DialogUpdateOrder_UpdateOrdersFromPartner" xml:space="preserve">
+    <value>Uppdatera följande öppna med ändringarna för partner?</value>
+  </data>
+  <data name="Views_Partner_UpdateOrderFromContext" xml:space="preserve">
+    <value>Uppdatera öppna ordrar utifrån uppsättning</value>
+  </data>
+  <data name="Views_Partner_DialogUpdateOrderFromContext_UpdateOrdersFromContext" xml:space="preserve">
+    <value>Uppdatera följande öppna order utifrån uppdaterade upplysningar för uppsättningen?</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Tag_Placeholder" xml:space="preserve">
+    <value>Nyckelord</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Tags" xml:space="preserve">
+    <value>Nyckelord</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Views_Partner_Details_Details_Saldo" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Views_Partner_Details_Geography_Url" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Views_Partner_Details_History_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_Partner_Details_Order_ContextType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_Partner_Details_Order_State" xml:space="preserve">
+    <value>Stadie</value>
+  </data>
+  <data name="Views_Partner_Details_Posts_Settled" xml:space="preserve">
+    <value>THOMAS</value>
+  </data>
+  <data name="Views_Partner_Details_Posts_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_PartnerDetailsChart_Sales" xml:space="preserve">
+    <value>Försäljning</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForInvite_ThePartnerHasBeenInvitedToXena" xml:space="preserve">
+    <value>Partnern har bjudits in till Xena</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForInvite_TheUserWasCreatedInXenaWorld" xml:space="preserve">
+    <value>Användaren upprättades i Xena World</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForMail_To" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Views_Payment_Settlement" xml:space="preserve">
+    <value>THOMAS</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Invoicing_SupplierInvoiceNumber" xml:space="preserve">
+    <value>Leverantörs fakturanummer</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Invoicing_SupplierInvoiceNumber_Placeholder" xml:space="preserve">
+    <value>Leverantörs fakturanummer</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Payment_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Views_Public_FiscalProfile_ConnectedPartner" xml:space="preserve">
+    <value>Det här räkenskapet är anslutet som partner</value>
+  </data>
+  <data name="Views_Public_FiscalProfile_NoVCard" xml:space="preserve">
+    <value>Det här företaget har inge offentlig profil</value>
+  </data>
+  <data name="Views_Public_UserProfile_ConnectedPartner" xml:space="preserve">
+    <value>Den här personen är ansluten som partner</value>
+  </data>
+  <data name="Views_Public_UserProfile_NoVCard" xml:space="preserve">
+    <value>Den här användaren har ingen offentlig profil</value>
+  </data>
+  <data name="Views_PublicMergeIntoUser_UserIsNotFound" xml:space="preserve">
+    <value>Användaren kunde inte hittas</value>
+  </data>
+  <data name="Views_Register_HasTimedOut" xml:space="preserve">
+    <value>Aktiveringen har gått ut. Vänligen registrera igen.</value>
+  </data>
+  <data name="Views_Report_Details_UploadXSL" xml:space="preserve">
+    <value>Ladda upp XSL</value>
+  </data>
+  <data name="Views_Report_LedgerAccountSpecification_Starting_Balance" xml:space="preserve">
+    <value>Startsaldo</value>
+  </data>
+  <data name="Views_Report_PartnerSaldoPosts_To" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Views_Report_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="Views_ResetPasswordIndex_PasswordChanged" xml:space="preserve">
+    <value>Lösenordet har ändrats</value>
+  </data>
+  <data name="Views_ResourceDetails_NovCard" xml:space="preserve">
+    <value>Resursen saknar vCard</value>
+  </data>
+  <data name="Views_ResourceDetails_Telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Views_Shared_DialogViewAuditTrail_Trail" xml:space="preserve">
+    <value>Logg</value>
+  </data>
+  <data name="Views_Article_DialogSpecifyVariants_TotalQuantity" xml:space="preserve">
+    <value>Total mängd</value>
+  </data>
+  <data name="Views_Subscription_PriceNettoTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_Subscription_Details_SubscriptionLines" xml:space="preserve">
+    <value>Prenumerationslinjer</value>
+  </data>
+  <data name="Views_Subscription_Index_TurnoverForecast" xml:space="preserve">
+    <value>Omsättningsprognos</value>
+  </data>
+  <data name="Views_System_Validate_Title" xml:space="preserve">
+    <value>Systemvalidering</value>
+  </data>
+  <data name="Views_Shared_Deleted_ThisIsDeleted" xml:space="preserve">
+    <value>Det här är borttaget</value>
+  </data>
+  <data name="Views_Unit_Abbreviation" xml:space="preserve">
+    <value>Förkortning</value>
+  </data>
+  <data name="Views_Home_MainMenu_AccountingSummary" xml:space="preserve">
+    <value>Sammanfattning</value>
+  </data>
+  <data name="Views_Home_MainMenu_UserMemberships" xml:space="preserve">
+    <value>Medlemsskap för användare</value>
+  </data>
+  <data name="Views_Vat_SettleVat_VAT" xml:space="preserve">
+    <value>Momsavräkning</value>
+  </data>
+  <data name="Views_Vat_SettleVat_To" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Views_Vat_SettleVat_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_Vat_VatSettlementList_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_Vat_VatSettlementList_VatSettlementTransaction" xml:space="preserve">
+    <value>Avräkning</value>
+  </data>
+  <data name="Views_Voucher_ToDate_Placeholder" xml:space="preserve">
+    <value>Till datum</value>
+  </data>
+  <data name="Views_Voucher_Index_ToVoucherNumber_Placeholder" xml:space="preserve">
+    <value>Till bilagsnummer</value>
+  </data>
+  <data name="Views_Voucher_Details_LedgerPosts_Settled" xml:space="preserve">
+    <value>THOMAS</value>
+  </data>
+  <data name="Views_Voucher_Details_PartnerPosts_Settled" xml:space="preserve">
+    <value>THOMAS</value>
+  </data>
+  <data name="Views_Voucher_Details_PartnerPosts_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_Voucher_Details_Summary" xml:space="preserve">
+    <value>Sammanfattning</value>
+  </data>
+  <data name="Views_Voucher_Details_Transaction" xml:space="preserve">
+    <value>Transaktion</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts_Tangible_Fixed_Asset" xml:space="preserve">
+    <value>Realtillgångar</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Sales_Costs" xml:space="preserve">
+    <value>Försäljningsomkostnader</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_System_Differences" xml:space="preserve">
+    <value>Systemdifferens</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_UnPaid_Stock" xml:space="preserve">
+    <value>Varulager, obetalt</value>
+  </data>
+  <data name="Xena_OrderJournalEntry_SalesCreditNote" xml:space="preserve">
+    <value>Säljskreditnota - {0}</value>
+  </data>
+  <data name="Xena_OrderJournalEntry_SalesInvoice" xml:space="preserve">
+    <value>Försäljningsfaktura - {0}</value>
+  </data>
+  <data name="Views_Partner_Details_SetDeliveryInvoice" xml:space="preserve">
+    <value>Sätt som leverantörmail</value>
+  </data>
+  <data name="DocumentPublic_DocumentSaved" xml:space="preserve">
+    <value>Ditt dokument har sparats</value>
+  </data>
+  <data name="DocumentRotate_DocumentNotAllowed" xml:space="preserve">
+    <value>Du har inte behörighet att rätta detta</value>
+  </data>
+  <data name="Domain_VatSettlement" xml:space="preserve">
+    <value>Momsuppgörelse</value>
+  </data>
+  <data name="Shared_Password_Requirements_CapitalLetter" xml:space="preserve">
+    <value>Minst en stor bokstav</value>
+  </data>
+  <data name="Shared_Password_Requirements_Length" xml:space="preserve">
+    <value>Minst 6 tecken</value>
+  </data>
+  <data name="Shared_Password_Requirements_Letter" xml:space="preserve">
+    <value>Minst en bokstav</value>
+  </data>
+  <data name="Shared_Password_Requirements_Number" xml:space="preserve">
+    <value>Minst ett tal</value>
+  </data>
+  <data name="Views_Accountant_Reports_Title" xml:space="preserve">
+    <value>Revisorrapporter</value>
+  </data>
+  <data name="Views_Article_LocationDetails_ArticlePosts" xml:space="preserve">
+    <value>Varuposter</value>
+  </data>
+  <data name="Views_Article_LocationDetails_ArticlePosts_Voucher" xml:space="preserve">
+    <value>Bilaga</value>
+  </data>
+  <data name="Views_Article_Index_Acailablearticles" xml:space="preserve">
+    <value>Varor på lager</value>
+  </data>
+  <data name="Views_Article_ArticleAvailabilityList_Variants" xml:space="preserve">
+    <value>Varianter</value>
+  </data>
+  <data name="Views_Article_Details_AddAdditionalItem" xml:space="preserve">
+    <value>Tillför tilläggsvara</value>
+  </data>
+  <data name="Views_Article_Details_AdditionalArticles" xml:space="preserve">
+    <value>Tilläggsvara</value>
+  </data>
+  <data name="Views_Article_Details_InventoryContext_ArticleVariant" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="Views_Article_Details_InventoryContext_Available" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_Article_Details_InventoryContext_Warehouse" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_Article_Details_Posts" xml:space="preserve">
+    <value>Varuposter</value>
+  </data>
+  <data name="Views_Article_Details_Posts_Variant" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="Views_Article_Details_Posts_Voucher" xml:space="preserve">
+    <value>Bilaga</value>
+  </data>
+  <data name="Views_Article_Details_Posts_Warehouse" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_Article_Details_VariantManagement" xml:space="preserve">
+    <value>Variantkod</value>
+  </data>
+  <data name="Views_Article_Details_VariantManagement_Abbreviation" xml:space="preserve">
+    <value>Variantkod</value>
+  </data>
+  <data name="Views_Article_Details_Variants" xml:space="preserve">
+    <value>Varianter</value>
+  </data>
+  <data name="Views_Article_ArticleStatisticsPrice_AverageCostPrice" xml:space="preserve">
+    <value>Genomsnittligt inköpspris</value>
+  </data>
+  <data name="Views_Article_Reports_Title" xml:space="preserve">
+    <value>Varurapporter</value>
+  </data>
+  <data name="Views_AuditTrailDetails_AuditTrail" xml:space="preserve">
+    <value>Ändringshistorik</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_After" xml:space="preserve">
+    <value>Efter</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_LineAmount" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_ArticleGroupPost" xml:space="preserve">
+    <value>Varugruppsposter</value>
+  </data>
+  <data name="Views_Voucher_Details_ArticlePost" xml:space="preserve">
+    <value>Varuflöde</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_MenuItemViewBearer" xml:space="preserve">
+    <value>Visa kostnadsbärare</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_ViewContraTag" xml:space="preserve">
+    <value>Visa motkonto</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_MenuItemViewDepartment" xml:space="preserve">
+    <value>Visa avdelning</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_MenuItemViewLedgertag" xml:space="preserve">
+    <value>Visa konto</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_MenuItemViewPurpose" xml:space="preserve">
+    <value>Föremål/syfte</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_MenuItemViewVat" xml:space="preserve">
+    <value>Visa moms</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Vat" xml:space="preserve">
+    <value>Moms</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_VATPost" xml:space="preserve">
+    <value>Momspost</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_YourVoucherHistory" xml:space="preserve">
+    <value>Din bilagshistorik (senaste 10 bilagor)</value>
+  </data>
+  <data name="Views_Desktop_ViewFiscal_AmountMonth" xml:space="preserve">
+    <value>Belopp, period</value>
+  </data>
+  <data name="Views_Desktop_ViewFiscal_AmountYearToDate" xml:space="preserve">
+    <value>Belopp, år till datum</value>
+  </data>
+  <data name="Views_Desktop_ViewFiscal_YearToDate" xml:space="preserve">
+    <value>År till datum</value>
+  </data>
+  <data name="Views_Order_ReminderList_Amount" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Shared_LayoutHead_Dialog_Error_Title" xml:space="preserve">
+    <value>Ett fel uppstod</value>
+  </data>
+  <data name="Views_DocumentCreateRelation_Voucher" xml:space="preserve">
+    <value>Bilaga</value>
+  </data>
+  <data name="Views_DocumentDetails_Versions" xml:space="preserve">
+    <value>Versioner</value>
+  </data>
+  <data name="Views_DocumentRelations_Action" xml:space="preserve">
+    <value>Åtgärd</value>
+  </data>
+  <data name="Views_DocumentVersions_Versions" xml:space="preserve">
+    <value>Versioner</value>
+  </data>
+  <data name="Views_Email_CreateEmail_Attachment" xml:space="preserve">
+    <value>Bifogad fil</value>
+  </data>
+  <data name="Views_Email_CreateEmail_Attachments" xml:space="preserve">
+    <value>Bifogade filer</value>
+  </data>
+  <data name="Views_Email_CreateEmail_AttachNewFile" xml:space="preserve">
+    <value>Bifoga ny fil...</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Article_AveragePrice" xml:space="preserve">
+    <value>Gns. pris</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Assets" xml:space="preserve">
+    <value>Tillgångar</value>
+  </data>
+  <data name="Views_FiscalSetup_Address_Zip_Placeholder" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="Views_FiscalSetup_CreateISO_Fiscalsetup" xml:space="preserve">
+    <value>Du kan göra en kopia som innehåller data för ditt räkenskap</value>
+  </data>
+  <data name="Views_FiscalSetup_DeleteFiscalSetupConfirm" xml:space="preserve">
+    <value>Ja, jag vill ta bort</value>
+  </data>
+  <data name="Views_FiscalSetup_Notifications_FiscalAddedAsPartner" xml:space="preserve">
+    <value>Ditt företag har lagts till som partner</value>
+  </data>
+  <data name="Views_FiscalSetup_Notifications_UserAddedToFiscal" xml:space="preserve">
+    <value>Du har lagts till som användare</value>
+  </data>
+  <data name="Views_HomeArgumentWronPage_Argument" xml:space="preserve">
+    <value>Argument</value>
+  </data>
+  <data name="Views_HomeArgumentWronPage_Called" xml:space="preserve">
+    <value>Du kallade följande websida</value>
+  </data>
+  <data name="Views_Home_EditProfile_AliasMustContainMoreThanThree" xml:space="preserve">
+    <value>Alias måste innehålla minst tre tecken</value>
+  </data>
+  <data name="Views_Home_EditProfile_AlternateUser" xml:space="preserve">
+    <value>Ytterligare användarnamn (Alias)</value>
+  </data>
+  <data name="Views_Home_EditProfile_AlternateUserAdd" xml:space="preserve">
+    <value>Lägg till</value>
+  </data>
+  <data name="Views_Home_EditProfile_AlternateUserConfirmationSent" xml:space="preserve">
+    <value>En bekräftelse har skickats till</value>
+  </data>
+  <data name="Views_Home_EditProfile_MustApplyAUsername" xml:space="preserve">
+    <value>Du måste ange ett användarnamn</value>
+  </data>
+  <data name="Views_Home_EditProfile_UseSimpleAccountingDeactivated" xml:space="preserve">
+    <value>Räkenskapsteknisk (D/K)</value>
+  </data>
+  <data name="Views_Home_DialogNotFound_Message" xml:space="preserve">
+    <value>Det du söker efter finns inte i det här räkenskapet. Vänligen försök med ett annat räkenskap (om du har fler).</value>
+  </data>
+  <data name="Views_Home_DialogNotFound_MessageDelete" xml:space="preserve">
+    <value>Det du söker efter har raderats. Nedan kan du se historiken över vem som utförde handlingen.</value>
+  </data>
+  <data name="Views_HomePartnerDetails_Amount" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_JsonUser_NotAlias" xml:space="preserve">
+    <value>Ett alias får inte innehålla @ eller enbart siffror</value>
+  </data>
+  <data name="Views_LedgerTag_Index_VAT" xml:space="preserve">
+    <value>Moms</value>
+  </data>
+  <data name="Views_LedgerTag_Details_VAT" xml:space="preserve">
+    <value>Moms</value>
+  </data>
+  <data name="Views_Article_DialogCreateLocation_Warehouse" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_LocationDetails_Abbreviation" xml:space="preserve">
+    <value>Förkortning</value>
+  </data>
+  <data name="Views_LocationIndex_Abbreviation" xml:space="preserve">
+    <value>Förkortning</value>
+  </data>
+  <data name="Views_NotificationDetails_ActionTypeNotFound" xml:space="preserve">
+    <value>Den här åtgärden ({0}) finns inte</value>
+  </data>
+  <data name="Views_Notifications_Action" xml:space="preserve">
+    <value>Åtgärd</value>
+  </data>
+  <data name="Views_Notifications_AddedAsPartnerInFiscal" xml:space="preserve">
+    <value>Har lagts till som partner i räkenskapsuppsttningen</value>
+  </data>
+  <data name="Views_Order_Details_Line_Variant" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="Views_Order_Details_YourRef" xml:space="preserve">
+    <value>Din ref.</value>
+  </data>
+  <data name="Views_Order_Index_AllOrders" xml:space="preserve">
+    <value>Alla ordrar</value>
+  </data>
+  <data name="Views_OrderViewJournal_Voucher" xml:space="preserve">
+    <value>Bilaga</value>
+  </data>
+  <data name="Views_Partner_DialogCreatePartnerPayment_AmountDueOnPartner" xml:space="preserve">
+    <value>Förfallet saldo på partner</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Att_Placeholder" xml:space="preserve">
+    <value>(Att)</value>
+  </data>
+  <data name="Views_Partner_DialogCreate_Dialog_Zip_Placeholder" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_Add" xml:space="preserve">
+    <value>Lägg till</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_AddEmail" xml:space="preserve">
+    <value>Lägg till email</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_AddTag" xml:space="preserve">
+    <value>Lägg till nyckelord</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_AddTelephone" xml:space="preserve">
+    <value>Lägg till telefon</value>
+  </data>
+  <data name="Views_Partner_Details_Contact_vCards" xml:space="preserve">
+    <value>vCards</value>
+  </data>
+  <data name="Views_Partner_Details_Geography_Address" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="Views_Partner_Details_Geography_Att" xml:space="preserve">
+    <value>Att.</value>
+  </data>
+  <data name="Views_Partner_Details_Geography_Zip_Placeholder" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="Views_Partner_Details_Posts_Amount" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Partner_Details_Posts_Voucher" xml:space="preserve">
+    <value>Bilaga</value>
+  </data>
+  <data name="Views_Partner_Details_XenaAccount" xml:space="preserve">
+    <value>Xena Connect</value>
+  </data>
+  <data name="Views_Partner_HistoryEntryDetailsForMail_Attachments" xml:space="preserve">
+    <value>Bifogade filer</value>
+  </data>
+  <data name="Views_Partner_DialogMerge_Address" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_Payment_AmountDueOnOrder" xml:space="preserve">
+    <value>Förfallet orderbelopp</value>
+  </data>
+  <data name="Views_Public_FiscalProfile_VCard" xml:space="preserve">
+    <value>vCard</value>
+  </data>
+  <data name="Views_Public_Register_NoInput" xml:space="preserve">
+    <value>Du måste uppge en emailadress</value>
+  </data>
+  <data name="Views_Public_UserProfile_VCard" xml:space="preserve">
+    <value>vCard</value>
+  </data>
+  <data name="Views_Report_XSLT" xml:space="preserve">
+    <value>XSLT</value>
+  </data>
+  <data name="Views_Report_ArticlePosts_Variant" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="Views_Report_ArticlePosts_Voucher" xml:space="preserve">
+    <value>Bilaga</value>
+  </data>
+  <data name="Views_Report_ArticlePosts_Warehouse" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_Report_LedgerPosts_Vat" xml:space="preserve">
+    <value>Moms</value>
+  </data>
+  <data name="Views_Report_LedgerPosts_Voucher" xml:space="preserve">
+    <value>Bilaga</value>
+  </data>
+  <data name="Views_ReportReportGenerator_ArticlePosts" xml:space="preserve">
+    <value>Varuposter</value>
+  </data>
+  <data name="Views_ResourceDetails_Zip_Placeholder" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="Views_Setup_Article_Setup" xml:space="preserve">
+    <value>Uppsättning av varor</value>
+  </data>
+  <data name="Views_Setup_Ledger_Vats" xml:space="preserve">
+    <value>Momskoder</value>
+  </data>
+  <data name="Views_Setup_Article_VariantRanges" xml:space="preserve">
+    <value>Variantserier</value>
+  </data>
+  <data name="Views_Shared_AuditTrails" xml:space="preserve">
+    <value>Ändringslogg</value>
+  </data>
+  <data name="Shared_Xena" xml:space="preserve">
+    <value>Xena</value>
+  </data>
+  <data name="Views_Article_DialogSpecifyVariants_Variant" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="Views_Article_DialogSpecifyVariants_VariantChoice" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="Views_Subscription_Index_YearlyDevelopment" xml:space="preserve">
+    <value>Årlig utveckling</value>
+  </data>
+  <data name="Views_Home_MainMenu_Accountant" xml:space="preserve">
+    <value>Revisor</value>
+  </data>
+  <data name="Views_Home_MainMenu_ArticleSetup" xml:space="preserve">
+    <value>Uppsättning av varor</value>
+  </data>
+  <data name="Views_Home_MainMenu_VatSettlement" xml:space="preserve">
+    <value>Momsuppgörelse</value>
+  </data>
+  <data name="Views_Home_MainMenu_Voucher" xml:space="preserve">
+    <value>Bilaga</value>
+  </data>
+  <data name="Views_Home_MainMenu_VoucherOverview" xml:space="preserve">
+    <value>Bilagsöversikt</value>
+  </data>
+  <data name="Views_UserUserAddedAsPartnerTitle" xml:space="preserve">
+    <value>Du har lagts till som partner hos:</value>
+  </data>
+  <data name="Views_UserUserAddedAsPartnerViewHistory" xml:space="preserve">
+    <value>Du har se din historik med företaget nedan.</value>
+  </data>
+  <data name="Views_UserUserAddedToFiscalChoosefiscal" xml:space="preserve">
+    <value>Du kan nu välja räkenskap i listan i toppmenyn</value>
+  </data>
+  <data name="Views_UserUserAddedToFiscalTitle" xml:space="preserve">
+    <value>Du har lagts till som användare i räkenskapet:</value>
+  </data>
+  <data name="Views_Article_DialogEditArticleVariantDetails_Abbreviation" xml:space="preserve">
+    <value>Variantkod</value>
+  </data>
+  <data name="Views_Article_VariantRangeDetails_Title" xml:space="preserve">
+    <value>Variantserie</value>
+  </data>
+  <data name="Views_Article_VariantRangeDetails_Variants" xml:space="preserve">
+    <value>Varianter</value>
+  </data>
+  <data name="Views_Vat_Index_VatSettlement" xml:space="preserve">
+    <value>Momsuppgörelse</value>
+  </data>
+  <data name="Views_Vat_DialogCreate_Abbr" xml:space="preserve">
+    <value>Förkortn.</value>
+  </data>
+  <data name="Views_Vat_DialogCreate_Abbreviation" xml:space="preserve">
+    <value>Momskod</value>
+  </data>
+  <data name="Views_Vat_Details_Abbrevation" xml:space="preserve">
+    <value>Momskod</value>
+  </data>
+  <data name="Views_Vat_Details_Posts_Voucher" xml:space="preserve">
+    <value>Bilaga</value>
+  </data>
+  <data name="Views_Vat_Details_Title" xml:space="preserve">
+    <value>Mervärdeskatt</value>
+  </data>
+  <data name="Views_Vatsettlement_Error_VatIdNotExist" xml:space="preserve">
+    <value>Moms (id:{0}) finns inte</value>
+  </data>
+  <data name="Views_Vat_SettleVat_VatAbbr" xml:space="preserve">
+    <value>Moms</value>
+  </data>
+  <data name="Views_Vcard_Image_VcardDoesNotExist" xml:space="preserve">
+    <value>vCard finns inte</value>
+  </data>
+  <data name="Views_Voucher_Details_ArticlePosts" xml:space="preserve">
+    <value>Varuposter</value>
+  </data>
+  <data name="Views_Voucher_Details_LedgerPosts_Vat" xml:space="preserve">
+    <value>Moms</value>
+  </data>
+  <data name="Views_Voucher_Details_PartnerPosts_VoucherNumber" xml:space="preserve">
+    <value>Bilagsnummer</value>
+  </data>
+  <data name="Views_Voucher_Details_Title" xml:space="preserve">
+    <value>Bilaga</value>
+  </data>
+  <data name="Views_Voucher_Index_Title" xml:space="preserve">
+    <value>Bilagor</value>
+  </data>
+  <data name="Views_Voucher_Index_VoucherNumber" xml:space="preserve">
+    <value>Bilagsnummer</value>
+  </data>
+  <data name="Views_Warehouse_Details_Title" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Xena_Domain_Asset_Accounts" xml:space="preserve">
+    <value>Tillgångar</value>
+  </data>
+  <data name="Xena_Domain_Liability_Accounts_Vat_Debt" xml:space="preserve">
+    <value>Momsskuld</value>
+  </data>
+  <data name="Xena_Partner_CreatePartnerFromVCard_VCardNotFound" xml:space="preserve">
+    <value>vCard'et hittades inte</value>
+  </data>
+  <data name="Xena_ReportTransaction_ArticlepostsCSV" xml:space="preserve">
+    <value>Varuposter.csv</value>
+  </data>
+  <data name="Xena_ReportTransaction_ArticlepostsXml" xml:space="preserve">
+    <value>Artikelposter</value>
+  </data>
+  <data name="xena_vatsettlement" xml:space="preserve">
+    <value>Momsuppgörelse {0} - {1}</value>
+  </data>
+  <data name="xena_vatsettlementadjustment" xml:space="preserve">
+    <value>Momsefterjustering {0} - {1}</value>
+  </data>
+  <data name="Chart_OrderRevenue_Cost" xml:space="preserve">
+    <value>Kostnad</value>
+  </data>
+  <data name="Views_Accountant_CaseWare_Email_Subject" xml:space="preserve">
+    <value>CaseWarefiler från Xena</value>
+  </data>
+  <data name="Views_Accountant_DataExchange_CaseWare" xml:space="preserve">
+    <value>CaseWare</value>
+  </data>
+  <data name="Views_Article_Details_ChooseVariants" xml:space="preserve">
+    <value>Välj varianter</value>
+  </data>
+  <data name="Views_AuditTrailDetails_ChangeSet" xml:space="preserve">
+    <value>Loggdetaljer</value>
+  </data>
+  <data name="Views_Bearer" xml:space="preserve">
+    <value>Kostnadsbärare</value>
+  </data>
+  <data name="Views_BearerIndex_CreateBearer" xml:space="preserve">
+    <value>Upprätta kostnadsbärare</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_Balance" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Bearer" xml:space="preserve">
+    <value>Kostnadsbärare</value>
+  </data>
+  <data name="Views_Desktop_ViewPartnerBalance_Balance" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Views_Desktop_ViewPartnerBalance_BalanceType" xml:space="preserve">
+    <value>Saldotyp:</value>
+  </data>
+  <data name="Views_DesktopIndex_Balance" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Balance" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogInviteSupporter_Explanation" xml:space="preserve">
+    <value>De förvalda inställningarna gör att endast de användare som du bjuder in har tillgång till ditt företags räkenskap. Om du pratar med Xenas support och vill att dessa skal kunna se dina data, kan du bjuda in dem genom att välja personen nedan och klicka på "bjud in". Du kan ångra inbjudan när som helst genom att radera användaren.</value>
+  </data>
+  <data name="Views_Order_Details_Bearer" xml:space="preserve">
+    <value>Kostnadsbärare</value>
+  </data>
+  <data name="Views_Order_Details_Line_Bearer" xml:space="preserve">
+    <value>Kostnadsbärare</value>
+  </data>
+  <data name="Views_Partner_Reports__PartnerBalances" xml:space="preserve">
+    <value>Saldon</value>
+  </data>
+  <data name="Views_Report_PartnerSaldoPosts_Balance" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Views_Report_LedgerPosts_Bearer" xml:space="preserve">
+    <value>Kostnadsbärare</value>
+  </data>
+  <data name="Views_Setup_Ledger_Bearers" xml:space="preserve">
+    <value>Kostnadsbärare</value>
+  </data>
+  <data name="Xena_ReportTransaction_BalanceXML" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Chart_OrderRevenue_Margin" xml:space="preserve">
+    <value>Marginal</value>
+  </data>
+  <data name="Views_Accountant_CaseWare_Posts_CSV" xml:space="preserve">
+    <value>Poster, CSV</value>
+  </data>
+  <data name="Views_Accountant_FiscalPeriods_Title" xml:space="preserve">
+    <value>Primoposter</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_Replenish" xml:space="preserve">
+    <value>Beställningsantal</value>
+  </data>
+  <data name="Views_Article_Details_DefaultLocation" xml:space="preserve">
+    <value>Förvald lokation</value>
+  </data>
+  <data name="Views_Article_Details_MinimumStock" xml:space="preserve">
+    <value>Min. lagerantal</value>
+  </data>
+  <data name="Views_Article_DialogCreate_Inventory" xml:space="preserve">
+    <value>Lagerstyrning</value>
+  </data>
+  <data name="Views_Article_DialogCreate_MaximumStock" xml:space="preserve">
+    <value>Max lagerantal</value>
+  </data>
+  <data name="Views_Article_DialogCreate_MinimumStock" xml:space="preserve">
+    <value>Min. lagerantal</value>
+  </data>
+  <data name="Views_Article_Details_DisableInventoryManagement" xml:space="preserve">
+    <value>Avaktivera lagerstyrning</value>
+  </data>
+  <data name="Views_Article_Details_DisableVariantManagement" xml:space="preserve">
+    <value>Ta bort varianter</value>
+  </data>
+  <data name="Views_Article_Details_EnableInventoryManagement" xml:space="preserve">
+    <value>Aktivera lagerstyrning</value>
+  </data>
+  <data name="Views_Article_Details_EnableVariantManagement" xml:space="preserve">
+    <value>Aktivera varianter</value>
+  </data>
+  <data name="Views_Article_Details_InventoryContext" xml:space="preserve">
+    <value>Lagerstyrning</value>
+  </data>
+  <data name="Views_Article_Details_InventoryContext_OpenOrders" xml:space="preserve">
+    <value>Öppna ordrar</value>
+  </data>
+  <data name="Views_Article_Details_InventroyManangement" xml:space="preserve">
+    <value>Lagerstyrning</value>
+  </data>
+  <data name="Views_Article_ArticleReplenishList_ReplenishArticles" xml:space="preserve">
+    <value>Återbeställ varor</value>
+  </data>
+  <data name="Views_Desktop_Index_PartnerBalance" xml:space="preserve">
+    <value>Partnersaldo</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_CreatePrimoPost" xml:space="preserve">
+    <value>Upprätta primoposter</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_PostsNotAllowed" xml:space="preserve">
+    <value>Primoposter är inte tillåtna på resultatkonton förutom på första räkenskapsår.</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_PrimoPosts" xml:space="preserve">
+    <value>Primoposter</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_RecalculatePosts" xml:space="preserve">
+    <value>Omberäkna primoposter</value>
+  </data>
+  <data name="Views_LedgerReports_AccountingSummary" xml:space="preserve">
+    <value>Balans</value>
+  </data>
+  <data name="Views_LedgerTag_Details_Posts_GoToOpeningBalance" xml:space="preserve">
+    <value>Gå till öppningsbalans</value>
+  </data>
+  <data name="Views_Notifications_CreateVoucher" xml:space="preserve">
+    <value>Upprätta bilaga</value>
+  </data>
+  <data name="Views_Partner_Posts_GotoVoucher" xml:space="preserve">
+    <value>Gå till bilaga</value>
+  </data>
+  <data name="Views_Partner_Index_DueBalanceList" xml:space="preserve">
+    <value>Förfallen lista</value>
+  </data>
+  <data name="Views_Report_LedgerAccountSpecification_End_Balance" xml:space="preserve">
+    <value>Slutsaldo</value>
+  </data>
+  <data name="Views_Report_Overview_AccountingSummary" xml:space="preserve">
+    <value>Räkenskapsbalans</value>
+  </data>
+  <data name="Views_Home_MainMenu_Accountant_FiscalPeriods" xml:space="preserve">
+    <value>Primoposter</value>
+  </data>
+  <data name="Views_Vat_SettleVat_Primo" xml:space="preserve">
+    <value>Primo</value>
+  </data>
+  <data name="Views_Voucher_Index_FromVoucherNumber_Placeholder" xml:space="preserve">
+    <value>Från bilagsnummer</value>
+  </data>
+  <data name="Views_Voucher_Index_FiscalDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Xena_Domain_Income_Accounts_Financial_Costs" xml:space="preserve">
+    <value>Finansiella kostnader</value>
+  </data>
+  <data name="Xena_Primo_ArticlePosts" xml:space="preserve">
+    <value>Primoposter (vara)</value>
+  </data>
+  <data name="Xena_Primo_PartnerPosts" xml:space="preserve">
+    <value>Primoposter (partner)</value>
+  </data>
+  <data name="Views_Article_Reports_ArticlePosts" xml:space="preserve">
+    <value>Poster</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_NoLedgerTag" xml:space="preserve">
+    <value>Inga</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_CreateBearer" xml:space="preserve">
+    <value>Upprätta kostnadsbärare</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_CreateLedgerTag" xml:space="preserve">
+    <value>Upprätta finanskonto</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_Ledgerpost" xml:space="preserve">
+    <value>Finansposter</value>
+  </data>
+  <data name="Views_Bookkeeping_Index_Partnerpost" xml:space="preserve">
+    <value>Partnerpost</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Postings" xml:space="preserve">
+    <value>Poster</value>
+  </data>
+  <data name="Views_Desktop_Index_LedgerTag" xml:space="preserve">
+    <value>Kontoplan</value>
+  </data>
+  <data name="Views_FiscalSetup_CreateVcard" xml:space="preserve">
+    <value>Klicka för att upprätta ett vCard</value>
+  </data>
+  <data name="Views_FiscalSetup_FiscalNoVcard" xml:space="preserve">
+    <value>Företaget saknar vCard</value>
+  </data>
+  <data name="Views_FiscalSetup_ResourceVCard" xml:space="preserve">
+    <value>Resurs vCard</value>
+  </data>
+  <data name="Views_FiscalSetup_VCard_Title" xml:space="preserve">
+    <value>Räkenskapets vCard</value>
+  </data>
+  <data name="Views_Home_EditProfile_VCardSettings_Title" xml:space="preserve">
+    <value>Personligt vCard</value>
+  </data>
+  <data name="Views_LedgerReports_LedgerPosts" xml:space="preserve">
+    <value>Poster</value>
+  </data>
+  <data name="Views_LedgerTag_Details_Posts" xml:space="preserve">
+    <value>Poster</value>
+  </data>
+  <data name="Views_LedgerTagIndex_CreateLedgerTag" xml:space="preserve">
+    <value>Upprätta finanskonto</value>
+  </data>
+  <data name="Views_Partner_Details_Details_Postings" xml:space="preserve">
+    <value>Poster</value>
+  </data>
+  <data name="Views_Partner_Details_Order_Gross_CreateSales" xml:space="preserve">
+    <value>Upprätta säljorder</value>
+  </data>
+  <data name="Views_Partner_Reports_PartnerPosts" xml:space="preserve">
+    <value>Poster</value>
+  </data>
+  <data name="Views_Order_DialogProcessOrder_PostProcess" xml:space="preserve">
+    <value>Efterbearbetning</value>
+  </data>
+  <data name="Views_Report_LedgerAccountSpecification_LedgerTag" xml:space="preserve">
+    <value>Finanskonto</value>
+  </data>
+  <data name="Views_Report_LedgerPosts_Ledgertag" xml:space="preserve">
+    <value>Finanskonto</value>
+  </data>
+  <data name="Views_Report_ReportGenerator_PartnerPosts" xml:space="preserve">
+    <value>Partnerposter</value>
+  </data>
+  <data name="Views_Report_ReportGenerator_PartnerSaldoPosts" xml:space="preserve">
+    <value>Partnersaldoposter</value>
+  </data>
+  <data name="Views_ReportReportGenerator_LedgerPosts" xml:space="preserve">
+    <value>Finansposter</value>
+  </data>
+  <data name="Views_ResourceDetails_Bearer" xml:space="preserve">
+    <value>Standarskostnadsbärare</value>
+  </data>
+  <data name="Views_ResourceDetails_ClickToCreate" xml:space="preserve">
+    <value>Klicka för att upprätta ett vCard</value>
+  </data>
+  <data name="Views_Setup_Ledger_Title" xml:space="preserve">
+    <value>Finansuppsättning</value>
+  </data>
+  <data name="Views_Home_MainMenu_LedgerSetup" xml:space="preserve">
+    <value>Finansuppsättning</value>
+  </data>
+  <data name="Views_Article_VariantRangeDetails_CreateVariant" xml:space="preserve">
+    <value>Upprätta variant</value>
+  </data>
+  <data name="Views_Article_VariantRangeList_CreateVariantRange" xml:space="preserve">
+    <value>Upprätta ny variantserie</value>
+  </data>
+  <data name="Views_Vat_Details_Posts" xml:space="preserve">
+    <value>Poster</value>
+  </data>
+  <data name="Views_Vcard_Image_NoVcardfound" xml:space="preserve">
+    <value>vCard hittades inte</value>
+  </data>
+  <data name="Views_Voucher_Details_LedgerPosts" xml:space="preserve">
+    <value>Finansposter</value>
+  </data>
+  <data name="Views_Voucher_Details_PartnerPosts" xml:space="preserve">
+    <value>Partnerposter</value>
+  </data>
+  <data name="Xena_ReportTransaction_CaseWarePosts_FileName" xml:space="preserve">
+    <value>CaseWare_poster.csv</value>
+  </data>
+  <data name="Xena_ReportTransaction_LedgerPostsCSV" xml:space="preserve">
+    <value>Finansposter.csv</value>
+  </data>
+  <data name="Xena_ReportTransaction_LedgerPostsXml" xml:space="preserve">
+    <value>Finansposter</value>
+  </data>
+  <data name="Xena_ReportTransaction_LedgertagStatementXML" xml:space="preserve">
+    <value>THOMAS</value>
+  </data>
+  <data name="Xena_ReportTransaction_PartnerPostsXml" xml:space="preserve">
+    <value>Partnerposter</value>
+  </data>
+  <data name="Xena_ReportTransaction_PartnerSaldoPostsXml" xml:space="preserve">
+    <value>Kontoutdrag, partner</value>
+  </data>
+  <data name="Views_Currency_CurrencyExchangeRateEdit_ExchangeForStandardCurrency" xml:space="preserve">
+    <value>{0} för 1 {1}</value>
+  </data>
+  <data name="Views_DesktopIndex_NumberOfDocuments" xml:space="preserve">
+    <value># dokument</value>
+  </data>
+  <data name="Views_DocumentCreate_ClickOnAFileToAddIt" xml:space="preserve">
+    <value>(Klicka på en fil för att tillföra den)</value>
+  </data>
+  <data name="Views_FiscalSetup_Notifications_InvitedAsPartner" xml:space="preserve">
+    <value>Inbjuden som partner</value>
+  </data>
+  <data name="Views_Home_Index_SharedDocumentCount" xml:space="preserve">
+    <value># dokument</value>
+  </data>
+  <data name="Views_Partner_Details_Invite_InvitePartnerExplanation" xml:space="preserve">
+    <value>&lt;p&gt;
+                    Bjud in din partner till Xena! 
+                &lt;/p&gt;
+                &lt;br /&gt;
+                &lt;p&gt;
+                    Din partner kommer kunna:
+                &lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;- Se fakturorna som du har skickat.&lt;/li&gt;
+                    &lt;li&gt;- Se kontoudtog.&lt;/li&gt;
+                    &lt;li&gt;- Se dokument dom du har delat.&lt;/li&gt;
+                    &lt;li&gt;- Skriva till dig.&lt;/li&gt;
+                    &lt;li&gt;- Betala (kräver leverantöravtal med DIBS).&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;br /&gt;
+                Du kommer kunna:
+                &lt;ul&gt;
+                    &lt;li&gt;- Dela dokument.&lt;/li&gt;
+                    &lt;li&gt;- Hålla din partner uppdaterad med kontaktupplysningar.&lt;/li&gt;
+                    &lt;li&gt;- Kommunicera med din partner.&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;br /&gt;</value>
+  </data>
+  <data name="Views_Shared_ShareWithPartner_Explanation" xml:space="preserve">
+    <value>&lt;p&gt;När du delar dokument med en partner kan du välja om partnern ska ha lov att rätta i dem (upprätta nya versioner).&lt;/p&gt;&lt;br/&gt;&lt;p&gt;Du kan också bestämma om partnern ska kunna dela dokument med andra i Xena World.&lt;/p&gt;</value>
+  </data>
+  <data name="Views_Subscription_Description_None" xml:space="preserve">
+    <value>(Ingen)</value>
+  </data>
+  <data name="Xena_ApiPartner_AcceptPartnerInvitation_Accepted" xml:space="preserve">
+    <value>{0} accepterad</value>
+  </data>
+  <data name="Views_LedgerTag_DialogCreate_Help" xml:space="preserve">
+    <value>&lt;p&gt;Här kan du upprätta finanskonton. Om du istället vill upprätta försäljningskonto görs det genom att upprätta&lt;a href={0}&gt;varugrupp&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;Konto för &lt;a href={1}&gt;momskoder&lt;/a&gt;, &lt;a href={2}&gt;kunder&lt;/a&gt;, &lt;a href={2}&gt;leverantörerr&lt;/a&gt; og &lt;a href={3}&gt;varor&lt;/a&gt; upprättas automatiskt.&lt;/p&gt;&lt;br/&gt;&lt;p&gt;Öppningsbalans hanteras under varje enskild &lt;a href={4}&gt;finansperiod&lt;/a&gt;.</value>
+  </data>
+  <data name="Views_Order_Details_Line_Purpose" xml:space="preserve">
+    <value>Föremål</value>
+  </data>
+  <data name="Views_Order_Details_Purpose" xml:space="preserve">
+    <value>Föremål</value>
+  </data>
+  <data name="Views_HomePartnerDetails_PartnerPosts" xml:space="preserve">
+    <value>Partnerposter</value>
+  </data>
+  <data name="Views_HomePartnerDetails_VoucherNo" xml:space="preserve">
+    <value>Bilagsnummer</value>
+  </data>
+  <data name="Views_Notifications_Ignorer" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Views_AppStore_DialogViewPriceChanges_Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Views_Archive_DialogImportAccount_SelectFiles" xml:space="preserve">
+    <value>Välj filer</value>
+  </data>
+  <data name="Views_Archive_DialogImportArticle_SelectFiles" xml:space="preserve">
+    <value>Välj filer</value>
+  </data>
+  <data name="Views_Archive_ImportedAccountDetails_CreateLedgerTag" xml:space="preserve">
+    <value>Upprätta finanskonto</value>
+  </data>
+  <data name="Views_Voucher_Index_FromDate_Placeholder" xml:space="preserve">
+    <value>Från datum</value>
+  </data>
+  <data name="Views_Voucher_Index_ToDate_Placeholder" xml:space="preserve">
+    <value>Till datum</value>
+  </data>
+  <data name="Views_Voucher_Index_Documents" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Views_Vat_DialogBookkeepImportVat_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_Vat_DialogPayVatSettelment_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_Vat_DialogPayVatSettelment_SettleVat" xml:space="preserve">
+    <value>Momsavräkning</value>
+  </data>
+  <data name="Views_Vat_ImportVatStatement_ArticleGroup" xml:space="preserve">
+    <value>Varugrupp</value>
+  </data>
+  <data name="Views_Vat_VatList_Abbrevation" xml:space="preserve">
+    <value>Momskod</value>
+  </data>
+  <data name="Views_Vat_VatList_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Vat_VatList_Percentage" xml:space="preserve">
+    <value>Procent</value>
+  </data>
+  <data name="Views_Vat_VatReconciliation_FromDate_Placeholder" xml:space="preserve">
+    <value>Från datum</value>
+  </data>
+  <data name="Views_Vat_VatReconciliation_ToDate_Placeholder" xml:space="preserve">
+    <value>Till datum</value>
+  </data>
+  <data name="Views_Vat_Details_AuditTrails" xml:space="preserve">
+    <value>Ändringslogg</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_Title" xml:space="preserve">
+    <value>Abonnemang</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_Interval" xml:space="preserve">
+    <value>Intervall</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_SubscriptionLines" xml:space="preserve">
+    <value>Prenumerationslinjer</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_LineNo" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_Text" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_Price" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_Summary_Net" xml:space="preserve">
+    <value>Netto</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_Summary_Vat" xml:space="preserve">
+    <value>Moms</value>
+  </data>
+  <data name="Views_User_UserSubscriptionDetails_Summary_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Views_Unit_DialogCreate_Abbreviation" xml:space="preserve">
+    <value>Förkortning</value>
+  </data>
+  <data name="Views_Unit_DialogCreate_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Unit_Index_Abbreviation" xml:space="preserve">
+    <value>Förkortning</value>
+  </data>
+  <data name="Views_Unit_Index_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Transaction_PhysicalDetails_Transaction" xml:space="preserve">
+    <value>Transaktion</value>
+  </data>
+  <data name="Views_Transaction_PhysicalDetails_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Transaction_PhysicalDetails_Article" xml:space="preserve">
+    <value>Vara</value>
+  </data>
+  <data name="Views_Transaction_PhysicalDetails_Location" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Views_Transaction_PhysicalDetails_Number" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Transaction_PhysicalDetails_NumberDebit" xml:space="preserve">
+    <value>Debet</value>
+  </data>
+  <data name="Views_Article_ArticleGroupArticleList_ShowDeactivated" xml:space="preserve">
+    <value>Vis inaktiva</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_All" xml:space="preserve">
+    <value>Alla</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_FiscalPeriod" xml:space="preserve">
+    <value>Räkenskapsår</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_FromDate_Placeholder" xml:space="preserve">
+    <value>Data från</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_ToDate_Placeholder" xml:space="preserve">
+    <value>Datum till</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_Vat" xml:space="preserve">
+    <value>Moms</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_Department" xml:space="preserve">
+    <value>Avdelning</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_Bearer" xml:space="preserve">
+    <value>Kostnadsbärare</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_Purpose" xml:space="preserve">
+    <value>Föremål</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_AccountNumber" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_Starting_Balance" xml:space="preserve">
+    <value>Startsaldo</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_End_Balance" xml:space="preserve">
+    <value>Slutsaldo</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Article_ArticleGroupLedgerAccountSpecificationPosts_DownloadXML" xml:space="preserve">
+    <value>Ladda ner XML</value>
+  </data>
+  <data name="Views_Article_ArticleGroupStatistics_FiacalPeriod" xml:space="preserve">
+    <value>Räkenskapsår</value>
+  </data>
+  <data name="Views_Article_ArticleGroupStatisticsMargin_FiscalPeriod" xml:space="preserve">
+    <value>Räkenskapsår</value>
+  </data>
+  <data name="Views_Article_ArticleGroupStatisticsMargin_Department" xml:space="preserve">
+    <value>Avdelning</value>
+  </data>
+  <data name="Views_Article_ArticleGroupStatisticsMargin_Bearer" xml:space="preserve">
+    <value>Kostnadsbärare</value>
+  </data>
+  <data name="Views_Article_ArticleGroupStatisticsMargin_Purpose" xml:space="preserve">
+    <value>Föremål</value>
+  </data>
+  <data name="Views_Article_DialogCopy_ArticleNumberAlreadyExists" xml:space="preserve">
+    <value>Varunumret existerar redan</value>
+  </data>
+  <data name="Views_Article_DialogMergeArticleGroup_ChoseArticleGroup" xml:space="preserve">
+    <value>Sammanfläta {0} med</value>
+  </data>
+  <data name="Views_Article_DialogMergeArticleGroup_Merge" xml:space="preserve">
+    <value>Sammanfläta</value>
+  </data>
+  <data name="Views_Article_DialogViewStock_OpenOrders" xml:space="preserve">
+    <value>Öppna ordrar</value>
+  </data>
+  <data name="Views_Article_DialogViewStock_Location" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Views_Article_DialogViewStock_Warehouse" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_Article_DialogViewStock_ArticleVariant" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="Views_Article_DialogViewStock_Available" xml:space="preserve">
+    <value>Lager</value>
+  </data>
+  <data name="Views_Article_PurchaseOrdersList_OrderNo" xml:space="preserve">
+    <value>Ordernummer</value>
+  </data>
+  <data name="Views_Article_PurchaseOrdersList_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Views_Article_PurchaseOrdersList_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Article_PurchaseOrdersList_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Views_Article_PurchaseOrdersList_SalesOrder" xml:space="preserve">
+    <value>Försäljningsorder</value>
+  </data>
+  <data name="Views_Article_PurchaseOrdersList_Closed" xml:space="preserve">
+    <value>Stängd</value>
+  </data>
+  <data name="Views_Article_PurchaseOrdersList_Open" xml:space="preserve">
+    <value>Öppen</value>
+  </data>
+  <data name="Views_Article_SalesOrdersList_SalesOrder" xml:space="preserve">
+    <value>Försäljningsorder</value>
+  </data>
+  <data name="Views_Article_SalesOrdersList_Closed" xml:space="preserve">
+    <value>Stängd</value>
+  </data>
+  <data name="Views_Article_SalesOrdersList_Open" xml:space="preserve">
+    <value>Öppen</value>
+  </data>
+  <data name="Views_Article_VariantRangeList_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Article_Import_SelectFiles" xml:space="preserve">
+    <value>Välj filer</value>
+  </data>
+  <data name="Views_Article_ImportEan_SelectFiles" xml:space="preserve">
+    <value>Välj filer</value>
+  </data>
+  <data name="Views_Vat_SettleVat_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Vat_SettleVat_RecalculatePosts" xml:space="preserve">
+    <value>Omberäkna primoposter</value>
+  </data>
+  <data name="Views_Vat_SettleVat_ArticleGroupPost" xml:space="preserve">
+    <value>Varugruppsposter</value>
+  </data>
+  <data name="Views_Vat_SettleVat_VATPost" xml:space="preserve">
+    <value>Momspost</value>
+  </data>
+  <data name="Views_Vat_SettleVat_LedgerPost" xml:space="preserve">
+    <value>Finansposter</value>
+  </data>
+  <data name="Views_Vat_SettleVat_PartnerPost" xml:space="preserve">
+    <value>Partnerpost</value>
+  </data>
+  <data name="Views_FiscalSetup_ApiKeys_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Views_Email_CreateEmailWithPosts_To" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Views_Email_CreateEmailWithPosts_Cc" xml:space="preserve">
+    <value>Kopiera till</value>
+  </data>
+  <data name="Views_Email_CreateEmailWithPosts_Subject" xml:space="preserve">
+    <value>Ämne</value>
+  </data>
+  <data name="Views_Email_CreateEmailWithPosts_Body" xml:space="preserve">
+    <value>Innehåll</value>
+  </data>
+  <data name="Views_Email_CreateEmailWithPosts_TitleEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_Email_CreateEmailWithPosts_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_Email_CreateEmailWithPosts_Send" xml:space="preserve">
+    <value>Skicka</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogGoPremium_Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_RotateRight" xml:space="preserve">
+    <value>Rotera till höger</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_RotateLeft" xml:space="preserve">
+    <value>Rotera till vänster</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Amount" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Balance" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Account_Explanation" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_Before" xml:space="preserve">
+    <value>Före</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_After" xml:space="preserve">
+    <value>Efter</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_LedgerPost" xml:space="preserve">
+    <value>Finansposter</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_PartnerPost" xml:space="preserve">
+    <value>Partnerpost</value>
+  </data>
+  <data name="Views_Bookkeeping_Registration_CreateLedgerTag" xml:space="preserve">
+    <value>Upprätta finanskonto</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateMembership_Email" xml:space="preserve">
+    <value>E-mail:</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogCreateMembership_Email_Placeholder" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Views_FiscalSetup_DialogChangeSecuritygroup_ChoosRoles" xml:space="preserve">
+    <value>Välj roller</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_AuditTrails" xml:space="preserve">
+    <value>Ändringslogg</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_Location" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_CreateLedgerTag" xml:space="preserve">
+    <value>Upprätta finanskonto</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_DialogCreate_Title" xml:space="preserve">
+    <value>Upprätta partner</value>
+  </data>
+  <data name="Views_FiscalPeriod_Details_CreateArticle" xml:space="preserve">
+    <value>Upprätta vara</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_FiscalPeriod" xml:space="preserve">
+    <value>Räkenskapsår</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_ViewLedgerTag" xml:space="preserve">
+    <value>Visa konto</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_BookkeepingResult" xml:space="preserve">
+    <value>Bokföringsresultat</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_FiscalPeriod_Recalculate" xml:space="preserve">
+    <value>Omberäkna primoposter</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_LineAccount" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_ArticleGroupPost" xml:space="preserve">
+    <value>Varugruppsposter</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_LedgerPost" xml:space="preserve">
+    <value>Finansposter</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_PartnerPost" xml:space="preserve">
+    <value>Partnerpost</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_VATPost" xml:space="preserve">
+    <value>Momspost</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_LineCurrency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Views_Bookkeeping_Classic_Documents" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Views_Partner_Posts_FiscalDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Partner_Posts_FromDatePlaceholder" xml:space="preserve">
+    <value>Från datum</value>
+  </data>
+  <data name="Views_Partner_Posts_ToDatePlaceHolder" xml:space="preserve">
+    <value>Till datum</value>
+  </data>
+  <data name="Views_Partner_Posts_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Views_Partner_Posts_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Views_Partner_Posts_Voucher" xml:space="preserve">
+    <value>Bilaga</value>
+  </data>
+  <data name="Views_Partner_Posts_CurrencyAmount" xml:space="preserve">
+    <value>Valutabelopp</value>
+  </data>
+  <data name="Views_Partner_Posts_Amount" xml:space="preserve">
+    <value>Belopp</value>
+  </data>
+  <data name="Views_Partner_Posts_Settled" xml:space="preserve">
+    <value>THOMAS</value>
+  </data>
+  <data name="Views_Partner_Posts_ShowSettlement" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Views_Project_Index_Overview" xml:space="preserve">
+    <value>Varuöversikter</value>
+  </data>
+  <data name="Views_Project_DialogCreateOrEditProjectGroup_Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Views_Project_DialogCreateOrEditProjectGroup_Create" xml:space="preserve">
+    <value>Upprätta</value>
+  </data>
+  <data name="Views_Project_DialogCreateOrEditProjectGroup_Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="Views_Project_DialogCreateOrEditProjectGroup_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Views_Project_Details_None" xml:space="preserve">
+    <value>ingen</value>
+  </data>
+</root>

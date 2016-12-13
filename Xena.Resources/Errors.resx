@@ -1,0 +1,1557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Command_ElectronicCVRInvoice_InvalidCVR" xml:space="preserve">
+    <value>{0} is not a valid OrgNumber - example: DK12345678</value>
+  </data>
+  <data name="Command_ElectronicEANInvoice_InvalidCVR" xml:space="preserve">
+    <value>{0} is not a valid EAN number - use 13 digits</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Address_No_City" xml:space="preserve">
+    <value>Address is invalid - no city (address: {0})</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Address_No_StreetNumber" xml:space="preserve">
+    <value>Address is invalid - no streetnumber (address: {0})</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Address_No_Zip" xml:space="preserve">
+    <value>Address is invalid - no zipcode (address: {0})</value>
+  </data>
+  <data name="Command_ElectronicInvoice_InvalidAddressType" xml:space="preserve">
+    <value>Recipient address type ({0}) is invalid. Valid types are: {1}</value>
+  </data>
+  <data name="Controller_ApiArticle_Nothing_To_Insert" xml:space="preserve">
+    <value>No articles supplied for insert</value>
+  </data>
+  <data name="Controller_ApiArticle_SpecifyVariants_Difference_Quantity" xml:space="preserve">
+    <value>Quantities on specifications do not match the original quantity</value>
+  </data>
+  <data name="Controller_ApiArticle_SpecifyVariants_No_Specifications" xml:space="preserve">
+    <value>Missing specifications of variants</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_AlreadyRegistredWithSproom" xml:space="preserve">
+    <value>This fiscalsetup (id: {0}) is already registrered with Sproom</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_Cannot_Delete_Last_User" xml:space="preserve">
+    <value>Cannot delete the last user in the fiscal setup. Delete the fiscal setup instead.</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_InvalidEmailAddress" xml:space="preserve">
+    <value>Email is not valid ({0})</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_MembershipNotFound" xml:space="preserve">
+    <value>Membership not found</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_OrgNumber_Already_Registered" xml:space="preserve">
+    <value>The requested organization number ({0}) is already registrered with Sproom - contact Sproom at support@sproom.net for details.</value>
+  </data>
+  <data name="Controller_FiscalPeriod_MustFirstCreateAFiscalPeriod" xml:space="preserve">
+    <value>You must first create a fiscalperiod</value>
+  </data>
+  <data name="Controller_OAuth_Mismatch_ClientId_Or_ClientSecret" xml:space="preserve">
+    <value>You need a correct clientid and a matching clientSecret to authorize.</value>
+  </data>
+  <data name="Controller_ReportAccountant_InvalidEmail" xml:space="preserve">
+    <value>Invalid email ({0})</value>
+  </data>
+  <data name="Domain_ArticlePost_No_Article" xml:space="preserve">
+    <value>Missing article on article post</value>
+  </data>
+  <data name="Domain_ArticlePost_Variant_Does_Not_Match_Article" xml:space="preserve">
+    <value>Article variant's article is not the same as the article on the article post</value>
+  </data>
+  <data name="Domain_Bookkeeping_LedgerPostDraft_Invalid_VatDeductionPercentage" xml:space="preserve">
+    <value>Vat deduction percentage must be between 0 and 100.</value>
+  </data>
+  <data name="Domain_DeleteUser_UserNotFound" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="Domain_FailedToInviteUser" xml:space="preserve">
+    <value>Failed to invite user: {0}</value>
+  </data>
+  <data name="Domain_FiscalSetup_Sproom_Is_Already_Enabled" xml:space="preserve">
+    <value>Sproom is already actived on this fiscalsetup</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Date_Outside_FiscalPeriod" xml:space="preserve">
+    <value>Date {0} is outside the fiscal year {1}</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Deactivated" xml:space="preserve">
+    <value>{0} ({1}) is deactivated</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_FiscalPeriod_IsClosed" xml:space="preserve">
+    <value>Fiscal period {0} is closed</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_No_FiscalPeriod" xml:space="preserve">
+    <value>Fiscal period is missing</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Voucher_Not_Balanced" xml:space="preserve">
+    <value>Voucher {0} does not balance on {1} - difference is: {2}</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeep_Warning_Posting_On_Existing_Voucher" xml:space="preserve">
+    <value>There will be posted on existing voucher ({0})</value>
+  </data>
+  <data name="Domain_Ledger_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Domain_OrderTask_Delete_Invoiced_Delivered" xml:space="preserve">
+    <value>Cannot delete an invoiced or delivered order task</value>
+  </data>
+  <data name="Domain_Payment_Difference_Is_Too_Large" xml:space="preserve">
+    <value>Difference is: {0} {2}, but cannot exceed {1} {2}</value>
+  </data>
+  <data name="Domain_Payment_NoPartnerPosts_Supplied" xml:space="preserve">
+    <value>No partner posts selected</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_Already_Settled" xml:space="preserve">
+    <value>Partner post (id: {0}) is already settled on settlement (id: {1})</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_Not_Found" xml:space="preserve">
+    <value>Partner post not found - Id: {0}</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_On_Wrong_Partner" xml:space="preserve">
+    <value>Partner post (Id: {0}) is not on this partner (Id: {1})</value>
+  </data>
+  <data name="Domain_Resource_Delete_Cannot_Delete_Users_Resource" xml:space="preserve">
+    <value>Cannot delete a resource which is connected to a user</value>
+  </data>
+  <data name="Domain_Subscription_Activate_Already_Active" xml:space="preserve">
+    <value>Subscription is already active</value>
+  </data>
+  <data name="Domain_Subscription_Activate_Cannot_Be_Cash_Without_Ticket" xml:space="preserve">
+    <value>Subscription cannot be set to cash payment when customer has not set a paymentticket</value>
+  </data>
+  <data name="Domain_Subscription_Activate_EndDate_Before_NextRun" xml:space="preserve">
+    <value>End date is before next run date</value>
+  </data>
+  <data name="Domain_Subscription_Activate_Invalid_Customer_Email" xml:space="preserve">
+    <value>Customer has no valid email</value>
+  </data>
+  <data name="Domain_Subscription_Activate_NextRunDate_Before_StartDate" xml:space="preserve">
+    <value>Next run date is before start date</value>
+  </data>
+  <data name="Domain_Subscription_Activate_No_Customer" xml:space="preserve">
+    <value>Subscription has no customer</value>
+  </data>
+  <data name="Domain_Subscription_Activate_No_SubscriptionLines" xml:space="preserve">
+    <value>No subscription lines on subscription</value>
+  </data>
+  <data name="Domain_Subscription_Activate_SubscriptionLines_Without_Article" xml:space="preserve">
+    <value>There are {0} lines without article</value>
+  </data>
+  <data name="Domain_Subscription_Deactivate_Already_Inactive" xml:space="preserve">
+    <value>Subscription is already inactive</value>
+  </data>
+  <data name="Domain_Subscription_No_Orders_Created" xml:space="preserve">
+    <value>Subscription ({0}) created an empty order</value>
+  </data>
+  <data name="Domain_Subscription_OrderFailedToBookkeep" xml:space="preserve">
+    <value>Order from subscription failed to bookkeep</value>
+  </data>
+  <data name="Domain_Update_EconomicTransaction_Cannot_Cancel_Transactions_In_Other_Transactions" xml:space="preserve">
+    <value>Transaction is involved in other transactions and cannot be cancelled.</value>
+  </data>
+  <data name="Domain_Validation_ReportLayout_Missing_Name" xml:space="preserve">
+    <value>Missing name</value>
+  </data>
+  <data name="Domain_Validation_WebHookSubscription_Invalid_CallbackUri" xml:space="preserve">
+    <value>Callback uri is empty or not a valid URi</value>
+  </data>
+  <data name="Domain_Validation_WebHookSubscription_Invalid_EntityType" xml:space="preserve">
+    <value>Invalid entity type</value>
+  </data>
+  <data name="Domain_VoucherDraft_Bookkeeping_FiscalPeriod_Is_Closed" xml:space="preserve">
+    <value>Fiscal period {0} is closed</value>
+  </data>
+  <data name="Domain_VoucherDraft_Settlement_Difference_Cannot_Exceed_Allowed" xml:space="preserve">
+    <value>Settlement difference cannot be greater than {0} for {1}. Difference was: {2}</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_CreateMembership_CreditCardRequired" xml:space="preserve">
+    <value>You cannot add a new user without having a credit card connected with your Xena subscription</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_CreateMembership_XenasubscriptionRequired" xml:space="preserve">
+    <value>Xena subscription is required</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_DeleteMembership_CreditCardRequired" xml:space="preserve">
+    <value>You must register your credit card in order to keep support</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_RequestSupport_CreditCardRequired" xml:space="preserve">
+    <value>You cannot request support without having a credit card connected with your Xena subscription</value>
+  </data>
+  <data name="Xena_ArticleInventoryEnabler_InventoryManagementIsEnabled" xml:space="preserve">
+    <value>Inventory management is already enabled on this article</value>
+  </data>
+  <data name="Xena_ArticleInventoryEnabler_OrdertasksNotInvoiced" xml:space="preserve">
+    <value>There are {0} ordertasks which are invoiced and not delivered for this article</value>
+  </data>
+  <data name="Xena_CreatePartnerFromDto_FiscalSetupNotFound" xml:space="preserve">
+    <value>Fiscal setup not found</value>
+  </data>
+  <data name="Xena_CreatePartnerFromDto_NothingHasBeenDone" xml:space="preserve">
+    <value>Nothing has been done</value>
+  </data>
+  <data name="Xena_CreatePartnerFromDto_UserNotFound" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="Xena_DeleteExtensions_DocumentCannotBeDeleted" xml:space="preserve">
+    <value>Document is referenced - and cannot be deleted.</value>
+  </data>
+  <data name="Xena_Document_DeleteDocumentRelation_CannotDeleteDocumentsRemindersOrInvoices" xml:space="preserve">
+    <value>Cannot delete documents that are invoices or reminders.</value>
+  </data>
+  <data name="Xena_Document_NewVersionFromXenaDocument_NotAllowed" xml:space="preserve">
+    <value>Not allowed to this file as a new version</value>
+  </data>
+  <data name="Xena_Document_NotPossibleToCreateDocument" xml:space="preserve">
+    <value>Not possible to create document</value>
+  </data>
+  <data name="Xena_Document_NotPossibleToFindDocument" xml:space="preserve">
+    <value>Not possible to find document</value>
+  </data>
+  <data name="Xena_Document_PostDocumentFromUrlByTyped" xml:space="preserve">
+    <value>Failed to create document</value>
+  </data>
+  <data name="Xena_Document_PostRelationCommand_DocumentIsAlreadyConnected" xml:space="preserve">
+    <value>Document is already connected</value>
+  </data>
+  <data name="Xena_Document_PostRelationCommand_EntityTypeIsNotSupported" xml:space="preserve">
+    <value>Entity type: {0} not supported</value>
+  </data>
+  <data name="Xena_Domain_Article_VariantCreation_No_Variants" xml:space="preserve">
+    <value>No variants available for the variant range</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_EconomicTransaction_Warning_SystemDifference" xml:space="preserve">
+    <value>Differences will be bookkeept</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Missing_LedgerTag" xml:space="preserve">
+    <value>Ledger tag not set</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Must_Balance" xml:space="preserve">
+    <value>Ledger post drafts must balance (difference: {0})</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_None" xml:space="preserve">
+    <value>No Ledger post drafts</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_NothingToBookkeep" xml:space="preserve">
+    <value>Nothing to bookkeep</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Warning_Vats_Dont_Match" xml:space="preserve">
+    <value>VAT is not the same as default VAT on ledgertag</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_Partner_Deactivated" xml:space="preserve">
+    <value>Partner is deactivated</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_VoucherDraftType_Not_Supported" xml:space="preserve">
+    <value>Voucher draft type is not supported</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_Warning_Future_FiscalDate" xml:space="preserve">
+    <value>Fiscal date is in the future</value>
+  </data>
+  <data name="Xena_Domain_Delivery_OrderTask_Already_Delivered" xml:space="preserve">
+    <value>Ordertask is already delivered</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_Is_Deleted" xml:space="preserve">
+    <value>Order is deleted</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_No_Partner" xml:space="preserve">
+    <value>No partner on order</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_Partner_Is_Deactivated" xml:space="preserve">
+    <value>Partner is deactivated</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_OrderTask_Already_Invoiced" xml:space="preserve">
+    <value>Ordertask already invoiced</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_Is_Deleted" xml:space="preserve">
+    <value>Order is deleted</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_No_Partner" xml:space="preserve">
+    <value>No partner on order</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_Partner_Is_Deactivated" xml:space="preserve">
+    <value>Partner is deactivated</value>
+  </data>
+  <data name="Xena_Domain_Order_Summary_NoOrdertasksToInvoice" xml:space="preserve">
+    <value>No ordertasks to invoice.</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Cash_Order_Must_Be_Paid" xml:space="preserve">
+    <value>Cash orders must be paid when invoiced</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Is_Already_Delivered" xml:space="preserve">
+    <value>Cannot deliver an already delivered order</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Is_Already_Invoiced" xml:space="preserve">
+    <value>Cannot invoice an already invoiced order</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_No_Effect" xml:space="preserve">
+    <value>Nothing is processed</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Order_Must_Be_Paid_In_Full" xml:space="preserve">
+    <value>Order must be paid in full</value>
+  </data>
+  <data name="Xena_Domain_ReminderStep_ReminderStep_Has_No_Consequence_For_PartnerPost" xml:space="preserve">
+    <value>Reminderstep has no consequence for partner post</value>
+  </data>
+  <data name="Xena_Domain_Validation_ArticleEANNumber_Missing_EANNumber" xml:space="preserve">
+    <value>Missing EAN-number</value>
+  </data>
+  <data name="Xena_Domain_Validation_ArticleGroup_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Already_Has_Variants" xml:space="preserve">
+    <value>Article already has variants</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Cannot_Disable_Variants_When_Variants_Are_On_Posts" xml:space="preserve">
+    <value>Cannot disable variants when they have been used.</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Missing_ArticleNumber" xml:space="preserve">
+    <value>Empty or missing article number</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Missing_Description" xml:space="preserve">
+    <value>Empty or missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Missing_Group" xml:space="preserve">
+    <value>Missing group</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Variants_Already_Disabled" xml:space="preserve">
+    <value>Variants already disabled</value>
+  </data>
+  <data name="Xena_Domain_Validation_Bearer_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_CurrencyExchangeRate_ExchangeRate_Must_Be_Positive" xml:space="preserve">
+    <value>Exchangerate must be positive</value>
+  </data>
+  <data name="Xena_Domain_Validation_CurrencyExchangeRate_Missing_Currency" xml:space="preserve">
+    <value>Missing currency</value>
+  </data>
+  <data name="Xena_Domain_Validation_CurrencyExchangeRate_NotFoundForDate" xml:space="preserve">
+    <value>No exchange rate found for {0}, date: {1}</value>
+  </data>
+  <data name="Xena_Domain_Validation_Department_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_Amount_Must_Balance" xml:space="preserve">
+    <value>Amounts must balance</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_CustomerAmounts_Do_Not_Match_CustomerLedgerAccount" xml:space="preserve">
+    <value>Amounts on customer posts do not match ledger posts on customer account</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_FiscalDates_Must_Be_Same_As_Transactions" xml:space="preserve">
+    <value>Fiscaldates on one or more ledgerposts differ from economic transactions fiscaldate</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_SupplierAmounts_Do_Not_Match_SupplierLedgerAccount" xml:space="preserve">
+    <value>Amounts on supplier posts do not match ledger posts on supplier account</value>
+  </data>
+  <data name="Xena_Domain_Validation_FiscalPeriod_StartDate_Must_Be_After_EndDate" xml:space="preserve">
+    <value>Start date must be before end date</value>
+  </data>
+  <data name="Xena_Domain_Validation_FiscalSetup_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_Invalid_LedgerAccount" xml:space="preserve">
+    <value>Invalid ledger account</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_Missing_LedgerAccount" xml:space="preserve">
+    <value>Missing ledger account</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_NetTurnOver_Not_Allowed" xml:space="preserve">
+    <value>Cannot make ledger tags in net turnover</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_ProductConsumption_Not_Allowed" xml:space="preserve">
+    <value>Cannot make ledger tags in product ponsumption</value>
+  </data>
+  <data name="Xena_Domain_Validation_Ledger_Must_Balance" xml:space="preserve">
+    <value>Ledger must balance</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Abbreviation" xml:space="preserve">
+    <value>Missing abbreviation</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension1" xml:space="preserve">
+    <value>Missing dimension 1</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension2" xml:space="preserve">
+    <value>Missing dimension 2</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension3" xml:space="preserve">
+    <value>Missing dimension 3</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension4" xml:space="preserve">
+    <value>Missing dimension 4</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension5" xml:space="preserve">
+    <value>Missing dimension 5</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_Article_Is_Deactivated" xml:space="preserve">
+    <value>Article is deactivated</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_Missing_ArticleVariant" xml:space="preserve">
+    <value>Article has no chosen variant</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_Variant_Not_Applicable_For_Article" xml:space="preserve">
+    <value>This variant is not applicable for the article</value>
+  </data>
+  <data name="Xena_Domain_Validation_Partner_Missing_Name" xml:space="preserve">
+    <value>Empty or missing name</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Missing_Article" xml:space="preserve">
+    <value>Missing article</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Negative_AveragePrice" xml:space="preserve">
+    <value>Negative average price</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Negative_Quantity" xml:space="preserve">
+    <value>Negative quantity</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Variant_Not_Applicable_For_Article" xml:space="preserve">
+    <value>This variant is not applicable for the article</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoLedgerPost_Invalid_LedgerAccount" xml:space="preserve">
+    <value>Invalid ledger account</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoPartnerPost_FiscalDate_Later_Than_Start_Of_FiscalPeriod" xml:space="preserve">
+    <value>Fiscal date is later than start of fiscal period</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoPartnerPost_Missing_Partner" xml:space="preserve">
+    <value>Missing partner</value>
+  </data>
+  <data name="Xena_Domain_Validation_Purpose_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_ReminderStep_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_Settlement_Partner_Must_Balance" xml:space="preserve">
+    <value>Partner must balance</value>
+  </data>
+  <data name="Xena_Domain_Validation_Unit_Missing_Abbreviation" xml:space="preserve">
+    <value>Missing abbreviation</value>
+  </data>
+  <data name="Xena_Domain_Validation_Unit_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_VariantRange_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_Variant_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_VatSettlementTransaction_CreateReverse_AlreadyReversed" xml:space="preserve">
+    <value>Vat settlement has already been reversed</value>
+  </data>
+  <data name="Xena_Domain_Validation_VatSettlementTransaction_CreateReverse_ReversePaymentFirst" xml:space="preserve">
+    <value>Cannot reverse a transaction with a payment transaction on - reverse that transaction first.</value>
+  </data>
+  <data name="Xena_Domain_Validation_VatSettlementTransaction_HasBeenCanceled" xml:space="preserve">
+    <value>Settlement has been canceled - and cannot be paid</value>
+  </data>
+  <data name="Xena_Domain_Validation_VatSettlementTransaction_LedgerTag_NotFound" xml:space="preserve">
+    <value>LedgerTag (id:{0}) not found.</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Missing_Abbreviation" xml:space="preserve">
+    <value>Missing abbreviation</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Missing_Description" xml:space="preserve">
+    <value>Missing descirption</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Percentage_Cannot_Be_Negative" xml:space="preserve">
+    <value>Percentage cannot be negative</value>
+  </data>
+  <data name="Xena_Domain_Validation_Voucher_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_Domain_Validation_Warehouse_Missing_Description" xml:space="preserve">
+    <value>Missing description </value>
+  </data>
+  <data name="Xena_Domain_VoucherDraft_Validation_Finance_Drafts_Cannot_Have_Partner" xml:space="preserve">
+    <value>Finance vouchers cannot have a partner</value>
+  </data>
+  <data name="Xena_Domain_VoucherDraft_Validation_Finance_Drafts_Cannot_Have_Settlements" xml:space="preserve">
+    <value>Finance vouchers cannot have settled partner posts</value>
+  </data>
+  <data name="Xena_FiscalSetup_InviteUser_FiscalSetupNoFound" xml:space="preserve">
+    <value>Fiscalsetup not found</value>
+  </data>
+  <data name="Xena_FiscalSetup_InviteUser_UserHasAccess" xml:space="preserve">
+    <value>User ({0}) already has access</value>
+  </data>
+  <data name="Xena_FiscalSetup_UpdateVCardPicture_DocumentNotFound" xml:space="preserve">
+    <value>Document not found</value>
+  </data>
+  <data name="Xena_FiscalSetup_UpdateVCardPicture_FiscalSetupDoesNotHaveAVcard" xml:space="preserve">
+    <value>Fiscalsetup does not have a vcard</value>
+  </data>
+  <data name="Xena_GetOrderFromNotification_OrderNotFound" xml:space="preserve">
+    <value>Order  not found</value>
+  </data>
+  <data name="Xena_GetSubscriptionFromNotification_SubscriptionNoTFound" xml:space="preserve">
+    <value>Subscription not found</value>
+  </data>
+  <data name="Xena_Home_MergeUser_LoginNotValid" xml:space="preserve">
+    <value>Login not valid</value>
+  </data>
+  <data name="Xena_Home_MergeUser_NotLoggedIn" xml:space="preserve">
+    <value>Not logged in</value>
+  </data>
+  <data name="Xena_Home_ResetPassword_NoLongerPossibleToResetPassword" xml:space="preserve">
+    <value>No longer possible to reset password. Request a new password reset, if necessary</value>
+  </data>
+  <data name="Xena_InvitePartner_PartnerNotFound" xml:space="preserve">
+    <value>Partner not found</value>
+  </data>
+  <data name="Xena_InvitePartner_VCardNotFound" xml:space="preserve">
+    <value>VCard not found</value>
+  </data>
+  <data name="Xena_LinkPartnerToVCard_FiscalSetupNotFound" xml:space="preserve">
+    <value>Fiscal setup not found</value>
+  </data>
+  <data name="Xena_LinkPartnerToVCard_UserNotFound" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="Xena_Notification_VCardUpdate_NoVCardFound" xml:space="preserve">
+    <value>No VCard found id: {0}</value>
+  </data>
+  <data name="Xena_Order_ProcesOrder_CannotProcess" xml:space="preserve">
+    <value>Cannot process an order without partner</value>
+  </data>
+  <data name="Xena_PartnerFromSearchDtoCreator_InvalidEmail" xml:space="preserve">
+    <value>Nothing to link - invalid or empty email</value>
+  </data>
+  <data name="Xena_Partner_ChangeInvoicEmail_Invalid_Email" xml:space="preserve">
+    <value>Not a valid email address</value>
+  </data>
+  <data name="Xena_Partner_MailHistory_MustHaveMailIdentifier" xml:space="preserve">
+    <value>Partner mail history entry must have a unique identifier!</value>
+  </data>
+  <data name="Xena_Partner_MailHistory_MustHavePartner" xml:space="preserve">
+    <value>Partner mail history entry must have a partner!</value>
+  </data>
+  <data name="Xena_Partner_MailHistory_MustHaveResource" xml:space="preserve">
+    <value>Partner mail history entry must have a resource!</value>
+  </data>
+  <data name="Xena_Partner_ResendPartnerInvitation_NotAValidEmail" xml:space="preserve">
+    <value>Not a valid email</value>
+  </data>
+  <data name="Xena_Partner_ResendPartnerInvitation_UserNotFound" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="Xena_Public_UnsubscribeNewsLetter_InvalidEmail" xml:space="preserve">
+    <value>Invalid email</value>
+  </data>
+  <data name="Xena_User_Creation_Duplicate_User" xml:space="preserve">
+    <value>Another user exists with this user name</value>
+  </data>
+  <data name="Xena_User_Creation_Invalid_Email" xml:space="preserve">
+    <value>Not a valid email address</value>
+  </data>
+  <data name="Xena_User_Creation_Name_Empty" xml:space="preserve">
+    <value>Name for user is not set</value>
+  </data>
+  <data name="Xena_User_Creation_Password_Must_Be_5_Characters_Or_More" xml:space="preserve">
+    <value>Password must be at least 6 characters long</value>
+  </data>
+  <data name="Xena_Vat_ReadVatSettlementData_FiscalPeriodNotFound" xml:space="preserve">
+    <value>Fiscal period not found for next VAT period.</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeep_Warning_Posting_In_Future" xml:space="preserve">
+    <value>The following vouchers are in the future: ({0})</value>
+  </data>
+  <data name="Xena_Document_MoveInboxRelation_RelationNotFound" xml:space="preserve">
+    <value>Relation to this document has not been found</value>
+  </data>
+  <data name="Xena_Document_MoveInboxRelation_ResourceNotFound" xml:space="preserve">
+    <value>Resource not found</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeep_Warning_Different_Vat_From_Default" xml:space="preserve">
+    <value>Voucher(s) {0} have a different VAT code from what as default on the ledger tag</value>
+  </data>
+  <data name="Xena_PrimoPostDeleter_CannotDeleteThisPrimoPost" xml:space="preserve">
+    <value>Cannot delete this primopost</value>
+  </data>
+  <data name="Domain_Reconciliation_Cannot_Use_Same_Ledgertag_As_BankContext" xml:space="preserve">
+    <value>Cannot use the ledger tag that is on the bankcontext.</value>
+  </data>
+  <data name="Domain_PartnerResourceContext_Cannot_Have_API_Access_On_Xena_User" xml:space="preserve">
+    <value>Cannot create API keys on users with access to Xena via OAuth2</value>
+  </data>
+  <data name="Domain_ResourcePost_NextAppointment_Is_Before" xml:space="preserve">
+    <value>End time ({0} {1}) is before appointments start ({2} {3})</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_CreateApiUser_PartnerNotFound" xml:space="preserve">
+    <value>Partner not found</value>
+  </data>
+  <data name="Domain_Activity_Missing_Abbreviation" xml:space="preserve">
+    <value>Missing abbreviation</value>
+  </data>
+  <data name="Domain_Activity_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Domain_PriceGroup_Invalid_ContextType" xml:space="preserve">
+    <value>Invalid context type</value>
+  </data>
+  <data name="Domain_PriceGroup_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_Invalid_Discount_Percentage" xml:space="preserve">
+    <value>Discount percentage must be between 0 and 100</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Command_MoveInvoiceToInbox_InvoiceNotFound" xml:space="preserve">
+    <value>Invoice not found</value>
+  </data>
+  <data name="Command_MoveInvoiceToInbox_NoResource" xml:space="preserve">
+    <value>Current user has no resource</value>
+  </data>
+  <data name="Command_MoveInvoiceToInbox_NotLoggedIn" xml:space="preserve">
+    <value>You are not logged in</value>
+  </data>
+  <data name="Command_ChangePassword_OldPassword" xml:space="preserve">
+    <value>Old password is incorrect</value>
+  </data>
+  <data name="Xena_Document_MoveDocumentToNewInbox_DocumentAlreadyConnected" xml:space="preserve">
+    <value>Document is already connected</value>
+  </data>
+  <data name="Xena_Document_MoveDocumentToNewInbox_DocumentNotFound" xml:space="preserve">
+    <value>Document not found</value>
+  </data>
+  <data name="Domain_VolumePriceAgreement_ValidFrom_IsLaterThan_ValidTo" xml:space="preserve">
+    <value>Valid from must be before valid to</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_ValidFrom_IsLaterThan_ValidTo" xml:space="preserve">
+    <value>Valid from must be before valid to</value>
+  </data>
+  <data name="Controller_Oauth_Login_YouNeedAClient" xml:space="preserve">
+    <value>You need a client to authorize.</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_Bank_InvalidAccountNumber" xml:space="preserve">
+    <value>Danish bankaccounts have 4 - 10 digits and may have optional spaces in the account number</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_Bank_InvalidRegNumber" xml:space="preserve">
+    <value>Danish banks have a four-digit registration number that you need to supply</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_FIK_InvalidAccountNumber" xml:space="preserve">
+    <value>The supplier number needs to be 8 digits without spaces</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_Giro_InvalidAccountNumber" xml:space="preserve">
+    <value>All Danish giro accounts have a 7 digit number without spaces</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_Iban_Swift_InvalidIBANCode" xml:space="preserve">
+    <value>IBAN codes have 2 letters, then 2 digits and then up to 30 letters/digits - and optional spaces</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_Iban_Swift_InvalidSWIFTCode" xml:space="preserve">
+    <value>SWIFT codes has 6 letters and then 2-5 letters/digits - no spaces allowed</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_InvalidPaymentMeansType" xml:space="preserve">
+    <value>Payment means must have a valid payment means type. Valid choices are: {0}</value>
+  </data>
+  <data name="Domain_PaymentMeans_Invalid_PaymentMeansType" xml:space="preserve">
+    <value>Invalid payment means type: {0}. Valid payment means types are: {1}</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_Iban_InvalidIBANCode" xml:space="preserve">
+    <value>IBAN accountnumbers are 2 letters, 2 digits and then up to 30 letters/digits with optional spaces</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_NO_Bank_InvalidAccountNumber" xml:space="preserve">
+    <value>A Norweigan bank accountnumber is 11 digits, first 4 are the bank's registration number, next 2 the type of account, next 4 the actual accountnumber and then last a Modulus 11 check cifer</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_NO_Bank_Invalid_Control_Cipher" xml:space="preserve">
+    <value>Last cipher should have been {0} with account number: {1}. Calculated cipher is: {2}</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_Bank_Invalid_Account" xml:space="preserve">
+    <value>Missing bank account</value>
+  </data>
+  <data name="Command_RecalculateFiscalPeriodStatistics_NoFiscalPeriod" xml:space="preserve">
+    <value>FiscalPeriod for {0} not found</value>
+  </data>
+  <data name="Xena_Email_SendEmail_OnlyOneEmail" xml:space="preserve">
+    <value>There must be only one email when inviting to Xena</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_No_Article_Nor_ArticleGroup" xml:space="preserve">
+    <value>Missing article or article group on line: {0} - {1}</value>
+  </data>
+  <data name="Xena_Domain_FailedToInviteUser" xml:space="preserve">
+    <value>Failed to invite user: {0} to this fiscalsetup</value>
+  </data>
+  <data name="Xena_GetPartnerFromPartnerPost_PartnerPostNotFound" xml:space="preserve">
+    <value>Partner post not found</value>
+  </data>
+  <data name="Xena_Payment_BookkeepingFailed" xml:space="preserve">
+    <value>Bookkeeping failed for partner {0}</value>
+  </data>
+  <data name="Xena_Payment_InvalidPaymentLedgerTag" xml:space="preserve">
+    <value>Payment ledger tag for this fiscalsetup is either not set or deactivated</value>
+  </data>
+  <data name="Xena_FiscalSetup_DeleteFiscalSetup_FiscalSetupNotFound" xml:space="preserve">
+    <value>Fiscal setup not found - id: {0}</value>
+  </data>
+  <data name="Xena_FiscalSetup_DeleteFiscalSetup_MustBeAdmin" xml:space="preserve">
+    <value>Must be an admin to delete fiscalsetup.</value>
+  </data>
+  <data name="Xena_FiscalSetup_DeleteFiscalSetup_MustBeLoggedIn" xml:space="preserve">
+    <value>Must be logged into a fiscalsetup to delete it.</value>
+  </data>
+  <data name="Domain_Validation_XenaAppPlugin_Invalid_ExternalUri" xml:space="preserve">
+    <value>Invalid Uri</value>
+  </data>
+  <data name="Domain_Validation_XenaAppPlugin_Invalid_PluginPlacement" xml:space="preserve">
+    <value>Invalid plugin placement - available placements: {0}</value>
+  </data>
+  <data name="Domain_Validation_XenaAppPlugin_Invalid_PluginType" xml:space="preserve">
+    <value>Invalid plugin type - available types: {0}</value>
+  </data>
+  <data name="Domain_validation_XenaAppPlugin_Missing_Title" xml:space="preserve">
+    <value>Missing title</value>
+  </data>
+  <data name="Domain_Validation_XenaAppPlugin_Invalid_Uri" xml:space="preserve">
+    <value>{0} is not a valid external uri (must be https and be wellformed)</value>
+  </data>
+  <data name="Domain_XenaApp_Invalid_Callback" xml:space="preserve">
+    <value>Invalid callback URI</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_ClientIdentitifier" xml:space="preserve">
+    <value>Missing ClientIdentifier</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_ClientSecret" xml:space="preserve">
+    <value>Missing ClientSecret</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_Name" xml:space="preserve">
+    <value>Missing name</value>
+  </data>
+  <data name="Validation_ArticleImportData_Missing_ArticleNumber" xml:space="preserve">
+    <value>Missing article number</value>
+  </data>
+  <data name="Validation_ArticleImportData_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Validation_ArticleImportData_Missing_Group" xml:space="preserve">
+    <value>Missing article group</value>
+  </data>
+  <data name="Command_BulkInsertArticle_ImportFailed_DuplicateArticleNumbers" xml:space="preserve">
+    <value>Following articlenumbers were duplicated:</value>
+  </data>
+  <data name="Xena_ArticleDeleter_CannotDelete_CurrentlyStock" xml:space="preserve">
+    <value>There is currently stock on this article - so you cannot delete it.</value>
+  </data>
+  <data name="Xena_ArticleDeleter_CannotDelete_OpeReservations" xml:space="preserve">
+    <value>This article has open reservations - so you cannot delete it.</value>
+  </data>
+  <data name="Xena_ArticleDeleter_CannotDelete_UsedOnOpenPurchase" xml:space="preserve">
+    <value>This article is used on open purchase orders - so you cannot delete it.</value>
+  </data>
+  <data name="Xena_ArticleDeleter_CannotDelete_UsedOnOpenSales" xml:space="preserve">
+    <value>This article is used on open sales orders - so you cannot delete it.</value>
+  </data>
+  <data name="Command_ImportFromBillysBilling_AlreadyHasArchive" xml:space="preserve">
+    <value>Can only import once for each fiscal setup</value>
+  </data>
+  <data name="Command_ImportFromEconomics_AlreadyHasArchive" xml:space="preserve">
+    <value>Can only import once for each fiscal setup</value>
+  </data>
+  <data name="Xena_CurrencyAmountToPay_InvalidCurrency" xml:space="preserve">
+    <value>Invalid currency ({0})</value>
+  </data>
+  <data name="Command_ImportFromC5_AlreadyHasArchive" xml:space="preserve">
+    <value>Can only import once for each fiscal setup</value>
+  </data>
+  <data name="Xena_CurrencyAmountToPay_NoExchangeRateFound" xml:space="preserve">
+    <value>No exchange rate found for {0}, date: {1}</value>
+  </data>
+  <data name="Command_PostPartnerFromClient_Already_Partner" xml:space="preserve">
+    <value>Client is already a partner (id: {0})</value>
+  </data>
+  <data name="Command_RequestArchiveDeletion_FiscalSetupNotFound" xml:space="preserve">
+    <value>Fiscalsetup not found</value>
+  </data>
+  <data name="Domain_Validation_ReportLayout_Invalid_XML" xml:space="preserve">
+    <value>Invalid XML</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Xena_ArticleVariantDisabler_ArticleNotFound" xml:space="preserve">
+    <value>Article not found - id: {0}</value>
+  </data>
+  <data name="Domain_Validation_ArticleMapping_PartnerArticleNumber" xml:space="preserve">
+    <value>Missing partner's article number</value>
+  </data>
+  <data name="Domain_Validation_ArticleMapping_Quantity_NotPositive" xml:space="preserve">
+    <value>Quantity must be positive</value>
+  </data>
+  <data name="Domain_Validation_ArticleMapping_PartnerArticle_Missing" xml:space="preserve">
+    <value>Must have either an article or a partner</value>
+  </data>
+  <data name="Updater_ArticleMapping_Duplicates_Exists" xml:space="preserve">
+    <value>Article mapping already exists on id: {0}</value>
+  </data>
+  <data name="Updater_ArticleMapping_ArticleAlreadyMapped" xml:space="preserve">
+    <value>Article or article variant har already been mapped on id: {0}</value>
+  </data>
+  <data name="Domain_Validation_ArticleMapping_ArticleVariant_Missing" xml:space="preserve">
+    <value>Article has variants - and variant must be set.</value>
+  </data>
+  <data name="Domain_LedgerNumberSeries_VoucherNumberHasBeenUsed" xml:space="preserve">
+    <value>Vouchernumber {0} has already been used in this fiscalperiod.</value>
+  </data>
+  <data name="Domain_Ledger_Is_Out_Of_Numbers" xml:space="preserve">
+    <value>Ledger is out of numbers.</value>
+  </data>
+  <data name="Domain_FiscalPeriod_No_CurrentResource" xml:space="preserve">
+    <value>User has no resource</value>
+  </data>
+  <data name="Domain_Ledger_Minimum_Must_Be_Lower_Than_Maximum" xml:space="preserve">
+    <value>Maximum must be greater than minimum</value>
+  </data>
+  <data name="Domain_Ledger_Too_High_Maximum" xml:space="preserve">
+    <value>Maximum cannot be greater than 49,999</value>
+  </data>
+  <data name="Xena_ArticleGroup_DeleteArticles_Article" xml:space="preserve">
+    <value>Article: {0} - {1}</value>
+  </data>
+  <data name="Updater_Ledger_OverLapping_Ledgers" xml:space="preserve">
+    <value>The following ledgers overlap: {0}</value>
+  </data>
+  <data name="Xena_ArticleGroup_DeleteArticles_ArticleGroupNotFound" xml:space="preserve">
+    <value>Article group not found: {0}</value>
+  </data>
+  <data name="Deleters_Ledger_In_Use" xml:space="preserve">
+    <value>Cannot delete ledger - it is used by: {0}</value>
+  </data>
+  <data name="Xena_ArticleGroup_DeleteArticles_TheFollowingArticlesCouldNotBeDeleted" xml:space="preserve">
+    <value>The following articles could not be deleted, since they are used elsewhere:</value>
+  </data>
+  <data name="Command_BulkInsertArticle_ImportFailed_ArticleNotFound" xml:space="preserve">
+    <value>Import for {0} failed, as the article supposed to be updated was not found</value>
+  </data>
+  <data name="Domain_OrderLine_ArticleMapping_Quantity_Modulus_Fail" xml:space="preserve">
+    <value>{0} is only sold in quantities of {1}</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_RequestSupport_SubscriptionMustBeActive" xml:space="preserve">
+    <value>Your Xena subscription must be active in order to request support</value>
+  </data>
+  <data name="Command_RemovalFromSproom_DoesNotUseSproom" xml:space="preserve">
+    <value>Your company is not registrered at Sproom.net</value>
+  </data>
+  <data name="Xena_FiscalPeriodDeleter_CannotDeleteAnActiveFiscalPeriod" xml:space="preserve">
+    <value>Cannot delete an active fiscalperiod</value>
+  </data>
+  <data name="Command_BulkInsertArticle_ImportFailed" xml:space="preserve">
+    <value>Import for {0} failed, as the article supposed to be updated was not found</value>
+  </data>
+  <data name="Xena_CanOrderBeSentElectronically_FiscalSetupNotSetup" xml:space="preserve">
+    <value>Fiscal setup is not set up for Sproom</value>
+  </data>
+  <data name="Domain_Validation_StockCountDraft_Negative" xml:space="preserve">
+    <value>Quantity counted cannot be less than zero</value>
+  </data>
+  <data name="Updater_StockCountDraft_ArticleVariant_Does_Not_Belong_On_Article" xml:space="preserve">
+    <value>Article variant (id: {0}) does not belong on this article (id: {1})</value>
+  </data>
+  <data name="Command_BookkeepStockCount_Nothing_To_Bookkeep" xml:space="preserve">
+    <value>Nothing to bookkeep</value>
+  </data>
+  <data name="Updater_StockCountDraft_Article_Not_Inventory_Management" xml:space="preserve">
+    <value>Article does not have inventory management activated</value>
+  </data>
+  <data name="Domain_validation_StockCount_MissingDescription" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Command_BookkeepStockCount_Negative_Stock" xml:space="preserve">
+    <value>Article ({0}) would be in negative stock</value>
+  </data>
+  <data name="Command_BookkeepStockCount_Quantities_Changed_Refresh_StockCount" xml:space="preserve">
+    <value>Some quantities have changed since the stock count was generated - refresh the quantities</value>
+  </data>
+  <data name="Command_ElectronicInvoice_OrderLine_Missing_Description" xml:space="preserve">
+    <value>Orderline with article: {0} and price: {1} has no description</value>
+  </data>
+  <data name="Domain_Validation_OrderTask_IsAlreadyConfirmed" xml:space="preserve">
+    <value>Order task is already confirmed</value>
+  </data>
+  <data name="Command_ConfirmOrder_Nothing_To_Confirm" xml:space="preserve">
+    <value>Nothing to confirm</value>
+  </data>
+  <data name="Command_CreateOffer_Nothing_To_Offer" xml:space="preserve">
+    <value>Nothing to create an offer from</value>
+  </data>
+  <data name="Updater_OrderLine_OrderTask_ReadOnly" xml:space="preserve">
+    <value>Order task id: {0} is readonly.</value>
+  </data>
+  <data name="Updater_OrderLine_Order_Is_Deactivated" xml:space="preserve">
+    <value>Order id: {0} is deactivated.</value>
+  </data>
+  <data name="Updater_OrderTask_ReadOnly" xml:space="preserve">
+    <value>Order task id: {0} is read only</value>
+  </data>
+  <data name="Command_DeleteOrderConfirmation_No_Confirmation" xml:space="preserve">
+    <value>Ordertask id: {0} has not been confirmed. Nothing to delete.</value>
+  </data>
+  <data name="Command_AdjustAveragePrice_No_Inventory_Management" xml:space="preserve">
+    <value>Inventory management is not enabled on this article</value>
+  </data>
+  <data name="Command_AdjustAveragePrice_Cannot_Have_Negative_AverageCostPrice" xml:space="preserve">
+    <value>Cannot have negative average cost price</value>
+  </data>
+  <data name="Command_AdjustAveragePrice_Latest_Movement_Date_Is_Later_Than_FiscalDate" xml:space="preserve">
+    <value>Latest movement on this article was at {0}. Date for regulation must be same or later.</value>
+  </data>
+  <data name="Xena_XenaPrice_GetXenaUserPrice_NotAllowed" xml:space="preserve">
+    <value>Not allowed</value>
+  </data>
+  <data name="Xena_FiscalSetup_InviteSupporter_NoSupporterWithTheGivenName" xml:space="preserve">
+    <value>No supporter with the given name: {0}</value>
+  </data>
+  <data name="Domain_Validation_VoucherPreview_Nothing_To_Bookkeep" xml:space="preserve">
+    <value>Nothing to bookkeep</value>
+  </data>
+  <data name="Domain_Validation_PurchaseDraftLine_Missing_Article" xml:space="preserve">
+    <value>Missing article</value>
+  </data>
+  <data name="Command_CreatePurchaseDrafts_Nothing_To_Create" xml:space="preserve">
+    <value>No suppliers were found to create purchase drafts on</value>
+  </data>
+  <data name="Command_ImportPrimoArticlePost_No_Articles_Found" xml:space="preserve">
+    <value>No articles match the supplied article numbers.</value>
+  </data>
+  <data name="Query_VoucherPreviewSummary_Nothing_To_Bookkeep" xml:space="preserve">
+    <value>Nothing to bookkeep</value>
+  </data>
+  <data name="Domain_LedgerPostPreview_Missing_LedgerTag" xml:space="preserve">
+    <value>Missing ledger tag</value>
+  </data>
+  <data name="Command_ImportC5Account_CannotImport_Without_Ledger" xml:space="preserve">
+    <value>Cannot import postings without importing ledger</value>
+  </data>
+  <data name="Command_InitializeC5Import_User_Not_Authorized" xml:space="preserve">
+    <value>User ({0}) is not authorized to perform an import (must be bookkeeper or administrator)</value>
+  </data>
+  <data name="Controller_ApiArticleMapping_Nothing_To_Insert" xml:space="preserve">
+    <value>Nothing to insert</value>
+  </data>
+  <data name="Xena_PartnerResourceContext_ChangeTheme_NotAllowed" xml:space="preserve">
+    <value>Not allowed to make changes to this resource</value>
+  </data>
+  <data name="Xena_PartnerResourceContext_ChangeTheme_ThemeNotFound" xml:space="preserve">
+    <value>Theme not found</value>
+  </data>
+  <data name="Command_ImportStockCountDrafts_Failed_To_Import" xml:space="preserve">
+    <value>Failed to import stock count for article: {0} {1}</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_Must_Have_Either_Article_Or_ArticleGroup" xml:space="preserve">
+    <value>Price discount agreements must be set on either an article or article group</value>
+  </data>
+  <data name="Domain_Validation_OrderStatus_Color" xml:space="preserve">
+    <value>Missing color</value>
+  </data>
+  <data name="Domain_Validation_OrderStatus_Name" xml:space="preserve">
+    <value>Missing name</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_Invalid_ContextType" xml:space="preserve">
+    <value>{0} is not a valid contextType</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_No_OrderLines_Selected" xml:space="preserve">
+    <value>No orderlines selected</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_OrderLineIds_Not_Found" xml:space="preserve">
+    <value>The following orderlines where not found: {0}</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_OrderLines_Delivered" xml:space="preserve">
+    <value>The following orderlines have already been delivered: {0}</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_OrderLines_Invoiced" xml:space="preserve">
+    <value>The following orderlines have already been invoiced: {0}</value>
+  </data>
+  <data name="Command_UpdateArticleSupplier_Article_Is_Not_Inventory_Managed" xml:space="preserve">
+    <value>Article {0} is not marked for inventory management</value>
+  </data>
+  <data name="Command_CancelOrderDelivery_Already_Cancelled" xml:space="preserve">
+    <value>Delivery has already been cancelled</value>
+  </data>
+  <data name="Xena_OrderUpdater_NoTermsOfPayment" xml:space="preserve">
+    <value>No terms of payment</value>
+  </data>
+  <data name="Command_CreateOffer_Nothing_To_Pick" xml:space="preserve">
+    <value>Nothing to deliver (for pick list)</value>
+  </data>
+  <data name="Domain_Order_Nothing_To_Deliver" xml:space="preserve">
+    <value>Nothing to deliver</value>
+  </data>
+  <data name="Domain_Order_Nothing_To_Cancel" xml:space="preserve">
+    <value>Nothing to cancel</value>
+  </data>
+  <data name="Xena_Domain_Delivery_OrderTask_Has_Not_Been_Delivered" xml:space="preserve">
+    <value>Order task has not been delivered</value>
+  </data>
+  <data name="Command_LinkArticlesInGroup_Not_Linked" xml:space="preserve">
+    <value>Article group ({0}) is not linked to an article group</value>
+  </data>
+  <data name="Command_LinkArticlesInGroup_All_Articles_Linked" xml:space="preserve">
+    <value>Article group ({0}) has no articles that have not already been linked.</value>
+  </data>
+  <data name="Updater_LedgerLine_Ledger_Is_Bookkeeping" xml:space="preserve">
+    <value>Ledger ({0}) is bookkeeping</value>
+  </data>
+  <data name="Command_BookkeepLedger_Bookkeeping_Was_Cancelled" xml:space="preserve">
+    <value>Bookkeeping was cancelled by user</value>
+  </data>
+  <data name="Domain_FiscalPeriod_Loced_At" xml:space="preserve">
+    <value>Fiscal period ({0}) is locked at {1}</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Date_Before_Locked_At_Date" xml:space="preserve">
+    <value>Ledger line (voucher: {0} at {1}) is before the fiscal periods lock date ({2})</value>
+  </data>
+  <data name="Updater_ReportLayout_InvalidCulture" xml:space="preserve">
+    <value>{0} is not a valid culture</value>
+  </data>
+  <data name="Command_TransferMembership_AdminRequired" xml:space="preserve">
+    <value>You must be administrator to perform this action</value>
+  </data>
+  <data name="Command_TransferMembership_MembershipNotFound" xml:space="preserve">
+    <value>Membership not found</value>
+  </data>
+  <data name="Command_TransferMembership_NotAllowed" xml:space="preserve">
+    <value>Not allowed</value>
+  </data>
+  <data name="Command_TransferMembership_NotValidEmail" xml:space="preserve">
+    <value>Not a valid email</value>
+  </data>
+  <data name="Command_TransferMembership_UserHasAccess" xml:space="preserve">
+    <value>User has already access</value>
+  </data>
+  <data name="Xena_Domain_FailedToTransferMembership" xml:space="preserve">
+    <value>Failed to transfer membership of this fiscalsetup to user: {1}</value>
+  </data>
+  <data name="Domain_Validation_BankSettlement_Must_Balance" xml:space="preserve">
+    <value>Bank settlement does not balance</value>
+  </data>
+  <data name="Domain_Vat_Invalid_VatType" xml:space="preserve">
+    <value>VatType is not valid ({0}) - valid vat types include: {1}</value>
+  </data>
+  <data name="Query_VatProblem_DefaultEUVAT_Goods_Marked_Non_EUVatGoods" xml:space="preserve">
+    <value>Default EU Goods VAT is marked as non-EU Goods type</value>
+  </data>
+  <data name="Command_SendOTPConfirmationCode_NotANumber" xml:space="preserve">
+    <value>Entered is not a correct phone number</value>
+  </data>
+  <data name="Query_VatProblem_DefaultEUVAT_Services_Marked_Non_EUVatServices" xml:space="preserve">
+    <value>Default EU Services VAT is marked as non-EU Services type</value>
+  </data>
+  <data name="Query_VatProblem_DefaultPurchaseVAT_Marked_Non_Purchasing" xml:space="preserve">
+    <value>Default purchasing VAT is marked as non-purchase type</value>
+  </data>
+  <data name="Command_SendOTPConfirmationCode_ErrorInSendingCode" xml:space="preserve">
+    <value>An error occurred while sending the confirmation code</value>
+  </data>
+  <data name="Query_VatProblem_DefaultSalesVAT_Marked_Non_Sales" xml:space="preserve">
+    <value>Default sales VAT is marked as non-sales type</value>
+  </data>
+  <data name="Query_VatProblem_Marked_As_Default_Type" xml:space="preserve">
+    <value>VAT Code is marked as non-determinate - should be changed appropriately.</value>
+  </data>
+  <data name="Domain_FixedAssetPurchase_Nothing_To_Depreciate" xml:space="preserve">
+    <value>Nothing to depreciate</value>
+  </data>
+  <data name="Command_HandleOTPSetupRequest_IncorrectCode" xml:space="preserve">
+    <value>Incorrect code - request new code.</value>
+  </data>
+  <data name="Domain_Validation_FixedAsset_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Command_HandleOTPSetupRequest_NoActivation" xml:space="preserve">
+    <value>No code saved - request new code.</value>
+  </data>
+  <data name="Command_HandleOTPSetupRequest_UserNotFound" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="Command_SendOTPSetupConfirmationCode_PhoneNumberRequired" xml:space="preserve">
+    <value>Phone number required</value>
+  </data>
+  <data name="Command_SendOTPSetupConfirmationCode_UserNotFound" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="Command_HandleOTPSetupRequest_IncorrectPhoneNumber" xml:space="preserve">
+    <value>Incorrect phone number</value>
+  </data>
+  <data name="Query_VatReconciliationPost_Cannot_Supply_Both_LedgerTag_And_ArticleGroup" xml:space="preserve">
+    <value>Cannot supply both ledgertag and articlegroup</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Import task not found</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccountCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Import task not found</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccount_ImportFailed" xml:space="preserve">
+    <value>Import for {0} failed</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccount_ImportFailed_DuplicateAccountNumber" xml:space="preserve">
+    <value>Following account numbers were duplicated:</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_DuplicateArticleGroups" xml:space="preserve">
+    <value>Following article groups were duplicated:</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_ImportFailed" xml:space="preserve">
+    <value>Import for {0} failed, as the article group is missing description</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Import task not found</value>
+  </data>
+  <data name="Command_BulkInsertImportedPostingCommand_ImportFailed" xml:space="preserve">
+    <value>Import for {0} failed</value>
+  </data>
+  <data name="Command_BulkInsertImportedPostingCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Import task not found</value>
+  </data>
+  <data name="Validation_AccountManualImportData_MissingAccountNumber" xml:space="preserve">
+    <value>Missing account number</value>
+  </data>
+  <data name="Validation_AccountManualImportData_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Command_BulkInserImportedPostingCommand_NoValidAccount" xml:space="preserve">
+    <value>{0} is not a valid account</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_FiscalSetupNotFound" xml:space="preserve">
+    <value>Fiscalsetup not found</value>
+  </data>
+  <data name="Deleters_FixedAsset_Has_Purchases" xml:space="preserve">
+    <value>Cannot delete fixed assets with purchases</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_ImportTaskNotFound" xml:space="preserve">
+    <value>Import task not found</value>
+  </data>
+  <data name="Deleters_FixedAssetPurchase_Depreciations_Exists" xml:space="preserve">
+    <value>Cannot delete purchases with depreciations</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_NotAllowedToDeleteAccounts" xml:space="preserve">
+    <value>Not allowed to delete imported accounts, because they are used by imported postings</value>
+  </data>
+  <data name="Deleters_FixedAssetPurchase_Transaction" xml:space="preserve">
+    <value>Cannot delete purchases linked to a voucher</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_NotAllowedToDeleteArticleGroups" xml:space="preserve">
+    <value>Not allowed to delete imported article groups, because they are used by imported articles</value>
+  </data>
+  <data name="Domain_Validation_AccountantDepartment_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Command_UpdateFiscalAccountantCommand_AccountantNotFound" xml:space="preserve">
+    <value>Accountant not found</value>
+  </data>
+  <data name="Command_UpdateFiscalAccountantCommand_LedgerNotFound" xml:space="preserve">
+    <value>Ledger not found</value>
+  </data>
+  <data name="Command_UpdateFiscalAccountantCommand_NoFiscalSetup" xml:space="preserve">
+    <value>No fiscalsetup found</value>
+  </data>
+  <data name="Xena_InvitePartner_Supporters_And_Accountants_Cannot_Invite" xml:space="preserve">
+    <value>Supporters and accountants cannot invite partners</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccount_ImportFailedReasons" xml:space="preserve">
+    <value>Import of account: {0} failed for the following reasons: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_ImportFailedReasons" xml:space="preserve">
+    <value>Import of articlegroup: {0} failed for the following reasons: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticle_ImportFailedReasons" xml:space="preserve">
+    <value>Import of article: {0} failed for the following reasons: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedPartnerCommand_ImportFailed" xml:space="preserve">
+    <value>Import of partner: {0} failed for the following reasons: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedPartnerCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Import task missing</value>
+  </data>
+  <data name="Command_BulkInsertImportedPartnerCommand_Validation_ContactNoMissing" xml:space="preserve">
+    <value>Contact number missing</value>
+  </data>
+  <data name="Command_BulkInsertImportedPostingCommand_ImportFailedReasons" xml:space="preserve">
+    <value>Import for post: {0} failed for the following reasons: {1}</value>
+  </data>
+  <data name="Validation_ArticleGroupImportData_Missing_Description" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Domain_StockCountDraft_Article_Does_Not_Have_Inventory_Management" xml:space="preserve">
+    <value>Article ({0}) does not have inventory management</value>
+  </data>
+  <data name="Xena_Home_CreditCardRequiredRoleChanging_UserNotFound" xml:space="preserve">
+    <value>User not found for membership: {0}</value>
+  </data>
+  <data name="Xena_ActivityUpdater_ActivityTypeRequired" xml:space="preserve">
+    <value>Activity type required</value>
+  </data>
+  <data name="Xena_ActivityUpdater_OrderRequiredForThisActivityType" xml:space="preserve">
+    <value>Order required for this type of activity</value>
+  </data>
+  <data name="Domain_Order_Cannot_Delete_Order_With_Deliveries" xml:space="preserve">
+    <value>Order ({0}) has at least one delivery and cannot be deleted.</value>
+  </data>
+  <data name="Domain_Order_Cannot_Delete_Order_With_Invoices" xml:space="preserve">
+    <value>Order ({0}) has at least one invoice and cannot be deleted.</value>
+  </data>
+  <data name="Command_MergeLocation_Cannot_Merge_Location_Onto_It_Self" xml:space="preserve">
+    <value>You must supply different locations to merge.</value>
+  </data>
+  <data name="Domain_VatSettlement_Has_Been_Paid" xml:space="preserve">
+    <value>Vat settlement has already been paid</value>
+  </data>
+  <data name="Domain_Validation_Article_Already_Is_Bundle" xml:space="preserve">
+    <value>Article is already marked as a bundle</value>
+  </data>
+  <data name="Xena_Subscription_ExecuteSubscriptions_MissingData" xml:space="preserve">
+    <value>Missing data to complete online payments</value>
+  </data>
+  <data name="Domain_Validation_Article_InventoryManagement_Cannot_Be_Bundle" xml:space="preserve">
+    <value>Bundled articles cannot have inventory management</value>
+  </data>
+  <data name="Domain_Validation_Article_Variants_Cannot_Be_Bundle" xml:space="preserve">
+    <value>Bundled articles cannot have variants</value>
+  </data>
+  <data name="Domain_Validation_BundledArticle_CannotHaveInventoryManagement" xml:space="preserve">
+    <value>Bundled articles cannot have inventory management</value>
+  </data>
+  <data name="Domain_Validation_BundledArticle_CannotHaveVariants" xml:space="preserve">
+    <value>Bundled articles cannot have variants</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Already_Has_InventoryManagement" xml:space="preserve">
+    <value>Article already has inventory management</value>
+  </data>
+  <data name="Domain_Validation_LedgerTagGroup_Description_Missing" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Deleters_OrderLine_Cannot_Delete_Delivered_OrderLines" xml:space="preserve">
+    <value>Cannot delete delivered order lines</value>
+  </data>
+  <data name="Command_CreateActivityFromAppointmentCommand_AppointmentIsMissing" xml:space="preserve">
+    <value>Appointment is missing</value>
+  </data>
+  <data name="Deleters_OrderLine_Cannot_Delete_Invoiced_OrderLines" xml:space="preserve">
+    <value>Cannot delete invoiced order lines</value>
+  </data>
+  <data name="Command_CreateActivityFromAppointmentCommand_ResourceIsMissing" xml:space="preserve">
+    <value>Resource is missing</value>
+  </data>
+  <data name="Command_MoveEconomicTransaction_No_Change" xml:space="preserve">
+    <value>Nothing to change</value>
+  </data>
+  <data name="ArticleBundleEnabler_On_Bundle" xml:space="preserve">
+    <value>Article is used on bundled article: {0}</value>
+  </data>
+  <data name="Updater_OrderPayer_No_Vouchers" xml:space="preserve">
+    <value>No vouchers to pay</value>
+  </data>
+  <data name="Command_UserCommand_XenaSubscription_Creditcard_Required" xml:space="preserve">
+    <value>You cannot add a new user without having a credit card connected with your Xena subscription</value>
+  </data>
+  <data name="Command_UserCommand_XenaSubscription_Inactive" xml:space="preserve">
+    <value>Xena subscription is inactive</value>
+  </data>
+  <data name="Creator_Order_Invalid_ContextType" xml:space="preserve">
+    <value>ContextType: {0} is not valid. Valid choices are: {1}</value>
+  </data>
+  <data name="Command_OnlinePartnerPostPayment_DataTemperedWith" xml:space="preserve">
+    <value>Data has been tempered with, and the payment can therefore not be registered as completed</value>
+  </data>
+  <data name="Command_OnlinePartnerPostPayment_MD5KeyMissing" xml:space="preserve">
+    <value>The provider of this payment has deactivated online payment</value>
+  </data>
+  <data name="Command_OnlinePartnerPostPayment_UnableToParseId" xml:space="preserve">
+    <value>Unable to parse id: {0}</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_DeleteMembership_XenaSubscriptionMustBeActive" xml:space="preserve">
+    <value>Xena subscription must be active</value>
+  </data>
+  <data name="Domain_Vat_Invalid_ExistingVatCode" xml:space="preserve">
+    <value>Vat code is already used</value>
+  </data>
+  <data name="Updater_Barcode_EAN_Already_Exists" xml:space="preserve">
+    <value>EAN Number already exists</value>
+  </data>
+  <data name="Xena_Domain_Validation_ArticleEANNumber_Quantity_Cannot_Be_NonPositive" xml:space="preserve">
+    <value>Quantity cannot be non-positive</value>
+  </data>
+  <data name="Command_BulkInsertBarcode_Duplicate_EANNumbers" xml:space="preserve">
+    <value>Following EAN Numbers are have duplicates: {0}</value>
+  </data>
+  <data name="Command_BulkInsertBarcode_Missing_ArticleNumber" xml:space="preserve">
+    <value>No matching articles with article number: ({0}) have been found</value>
+  </data>
+  <data name="Command_BulkInsertBarcode_Missing_EANNumber" xml:space="preserve">
+    <value>{0} importlines had no EANNumber</value>
+  </data>
+  <data name="Controller_ApiBarcode_Nothing_To_Insert" xml:space="preserve">
+    <value>Nothing to insert</value>
+  </data>
+  <data name="Command_CopyArticle_ArticleNumber_Exists" xml:space="preserve">
+    <value>Article number: {0} already exists</value>
+  </data>
+  <data name="Command_InsertBarCodesOnOrder_OrderNotFound" xml:space="preserve">
+    <value>Order not found</value>
+  </data>
+  <data name="Command_InsertBarCodesOnOrder_TaskNotFound" xml:space="preserve">
+    <value>Task not found</value>
+  </data>
+  <data name="Deleters_PartnerCustomerContext_Has_PartnerPosts" xml:space="preserve">
+    <value>Partner has customer posts</value>
+  </data>
+  <data name="Deleters_PartnerCustomerContext_Has_PriceDiscountAgreements" xml:space="preserve">
+    <value>Partner has price discount agreements</value>
+  </data>
+  <data name="Deleters_PartnerCustomerContext_Has_Subscriptions" xml:space="preserve">
+    <value>Partner has subscriptions</value>
+  </data>
+  <data name="Deleters_PartnerSupplierContext_Has_PartnerPosts" xml:space="preserve">
+    <value>Partner has supplier posts</value>
+  </data>
+  <data name="Updater_OrderReceptionDraft_Resource_Not_Allowed" xml:space="preserve">
+    <value>Resource (id: {0}, name: {1}) is not allowed to create order reception drafts - must have "Show in order" set to true.</value>
+  </data>
+  <data name="Xena_Bookkeeping_OCRClient_ErrorOccured" xml:space="preserve">
+    <value>Error while processing the task - Task status was: {0}</value>
+  </data>
+  <data name="Xena_Bookkeeping_OCRClient_NotEnoughCredits" xml:space="preserve">
+    <value>Not enough credits to process the file. Please add more pages to your application balance.</value>
+  </data>
+  <data name="Xena_Bookkeeping_ParseVoucherCommand_VoucherPreviewExists" xml:space="preserve">
+    <value>Voucher preview has already been created manually for resource inbox document relation (id: {0})</value>
+  </data>
+  <data name="Updater_Location_Already_Exists" xml:space="preserve">
+    <value>Location already exists</value>
+  </data>
+  <data name="Updater_AddtionalArticle_Parent_Cannot_Equal_Child" xml:space="preserve">
+    <value>Cannot select the same article as additional on it self</value>
+  </data>
+  <data name="Domain_ArticleRelocationTask_Cannot_Move_More_Than" xml:space="preserve">
+    <value>Cannot move more than set on line</value>
+  </data>
+  <data name="Limitied_Functionality_Article_NoMoreThan10InventoryManaged" xml:space="preserve">
+    <value>You need a premium subscription to have more than 10 articles with inventory management</value>
+  </data>
+  <data name="Limitied_Functionality_Bookkeeping_NoMoreThan10Lines" xml:space="preserve">
+    <value>You need a premium subscription to bookkeep more than 20 lines at a time in the ledger.</value>
+  </data>
+  <data name="Domain_ArticleRelocationTask_Cannot_Move_Negative_Quantity" xml:space="preserve">
+    <value>Cannot move a negative quantity</value>
+  </data>
+  <data name="Domain_ArticleRelocationTask_Locations_Are_Equal" xml:space="preserve">
+    <value>To and from locations are the same</value>
+  </data>
+  <data name="Commands_RequestPremium_NoCreditCard" xml:space="preserve">
+    <value>You need to register a credit card to get Xena Premium.</value>
+  </data>
+  <data name="Commands_RequestPremium_Already_Free" xml:space="preserve">
+    <value>You already have a Free Xena subscription</value>
+  </data>
+  <data name="Commands_RequestPremium_Already_Premium" xml:space="preserve">
+    <value>You already have a Premium Xena subscription</value>
+  </data>
+  <data name="Command_RequestFree_HaveMoreThanOneUser" xml:space="preserve">
+    <value>You cannot downgrade to a Free Xena subscription with more than one user requiring payment.</value>
+  </data>
+  <data name="Command_RequestFree_HaveVirtualUsers" xml:space="preserve">
+    <value>You cannot downgrade to a Free Xena subscription with API-keys.</value>
+  </data>
+  <data name="Commands_CreateApiUser_NeedPremium_Subscription" xml:space="preserve">
+    <value>You need a Premium Xena subscription to create API users</value>
+  </data>
+  <data name="Domain_Supporter_Is_Not_XenaSupporter" xml:space="preserve">
+    <value>User is not marked as a Xena supporter</value>
+  </data>
+  <data name="Updater_Supporter_UserIsNotSupporter" xml:space="preserve">
+    <value>User is not a Xena supporter</value>
+  </data>
+  <data name="Command_ParseVoucherCommand" xml:space="preserve">
+    <value>Fremium user reached max in monthly free parsings (fiscalId: {0})</value>
+  </data>
+  <data name="Command_SetXenaAdvertisment_UpgradeToPremium" xml:space="preserve">
+    <value>Upgrade to Premium to set this</value>
+  </data>
+  <data name="Query_Cannot_Be_Sent_Electonically" xml:space="preserve">
+    <value>Invoice cannot be sent electronically - unsupported scenario.</value>
+  </data>
+  <data name="Commands_DeleteArticlesInArticleGroup_NothingToDelete" xml:space="preserve">
+    <value>Nothing to delete</value>
+  </data>
+  <data name="Updater_FiscalPeriod_CannotAddPeriodWhenPrimoposts" xml:space="preserve">
+    <value>You cannot add a period before existing periods, when they have primoposts in the income section.</value>
+  </data>
+  <data name="Updater_FiscalPeriod_CannotOverlap" xml:space="preserve">
+    <value>You cannot create periods that overlap others.</value>
+  </data>
+  <data name="Updater_FiscalPeriod_LedgerPostsEnterNewPeriod" xml:space="preserve">
+    <value>Cannot update end of fiscal period when existing ledger posts would enter new period</value>
+  </data>
+  <data name="Updater_FiscalPeriod_LedgerPostsNoPeriod" xml:space="preserve">
+    <value>Cannot update end of fiscal period when existing ledger posts would have no period</value>
+  </data>
+  <data name="Updater_FiscalPeriod_MustBeTheDayBeforeFirstDayOfNextPeriod" xml:space="preserve">
+    <value>Fiscal period end must be the day before the first day in the next period ({0}).</value>
+  </data>
+  <data name="Updater_FiscalPeriod_MustCoverOneDay" xml:space="preserve">
+    <value>Fiscal periods must cover a period of at least one day.</value>
+  </data>
+  <data name="Updater_FiscalPeriod_NextDayAfterLastDayInPrevious" xml:space="preserve">
+    <value>Fiscal period start must be the next day after the last day in the previous period ({0}).</value>
+  </data>
+  <data name="Updater_FiscalPeriod_PeriodsAfter" xml:space="preserve">
+    <value>Cannot update end of fiscal periood when there are periods after</value>
+  </data>
+  <data name="Updater_FiscalPeriod_PeriodsBefore" xml:space="preserve">
+    <value>Cannot update start of fiscal period when there are periods before</value>
+  </data>
+  <data name="Domain_EconomicTransaction_SystemDifference_Too_Large" xml:space="preserve">
+    <value>On voucher {0}, {1} system difference is too high. Difference is {2} {3}, allowed difference for {3} is {4}.</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_EconomicTransaction_Warning_SystemDifference_On_Vouchers" xml:space="preserve">
+    <value>The following vouchers will bookkeep system differences: {0}.</value>
+  </data>
+  <data name="Updater_Supporter_Duplicate" xml:space="preserve">
+    <value>Already added as supporter</value>
+  </data>
+  <data name="Domain_User_NameMustBeSet" xml:space="preserve">
+    <value>User name must be set</value>
+  </data>
+  <data name="Limitied_Functionality_Bookkeeping_NoMoreThan20Lines" xml:space="preserve">
+    <value>You need a premium subscription to bookkeep more than 20 lines at a time in the ledger.</value>
+  </data>
+  <data name="Domain_ProjectGroup_MissingDescription" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Domain_ProjectLedger_MissingDescription" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Domain_ProjectPostType_MissingDescription" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Domain_ProjectStatus_MissingDescription" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Domain_Project_MissingDescription" xml:space="preserve">
+    <value>Missing description</value>
+  </data>
+  <data name="Domain_Project_FailedToSupplyProjectNumber" xml:space="preserve">
+    <value>No project number supplied</value>
+  </data>
+  <data name="Updater_Failed_ToGetProjectNumber" xml:space="preserve">
+    <value>Failed to create project number</value>
+  </data>
+</root>

@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Localized_Currency_AFN" xml:space="preserve">
+    <value>Afganskur</value>
+  </data>
+  <data name="Localized_Currency_ALL" xml:space="preserve">
+    <value>Albansk lek</value>
+  </data>
+  <data name="Localized_Currency_DZD" xml:space="preserve">
+    <value>Algerisk dinar</value>
+  </data>
+  <data name="Localized_Currency_ARS" xml:space="preserve">
+    <value>Argentinsk peso</value>
+  </data>
+  <data name="Localized_Currency_AMD" xml:space="preserve">
+    <value>Armensk dram</value>
+  </data>
+  <data name="Localized_Currency_AUD" xml:space="preserve">
+    <value>Avstralskur dollari</value>
+  </data>
+  <data name="Localized_Currency_AZN" xml:space="preserve">
+    <value>Aserbadjanskur dollari</value>
+  </data>
+  <data name="Localized_Currency_BDT" xml:space="preserve">
+    <value>Bangladesj Taka</value>
+  </data>
+  <data name="Localized_Currency_BHD" xml:space="preserve">
+    <value>Barainsk dinar</value>
+  </data>
+  <data name="Localized_Currency_BZD" xml:space="preserve">
+    <value>Belisiskur dollari</value>
+  </data>
+  <data name="Localized_Currency_BOB" xml:space="preserve">
+    <value>Boliviano</value>
+  </data>
+  <data name="Localized_Currency_BGN" xml:space="preserve">
+    <value>Bulgarsk lev</value>
+  </data>
+  <data name="Localized_Currency_BND" xml:space="preserve">
+    <value>Bruneiskur dollari</value>
+  </data>
+  <data name="Localized_Currency_CAD" xml:space="preserve">
+    <value>Kanadiskur dollari</value>
+  </data>
+  <data name="Localized_Currency_CLP" xml:space="preserve">
+    <value>Kilensk peso</value>
+  </data>
+  <data name="Localized_Currency_COP" xml:space="preserve">
+    <value>Kolumbiansk peso</value>
+  </data>
+  <data name="Localized_Currency_CRC" xml:space="preserve">
+    <value>Kosta Rika kolon</value>
+  </data>
+  <data name="Localized_Currency_DKK" xml:space="preserve">
+    <value>Donsk króna</value>
+  </data>
+  <data name="Localized_Currency_DOP" xml:space="preserve">
+    <value>Dominikansk peso</value>
+  </data>
+  <data name="Localized_Currency_GBP" xml:space="preserve">
+    <value>Bretsk pund</value>
+  </data>
+  <data name="Localized_Currency_EGP" xml:space="preserve">
+    <value>Egyptisk pund</value>
+  </data>
+  <data name="Localized_Currency_EEK" xml:space="preserve">
+    <value>Estiskur króni</value>
+  </data>
+  <data name="Localized_Currency_ETB" xml:space="preserve">
+    <value>Etiopiskur birr</value>
+  </data>
+  <data name="Localized_Currency_EUR" xml:space="preserve">
+    <value>Evra</value>
+  </data>
+  <data name="Localized_Currency_PHP" xml:space="preserve">
+    <value>Filipsoyskur peso</value>
+  </data>
+  <data name="Localized_Currency_GTQ" xml:space="preserve">
+    <value>Guatemalskur quetzal</value>
+  </data>
+  <data name="Localized_Currency_BYR" xml:space="preserve">
+    <value>Hvítarussibkur rublar</value>
+  </data>
+  <data name="Localized_Currency_HKD" xml:space="preserve">
+    <value>Hong kong dollari</value>
+  </data>
+  <data name="Localized_Currency_HNL" xml:space="preserve">
+    <value>Hondursk lempira</value>
+  </data>
+  <data name="Localized_Currency_IDR" xml:space="preserve">
+    <value>Indonesiskur rupia</value>
+  </data>
+  <data name="Localized_Currency_INR" xml:space="preserve">
+    <value>Indiskur rupi</value>
+  </data>
+  <data name="Localized_Currency_ISK" xml:space="preserve">
+    <value>Íslandskar krónur</value>
+  </data>
+  <data name="Localized_Currency_ILS" xml:space="preserve">
+    <value>Nýggj israelsk sekul</value>
+  </data>
+  <data name="Localized_Currency_IQD" xml:space="preserve">
+    <value>Irakisk dinar</value>
+  </data>
+  <data name="Localized_Currency_IRR" xml:space="preserve">
+    <value>Iransk rial</value>
+  </data>
+  <data name="Localized_Currency_JMD" xml:space="preserve">
+    <value>Jamaikiskur dollari</value>
+  </data>
+  <data name="Localized_Currency_JPY" xml:space="preserve">
+    <value>Japansk yen</value>
+  </data>
+  <data name="Localized_Currency_CNY" xml:space="preserve">
+    <value>Kinesisk renminbi</value>
+  </data>
+  <data name="Localized_Currency_KES" xml:space="preserve">
+    <value>Kenjisk shilling</value>
+  </data>
+  <data name="Localized_Currency_LAK" xml:space="preserve">
+    <value>Kip</value>
+  </data>
+  <data name="Localized_Currency_BAM" xml:space="preserve">
+    <value>Konvertible Mærker</value>
+  </data>
+  <data name="Localized_Currency_HRK" xml:space="preserve">
+    <value>Kroatisk kuna</value>
+  </data>
+  <data name="Localized_Currency_KRW" xml:space="preserve">
+    <value>Koreiskur won</value>
+  </data>
+  <data name="Localized_Currency_KWD" xml:space="preserve">
+    <value>Kuvaitisk dinar</value>
+  </data>
+  <data name="Localized_Currency_GEL" xml:space="preserve">
+    <value>Lari</value>
+  </data>
+  <data name="Localized_Currency_LVL" xml:space="preserve">
+    <value>Lettlendsk latts</value>
+  </data>
+  <data name="Localized_Currency_LBP" xml:space="preserve">
+    <value>Libansk pund</value>
+  </data>
+  <data name="Localized_Currency_LTL" xml:space="preserve">
+    <value>Litavsk litas</value>
+  </data>
+  <data name="Localized_Currency_LYD" xml:space="preserve">
+    <value>Libysk dinar</value>
+  </data>
+  <data name="Localized_Currency_MKD" xml:space="preserve">
+    <value>Makedónsk denar</value>
+  </data>
+  <data name="Localized_Currency_MOP" xml:space="preserve">
+    <value>Macao pacata</value>
+  </data>
+  <data name="Localized_Currency_MYR" xml:space="preserve">
+    <value>Malaisisk ringgit</value>
+  </data>
+  <data name="Localized_Currency_MAD" xml:space="preserve">
+    <value>Marokkansk dirham</value>
+  </data>
+  <data name="Localized_Currency_MXN" xml:space="preserve">
+    <value>Meksikanskur peso</value>
+  </data>
+  <data name="Localized_Currency_NIO1" xml:space="preserve">
+    <value>Nikaraguriskur cordoba oro</value>
+  </data>
+  <data name="Localized_Currency_NPR" xml:space="preserve">
+    <value>Nepalsk rupi</value>
+  </data>
+  <data name="Localized_Currency_NZD" xml:space="preserve">
+    <value>Nýsælendskur dollari</value>
+  </data>
+  <data name="Localized_Currency_TWD" xml:space="preserve">
+    <value>Nýggjur taivanskur dollari</value>
+  </data>
+  <data name="Localized_Currency_NIO" xml:space="preserve">
+    <value>Nigeriansk naira</value>
+  </data>
+  <data name="Localized_Currency_NOK" xml:space="preserve">
+    <value>Norskur króni</value>
+  </data>
+  <data name="Localized_Currency_OMR" xml:space="preserve">
+    <value>Omansk rial</value>
+  </data>
+  <data name="Localized_Currency_PAB" xml:space="preserve">
+    <value>Panamansk balboa</value>
+  </data>
+  <data name="Localized_Currency_PKR" xml:space="preserve">
+    <value>Pakistanskur rupi</value>
+  </data>
+  <data name="Localized_Currency_PYG" xml:space="preserve">
+    <value>Paraguaiskur guarani</value>
+  </data>
+  <data name="Localized_Currency_BRL" xml:space="preserve">
+    <value>Real</value>
+  </data>
+  <data name="Localized_Currency_CHF" xml:space="preserve">
+    <value>Sveisisk franc</value>
+  </data>
+  <data name="Localized_Currency_CHF1" xml:space="preserve">
+    <value>Sveisisk franc</value>
+  </data>
+  <data name="Localized_Currency_KHR" xml:space="preserve">
+    <value>Riel</value>
+  </data>
+  <data name="Localized_Currency_MVR" xml:space="preserve">
+    <value>Rufiyaa</value>
+  </data>
+  <data name="Localized_Currency_PEN" xml:space="preserve">
+    <value>Peruansk nuevo sol</value>
+  </data>
+  <data name="Localized_Currency_PLN" xml:space="preserve">
+    <value>Polskur zloty</value>
+  </data>
+  <data name="Localized_Currency_QAR" xml:space="preserve">
+    <value>Katarsk rial</value>
+  </data>
+  <data name="Localized_Currency_RON" xml:space="preserve">
+    <value>Rumensk leu</value>
+  </data>
+  <data name="Localized_Currency_RUB" xml:space="preserve">
+    <value>Russisk rubel</value>
+  </data>
+  <data name="Localized_Currency_RWF" xml:space="preserve">
+    <value>Ruandiskur franc</value>
+  </data>
+  <data name="Localized_Currency_SAR" xml:space="preserve">
+    <value>Saudisk riyal</value>
+  </data>
+  <data name="Localized_Currency_TJS" xml:space="preserve">
+    <value>Rubel</value>
+  </data>
+  <data name="Localized_Currency_UYU" xml:space="preserve">
+    <value>Uruguaiskur peso</value>
+  </data>
+</root>

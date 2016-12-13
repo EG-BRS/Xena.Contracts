@@ -1,0 +1,1167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Command_ElectronicEANInvoice_InvalidCVR" xml:space="preserve">
+    <value>{0} ikki gildigt EAN-nummar, har skal vera 13 tøl</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Deactivated" xml:space="preserve">
+    <value>{0} ({1}) er óvirkt</value>
+  </data>
+  <data name="Domain_OrderLine_ArticleMapping_Quantity_Modulus_Fail" xml:space="preserve">
+    <value>{0} seljast bert í nøgdini {1}</value>
+  </data>
+  <data name="Domain_Subscription_No_Orders_Created" xml:space="preserve">
+    <value>Hald ({0}) stovnaði tóman ordra</value>
+  </data>
+  <data name="Command_ElectronicCVRInvoice_InvalidCVR" xml:space="preserve">
+    <value>{0} er ikki eitt gildigt V-tal - dømi: 592692</value>
+  </data>
+  <data name="Domain_Subscription_Activate_Already_Active" xml:space="preserve">
+    <value>Haldið er longu virkt</value>
+  </data>
+  <data name="Domain_Subscription_Activate_Cannot_Be_Cash_Without_Ticket" xml:space="preserve">
+    <value>Haldið kann ikki setast til gjaldast kontant uttan kundin hevur sligið inn kortupplýsingar</value>
+  </data>
+  <data name="Domain_Subscription_Activate_No_Customer" xml:space="preserve">
+    <value>Haldið hevur ongan kunda</value>
+  </data>
+  <data name="Domain_Subscription_Deactivate_Already_Inactive" xml:space="preserve">
+    <value>Haldið er longu óvirkið</value>
+  </data>
+  <data name="Domain_Validation_XenaAppPlugin_Invalid_Uri" xml:space="preserve">
+    <value>{0} er ikki ein gildig url adressa (skal vera https og rætt sniðað)</value>
+  </data>
+  <data name="Updater_ReportLayout_InvalidCulture" xml:space="preserve">
+    <value>{0} er ikki eitt gildigt mál</value>
+  </data>
+  <data name="Xena_GetSubscriptionFromNotification_SubscriptionNoTFound" xml:space="preserve">
+    <value>Hald finst ikki</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Address_No_City" xml:space="preserve">
+    <value>Adressan er ógildig - manglar bý (address: {0})</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Address_No_StreetNumber" xml:space="preserve">
+    <value>Adressan er ógildig - manglar vegnummar (address: {0})</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Address_No_Zip" xml:space="preserve">
+    <value>Adressan er ógildig - manglar postnummar (address: {0})</value>
+  </data>
+  <data name="Xena_User_Creation_Password_Must_Be_5_Characters_Or_More" xml:space="preserve">
+    <value>Kotan skal vera minst 6 tekn</value>
+  </data>
+  <data name="Command_BulkInserImportedPostingCommand_NoValidAccount" xml:space="preserve">
+    <value>ikki gildig konto</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_Invalid_ContextType" xml:space="preserve">
+    <value>ikki gildigt høpi</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_ValidFrom_IsLaterThan_ValidTo" xml:space="preserve">
+    <value>"Gildigur frá" má vera áðrenn "Gildigur til"</value>
+  </data>
+  <data name="Domain_VolumePriceAgreement_ValidFrom_IsLaterThan_ValidTo" xml:space="preserve">
+    <value>"Gildigur frá" má vera áðrenn "Gildigur til"</value>
+  </data>
+  <data name="Command_MoveInvoiceToInbox_NoResource" xml:space="preserve">
+    <value>Núverandi brúkari hevur onga resursu</value>
+  </data>
+  <data name="Deleters_FixedAsset_Has_Purchases" xml:space="preserve">
+    <value>Útbúnaður við keypi kann ikki slettast</value>
+  </data>
+  <data name="Deleters_FixedAssetPurchase_Depreciations_Exists" xml:space="preserve">
+    <value>Útbúnaður við avskriving kann ikki slettast</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_Giro_InvalidAccountNumber" xml:space="preserve">
+    <value>Allir danskir girokontoir hava 7 tøl uttan millumrúm</value>
+  </data>
+  <data name="Xena_User_Creation_Duplicate_User" xml:space="preserve">
+    <value>Brúkaranavnið er í nýtslu</value>
+  </data>
+  <data name="Domain_Validation_ArticleMapping_Quantity_NotPositive" xml:space="preserve">
+    <value>Nøgd má vera positivt tal</value>
+  </data>
+  <data name="Domain_Validation_StockCountDraft_Negative" xml:space="preserve">
+    <value>Upptalt kann ikki vera minni enn 0</value>
+  </data>
+  <data name="Domain_Reconciliation_Cannot_Use_Same_Ledgertag_As_BankContext" xml:space="preserve">
+    <value>Bankakontoin kann ikki ásetast sum munarkonto</value>
+  </data>
+  <data name="Domain_Validation_BankSettlement_Must_Balance" xml:space="preserve">
+    <value>Bankaútlíkningin javnvigar ikki</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeep_Warning_Different_Vat_From_Default" xml:space="preserve">
+    <value>Fylgiskjal(skjøl) {0} hevur/hava eina MVGkotu, ið ikki samsvarar við MVGkotu á kontoini.</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Voucher_Not_Balanced" xml:space="preserve">
+    <value>Fylgiskjal {0} javnvigar ikki á {1}, munurin er: {2}</value>
+  </data>
+  <data name="Domain_LedgerNumberSeries_VoucherNumberHasBeenUsed" xml:space="preserve">
+    <value>Fylgiskjalsnummar {0} er longu brúkt hetta roknskaparárið</value>
+  </data>
+  <data name="Domain_Subscription_OrderFailedToBookkeep" xml:space="preserve">
+    <value>Bóking av ordra frá haldi miseydnaðist</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_VoucherDraftType_Not_Supported" xml:space="preserve">
+    <value>Fylgisskjalsfílutýpa riggar ikki </value>
+  </data>
+  <data name="Xena_Payment_BookkeepingFailed" xml:space="preserve">
+    <value>Bóking miseydnaðist fyri vinnupartnara</value>
+  </data>
+  <data name="Xena_Payment_InvalidPaymentLedgerTag" xml:space="preserve">
+    <value>Gjaldskonto fyri núverandi roknskap er ikki ásett ella konto er óvirkt</value>
+  </data>
+  <data name="Command_BookkeepLedger_Bookkeeping_Was_Cancelled" xml:space="preserve">
+    <value>Bóking varð avbrotin av brúkara</value>
+  </data>
+  <data name="Command_HandleOTPSetupRequest_UserNotFound" xml:space="preserve">
+    <value>Brúkari ikki funnin</value>
+  </data>
+  <data name="Command_SendOTPSetupConfirmationCode_UserNotFound" xml:space="preserve">
+    <value>Brúkari ikki funnin</value>
+  </data>
+  <data name="Command_TransferMembership_UserHasAccess" xml:space="preserve">
+    <value>Brúkari hevur longu atgongd</value>
+  </data>
+  <data name="Domain_DeleteUser_UserNotFound" xml:space="preserve">
+    <value>Brúkari ikki funnin</value>
+  </data>
+  <data name="Domain_FiscalPeriod_No_CurrentResource" xml:space="preserve">
+    <value>Brúkari hevur onga ressursu</value>
+  </data>
+  <data name="Xena_CreatePartnerFromDto_UserNotFound" xml:space="preserve">
+    <value>Brúkari ikki funnin</value>
+  </data>
+  <data name="Xena_FiscalSetup_InviteUser_UserHasAccess" xml:space="preserve">
+    <value>Brúkarin ({0}) hevur longu atgongd</value>
+  </data>
+  <data name="Xena_LinkPartnerToVCard_UserNotFound" xml:space="preserve">
+    <value>Brúkari ikki funnin</value>
+  </data>
+  <data name="Xena_Partner_ResendPartnerInvitation_UserNotFound" xml:space="preserve">
+    <value>Brúkari ikki funnin</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_Bank_InvalidAccountNumber" xml:space="preserve">
+    <value>Danskar bankakontoir skulu hava 4-10 tøl og kunnu hava valfrí millumrúm</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_Bank_InvalidRegNumber" xml:space="preserve">
+    <value>Danskir bankar hava 4-tals skrásetingarnummar, sum skal upplýsast</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Date_Outside_FiscalPeriod" xml:space="preserve">
+    <value>Dagfestingin {0} er uttanfyri roknskaparárið {1}</value>
+  </data>
+  <data name="Domain_Subscription_Activate_NextRunDate_Before_StartDate" xml:space="preserve">
+    <value>Dagfesting fyri næsta koyring er áðrenn haldsbyrjan</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_Warning_Future_FiscalDate" xml:space="preserve">
+    <value>Dagfesting er í framtíðini</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_FiscalDates_Must_Be_Same_As_Transactions" xml:space="preserve">
+    <value>Dagfesting á einari ella fleiri fíggjarbókingum samsvarar ikki við dagfesting á handlinum</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoPartnerPost_FiscalDate_Later_Than_Start_Of_FiscalPeriod" xml:space="preserve">
+    <value>Dagfesting er seinni enn byrjanina á fíggjartíðarskeiðið</value>
+  </data>
+  <data name="Command_ChangePassword_OldPassword" xml:space="preserve">
+    <value>Gomul kota ikki rætt</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_Cannot_Delete_Last_User" xml:space="preserve">
+    <value>Síðsti brúkari í roknskapinum kann ikki strikast. Strika roknskapin í staðin.</value>
+  </data>
+  <data name="Domain_PartnerResourceContext_Cannot_Have_API_Access_On_Xena_User" xml:space="preserve">
+    <value>API-lyklar kunnu ikki stovnast á brúkarum við atgongd umvegis OAuth2</value>
+  </data>
+  <data name="Domain_Payment_NoPartnerPosts_Supplied" xml:space="preserve">
+    <value>Eingin partnarabóking ásett til gjalding</value>
+  </data>
+  <data name="Domain_Subscription_Activate_SubscriptionLines_Without_Article" xml:space="preserve">
+    <value>Har eru {0} linjur uttan vørur</value>
+  </data>
+  <data name="Query_VatReconciliationPost_Cannot_Supply_Both_LedgerTag_And_ArticleGroup" xml:space="preserve">
+    <value>Har kann ikki ásetast bæði fíggjarkonto og vørubólk</value>
+  </data>
+  <data name="Xena_ArticleDeleter_CannotDelete_CurrentlyStock" xml:space="preserve">
+    <value>Vøran er í løtuni á goymslu og kann tí ikki strikast.</value>
+  </data>
+  <data name="Xena_ArticleInventoryEnabler_OrdertasksNotInvoiced" xml:space="preserve">
+    <value>Har eru {0} ordrauppgávur, sum eru faktureraðar, men ikki avhendaðar, fyri hesa vøruna.</value>
+  </data>
+  <data name="Xena_Domain_Order_Summary_NoOrdertasksToInvoice" xml:space="preserve">
+    <value>Har eru ongar ordrauppgávur at fakturera</value>
+  </data>
+  <data name="Xena_Domain_Validation_CurrencyExchangeRate_NotFoundForDate" xml:space="preserve">
+    <value>Eingin gjaldoyrakursur er ásett fyri {0} um {1}</value>
+  </data>
+  <data name="Xena_PrimoPostDeleter_CannotDeleteThisPrimoPost" xml:space="preserve">
+    <value>Hendan byrjanarbókingin kann ikki strikast</value>
+  </data>
+  <data name="Command_InitializeC5Import_User_Not_Authorized" xml:space="preserve">
+    <value>Brugeren {0} har ikke rettigheder til at lave en import(Import kræver enten bogførings- eller administratorrolle)</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_NotAllowedToDeleteAccounts" xml:space="preserve">
+    <value>Tað ber ikki til at strika innfluttar kontoir, tær eru í nýtslu á innfluttum bókingum</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_NotAllowedToDeleteArticleGroups" xml:space="preserve">
+    <value>Tað ber ikki til at strika innfluttar vørubólkar, teir eru í nýtslu á influttum vørum</value>
+  </data>
+  <data name="Command_SendOTPConfirmationCode_NotANumber" xml:space="preserve">
+    <value>Tað àsetta er ikki eitt gildigt telefonnummar</value>
+  </data>
+  <data name="Command_TransferMembership_AdminRequired" xml:space="preserve">
+    <value>Fyrisitararættindi krevst fyri at útinna gerðina</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeep_Warning_Posting_On_Existing_Voucher" xml:space="preserve">
+    <value>Bókast á verandi fylgiskjali! (Fylgiskjal {0})</value>
+  </data>
+  <data name="Xena_Document_NewVersionFromXenaDocument_NotAllowed" xml:space="preserve">
+    <value>Tað ber ikki til at leggja eina útgávu aftrat hetta skjalið</value>
+  </data>
+  <data name="Xena_Document_NotPossibleToCreateDocument" xml:space="preserve">
+    <value>Ber ikki til at stovna skjal</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_EconomicTransaction_Warning_SystemDifference" xml:space="preserve">
+    <value>Bókast á munarkonto</value>
+  </data>
+  <data name="Xena_Domain_FailedToInviteUser" xml:space="preserve">
+    <value>Brúkarin {0} kann ikki bjóðast til hetta roknskapið</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Order_Must_Be_Paid_In_Full" xml:space="preserve">
+    <value>Upphædd samsvarar ikki við ordraupphædd</value>
+  </data>
+  <data name="Xena_Email_SendEmail_OnlyOneEmail" xml:space="preserve">
+    <value>Bert ein teldupostur er lov, tá tú bjóðar til Xena</value>
+  </data>
+  <data name="Xena_Home_ResetPassword_NoLongerPossibleToResetPassword" xml:space="preserve">
+    <value>Det er ikke længere muligt at nulstille kodeordet. Lav en ny nulstilling af kodeord hvis det stadig er nødvendigt.</value>
+  </data>
+  <data name="Xena_PartnerResourceContext_ChangeTheme_NotAllowed" xml:space="preserve">
+    <value>Tað ber ikki til at útinna henda broyting fyri starvsfólkið</value>
+  </data>
+  <data name="Xena_Vat_ReadVatSettlementData_FiscalPeriodNotFound" xml:space="preserve">
+    <value>Einki roknskaparár fyri næsta mvg-tíðarskeið</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_OrgNumber_Already_Registered" xml:space="preserve">
+    <value>Det ønskede CVR-nummer({0}) er allerede registreret hos Sproom - kontakt Sproom på support@sproom.net for detaljer.</value>
+  </data>
+  <data name="Domain_Payment_Difference_Is_Too_Large" xml:space="preserve">
+    <value>Munurin er: {0} {2}, men kann í mesta lagi vera: {1} {2}</value>
+  </data>
+  <data name="Xena_Document_NotPossibleToFindDocument" xml:space="preserve">
+    <value>Skjalið fanst ikki</value>
+  </data>
+  <data name="Xena_Partner_ChangeInvoicEmail_Invalid_Email" xml:space="preserve">
+    <value>Ikki gildigur teldupostur</value>
+  </data>
+  <data name="Command_MoveInvoiceToInbox_NotLoggedIn" xml:space="preserve">
+    <value>Tú ert ikki innritað/ur</value>
+  </data>
+  <data name="Command_RemovalFromSproom_DoesNotUseSproom" xml:space="preserve">
+    <value>Tín fyritøka er ikki stovnað hjá Sproom.net</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_RequestSupport_SubscriptionMustBeActive" xml:space="preserve">
+    <value>Títt Xena hald má vera virkið fyri at fáa support</value>
+  </data>
+  <data name="Xena_DeleteExtensions_DocumentCannotBeDeleted" xml:space="preserve">
+    <value>Skjalið inniheldur tilvísingar og kann tí ikki strikast</value>
+  </data>
+  <data name="Xena_Document_MoveDocumentToNewInbox_DocumentAlreadyConnected" xml:space="preserve">
+    <value>Skjal er longu íbundið</value>
+  </data>
+  <data name="Xena_Document_MoveDocumentToNewInbox_DocumentNotFound" xml:space="preserve">
+    <value>Skjal varð ikki funnið</value>
+  </data>
+  <data name="Xena_Document_PostRelationCommand_DocumentIsAlreadyConnected" xml:space="preserve">
+    <value>Skjal er longu íbundið</value>
+  </data>
+  <data name="Xena_FiscalSetup_UpdateVCardPicture_DocumentNotFound" xml:space="preserve">
+    <value>Skjal varð ikki funnið</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_CreateMembership_CreditCardRequired" xml:space="preserve">
+    <value>Tú kanst ikki íbinda ein nýggjan brúkara uttan eitt gjaldskort er íbundið títt Xena hald</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_RequestSupport_CreditCardRequired" xml:space="preserve">
+    <value>Tú kanst ikki fáa support uttan eitt gjaldskort er íbundið títt Xena hald.</value>
+  </data>
+  <data name="Controller_FiscalPeriod_MustFirstCreateAFiscalPeriod" xml:space="preserve">
+    <value>Tú skalt fyrst stovna eitt fíggjartíðarskeið</value>
+  </data>
+  <data name="Controller_Oauth_Login_YouNeedAClient" xml:space="preserve">
+    <value>Tú skalt hava ein viðskiftara fyri at kunna góðkenna</value>
+  </data>
+  <data name="Controller_OAuth_Mismatch_ClientId_Or_ClientSecret" xml:space="preserve">
+    <value>Tú skalt áseta gildigt viðskiftaraeyðmerki og tilhoyrandi viðskiftaradulsmál fyri at kunna góðkenna</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_InvalidPaymentMeansType" xml:space="preserve">
+    <value>Gjaldsháttur má hava gildig týpu. Gildigar týpur eru:  {0}</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_DeleteMembership_CreditCardRequired" xml:space="preserve">
+    <value>Tú mást hava gjaldskort íbundið fyri at fáa support</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_Amount_Must_Balance" xml:space="preserve">
+    <value>Upphæddir mugu javnviga</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_CustomerAmounts_Do_Not_Match_CustomerLedgerAccount" xml:space="preserve">
+    <value>Beløbet på kundens posteringer stemmer ikke med finansposeringerne på kundens konto</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_SupplierAmounts_Do_Not_Match_SupplierLedgerAccount" xml:space="preserve">
+    <value>Beløbet på leverandørens posteringer stemmer ikke med finansposteringerne på leverandørens konto</value>
+  </data>
+  <data name="Xena_FiscalSetup_DeleteFiscalSetup_MustBeLoggedIn" xml:space="preserve">
+    <value>Tú skalt vera innritað/ur í fyritøkuni fyri at strikað hetta.</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_InvalidEmailAddress" xml:space="preserve">
+    <value>Telduposturin {0} er ikki gildigur</value>
+  </data>
+  <data name="Command_SendOTPConfirmationCode_ErrorInSendingCode" xml:space="preserve">
+    <value>Eitt brek kom fyri meðan einnýtiskotan varð send</value>
+  </data>
+  <data name="Domain_OrderTask_Delete_Invoiced_Delivered" xml:space="preserve">
+    <value>Ein fakturerað ella avhendað uppgávu kann ikki strikast</value>
+  </data>
+  <data name="Xena_FiscalPeriodDeleter_CannotDeleteAnActiveFiscalPeriod" xml:space="preserve">
+    <value>Virkið fíggjartíðarskeið kann ikki strikast</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_NO_Bank_InvalidAccountNumber" xml:space="preserve">
+    <value>En norsk bankkonto har 11 cifre: de første 4 cifre til bankens registreringsnummer, de næste 2 cifre er kontoens type, herefter 4 som er kontoens reele nummer og sidst et modulus ciffer som nr 11.</value>
+  </data>
+  <data name="Xena_Document_PostRelationCommand_EntityTypeIsNotSupported" xml:space="preserve">
+    <value>Entity týpa riggar ikki</value>
+  </data>
+  <data name="Xena_Domain_Validation_VatSettlementTransaction_CreateReverse_ReversePaymentFirst" xml:space="preserve">
+    <value>Ein handil við gjalding kann ikki ógildast. Ógilda gjaldingina fyrst og royn aftur</value>
+  </data>
+  <data name="Command_UserCommand_XenaSubscription_Creditcard_Required" xml:space="preserve">
+    <value>Du kan ikke tilføje en ny bruger uden at have et betalingskort tilknyttet dit Xena abonnement</value>
+  </data>
+  <data name="Domain_Validation_Article_InventoryManagement_Cannot_Be_Bundle" xml:space="preserve">
+    <value>Ein vøra við stykkjalista kann ikki hava goymslustýring</value>
+  </data>
+  <data name="Domain_Validation_Article_Variants_Cannot_Be_Bundle" xml:space="preserve">
+    <value>Ein vøra við stykkjalista kann ikki hava variantar</value>
+  </data>
+  <data name="Domain_Validation_BundledArticle_CannotHaveInventoryManagement" xml:space="preserve">
+    <value>Ein vøra við stykkjalista kann ikki hava goymslustýring</value>
+  </data>
+  <data name="Domain_Validation_BundledArticle_CannotHaveVariants" xml:space="preserve">
+    <value>Ein vøra við stykkjalista kann ikki hava variantar</value>
+  </data>
+  <data name="Domain_Validation_WebHookSubscription_Invalid_CallbackUri" xml:space="preserve">
+    <value>Callback URL er enten tom eller ikke gyldig URL.</value>
+  </data>
+  <data name="Xena_Home_CreditCardRequiredRoleChanging_UserNotFound" xml:space="preserve">
+    <value>Brúkari ikki funnin fyri limaskap: {0}</value>
+  </data>
+  <data name="Command_MoveInvoiceToInbox_InvoiceNotFound" xml:space="preserve">
+    <value>Fakturi ikki funnin</value>
+  </data>
+  <data name="Deleters_OrderLine_Cannot_Delete_Invoiced_OrderLines" xml:space="preserve">
+    <value>Faktureraðar vørylinjur kunnu ikki slettast</value>
+  </data>
+  <data name="Xena_Document_PostDocumentFromUrlByTyped" xml:space="preserve">
+    <value>Brek í stovning av skjali</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Missing_LedgerTag" xml:space="preserve">
+    <value>Fíggjarkonto er ikki útfylt</value>
+  </data>
+  <data name="Xena_Domain_Validation_Ledger_Must_Balance" xml:space="preserve">
+    <value>Fíggjarkonto skal javnviga</value>
+  </data>
+  <data name="Xena_Domain_Validation_VatSettlementTransaction_LedgerTag_NotFound" xml:space="preserve">
+    <value>Fíggjarkontoin (id: {0}) finst ikki</value>
+  </data>
+  <data name="Xena_Domain_VoucherDraft_Validation_Finance_Drafts_Cannot_Have_Partner" xml:space="preserve">
+    <value>Fíggjarfylgisskjal kann ikki hava vinnupartnara</value>
+  </data>
+  <data name="Xena_Domain_VoucherDraft_Validation_Finance_Drafts_Cannot_Have_Settlements" xml:space="preserve">
+    <value>Fíggjarfylgisskjal kann ikki hava útlíknaðar vinnupartnarabókingar</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Must_Balance" xml:space="preserve">
+    <value>Fíggjarbókingar skal javnviga (difference: {0})</value>
+  </data>
+  <data name="Command_BulkInsertArticle_ImportFailed_DuplicateArticleNumbers" xml:space="preserve">
+    <value>Fylgjandi vørunummur vóru avritað</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccount_ImportFailed_DuplicateAccountNumber" xml:space="preserve">
+    <value>Fylgjandi kontonummur eru avritað</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_DuplicateArticleGroups" xml:space="preserve">
+    <value>Fylgjandi vørubólkar vóru avritaðar</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_OrderLineIds_Not_Found" xml:space="preserve">
+    <value>Følgende ordrelinjer blev ikke fundet: {0}</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_OrderLines_Delivered" xml:space="preserve">
+    <value>Følgende ordrelinjer er allerede leveret: {0}</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_OrderLines_Invoiced" xml:space="preserve">
+    <value>Følgende ordrelinjer er allerede faktureret: {0}</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeep_Warning_Posting_In_Future" xml:space="preserve">
+    <value>Følgende bilag har en dato som er i fremtiden: {0}</value>
+  </data>
+  <data name="Updater_Ledger_OverLapping_Ledgers" xml:space="preserve">
+    <value>Fylgjandi kladdur umskarast: {0}</value>
+  </data>
+  <data name="Xena_ArticleGroup_DeleteArticles_TheFollowingArticlesCouldNotBeDeleted" xml:space="preserve">
+    <value>Fylgjandi vørur kunnu ikki strikast tí tær eru í brúk:</value>
+  </data>
+  <data name="Xena_FiscalSetup_DeleteFiscalSetup_MustBeAdmin" xml:space="preserve">
+    <value>Fyri at strika fyritøku krevst umsitararættindi</value>
+  </data>
+  <data name="Command_CreateActivityFromAppointmentCommand_AppointmentIsMissing" xml:space="preserve">
+    <value>Avtala manglar</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_Iban_InvalidIBANCode" xml:space="preserve">
+    <value>IBAN kontonumre er 2 bogstaver, 2 tal og herefter op til 30 bogstaver/tal med valgfrie mellemrum.</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_Iban_Swift_InvalidIBANCode" xml:space="preserve">
+    <value>IBAN koder er 2 bogstaver, 2 tal og herefter op til 30 bogstaver/tal med valgfrie mellemrum.</value>
+  </data>
+  <data name="Xena_ActivityUpdater_ActivityTypeRequired" xml:space="preserve">
+    <value>Virksemi slag kravt</value>
+  </data>
+  <data name="Command_BulkInsertArticle_ImportFailed" xml:space="preserve">
+    <value>Innflutningur miseydnaðist fyri: {0}. Útgreining:</value>
+  </data>
+  <data name="Command_BulkInsertArticle_ImportFailed_ArticleNotFound" xml:space="preserve">
+    <value>Innflutningur av {0} miseydnaðist tí vøran ikki finst</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccount_ImportFailed" xml:space="preserve">
+    <value>Innflutningur av {0} miseydnaðist</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccount_ImportFailedReasons" xml:space="preserve">
+    <value>Innflutningur av {0} miseydnaðist: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticle_ImportFailedReasons" xml:space="preserve">
+    <value>Innflutningur av {0} miseydnaðist: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_ImportFailed" xml:space="preserve">
+    <value>Innflutningur av {0} miseydnaðist tí vørubólkurin manglar lýsing</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_ImportFailedReasons" xml:space="preserve">
+    <value>Innflutningur av {0} miseydnaðist: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedPartnerCommand_ImportFailed" xml:space="preserve">
+    <value>Innflutningur av {0} miseydnaðist: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedPostingCommand_ImportFailed" xml:space="preserve">
+    <value>Innflutningur av {0} miseydnaðist</value>
+  </data>
+  <data name="Command_BulkInsertImportedPostingCommand_ImportFailedReasons" xml:space="preserve">
+    <value>Innflutningur av {0} miseydnaðist: {1}</value>
+  </data>
+  <data name="Command_TransferMembership_NotAllowed" xml:space="preserve">
+    <value>Ikki loyvt</value>
+  </data>
+  <data name="Command_TransferMembership_NotValidEmail" xml:space="preserve">
+    <value>Ikki gildigur teldupostur</value>
+  </data>
+  <data name="Xena_Home_MergeUser_NotLoggedIn" xml:space="preserve">
+    <value>Ikki inritaður</value>
+  </data>
+  <data name="Xena_Partner_ResendPartnerInvitation_NotAValidEmail" xml:space="preserve">
+    <value>Ikki gildigur teldupostur</value>
+  </data>
+  <data name="Xena_User_Creation_Invalid_Email" xml:space="preserve">
+    <value>Ikki gildig teldupostadressa</value>
+  </data>
+  <data name="Xena_XenaPrice_GetXenaUserPrice_NotAllowed" xml:space="preserve">
+    <value>Ikki loyvt</value>
+  </data>
+  <data name="Command_UserCommand_XenaSubscription_Inactive" xml:space="preserve">
+    <value>Xena hald er óvirkið</value>
+  </data>
+  <data name="Creator_Order_Invalid_ContextType" xml:space="preserve">
+    <value>Høpistýpan {0} er ikki gildig. Gildigar møguleikar er: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccountCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Innflutningsuppgávan varð ikki funnin</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Innflutningsuppgávan varð ikki funnin</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Innflutningsuppgávan varð ikki funnin</value>
+  </data>
+  <data name="Command_BulkInsertImportedPartnerCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Innflutningsuppgávan varð ikki funnin</value>
+  </data>
+  <data name="Command_BulkInsertImportedPostingCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Innflutningsuppgávan varð ikki funnin</value>
+  </data>
+  <data name="Command_CreatePurchaseDrafts_Nothing_To_Create" xml:space="preserve">
+    <value>Ingen leverandør blev fundet til oprettelse af købskladde</value>
+  </data>
+  <data name="Command_HandleOTPSetupRequest_NoActivation" xml:space="preserve">
+    <value>Eingin kota gomd. Heinta nýggja kotu.</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_No_OrderLines_Selected" xml:space="preserve">
+    <value>Ongar ordralinjur valdar</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_ImportTaskNotFound" xml:space="preserve">
+    <value>Innflutningsuppgávan varð ikki funnin</value>
+  </data>
+  <data name="Command_UpdateFiscalAccountantCommand_NoFiscalSetup" xml:space="preserve">
+    <value>Einki roknskap funnið</value>
+  </data>
+  <data name="Domain_Subscription_Activate_No_SubscriptionLines" xml:space="preserve">
+    <value>Ongar vørulinjur á hald</value>
+  </data>
+  <data name="Updater_OrderPayer_No_Vouchers" xml:space="preserve">
+    <value>Einki fylgisskjal til gjalding</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_None" xml:space="preserve">
+    <value>Ongar fíggjarbókingar</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_No_Partner" xml:space="preserve">
+    <value>Eingin vinnupartnari á ordra</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_No_Partner" xml:space="preserve">
+    <value>Eingin vinnupartnari á ordra</value>
+  </data>
+  <data name="Xena_FiscalSetup_InviteSupporter_NoSupporterWithTheGivenName" xml:space="preserve">
+    <value>Eingin supportari funnin kallaður: {0}</value>
+  </data>
+  <data name="Xena_OrderUpdater_NoTermsOfPayment" xml:space="preserve">
+    <value>Ongar gjaldstreytir</value>
+  </data>
+  <data name="Xena_Partner_MailHistory_MustHaveMailIdentifier" xml:space="preserve">
+    <value>Partner email-historik skal have en unik nøgle!</value>
+  </data>
+  <data name="Xena_Partner_MailHistory_MustHavePartner" xml:space="preserve">
+    <value>Partner email-historik skal have en partner!</value>
+  </data>
+  <data name="Xena_Partner_MailHistory_MustHaveResource" xml:space="preserve">
+    <value>Partner email-historik skal have en medarbejder!</value>
+  </data>
+  <data name="Query_VatProblem_DefaultSalesVAT_Marked_Non_Sales" xml:space="preserve">
+    <value>Standard salgsmomsen er ikke af typen salgsmoms</value>
+  </data>
+  <data name="Query_VoucherPreviewSummary_Nothing_To_Bookkeep" xml:space="preserve">
+    <value>Einki at bóka</value>
+  </data>
+  <data name="Xena_GetOrderFromNotification_OrderNotFound" xml:space="preserve">
+    <value>Ordri ikki funnin</value>
+  </data>
+  <data name="Command_BookkeepStockCount_Nothing_To_Bookkeep" xml:space="preserve">
+    <value>Einki at bóka</value>
+  </data>
+  <data name="Command_ConfirmOrder_Nothing_To_Confirm" xml:space="preserve">
+    <value>Einki at vátta</value>
+  </data>
+  <data name="Command_CreateOffer_Nothing_To_Offer" xml:space="preserve">
+    <value>Einki at stovna tilboð útfrá</value>
+  </data>
+  <data name="Command_CreateOffer_Nothing_To_Pick" xml:space="preserve">
+    <value>Einki at levera (til stykkjalistan)</value>
+  </data>
+  <data name="Command_ImportPrimoArticlePost_No_Articles_Found" xml:space="preserve">
+    <value>Eingin vøra hóskar til ásetta vørunummarið</value>
+  </data>
+  <data name="Command_MoveEconomicTransaction_No_Change" xml:space="preserve">
+    <value>Einki at broyta</value>
+  </data>
+  <data name="Controller_ApiArticle_Nothing_To_Insert" xml:space="preserve">
+    <value>Ongar vørur at seta inn</value>
+  </data>
+  <data name="Controller_ApiArticleMapping_Nothing_To_Insert" xml:space="preserve">
+    <value>Einki at seta inn</value>
+  </data>
+  <data name="Domain_FixedAssetPurchase_Nothing_To_Depreciate" xml:space="preserve">
+    <value>Einki at avskriva</value>
+  </data>
+  <data name="Domain_Order_Nothing_To_Cancel" xml:space="preserve">
+    <value>Einki at ógilda</value>
+  </data>
+  <data name="Domain_Order_Nothing_To_Deliver" xml:space="preserve">
+    <value>Einki at levera</value>
+  </data>
+  <data name="Domain_Validation_VoucherPreview_Nothing_To_Bookkeep" xml:space="preserve">
+    <value>Einki at bóka</value>
+  </data>
+  <data name="Xena_CurrencyAmountToPay_NoExchangeRateFound" xml:space="preserve">
+    <value>Eingin gjaldoyrukursur funnin fyri {0}, dato: {1}</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_NothingToBookkeep" xml:space="preserve">
+    <value>Einki at bóka</value>
+  </data>
+  <data name="Command_ImportC5Account_CannotImport_Without_Ledger" xml:space="preserve">
+    <value>Kann ikki innflyta bókingar uttan at innflyta kontoskipan</value>
+  </data>
+  <data name="Xena_Document_DeleteDocumentRelation_CannotDeleteDocumentsRemindersOrInvoices" xml:space="preserve">
+    <value>Kann ikki strika skjal sum er fakturi ella rykkjari</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_NetTurnOver_Not_Allowed" xml:space="preserve">
+    <value>Kann ikki stovna fíggjarkontoir í umseting</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_ProductConsumption_Not_Allowed" xml:space="preserve">
+    <value>Kann ikki stovna kontoir í vørunýtslu</value>
+  </data>
+  <data name="Command_ImportFromBillysBilling_AlreadyHasArchive" xml:space="preserve">
+    <value>Kann bert innflytast eina ferð í hvørjari fyritøku</value>
+  </data>
+  <data name="Command_ImportFromC5_AlreadyHasArchive" xml:space="preserve">
+    <value>Kann bert innflytast eina ferð í hvørjari fyritøku</value>
+  </data>
+  <data name="Command_ImportFromEconomics_AlreadyHasArchive" xml:space="preserve">
+    <value>Kann bert innflytast eina ferð í hvørjari fyritøku</value>
+  </data>
+  <data name="Command_UpdateFiscalAccountantCommand_LedgerNotFound" xml:space="preserve">
+    <value>kladda ikki funnin</value>
+  </data>
+  <data name="Deleters_Ledger_In_Use" xml:space="preserve">
+    <value>Kladden kan ikki strikast, hon brúkast av: {0}</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Date_Before_Locked_At_Date" xml:space="preserve">
+    <value>Kassekladdelinjen (bilag: {0} på {1}) er før finansperiodens låsedato ({2})</value>
+  </data>
+  <data name="Domain_Ledger_Is_Out_Of_Numbers" xml:space="preserve">
+    <value>Kladdan hevur einki fylgisskjalsnummar eftir</value>
+  </data>
+  <data name="Updater_LedgerLine_Ledger_Is_Bookkeeping" xml:space="preserve">
+    <value>Kladdan ({0}) verður bókað</value>
+  </data>
+  <data name="Command_HandleOTPSetupRequest_IncorrectCode" xml:space="preserve">
+    <value>Kotan er ikki røtt. Ger nýggj kotu</value>
+  </data>
+  <data name="Command_PostPartnerFromClient_Already_Partner" xml:space="preserve">
+    <value>Klienturin er longu ein partnari (id: {0})</value>
+  </data>
+  <data name="Command_OnlinePartnerPostPayment_DataTemperedWith" xml:space="preserve">
+    <value>Data eru broyttar og gjalding kann tí ikki skrásetast </value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Cash_Order_Must_Be_Paid" xml:space="preserve">
+    <value>Kontantordri skal gjaldast beinanvegin</value>
+  </data>
+  <data name="Command_BulkInsertImportedPartnerCommand_Validation_ContactNoMissing" xml:space="preserve">
+    <value>Kundanr. manglar</value>
+  </data>
+  <data name="Command_ImportStockCountDrafts_Failed_To_Import" xml:space="preserve">
+    <value>Kunne ikke importere optælling for vare {0} {1}</value>
+  </data>
+  <data name="Domain_FailedToInviteUser" xml:space="preserve">
+    <value>Kunne ikke invitere bruger: {0}</value>
+  </data>
+  <data name="Domain_Subscription_Activate_Invalid_Customer_Email" xml:space="preserve">
+    <value>Kundin hevur onga gildiga teldupostadressu</value>
+  </data>
+  <data name="Xena_Domain_FailedToTransferMembership" xml:space="preserve">
+    <value>Kunne ikke overføre ejerskabet af dette regnskab til brugeren: {1}</value>
+  </data>
+  <data name="Command_AdjustAveragePrice_No_Inventory_Management" xml:space="preserve">
+    <value>Goymslustýring er ikki virkt í hesi vøruni</value>
+  </data>
+  <data name="Xena_ArticleInventoryEnabler_InventoryManagementIsEnabled" xml:space="preserve">
+    <value>Goymslustýring er longu virkt á vøruni</value>
+  </data>
+  <data name="Command_CancelOrderDelivery_Already_Cancelled" xml:space="preserve">
+    <value>Levering er longu avlýst</value>
+  </data>
+  <data name="Controller_ApiArticle_SpecifyVariants_No_Specifications" xml:space="preserve">
+    <value>Vantandi tilskilan av variantunum</value>
+  </data>
+  <data name="Deleters_OrderLine_Cannot_Delete_Delivered_OrderLines" xml:space="preserve">
+    <value>Linjur við leveraðum vørum kunnu ikki strikast</value>
+  </data>
+  <data name="Domain_Activity_Missing_Abbreviation" xml:space="preserve">
+    <value>Vantandi stytting</value>
+  </data>
+  <data name="Domain_Activity_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Domain_ArticlePost_No_Article" xml:space="preserve">
+    <value>Vantandi vøra á vørubókingini</value>
+  </data>
+  <data name="Domain_Ledger_Minimum_Must_Be_Lower_Than_Maximum" xml:space="preserve">
+    <value>Hámark má vera størri enn lágmark</value>
+  </data>
+  <data name="Domain_Ledger_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Domain_Ledger_Too_High_Maximum" xml:space="preserve">
+    <value>Hámarkið kann ikki vera størri enn 49.999</value>
+  </data>
+  <data name="Domain_LedgerPostPreview_Missing_LedgerTag" xml:space="preserve">
+    <value>Vantandi fíggjarkonto</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Domain_PriceGroup_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Domain_Validation_AccountantDepartment_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Domain_Validation_FixedAsset_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Domain_Validation_LedgerTagGroup_Description_Missing" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Domain_Validation_OrderStatus_Color" xml:space="preserve">
+    <value>Vantandi litur</value>
+  </data>
+  <data name="Domain_Validation_OrderStatus_Name" xml:space="preserve">
+    <value>Vantar navn</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_Bank_Invalid_Account" xml:space="preserve">
+    <value>Vantandi bankakonto</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_FIK_InvalidAccountNumber" xml:space="preserve">
+    <value>Leverandørnr má vera 8 tøl</value>
+  </data>
+  <data name="Domain_Validation_PurchaseDraftLine_Missing_Article" xml:space="preserve">
+    <value>Vantandi vørunr.</value>
+  </data>
+  <data name="Domain_Validation_ReportLayout_Missing_Name" xml:space="preserve">
+    <value>Vantandi navn</value>
+  </data>
+  <data name="Domain_validation_StockCount_MissingDescription" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_ClientIdentitifier" xml:space="preserve">
+    <value>Vantar ClientIdentifier</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_ClientSecret" xml:space="preserve">
+    <value>Vantar ClientSecret</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_Name" xml:space="preserve">
+    <value>Vantar navn</value>
+  </data>
+  <data name="Validation_AccountManualImportData_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Validation_AccountManualImportData_MissingAccountNumber" xml:space="preserve">
+    <value>Vantandi kontonummar</value>
+  </data>
+  <data name="Validation_ArticleImportData_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Missing_Group" xml:space="preserve">
+    <value>Vantandi bólkur</value>
+  </data>
+  <data name="Xena_Domain_Validation_ArticleEANNumber_Missing_EANNumber" xml:space="preserve">
+    <value>Vantandi EAN-nummar</value>
+  </data>
+  <data name="Xena_Domain_Validation_ArticleGroup_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_Bearer_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_CurrencyExchangeRate_Missing_Currency" xml:space="preserve">
+    <value>Vantandi gjaldoyra</value>
+  </data>
+  <data name="Xena_Domain_Validation_Department_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_FiscalSetup_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_Missing_LedgerAccount" xml:space="preserve">
+    <value>Vantandi fíggjarkonto</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Abbreviation" xml:space="preserve">
+    <value>Vantandi kota</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension1" xml:space="preserve">
+    <value>Vantandi dimensjón 1</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension2" xml:space="preserve">
+    <value>Vantandi dimensjón 2</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension3" xml:space="preserve">
+    <value>Vantandi dimensjón 3</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension4" xml:space="preserve">
+    <value>Vantandi dimensjón 4</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension5" xml:space="preserve">
+    <value>Vantandi dimensjón 5</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_No_Article_Nor_ArticleGroup" xml:space="preserve">
+    <value>Vantandi vøra ella vørubólkur á linju {0} - {1} </value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Missing_Article" xml:space="preserve">
+    <value>Vantandi vøra</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoPartnerPost_Missing_Partner" xml:space="preserve">
+    <value>Vantandi vinnupartnari</value>
+  </data>
+  <data name="Xena_Domain_Validation_Purpose_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_ReminderStep_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_Unit_Missing_Abbreviation" xml:space="preserve">
+    <value>Vantandi stytting</value>
+  </data>
+  <data name="Xena_Domain_Validation_Unit_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_Variant_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_VariantRange_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Missing_Abbreviation" xml:space="preserve">
+    <value>Vantandi stytting</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_Voucher_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Domain_Validation_Warehouse_Missing_Description" xml:space="preserve">
+    <value>Vantandi lýsing</value>
+  </data>
+  <data name="Xena_Subscription_ExecuteSubscriptions_MissingData" xml:space="preserve">
+    <value>Vantar data fyri at kunna útinna online gjalding</value>
+  </data>
+  <data name="Domain_Validation_ArticleMapping_PartnerArticleNumber" xml:space="preserve">
+    <value>Vantar vørunummar hjá partnaranum</value>
+  </data>
+  <data name="Domain_validation_XenaAppPlugin_Missing_Title" xml:space="preserve">
+    <value>Vantar heiti</value>
+  </data>
+  <data name="Validation_ArticleImportData_Missing_ArticleNumber" xml:space="preserve">
+    <value>Vantar vørunummar</value>
+  </data>
+  <data name="Validation_ArticleImportData_Missing_Group" xml:space="preserve">
+    <value>Vantar vørubólkur</value>
+  </data>
+  <data name="Command_CreateActivityFromAppointmentCommand_ResourceIsMissing" xml:space="preserve">
+    <value>Resursa vantar</value>
+  </data>
+  <data name="Command_TransferMembership_MembershipNotFound" xml:space="preserve">
+    <value>Limaskap ikki funnið</value>
+  </data>
+  <data name="Domain_Resource_Delete_Cannot_Delete_Users_Resource" xml:space="preserve">
+    <value>Starvsfólkið kann ikki strikast tí tað er íbundið ein brúkara</value>
+  </data>
+  <data name="Xena_Document_MoveInboxRelation_ResourceNotFound" xml:space="preserve">
+    <value>Starvsfólkið ikki funnið</value>
+  </data>
+  <data name="Command_ElectronicInvoice_InvalidAddressType" xml:space="preserve">
+    <value>Modtageradressetype ({0}) er ugyldig. Gyldige muligheder er: {1}</value>
+  </data>
+  <data name="Command_OnlinePartnerPostPayment_MD5KeyMissing" xml:space="preserve">
+    <value>Móttakarin hevur óvirkt online gjalding</value>
+  </data>
+  <data name="Controller_ApiArticle_SpecifyVariants_Difference_Quantity" xml:space="preserve">
+    <value>Mængden på den oprindelige beholdning stemmer ikke overens med specifikationerne</value>
+  </data>
+  <data name="Domain_Bookkeeping_LedgerPostDraft_Invalid_VatDeductionPercentage" xml:space="preserve">
+    <value>MVG frádráttar prosent má vera millum 0 og 100</value>
+  </data>
+  <data name="Domain_Vat_Invalid_ExistingVatCode" xml:space="preserve">
+    <value>MVG kota er longu nýtt</value>
+  </data>
+  <data name="Domain_Vat_Invalid_VatType" xml:space="preserve">
+    <value>Momstypen er ikke gyldig ({0}) - gyldige momstyper er: {1}</value>
+  </data>
+  <data name="Domain_VatSettlement_Has_Been_Paid" xml:space="preserve">
+    <value>MVG avrokning er longu goldið</value>
+  </data>
+  <data name="Query_VatProblem_Marked_As_Default_Type" xml:space="preserve">
+    <value>MVG kotan er merkt sum "ókjent". Vel ein hóskandi kotu.</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Warning_Vats_Dont_Match" xml:space="preserve">
+    <value>MVG  samsvarar ikki við standard MVG á fíggjarkonto</value>
+  </data>
+  <data name="Xena_Domain_Validation_VatSettlementTransaction_CreateReverse_AlreadyReversed" xml:space="preserve">
+    <value>MVG avrokning er longu ógildað</value>
+  </data>
+  <data name="Xena_User_Creation_Name_Empty" xml:space="preserve">
+    <value>Navn til brúkara ikki valt</value>
+  </data>
+  <data name="Command_AdjustAveragePrice_Cannot_Have_Negative_AverageCostPrice" xml:space="preserve">
+    <value>Negativur kostprísur ikki loyvd</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Negative_AveragePrice" xml:space="preserve">
+    <value>Negativur miðalprísur</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Negative_Quantity" xml:space="preserve">
+    <value>Negativ nøgd</value>
+  </data>
+  <data name="Command_BookkeepStockCount_Quantities_Changed_Refresh_StockCount" xml:space="preserve">
+    <value>Nogle antal har ændret sig efter optællingen er danne - opdater antallene</value>
+  </data>
+  <data name="Command_InsertBarCodesOnOrder_TaskNotFound" xml:space="preserve">
+    <value>Uppgáva ikki funnin</value>
+  </data>
+  <data name="Command_DeleteOrderConfirmation_No_Confirmation" xml:space="preserve">
+    <value>Ordrauppgávan (id: {0}) er ikki váttað. Einki at strika.</value>
+  </data>
+  <data name="Command_ElectronicInvoice_OrderLine_Missing_Description" xml:space="preserve">
+    <value>Ordralinjan við vøruni {0} og prísinum {1} hevur onga lýsing</value>
+  </data>
+  <data name="Deleters_PartnerCustomerContext_Has_PartnerPosts" xml:space="preserve">
+    <value>Vinnupartnarin hevur kundabókingar</value>
+  </data>
+  <data name="Deleters_PartnerCustomerContext_Has_PriceDiscountAgreements" xml:space="preserve">
+    <value>Vinnupartnari hevur avsláttarprísavtalur</value>
+  </data>
+  <data name="Deleters_PartnerCustomerContext_Has_Subscriptions" xml:space="preserve">
+    <value>Vinnupartnarin hevur høld</value>
+  </data>
+  <data name="Deleters_PartnerSupplierContext_Has_PartnerPosts" xml:space="preserve">
+    <value>Vinnupartnarin hevur leverandør bókingar</value>
+  </data>
+  <data name="Domain_Order_Cannot_Delete_Order_With_Deliveries" xml:space="preserve">
+    <value>Ordri {0} hevur í minsta lagi eina levering og kann tí ikki strikast</value>
+  </data>
+  <data name="Domain_Order_Cannot_Delete_Order_With_Invoices" xml:space="preserve">
+    <value>Ordri {0} hevur í minsta lagi ein fakura og kann tí ikki strikast</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_Already_Settled" xml:space="preserve">
+    <value>Vinnupartnarabókingin (id: {0}) er longu útlíknað: (id: {1})</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_Not_Found" xml:space="preserve">
+    <value>Vinnupartnarabókingin varð ikki funnin - eyðmerki: {0}</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_On_Wrong_Partner" xml:space="preserve">
+    <value>Vinnupartnarabóking (Id: {0}) hoyrir ikki til vinnupartnaran (Id: {1})</value>
+  </data>
+  <data name="Domain_Validation_OrderTask_IsAlreadyConfirmed" xml:space="preserve">
+    <value>Ordrauppgávan er longu váttað</value>
+  </data>
+  <data name="Updater_OrderLine_Order_Is_Deactivated" xml:space="preserve">
+    <value>Ordri (id: {0}) er óvirktur</value>
+  </data>
+  <data name="Updater_OrderLine_OrderTask_ReadOnly" xml:space="preserve">
+    <value>Ordrauppgávan  (id: {0}) er læst</value>
+  </data>
+  <data name="Updater_OrderTask_ReadOnly" xml:space="preserve">
+    <value>Ordrauppgávan  (id: {0}) er læst</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_CreateApiUser_PartnerNotFound" xml:space="preserve">
+    <value>Vinnupartnari varð ikki funin</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_Partner_Deactivated" xml:space="preserve">
+    <value>Vinnupartnari er óvirktur</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_Is_Deleted" xml:space="preserve">
+    <value>Ordrin er strikaður</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_Partner_Is_Deactivated" xml:space="preserve">
+    <value>Vinnupartnari er óvirktur</value>
+  </data>
+  <data name="Xena_Domain_Delivery_OrderTask_Already_Delivered" xml:space="preserve">
+    <value>Ordrauppgávan er ikki leverað</value>
+  </data>
+  <data name="Xena_Domain_Delivery_OrderTask_Has_Not_Been_Delivered" xml:space="preserve">
+    <value>Ordrauppgávan er ikki leverað</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_Is_Deleted" xml:space="preserve">
+    <value>Ordrin er strikaður</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_Partner_Is_Deactivated" xml:space="preserve">
+    <value>Vinnupartnari er óvirktur</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_OrderTask_Already_Invoiced" xml:space="preserve">
+    <value>Ordrauppgávan er longu fakturerað</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Is_Already_Delivered" xml:space="preserve">
+    <value>Ordrin er longu leveraður</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Is_Already_Invoiced" xml:space="preserve">
+    <value>Ordrin er longu faktureraður</value>
+  </data>
+  <data name="Xena_Domain_Validation_Settlement_Partner_Must_Balance" xml:space="preserve">
+    <value>Vinnupartnari skal javnviga</value>
+  </data>
+  <data name="Xena_GetPartnerFromPartnerPost_PartnerPostNotFound" xml:space="preserve">
+    <value>Vinnupartnarabókingin varð ikki funnin</value>
+  </data>
+  <data name="Xena_InvitePartner_PartnerNotFound" xml:space="preserve">
+    <value>Vinnupartnari varð ikki funin</value>
+  </data>
+  <data name="Xena_Order_ProcesOrder_CannotProcess" xml:space="preserve">
+    <value>Kann ikki viðgera ein ordra uttan vinnupartnara</value>
+  </data>
+  <data name="Command_RecalculateFiscalPeriodStatistics_NoFiscalPeriod" xml:space="preserve">
+    <value>Roknskaparár fyri {0} varð ikki funnið.</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_FiscalSetupNotFound" xml:space="preserve">
+    <value>Roknskapur varð ikki funnin</value>
+  </data>
+  <data name="Command_UpdateFiscalAccountantCommand_AccountantNotFound" xml:space="preserve">
+    <value>Grannskoðari ikki funnin</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_AlreadyRegistredWithSproom" xml:space="preserve">
+    <value>Regnskabet (id: {0}) er allerede registreret hos Sproom</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_MembershipNotFound" xml:space="preserve">
+    <value>Rættindi ikki funnin</value>
+  </data>
+  <data name="Domain_FiscalPeriod_Loced_At" xml:space="preserve">
+    <value>Roknskaparárið ({0}) er læst per {1}</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_FiscalPeriod_IsClosed" xml:space="preserve">
+    <value>Roknskaparárið ({0}) er læst</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_No_FiscalPeriod" xml:space="preserve">
+    <value>Roknskaparárið manglar</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_Invalid_Discount_Percentage" xml:space="preserve">
+    <value>Avsláttarprosentur má vera millum 0 og 100</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_Must_Have_Either_Article_Or_ArticleGroup" xml:space="preserve">
+    <value>Avsláttaravtalur skulu íbindast eina vøru ella ein vørubólk</value>
+  </data>
+  <data name="Domain_VoucherDraft_Bookkeeping_FiscalPeriod_Is_Closed" xml:space="preserve">
+    <value>Roknskaparárið ({0}) er læst</value>
+  </data>
+  <data name="Xena_CanOrderBeSentElectronically_FiscalSetupNotSetup" xml:space="preserve">
+    <value>Regnskabet er ikke opsat til at bruge Sproom</value>
+  </data>
+  <data name="Xena_CreatePartnerFromDto_FiscalSetupNotFound" xml:space="preserve">
+    <value>Roknskapurin ikki funnin</value>
+  </data>
+  <data name="Xena_Document_MoveInboxRelation_RelationNotFound" xml:space="preserve">
+    <value>Relationen til dette dokument blev ikke fundet</value>
+  </data>
+  <data name="Xena_Domain_ReminderStep_ReminderStep_Has_No_Consequence_For_PartnerPost" xml:space="preserve">
+    <value>Påmindelsesplanen har ingen konsekvens for partneren</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Percentage_Cannot_Be_Negative" xml:space="preserve">
+    <value>Prosent kann ikki vera minus</value>
+  </data>
+  <data name="Xena_FiscalSetup_InviteUser_FiscalSetupNoFound" xml:space="preserve">
+    <value>Roknskapur varð ikki funnin</value>
+  </data>
+  <data name="Xena_FiscalSetup_UpdateVCardPicture_FiscalSetupDoesNotHaveAVcard" xml:space="preserve">
+    <value>Roknskapurin hevur einki vCard</value>
+  </data>
+  <data name="Xena_LinkPartnerToVCard_FiscalSetupNotFound" xml:space="preserve">
+    <value>Roknskapur finst ikki</value>
+  </data>
+</root>

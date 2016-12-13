@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Controller_ApiArticle_SpecifyVariants_Difference_Quantity" xml:space="preserve">
+    <value>Antalet som angivits i specifikationen motsvarar inte ursprungligt antal</value>
+  </data>
+  <data name="Controller_ApiArticle_SpecifyVariants_No_Specifications" xml:space="preserve">
+    <value>Specifikation om varianterna saknas.</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_Cannot_Delete_Last_User" xml:space="preserve">
+    <value>Den sista användaren i räkenskapet kan inte raderas. Ta bort räkenskapet istället.</value>
+  </data>
+  <data name="Domain_ArticlePost_No_Article" xml:space="preserve">
+    <value>Vara saknas på varuposten</value>
+  </data>
+  <data name="Domain_Payment_Difference_Is_Too_Large" xml:space="preserve">
+    <value>Differensen är: {0} {2}, men får maximalt vara: {1} {2}</value>
+  </data>
+  <data name="Domain_Payment_NoPartnerPosts_Supplied" xml:space="preserve">
+    <value>Inga partnerposter är valda.</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_NothingToBookkeep" xml:space="preserve">
+    <value>Inget att bokföra</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_Is_Deleted" xml:space="preserve">
+    <value>Ordern är borttagen</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_No_Partner" xml:space="preserve">
+    <value>Ingen partner har valts för ordern
+    </value>
+  </data>
+  <data name="Xena_Domain_Delivery_OrderTask_Already_Delivered" xml:space="preserve">
+    <value>Partner är avaktiverad</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_Is_Deleted" xml:space="preserve">
+    <value>Ordern är borttagen</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_Partner_Is_Deactivated" xml:space="preserve">
+    <value>Partner är avaktiverad</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Cash_Order_Must_Be_Paid" xml:space="preserve">
+    <value>Kontant order måste betalas direkt</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Is_Already_Delivered" xml:space="preserve">
+    <value>Ordern är redan levererad</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Is_Already_Invoiced" xml:space="preserve">
+    <value>Ordern är redan fakturerad</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Missing_ArticleNumber" xml:space="preserve">
+    <value>Tom eller saknar varunummer</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Missing_Description" xml:space="preserve">
+    <value>Tom eller saknar beskrivning</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Missing_Group" xml:space="preserve">
+    <value>Grupp saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_ArticleEANNumber_Missing_EANNumber" xml:space="preserve">
+    <value>EAN-nummer saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_ArticleGroup_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_Not_Found" xml:space="preserve">
+    <value>Partnerposterna hittades inte - Id: {0}</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Missing_LedgerTag" xml:space="preserve">
+    <value>Finanskontot är inte ifyllt</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Warning_Vats_Dont_Match" xml:space="preserve">
+    <value>Momsen motsvarar inte standardmomsen på finanskontot</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_Partner_Deactivated" xml:space="preserve">
+    <value>Partner har avaktiverats</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_VoucherDraftType_Not_Supported" xml:space="preserve">
+    <value>Bilagstypen understöds ej</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_Partner_Is_Deactivated" xml:space="preserve">
+    <value>Partner är avaktiverad</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_No_Partner" xml:space="preserve">
+    <value>Ingen partner har valts för ordern</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_OrderTask_Already_Invoiced" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Order_Must_Be_Paid_In_Full" xml:space="preserve">
+    <value>Det betalda beloppet ska stämma överens med orderns total</value>
+  </data>
+  <data name="Xena_Domain_Validation_Bearer_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_CurrencyExchangeRate_ExchangeRate_Must_Be_Positive" xml:space="preserve">
+    <value>Valutakursen måste vara positiv</value>
+  </data>
+  <data name="Xena_Domain_Validation_CurrencyExchangeRate_Missing_Currency" xml:space="preserve">
+    <value>Valuta saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_CurrencyExchangeRate_NotFoundForDate" xml:space="preserve">
+    <value>Det finns ingen valutakurs för {0} pr. {1}</value>
+  </data>
+  <data name="Xena_Domain_Validation_Department_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_FiscalPeriod_StartDate_Must_Be_After_EndDate" xml:space="preserve">
+    <value>Startdatum måste vara före slutdatum</value>
+  </data>
+  <data name="Xena_Domain_Validation_FiscalSetup_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_Invalid_LedgerAccount" xml:space="preserve">
+    <value>Ogiltigt finanskonto</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_Missing_LedgerAccount" xml:space="preserve">
+    <value>Finanskonto saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Abbreviation" xml:space="preserve">
+    <value>Kod saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_Article_Is_Deactivated" xml:space="preserve">
+    <value>Varan är avaktiverad</value>
+  </data>
+  <data name="Xena_Domain_Validation_Partner_Missing_Name" xml:space="preserve">
+    <value>Tom eller namn saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Missing_Article" xml:space="preserve">
+    <value>Vara saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Negative_AveragePrice" xml:space="preserve">
+    <value>Negativt genomsnittspris</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Negative_Quantity" xml:space="preserve">
+    <value>Negativt antal</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoLedgerPost_Invalid_LedgerAccount" xml:space="preserve">
+    <value>Ogiltigt finanskonto</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoPartnerPost_FiscalDate_Later_Than_Start_Of_FiscalPeriod" xml:space="preserve">
+    <value>Datumet ligger senare än början på räkenskapsåret</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoPartnerPost_Missing_Partner" xml:space="preserve">
+    <value>Partner saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_Purpose_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_ReminderStep_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_Unit_Missing_Abbreviation" xml:space="preserve">
+    <value>Förkortning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_Unit_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_Variant_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_VariantRange_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Missing_Abbreviation" xml:space="preserve">
+    <value>Förkortning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Percentage_Cannot_Be_Negative" xml:space="preserve">
+    <value>Procentsatsen kan inte vara negattiv</value>
+  </data>
+  <data name="Xena_Domain_Validation_Voucher_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_Validation_Warehouse_Missing_Description" xml:space="preserve">
+    <value>Beskrivning saknas</value>
+  </data>
+  <data name="Xena_Domain_VoucherDraft_Validation_Finance_Drafts_Cannot_Have_Partner" xml:space="preserve">
+    <value>Finansbilagan kan inte ha en partner</value>
+  </data>
+  <data name="Xena_Partner_ChangeInvoicEmail_Invalid_Email" xml:space="preserve">
+    <value>Ogiltig e-mailadress</value>
+  </data>
+  <data name="Xena_User_Creation_Duplicate_User" xml:space="preserve">
+    <value>Användarnamnet är upptaget</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_Warning_Future_FiscalDate" xml:space="preserve">
+    <value>Datumet är framtidigt</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension1" xml:space="preserve">
+    <value>Saknad dimension 1</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension2" xml:space="preserve">
+    <value>Saknad dimension 2</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension3" xml:space="preserve">
+    <value>Saknad dimension 3</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension4" xml:space="preserve">
+    <value>Saknad dimension 4</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension5" xml:space="preserve">
+    <value>Saknad dimension 5</value>
+  </data>
+  <data name="Xena_User_Creation_Invalid_Email" xml:space="preserve">
+    <value>Ogiltig e-mailadress</value>
+  </data>
+  <data name="Xena_User_Creation_Name_Empty" xml:space="preserve">
+    <value>Namn för användare har inte angivits</value>
+  </data>
+  <data name="Xena_User_Creation_Password_Must_Be_5_Characters_Or_More" xml:space="preserve">
+    <value>Lösenordet måste bestå av minst 5 tecken</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_Variant_Not_Applicable_For_Article" xml:space="preserve">
+    <value>Den här varianten passar inte med varan</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Variant_Not_Applicable_For_Article" xml:space="preserve">
+    <value>Den här varianten passar inte med varan</value>
+  </data>
+  <data name="Domain_ArticlePost_Variant_Does_Not_Match_Article" xml:space="preserve">
+    <value>Varans variant motsvarar inte varan på artikelposten</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Already_Has_Variants" xml:space="preserve">
+    <value>Artikeln har redan varianter</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Variants_Already_Disabled" xml:space="preserve">
+    <value>Variantstyrning redan avaktiverad</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_Amount_Must_Balance" xml:space="preserve">
+    <value>Beloppen måste balancera</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_CustomerAmounts_Do_Not_Match_CustomerLedgerAccount" xml:space="preserve">
+    <value>Beloppet på kundens poster motsvarar inte finansposterna på kundens konto</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_SupplierAmounts_Do_Not_Match_SupplierLedgerAccount" xml:space="preserve">
+    <value>Beloppet på leverantörens poster motsvarar inte finansposterna på leverantörens konto</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_Missing_ArticleVariant" xml:space="preserve">
+    <value>Varan har ingen vald variant</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_NetTurnOver_Not_Allowed" xml:space="preserve">
+    <value>Kan inte upprätta finanskonton i omsättning</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_ProductConsumption_Not_Allowed" xml:space="preserve">
+    <value>Kan inte upprätta finanskonton i varuförbruk</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Must_Balance" xml:space="preserve">
+    <value>Finansposterna måste balancera (differens: {0})</value>
+  </data>
+  <data name="Xena_Domain_Validation_Ledger_Must_Balance" xml:space="preserve">
+    <value>Finanskonto måste balancera</value>
+  </data>
+  <data name="Xena_Domain_Validation_Settlement_Partner_Must_Balance" xml:space="preserve">
+    <value>Partner måste balancera</value>
+  </data>
+  <data name="Xena_Domain_VoucherDraft_Validation_Finance_Drafts_Cannot_Have_Settlements" xml:space="preserve">
+    <value>Finansbilaga får inte ha utjämnande partnerposter</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_Already_Settled" xml:space="preserve">
+    <value>THOMAS - udligning</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_On_Wrong_Partner" xml:space="preserve">
+    <value>Partnerpost (Id: {0}) tillhör inte denna partner: (Id: {1})</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_None" xml:space="preserve">
+    <value>Inga finansposter</value>
+  </data>
+  <data name="Xena_Domain_ReminderStep_ReminderStep_Has_No_Consequence_For_PartnerPost" xml:space="preserve">
+    <value>Påminnelsesplanen har ingen konsekvens för partnerposten</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_FiscalDates_Must_Be_Same_As_Transactions" xml:space="preserve">
+    <value>Datum på en eller flera finansposter motsvarar inte transaktionsdatum</value>
+  </data>
+</root>

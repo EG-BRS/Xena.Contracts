@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DummyData_Accounting" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="DummyData_Accounting_SetAside" xml:space="preserve">
+    <value>Accountant, Set aside </value>
+  </data>
+  <data name="DummyData_Accounting_SpecialAssignment" xml:space="preserve">
+    <value>Accountant, special assignment</value>
+  </data>
+  <data name="DummyData_Accrual" xml:space="preserve">
+    <value>Accrual</value>
+  </data>
+  <data name="DummyData_Advertising" xml:space="preserve">
+    <value>Advertising</value>
+  </data>
+  <data name="DummyData_ArticleGroup_Description" xml:space="preserve">
+    <value>Article group {0}</value>
+  </data>
+  <data name="DummyData_ArticleGroup_Description_First" xml:space="preserve">
+    <value>First article group</value>
+  </data>
+  <data name="DummyData_ArticleGroup_Description_Second" xml:space="preserve">
+    <value>Second article group</value>
+  </data>
+  <data name="DummyData_Article_First_Description" xml:space="preserve">
+    <value>Article description 1</value>
+  </data>
+  <data name="DummyData_Article_Second_Description" xml:space="preserve">
+    <value>Article description 2</value>
+  </data>
+  <data name="DummyData_Article_Stock_Descríption" xml:space="preserve">
+    <value>Bolts</value>
+  </data>
+  <data name="DummyData_Article_Stock_Number" xml:space="preserve">
+    <value>B2k</value>
+  </data>
+  <data name="DummyData_Article_SweatShirt_Descríption" xml:space="preserve">
+    <value>Sweatshirt</value>
+  </data>
+  <data name="DummyData_Article_SweatShirt_Number" xml:space="preserve">
+    <value>T38009-37</value>
+  </data>
+  <data name="DummyData_Bank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="DummyData_BankDebt" xml:space="preserve">
+    <value>Bank debt</value>
+  </data>
+  <data name="DummyData_BankDebt_First" xml:space="preserve">
+    <value>Bank account #1</value>
+  </data>
+  <data name="DummyData_BankDebt_Second" xml:space="preserve">
+    <value>Bank account #2</value>
+  </data>
+  <data name="DummyData_Bonds" xml:space="preserve">
+    <value>Bonds</value>
+  </data>
+  <data name="DummyData_Brochures" xml:space="preserve">
+    <value>Brochures</value>
+  </data>
+  <data name="DummyData_Cars" xml:space="preserve">
+    <value>Cars</value>
+  </data>
+  <data name="DummyData_Department_Administration" xml:space="preserve">
+    <value>Administration dept.</value>
+  </data>
+  <data name="DummyData_Depreciation" xml:space="preserve">
+    <value>Depreciation</value>
+  </data>
+  <data name="DummyData_Electricity" xml:space="preserve">
+    <value>Electricity</value>
+  </data>
+  <data name="DummyData_Electricity_Tax" xml:space="preserve">
+    <value>Electricity tax</value>
+  </data>
+  <data name="DummyData_Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="DummyData_Goodwill" xml:space="preserve">
+    <value>Goodwill</value>
+  </data>
+  <data name="DummyData_Hardware" xml:space="preserve">
+    <value>Hardware</value>
+  </data>
+  <data name="DummyData_Heating" xml:space="preserve">
+    <value>Heating</value>
+  </data>
+  <data name="DummyData_Lawyers" xml:space="preserve">
+    <value>Lawyers</value>
+  </data>
+  <data name="DummyData_LedgerTag_Accounting" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="DummyData_Location_Description" xml:space="preserve">
+    <value>S1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1" xml:space="preserve">
+    <value>Shelf #1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Bulk" xml:space="preserve">
+    <value>Bulk</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Hall1" xml:space="preserve">
+    <value>Hall 1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Row1" xml:space="preserve">
+    <value>Row 1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Row8" xml:space="preserve">
+    <value>Row 8</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Section2" xml:space="preserve">
+    <value>Section 2</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Section3" xml:space="preserve">
+    <value>Section 3</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Shelf1" xml:space="preserve">
+    <value>Shelf 1</value>
+  </data>
+  <data name="DummyData_Location_Dimension1_Shelf3" xml:space="preserve">
+    <value>Shelf 3</value>
+  </data>
+  <data name="DummyData_Machinery" xml:space="preserve">
+    <value>Machinery</value>
+  </data>
+  <data name="DummyData_Manual_Consumption" xml:space="preserve">
+    <value>Manual consumption</value>
+  </data>
+  <data name="DummyData_Manual_Sales" xml:space="preserve">
+    <value>Manual sales</value>
+  </data>
+  <data name="DummyData_OccasionalVAT" xml:space="preserve">
+    <value>Occasional VAT</value>
+  </data>
+  <data name="DummyData_OfficeSupplies" xml:space="preserve">
+    <value>Office supplies</value>
+  </data>
+  <data name="DummyData_OrderTask_First_Description" xml:space="preserve">
+    <value>First order task description</value>
+  </data>
+  <data name="DummyData_OrderTask_First_Details" xml:space="preserve">
+    <value>First order task details
+First order task - second line details</value>
+  </data>
+  <data name="DummyData_OrderTask_Second_Description" xml:space="preserve">
+    <value>Second order task description</value>
+  </data>
+  <data name="DummyData_OrderTask_Second_Details" xml:space="preserve">
+    <value>First order task details
+First order task - second line details</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_City" xml:space="preserve">
+    <value>Aalborg</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_Name" xml:space="preserve">
+    <value>Delivery plant # 2</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_PlaceName" xml:space="preserve">
+    <value>Delivery place</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_Street" xml:space="preserve">
+    <value>Delivery street 23</value>
+  </data>
+  <data name="DummyData_Order_DeliveryAddress_Zip" xml:space="preserve">
+    <value>DK-9000</value>
+  </data>
+  <data name="DummyData_Order_InvoiceEmail" xml:space="preserve">
+    <value>invoice@test.com</value>
+  </data>
+  <data name="DummyData_Order_OurReference" xml:space="preserve">
+    <value>342234 (our reference)</value>
+  </data>
+  <data name="DummyData_Order_YourReference" xml:space="preserve">
+    <value>6654-FA (your reference)</value>
+  </data>
+  <data name="DummyData_Partner_Attention" xml:space="preserve">
+    <value>The person in charge</value>
+  </data>
+  <data name="DummyData_Partner_City" xml:space="preserve">
+    <value>Århus C</value>
+  </data>
+  <data name="DummyData_Partner_First" xml:space="preserve">
+    <value>SuperSchnell Ltd.</value>
+  </data>
+  <data name="DummyData_Partner_Fourth" xml:space="preserve">
+    <value>Some private consumer</value>
+  </data>
+  <data name="DummyData_Partner_Name" xml:space="preserve">
+    <value>SuperSchnell A/S</value>
+  </data>
+  <data name="DummyData_Partner_Note" xml:space="preserve">
+    <value>Partner note</value>
+  </data>
+  <data name="DummyData_Partner_OrgNumber" xml:space="preserve">
+    <value>DK-12345678</value>
+  </data>
+  <data name="DummyData_Partner_PhoneNumber" xml:space="preserve">
+    <value>Main phone</value>
+  </data>
+  <data name="DummyData_Partner_PlaceName" xml:space="preserve">
+    <value>Invoicing place name</value>
+  </data>
+  <data name="DummyData_Partner_Second" xml:space="preserve">
+    <value>A company Ltd.</value>
+  </data>
+  <data name="DummyData_Partner_Street" xml:space="preserve">
+    <value>Invoicing street 14</value>
+  </data>
+  <data name="DummyData_Partner_Third" xml:space="preserve">
+    <value>Mom and Pop's store</value>
+  </data>
+  <data name="DummyData_Partner_URL" xml:space="preserve">
+    <value>http://xena.biz</value>
+  </data>
+  <data name="DummyData_Partner_Zip" xml:space="preserve">
+    <value>DK-8000</value>
+  </data>
+  <data name="DummyData_Pensions" xml:space="preserve">
+    <value>Pensions</value>
+  </data>
+  <data name="DummyData_ReminderStep_Description" xml:space="preserve">
+    <value>Reminder step 1</value>
+  </data>
+  <data name="DummyData_Rent" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="DummyData_Rented_Officeequipment" xml:space="preserve">
+    <value>Rented officeequipment</value>
+  </data>
+  <data name="DummyData_Rented_Suppliers" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="DummyData_Representation" xml:space="preserve">
+    <value>Representation</value>
+  </data>
+  <data name="DummyData_ShortDebt_Pensions" xml:space="preserve">
+    <value>Pensions</value>
+  </data>
+  <data name="DummyData_ShortDebt_Taxes" xml:space="preserve">
+    <value>Taxes</value>
+  </data>
+  <data name="DummyData_Stamps" xml:space="preserve">
+    <value>Stamps</value>
+  </data>
+  <data name="DummyData_Stocks" xml:space="preserve">
+    <value>Stocks</value>
+  </data>
+  <data name="DummyData_Telephone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="DummyData_Unit_Pcs_Abbreviation" xml:space="preserve">
+    <value>Pcs</value>
+  </data>
+  <data name="DummyData_Unit_Pcs_Description" xml:space="preserve">
+    <value>Pieces</value>
+  </data>
+  <data name="DummyData_Unit_Ton_Abbreviation" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="DummyData_Unit_Ton_Description" xml:space="preserve">
+    <value>Tonnes</value>
+  </data>
+  <data name="DummyData_Variant_Large" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="DummyData_Variant_Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="DummyData_Variant_Small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="DummyData_VatSpecification_Company" xml:space="preserve">
+    <value>Xena Ltd.</value>
+  </data>
+  <data name="DummyData_Vat_Ingoing_Abbreviation" xml:space="preserve">
+    <value>I25</value>
+  </data>
+  <data name="DummyData_Vat_Ingoing_Description" xml:space="preserve">
+    <value>Ingoing VAT</value>
+  </data>
+  <data name="DummyData_VAT_Manual" xml:space="preserve">
+    <value>Manual VAT</value>
+  </data>
+  <data name="DummyData_Vat_Outgoing_Description" xml:space="preserve">
+    <value>Vat outgoing</value>
+  </data>
+  <data name="DummyData_Voucher_Description" xml:space="preserve">
+    <value>Voucher description</value>
+  </data>
+  <data name="DummyData_Wages" xml:space="preserve">
+    <value>Wages</value>
+  </data>
+  <data name="DummyData_Warehouse_Description" xml:space="preserve">
+    <value>Inventory location #1</value>
+  </data>
+  <data name="DummyData_Warehouse_Dimension1" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="DummyData_Warehouse_Dimension2" xml:space="preserve">
+    <value>Shelf</value>
+  </data>
+  <data name="DummyData_Marketing" xml:space="preserve">
+    <value>Marketing costs</value>
+  </data>
+  <data name="DummyData_MiscSalesCosts" xml:space="preserve">
+    <value>Misc. sales costs</value>
+  </data>
+  <data name="DummyData_Article_Third_Description" xml:space="preserve">
+    <value>Bucket set</value>
+  </data>
+</root>

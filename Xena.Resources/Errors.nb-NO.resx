@@ -1,0 +1,1536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Missing_LedgerTag" xml:space="preserve">
+    <value>Finanskonto er ikke utfylt</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Warning_Vats_Dont_Match" xml:space="preserve">
+    <value>Moms er ikke det samme som standardmoms på finanskonto</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_Partner_Deactivated" xml:space="preserve">
+    <value>Partner er deaktivert</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_Is_Deleted" xml:space="preserve">
+    <value>Ordren er slettet</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_No_Partner" xml:space="preserve">
+    <value>Ingen partner er valgt på ordre</value>
+  </data>
+  <data name="Xena_Domain_Delivery_Order_Partner_Is_Deactivated" xml:space="preserve">
+    <value>Partner er deaktivert</value>
+  </data>
+  <data name="Xena_Domain_Delivery_OrderTask_Already_Delivered" xml:space="preserve">
+    <value>Ordreopgaven er allerede levert</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_Is_Deleted" xml:space="preserve">
+    <value>Ordren er slettet</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_No_Partner" xml:space="preserve">
+    <value>Ingen partner er valgt på ordre</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_Order_Partner_Is_Deactivated" xml:space="preserve">
+    <value>Partner er deaktivert</value>
+  </data>
+  <data name="Xena_Domain_Invoicing_OrderTask_Already_Invoiced" xml:space="preserve">
+    <value>Ordreoppgaven er allerede fakturert</value>
+  </data>
+  <data name="Xena_Domain_ReminderStep_ReminderStep_Has_No_Consequence_For_PartnerPost" xml:space="preserve">
+    <value>Påminnelsesplanen har ingen konsekvens for partneren</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Missing_ArticleNumber" xml:space="preserve">
+    <value>Tom eller mangler varenummer</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Missing_Description" xml:space="preserve">
+    <value>Tom eller mangler beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Missing_Group" xml:space="preserve">
+    <value>Mangler gruppe</value>
+  </data>
+  <data name="Xena_Domain_Validation_ArticleGroup_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_Bearer_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_CurrencyExchangeRate_ExchangeRate_Must_Be_Positive" xml:space="preserve">
+    <value>Vekslingskurs må være positiv</value>
+  </data>
+  <data name="Xena_Domain_Validation_CurrencyExchangeRate_Missing_Currency" xml:space="preserve">
+    <value>Manglende valuta</value>
+  </data>
+  <data name="Xena_Domain_Validation_Department_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_Amount_Must_Balance" xml:space="preserve">
+    <value>Beløp må balansere</value>
+  </data>
+  <data name="Xena_Domain_Validation_FiscalPeriod_StartDate_Must_Be_After_EndDate" xml:space="preserve">
+    <value>Startdatoen må være før sluttdatoen</value>
+  </data>
+  <data name="Xena_Domain_Validation_FiscalSetup_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_Ledger_Must_Balance" xml:space="preserve">
+    <value>Finanskonto må balansere</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_Missing_LedgerAccount" xml:space="preserve">
+    <value>Manglende finanskonto</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_Article_Is_Deactivated" xml:space="preserve">
+    <value>Varen er deaktivert</value>
+  </data>
+  <data name="Xena_Domain_Validation_Purpose_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_ReminderStep_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_Settlement_Partner_Must_Balance" xml:space="preserve">
+    <value>Partner skal balansere</value>
+  </data>
+  <data name="Xena_Domain_Validation_Unit_Missing_Abbreviation" xml:space="preserve">
+    <value>Manglende forkortelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_Unit_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Missing_Abbreviation" xml:space="preserve">
+    <value>Manglende forkortelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_Vat_Percentage_Cannot_Be_Negative" xml:space="preserve">
+    <value>Prosent kan ikke være negativ</value>
+  </data>
+  <data name="Xena_User_Creation_Duplicate_User" xml:space="preserve">
+    <value>En annen bruker har dette brukernavnet</value>
+  </data>
+  <data name="Xena_User_Creation_Invalid_Email" xml:space="preserve">
+    <value>Ikke gyldig e-postadresse</value>
+  </data>
+  <data name="Xena_User_Creation_Password_Must_Be_5_Characters_Or_More" xml:space="preserve">
+    <value>Passordet må inneholde minst 6 tegn</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_NothingToBookkeep" xml:space="preserve">
+    <value>Ingenting å bokføre</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Cash_Order_Must_Be_Paid" xml:space="preserve">
+    <value>Kontantordre skal betales med det samme</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Is_Already_Delivered" xml:space="preserve">
+    <value>Ordren er allerede levert</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Is_Already_Invoiced" xml:space="preserve">
+    <value>Ordren er allerede fakturert</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_No_Effect" xml:space="preserve">
+    <value>Ingenting er behandlet</value>
+  </data>
+  <data name="Xena_Domain_Processing_Order_Order_Must_Be_Paid_In_Full" xml:space="preserve">
+    <value>Det betalte beløpet skal stemme med ordrens total</value>
+  </data>
+  <data name="Xena_Domain_Validation_ArticleEANNumber_Missing_EANNumber" xml:space="preserve">
+    <value>Mangler EAN-nummer</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_CustomerAmounts_Do_Not_Match_CustomerLedgerAccount" xml:space="preserve">
+    <value>Beløbet på kundens posteringer stemmer ikke med finansposteringerne på kundens konto</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_SupplierAmounts_Do_Not_Match_SupplierLedgerAccount" xml:space="preserve">
+    <value>Beløpet på leverandørens posteringer stemmer ikke med finansposteringerne på leverandørens konto</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_Invalid_LedgerAccount" xml:space="preserve">
+    <value>Ugyldig finanskonto</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_NetTurnOver_Not_Allowed" xml:space="preserve">
+    <value>Kan ikke opprette finanskonti i omsetning</value>
+  </data>
+  <data name="Xena_Domain_Validation_LedgerTag_ProductConsumption_Not_Allowed" xml:space="preserve">
+    <value>Kan ikke opprette finanskonti i vareforbruk</value>
+  </data>
+  <data name="Xena_Domain_Validation_Partner_Missing_Name" xml:space="preserve">
+    <value>Tomt eller mangler navn</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoLedgerPost_Invalid_LedgerAccount" xml:space="preserve">
+    <value>Ugyldig finanskonto</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoPartnerPost_FiscalDate_Later_Than_Start_Of_FiscalPeriod" xml:space="preserve">
+    <value>Datoen er senere enn starten på finansperioden</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoPartnerPost_Missing_Partner" xml:space="preserve">
+    <value>Manglende partner</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_Must_Balance" xml:space="preserve">
+    <value>Finansposteringene må balansere (differanse: {0})</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_LedgerPostDraft_None" xml:space="preserve">
+    <value>Ingen finansposteringer</value>
+  </data>
+  <data name="Controller_ApiArticle_SpecifyVariants_Difference_Quantity" xml:space="preserve">
+    <value>Mengden på den opprinnelige beholdning stemmer ikke overens med spesifikasjonene</value>
+  </data>
+  <data name="Controller_ApiArticle_SpecifyVariants_No_Specifications" xml:space="preserve">
+    <value>Mangler spesifikasjon av variantene</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_Cannot_Delete_Last_User" xml:space="preserve">
+    <value>Den siste bruker i et regnskap kan ikke slettes. Slett regnskapet istedenfor.</value>
+  </data>
+  <data name="Domain_ArticlePost_Variant_Does_Not_Match_Article" xml:space="preserve">
+    <value>Variantens vare stemmer ikke overens med varen på vareposteringen</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_Already_Settled" xml:space="preserve">
+    <value>Partnerposteringen (id: {0}) er allerede utlignet: (id: {1})</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_Not_Found" xml:space="preserve">
+    <value>Partnerposteringen ble ikke funnet - Id: {0}</value>
+  </data>
+  <data name="Domain_Payment_PartnerPost_On_Wrong_Partner" xml:space="preserve">
+    <value>Partnerpostering (Id: {0}) tilhører ikke denne partner: (Id: {1})</value>
+  </data>
+  <data name="Domain_Subscription_No_Orders_Created" xml:space="preserve">
+    <value>Abonnement ({0}) opprettet en tom ordre</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_VoucherDraftType_Not_Supported" xml:space="preserve">
+    <value>Bilagstype understøttes ikke</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_VoucherDraft_Warning_Future_FiscalDate" xml:space="preserve">
+    <value>Dato er framtidig</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Already_Has_Variants" xml:space="preserve">
+    <value>Varen har allerede varianter</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Variants_Already_Disabled" xml:space="preserve">
+    <value>Variantstyring er allerede deaktivert</value>
+  </data>
+  <data name="Xena_Domain_Validation_CurrencyExchangeRate_NotFoundForDate" xml:space="preserve">
+    <value>Det finnes ikke valutakurs for {0} pr. {1}</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Abbreviation" xml:space="preserve">
+    <value>Manglende kode</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension1" xml:space="preserve">
+    <value>Mangler dimensjon 1</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension2" xml:space="preserve">
+    <value>Mangler dimensjon 2</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension3" xml:space="preserve">
+    <value>Mangler dimensjon 3</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension4" xml:space="preserve">
+    <value>Mangler dimensjon 4</value>
+  </data>
+  <data name="Xena_Domain_Validation_Location_Missing_Dimension5" xml:space="preserve">
+    <value>Mangler dimensjon 5</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_Missing_ArticleVariant" xml:space="preserve">
+    <value>Varen har varianter - velg en</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_Variant_Not_Applicable_For_Article" xml:space="preserve">
+    <value>Varianten passer ikke sammen med varen</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Missing_Article" xml:space="preserve">
+    <value>Manglende vare</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Negative_AveragePrice" xml:space="preserve">
+    <value>Negativ gjennomsnittspris</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Negative_Quantity" xml:space="preserve">
+    <value>Negativt antall</value>
+  </data>
+  <data name="Xena_Domain_Validation_PrimoArticlePost_Variant_Not_Applicable_For_Article" xml:space="preserve">
+    <value>Varianten passer ikke sammen med varen</value>
+  </data>
+  <data name="Xena_Domain_Validation_Variant_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_VariantRange_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_Voucher_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_Validation_Warehouse_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Xena_Domain_VoucherDraft_Validation_Finance_Drafts_Cannot_Have_Partner" xml:space="preserve">
+    <value>Finansbilag kan ikke ha en partner</value>
+  </data>
+  <data name="Xena_Partner_ChangeInvoicEmail_Invalid_Email" xml:space="preserve">
+    <value>Dette er ikke en e-postadresse</value>
+  </data>
+  <data name="Xena_User_Creation_Name_Empty" xml:space="preserve">
+    <value>Navn for bruker er ikke valgt</value>
+  </data>
+  <data name="Domain_ArticlePost_No_Article" xml:space="preserve">
+    <value>Manglende vare på vareposteringen</value>
+  </data>
+  <data name="Domain_Payment_Difference_Is_Too_Large" xml:space="preserve">
+    <value>Differansen er: {0} {2}, men kan maksimalt være: {1} {2}</value>
+  </data>
+  <data name="Domain_Payment_NoPartnerPosts_Supplied" xml:space="preserve">
+    <value>Det er ikke valgt en partnerpostering til betaling</value>
+  </data>
+  <data name="Domain_Subscription_OrderFailedToBookkeep" xml:space="preserve">
+    <value>Bokføring av ordre fra abonnement feilet</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_EconomicTransaction_Warning_SystemDifference" xml:space="preserve">
+    <value>Det vil bli bokført på differansekontoen</value>
+  </data>
+  <data name="Xena_Domain_Validation_EconomicTransaction_FiscalDates_Must_Be_Same_As_Transactions" xml:space="preserve">
+    <value>Datoen på en eller flere finansposter er forskjellig fra transaksjonens</value>
+  </data>
+  <data name="Domain_Update_EconomicTransaction_Cannot_Cancel_Transactions_In_Other_Transactions" xml:space="preserve">
+    <value>Transaksjonen er knyttet sammen med andre transaksjoner og kan ikke annulleres.</value>
+  </data>
+  <data name="Xena_Domain_VoucherDraft_Validation_Finance_Drafts_Cannot_Have_Settlements" xml:space="preserve">
+    <value>Finansbilag kan ikke ha utlignede partnerposteringer</value>
+  </data>
+  <data name="Controller_ReportAccountant_InvalidEmail" xml:space="preserve">
+    <value>Ugyldig e-post ({0})</value>
+  </data>
+  <data name="Domain_DeleteUser_UserNotFound" xml:space="preserve">
+    <value>Brukeren ble ikke funnet</value>
+  </data>
+  <data name="Domain_FailedToInviteUser" xml:space="preserve">
+    <value>Kunne ikke invitere bruker: {0} </value>
+  </data>
+  <data name="Domain_Resource_Delete_Cannot_Delete_Users_Resource" xml:space="preserve">
+    <value>Medarbeideren kan ikke slettes, fordi den er knyttet til en bruker</value>
+  </data>
+  <data name="Domain_Subscription_Activate_Already_Active" xml:space="preserve">
+    <value>Abonnementet er allerede aktivert</value>
+  </data>
+  <data name="Domain_Subscription_Activate_Cannot_Be_Cash_Without_Ticket" xml:space="preserve">
+    <value>Abonnementet kan ikke settes til kontant betaling før kunden har inntastet kortopplysninger</value>
+  </data>
+  <data name="Domain_Subscription_Activate_EndDate_Before_NextRun" xml:space="preserve">
+    <value>Sluttdato er før startdato</value>
+  </data>
+  <data name="Domain_Subscription_Activate_Invalid_Customer_Email" xml:space="preserve">
+    <value>Kunden har ingen gyldig e-post</value>
+  </data>
+  <data name="Domain_Subscription_Activate_No_Customer" xml:space="preserve">
+    <value>Abonnementet har ingen kunde</value>
+  </data>
+  <data name="Domain_Subscription_Activate_No_SubscriptionLines" xml:space="preserve">
+    <value>Ingen abonnementslinjer på abonnementet</value>
+  </data>
+  <data name="Domain_Subscription_Activate_SubscriptionLines_Without_Article" xml:space="preserve">
+    <value>Der er {0} linjer uten varer</value>
+  </data>
+  <data name="Domain_Subscription_Deactivate_Already_Inactive" xml:space="preserve">
+    <value>Abonnementet er allerede inaktivt</value>
+  </data>
+  <data name="Domain_Validation_ReportLayout_Missing_Name" xml:space="preserve">
+    <value>Manglende navn</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_CreateMembership_XenasubscriptionRequired" xml:space="preserve">
+    <value>Xena-abonnement er nødvendig</value>
+  </data>
+  <data name="Xena_ArticleInventoryEnabler_InventoryManagementIsEnabled" xml:space="preserve">
+    <value>Lagerstyring er allerede aktivert på denne varen</value>
+  </data>
+  <data name="Xena_ArticleInventoryEnabler_OrdertasksNotInvoiced" xml:space="preserve">
+    <value>Der er {0} ordreoppgaver som er fakturert, men ikke levert, på denne varen.</value>
+  </data>
+  <data name="Xena_CreatePartnerFromDto_FiscalSetupNotFound" xml:space="preserve">
+    <value>Regnskapet finnes ikke</value>
+  </data>
+  <data name="Xena_CreatePartnerFromDto_NothingHasBeenDone" xml:space="preserve">
+    <value>Ingenting utført</value>
+  </data>
+  <data name="Xena_CreatePartnerFromDto_UserNotFound" xml:space="preserve">
+    <value>Brukeren ble ikke funnet</value>
+  </data>
+  <data name="Xena_Domain_Article_VariantCreation_No_Variants" xml:space="preserve">
+    <value>Ingen varianter for denne variantserien</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Cannot_Disable_Variants_When_Variants_Are_On_Posts" xml:space="preserve">
+    <value>Kan ikke deaktivere varianter når de har vært brukt.</value>
+  </data>
+  <data name="Xena_Domain_Validation_VatSettlementTransaction_CreateReverse_AlreadyReversed" xml:space="preserve">
+    <value>Momsavregning er allerede annullert</value>
+  </data>
+  <data name="Xena_Domain_Validation_VatSettlementTransaction_CreateReverse_ReversePaymentFirst" xml:space="preserve">
+    <value>En transaksjon med betaling kan ikke annulleres. Annuller betalingen først og prøv igjen. </value>
+  </data>
+  <data name="Xena_Domain_Validation_VatSettlementTransaction_HasBeenCanceled" xml:space="preserve">
+    <value>Utligningen er annullert og kan ikke betales.</value>
+  </data>
+  <data name="Xena_Domain_Validation_VatSettlementTransaction_LedgerTag_NotFound" xml:space="preserve">
+    <value>Finanskontoen (id: {0}) ble ikke funnet</value>
+  </data>
+  <data name="Xena_GetOrderFromNotification_OrderNotFound" xml:space="preserve">
+    <value>Ordre finnes ikke</value>
+  </data>
+  <data name="Xena_GetSubscriptionFromNotification_SubscriptionNoTFound" xml:space="preserve">
+    <value>Abonnement ikke funnet</value>
+  </data>
+  <data name="Xena_LinkPartnerToVCard_FiscalSetupNotFound" xml:space="preserve">
+    <value>Regnskap finnes ikke</value>
+  </data>
+  <data name="Xena_LinkPartnerToVCard_UserNotFound" xml:space="preserve">
+    <value>Brukeren ble ikke funnet</value>
+  </data>
+  <data name="Xena_Notification_VCardUpdate_NoVCardFound" xml:space="preserve">
+    <value>Ingen vCard funnet med ID: {0}</value>
+  </data>
+  <data name="Xena_Order_ProcesOrder_CannotProcess" xml:space="preserve">
+    <value>Kan ikke behandle en ordre uten en partner</value>
+  </data>
+  <data name="Xena_PartnerFromSearchDtoCreator_InvalidEmail" xml:space="preserve">
+    <value>Ingenting å koble. Ugyldig eller manglende e-post</value>
+  </data>
+  <data name="Xena_Public_UnsubscribeNewsLetter_InvalidEmail" xml:space="preserve">
+    <value>Ugyldig e-post</value>
+  </data>
+  <data name="Xena_Vat_ReadVatSettlementData_FiscalPeriodNotFound" xml:space="preserve">
+    <value>Det finnes ikke et regnskapsår for neste momsperiode</value>
+  </data>
+  <data name="Command_ElectronicCVRInvoice_InvalidCVR" xml:space="preserve">
+    <value>{0} er ikke et gyldig CVR nr - eksempel: DK12345678</value>
+  </data>
+  <data name="Command_ElectronicEANInvoice_InvalidCVR" xml:space="preserve">
+    <value>{0} er ikke et gyldig EAN-nummer, det skal være 13 tall</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Address_No_City" xml:space="preserve">
+    <value>Adressen er ugyldig - Manglende by (Adresse: {0})</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Address_No_StreetNumber" xml:space="preserve">
+    <value>Adressen er ugyldig - Manglende veinummer (Adresse: {0})</value>
+  </data>
+  <data name="Command_ElectronicInvoice_Address_No_Zip" xml:space="preserve">
+    <value>Adressen er ugyldig - Manglende postnr. (Adresse: {0})</value>
+  </data>
+  <data name="Command_ElectronicInvoice_InvalidAddressType" xml:space="preserve">
+    <value>Mottakers adressetype ({0}) er ugyldig. Gyldige muligheter er: {1}</value>
+  </data>
+  <data name="Controller_ApiArticle_Nothing_To_Insert" xml:space="preserve">
+    <value>Ingen varer å sette inn</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_AlreadyRegistredWithSproom" xml:space="preserve">
+    <value>Regnskapet (id: {0}) er allerede registrert hos Sproom</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_InvalidEmailAddress" xml:space="preserve">
+    <value>E-posten {0} er ikke gyldig</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_MembershipNotFound" xml:space="preserve">
+    <value>Rettigheter ikke funnet</value>
+  </data>
+  <data name="Controller_ApiFiscalSetup_OrgNumber_Already_Registered" xml:space="preserve">
+    <value>Det ønskede org.nummeret ({0}) er allerede registreret hos Sproom - kontakt Sproom på support@sproom.net for detaljer.</value>
+  </data>
+  <data name="Controller_FiscalPeriod_MustFirstCreateAFiscalPeriod" xml:space="preserve">
+    <value>Du må først opprette en finansperiode</value>
+  </data>
+  <data name="Controller_OAuth_Mismatch_ClientId_Or_ClientSecret" xml:space="preserve">
+    <value>Du må oppgi gyldig ClientID og tilhørende ClientSecret for å kunne godkjenne.</value>
+  </data>
+  <data name="Domain_Bookkeeping_LedgerPostDraft_Invalid_VatDeductionPercentage" xml:space="preserve">
+    <value>Momsfradragsprosenten skal være mellom 0 og 100</value>
+  </data>
+  <data name="Domain_FiscalSetup_Sproom_Is_Already_Enabled" xml:space="preserve">
+    <value>Sproom er allerede aktivert på dette regnskapet</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeep_Warning_Posting_In_Future" xml:space="preserve">
+    <value>Følgende bilag har en dato som er frem i tid: {0}</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeep_Warning_Posting_On_Existing_Voucher" xml:space="preserve">
+    <value>Det vil bli postert på et eksisterende bilag! (Bilag {0})</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Date_Outside_FiscalPeriod" xml:space="preserve">
+    <value>Datoen {0} er utenfor regnskapsåret {1}</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Deactivated" xml:space="preserve">
+    <value>{0} ({1}) er deaktivert</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_FiscalPeriod_IsClosed" xml:space="preserve">
+    <value>Regnskapsåret {0} er lukket</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_No_FiscalPeriod" xml:space="preserve">
+    <value>Regnskapsåret mangler</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Voucher_Not_Balanced" xml:space="preserve">
+    <value>Bilag {0} balanserer ikke på {1}. Differansen er: {2}</value>
+  </data>
+  <data name="Domain_Ledger_Missing_Description" xml:space="preserve">
+    <value>Mangler beskrivelse</value>
+  </data>
+  <data name="Domain_OrderTask_Delete_Invoiced_Delivered" xml:space="preserve">
+    <value>En fakturert eller levert opgave kan ikke slettes</value>
+  </data>
+  <data name="Domain_Subscription_Activate_NextRunDate_Before_StartDate" xml:space="preserve">
+    <value>Datoen for neste kjøring er før abonnementets startdato</value>
+  </data>
+  <data name="Domain_Validation_WebHookSubscription_Invalid_CallbackUri" xml:space="preserve">
+    <value>Callback URL er enten tom eller ikke en gyldig URL.</value>
+  </data>
+  <data name="Domain_Validation_WebHookSubscription_Invalid_EntityType" xml:space="preserve">
+    <value>Ugyldig entitetstype</value>
+  </data>
+  <data name="Domain_VoucherDraft_Bookkeeping_FiscalPeriod_Is_Closed" xml:space="preserve">
+    <value>Regnskapsåret {0} er lukket</value>
+  </data>
+  <data name="Domain_VoucherDraft_Settlement_Difference_Cannot_Exceed_Allowed" xml:space="preserve">
+    <value>Utligningsdifferansen kan ikke være større enn {0} for {1}</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_CreateMembership_CreditCardRequired" xml:space="preserve">
+    <value>Du kan ikke tilføye en ny bruker uten å ha et betalingskort tilknyttet ditt Xena-abonnement</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_DeleteMembership_CreditCardRequired" xml:space="preserve">
+    <value>Du må ha et betalingskort tilknyttet for å beholde support</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_RequestSupport_CreditCardRequired" xml:space="preserve">
+    <value>Du kan ikke få support uten å ha et betalingskort tilknyttet ditt Xena-abonnement</value>
+  </data>
+  <data name="Xena_DeleteExtensions_DocumentCannotBeDeleted" xml:space="preserve">
+    <value>Dokumentet har referanser og kan derfor ikke slettes.</value>
+  </data>
+  <data name="Xena_Document_DeleteDocumentRelation_CannotDeleteDocumentsRemindersOrInvoices" xml:space="preserve">
+    <value>Kan ikke slette dokumenter som er faktura eller purringer</value>
+  </data>
+  <data name="Xena_Document_MoveInboxRelation_RelationNotFound" xml:space="preserve">
+    <value>Relasjonen til dette dokument ble ikke funnet</value>
+  </data>
+  <data name="Xena_Document_MoveInboxRelation_ResourceNotFound" xml:space="preserve">
+    <value>Medarbeideren ble ikke funnet</value>
+  </data>
+  <data name="Xena_Document_NewVersionFromXenaDocument_NotAllowed" xml:space="preserve">
+    <value>Det er ikke tillatt å tilføye en ny versjon til dette dokumentet</value>
+  </data>
+  <data name="Xena_Document_NotPossibleToCreateDocument" xml:space="preserve">
+    <value>Det er ikke mulig å opprette dokumentet</value>
+  </data>
+  <data name="Xena_Document_NotPossibleToFindDocument" xml:space="preserve">
+    <value>Kan ikke å finne dokumentet</value>
+  </data>
+  <data name="Xena_Document_PostDocumentFromUrlByTyped" xml:space="preserve">
+    <value>Feil i opprettelsen av dokumentet</value>
+  </data>
+  <data name="Xena_Document_PostRelationCommand_DocumentIsAlreadyConnected" xml:space="preserve">
+    <value>Dokumentet er allerede tilknyttet</value>
+  </data>
+  <data name="Xena_Document_PostRelationCommand_EntityTypeIsNotSupported" xml:space="preserve">
+    <value>Entitetstypen {0} er ikke understøttet</value>
+  </data>
+  <data name="Xena_Domain_Order_Summary_NoOrdertasksToInvoice" xml:space="preserve">
+    <value>Det er ingen ordreoppgaver å fakturere</value>
+  </data>
+  <data name="Xena_FiscalSetup_InviteUser_FiscalSetupNoFound" xml:space="preserve">
+    <value>Regnskap ikke funnet</value>
+  </data>
+  <data name="Xena_FiscalSetup_InviteUser_UserHasAccess" xml:space="preserve">
+    <value>Brukeren ({0}) har allerede adgang</value>
+  </data>
+  <data name="Xena_FiscalSetup_UpdateVCardPicture_DocumentNotFound" xml:space="preserve">
+    <value>Dokumentet ble ikke funnet</value>
+  </data>
+  <data name="Xena_FiscalSetup_UpdateVCardPicture_FiscalSetupDoesNotHaveAVcard" xml:space="preserve">
+    <value>Regnskapet har ikke et vCard</value>
+  </data>
+  <data name="Xena_Home_MergeUser_LoginNotValid" xml:space="preserve">
+    <value>Ugyldig innlogging</value>
+  </data>
+  <data name="Xena_Home_MergeUser_NotLoggedIn" xml:space="preserve">
+    <value>Ikke logget inn</value>
+  </data>
+  <data name="Xena_Home_ResetPassword_NoLongerPossibleToResetPassword" xml:space="preserve">
+    <value>Det er ikke lenger mulig å nullstille passordet. Lag en ny nullstilling av passord hvis det er nødvendig.</value>
+  </data>
+  <data name="Xena_InvitePartner_PartnerNotFound" xml:space="preserve">
+    <value>Partneren ble ikke funnet</value>
+  </data>
+  <data name="Xena_InvitePartner_VCardNotFound" xml:space="preserve">
+    <value>vCardet ble ikke funnet</value>
+  </data>
+  <data name="Xena_Partner_MailHistory_MustHaveMailIdentifier" xml:space="preserve">
+    <value>E-post-historikk over partner må ha en en unik nøkkel!</value>
+  </data>
+  <data name="Xena_Partner_MailHistory_MustHavePartner" xml:space="preserve">
+    <value>E-post-historikk over partner må ha en partner!</value>
+  </data>
+  <data name="Xena_Partner_MailHistory_MustHaveResource" xml:space="preserve">
+    <value>E-post-historikk over partner må ha en medarbeider!</value>
+  </data>
+  <data name="Xena_Partner_ResendPartnerInvitation_NotAValidEmail" xml:space="preserve">
+    <value>Ikke en gyldig e-post</value>
+  </data>
+  <data name="Xena_Partner_ResendPartnerInvitation_UserNotFound" xml:space="preserve">
+    <value>Brukeren ble ikke funnet</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeep_Warning_Different_Vat_From_Default" xml:space="preserve">
+    <value>Bilag(ene) {0} har en momskode som er annerledes enn standard på kontoen.</value>
+  </data>
+  <data name="Domain_Reconciliation_Cannot_Use_Same_Ledgertag_As_BankContext" xml:space="preserve">
+    <value>Bankkontoen kan ikke settes som differansekonto</value>
+  </data>
+  <data name="Xena_PrimoPostDeleter_CannotDeleteThisPrimoPost" xml:space="preserve">
+    <value>Dette åpningstallet kan ikke slettes</value>
+  </data>
+  <data name="Command_BulkInsertArticle_ImportFailed" xml:space="preserve">
+    <value>Importen feilet for: {0}. Detaljer:</value>
+  </data>
+  <data name="Command_BulkInsertArticle_ImportFailed_DuplicateArticleNumbers" xml:space="preserve">
+    <value>Følgende varenumre ble kopiert:</value>
+  </data>
+  <data name="Command_MoveInvoiceToInbox_NoResource" xml:space="preserve">
+    <value>Aktuell bruker har ingen ressurs</value>
+  </data>
+  <data name="Command_MoveInvoiceToInbox_NotLoggedIn" xml:space="preserve">
+    <value>Du er ikke logget inn</value>
+  </data>
+  <data name="Command_RecalculateFiscalPeriodStatistics_NoFiscalPeriod" xml:space="preserve">
+    <value>Regnskapsår for {0} ble ikke funnet.</value>
+  </data>
+  <data name="Controller_Oauth_Login_YouNeedAClient" xml:space="preserve">
+    <value>Du må ha en klient for å kunne lage en godkjennelse.</value>
+  </data>
+  <data name="Domain_Activity_Missing_Abbreviation" xml:space="preserve">
+    <value>Manglende forkortelse</value>
+  </data>
+  <data name="Domain_Activity_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Domain_PartnerResourceContext_Cannot_Have_API_Access_On_Xena_User" xml:space="preserve">
+    <value>Det kan ikke opprettes API-nøkler på brukere som har adgang via OAuth2</value>
+  </data>
+  <data name="Domain_PaymentMeans_Invalid_PaymentMeansType" xml:space="preserve">
+    <value>Ugyldig betalingstype: {0}. Gyldige betalingstyper er: {1}</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_Invalid_Discount_Percentage" xml:space="preserve">
+    <value>Rabattprosent må være mellom 0 og 100</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_ValidFrom_IsLaterThan_ValidTo" xml:space="preserve">
+    <value>"Gyldig fra" må være før "Gyldig til"</value>
+  </data>
+  <data name="Domain_PriceGroup_Invalid_ContextType" xml:space="preserve">
+    <value>Ugyldig konteksttype</value>
+  </data>
+  <data name="Domain_PriceGroup_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Domain_ResourcePost_NextAppointment_Is_Before" xml:space="preserve">
+    <value>Sluttidspunktet({0} {1}) er før avtalens start ({2} {3})</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_Bank_Invalid_Account" xml:space="preserve">
+    <value>Mangler bankkonto</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_Bank_InvalidAccountNumber" xml:space="preserve">
+    <value>Danske bankkonti må ha 4-10 sifre og kan ha valgfrie mellomrom.</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_Bank_InvalidRegNumber" xml:space="preserve">
+    <value>Danske banker har et 4-sifret registreringsnummer som må opplyses</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_FIK_InvalidAccountNumber" xml:space="preserve">
+    <value>Leverandørnummeret må være 8 siffer uten mellomrom</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_DK_Giro_InvalidAccountNumber" xml:space="preserve">
+    <value>Alle danske girokonti har et 7-sifferet nummer uten mellomrom</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_Iban_InvalidIBANCode" xml:space="preserve">
+    <value>IBAN-kontonumre er 2 bokstaver, 2 tall og deretter opptil 30 bokstaver/tall med valgfrie mellomrom.</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_Iban_Swift_InvalidIBANCode" xml:space="preserve">
+    <value>IBAN-koder er 2 bokstaver, 2 tall og deretter opptil 30 bokstaver/tall med valgfrie mellomrom.</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_Iban_Swift_InvalidSWIFTCode" xml:space="preserve">
+    <value>SWIFT-koder er 6 bokstaver og 2-5 bokstaver/tall. Mellomrom er ikke tillatt.</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_InvalidPaymentMeansType" xml:space="preserve">
+    <value>Betalingsmåte må ha gyldig betalingsmåte-type. Gyldige typer er: {0}</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_NO_Bank_Invalid_Control_Cipher" xml:space="preserve">
+    <value>Siste siffer skal være {0} med kontonummer: {1}. Beregnet siffer er: {2}</value>
+  </data>
+  <data name="Domain_Validation_PaymentMeans_NO_Bank_InvalidAccountNumber" xml:space="preserve">
+    <value>En norsk bankkonto har 11 siffer: De første 4 sifrene er bankens id-nummer, de neste 2 sifrene er kontoens type, heretter følger 4 siffer som er kontoens reelle nummer og sist et modulus-siffer som nr. 11.</value>
+  </data>
+  <data name="Domain_Validation_XenaAppPlugin_Invalid_ExternalUri" xml:space="preserve">
+    <value>Ugyldig Uri</value>
+  </data>
+  <data name="Domain_Validation_XenaAppPlugin_Invalid_PluginPlacement" xml:space="preserve">
+    <value>Ugyldig plugin-plassering. Gyldige plasseringer: {0}</value>
+  </data>
+  <data name="Domain_Validation_XenaAppPlugin_Invalid_PluginType" xml:space="preserve">
+    <value>Ugyldig plugin-type. Gyldige typer: {0}</value>
+  </data>
+  <data name="Domain_Validation_XenaAppPlugin_Invalid_Uri" xml:space="preserve">
+    <value>{0} er ikke en gyldig uri (skal være https og korrekt formatert)</value>
+  </data>
+  <data name="Domain_validation_XenaAppPlugin_Missing_Title" xml:space="preserve">
+    <value>Mangler titel</value>
+  </data>
+  <data name="Domain_VolumePriceAgreement_ValidFrom_IsLaterThan_ValidTo" xml:space="preserve">
+    <value>"Gyldig fra" må være før "Gyldig til"</value>
+  </data>
+  <data name="Domain_XenaApp_Invalid_Callback" xml:space="preserve">
+    <value>Ugyldig callback URI</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_ClientIdentitifier" xml:space="preserve">
+    <value>Mangler ClientIdentifier</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_ClientSecret" xml:space="preserve">
+    <value>Mangler ClientSecret</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_Name" xml:space="preserve">
+    <value>Mangler navn</value>
+  </data>
+  <data name="Validation_ArticleImportData_Missing_ArticleNumber" xml:space="preserve">
+    <value>Mangler varenummer</value>
+  </data>
+  <data name="Validation_ArticleImportData_Missing_Description" xml:space="preserve">
+    <value>Mangler beskrivelse</value>
+  </data>
+  <data name="Validation_ArticleImportData_Missing_Group" xml:space="preserve">
+    <value>Mangler varegruppe</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_CreateApiUser_PartnerNotFound" xml:space="preserve">
+    <value>Partneren ble ikke funnet</value>
+  </data>
+  <data name="Xena_ArticleDeleter_CannotDelete_CurrentlyStock" xml:space="preserve">
+    <value>Denne varen finnes i øyeblikket på lager, og den kan derfor ikke slettes.</value>
+  </data>
+  <data name="Xena_ArticleDeleter_CannotDelete_OpeReservations" xml:space="preserve">
+    <value>Varen har åpne reservasjoner og kan derfor ikke slettes</value>
+  </data>
+  <data name="Xena_ArticleDeleter_CannotDelete_UsedOnOpenPurchase" xml:space="preserve">
+    <value>Varen er i bruk på åpne kjøpsordre og kan derfor ikke slettes</value>
+  </data>
+  <data name="Xena_ArticleDeleter_CannotDelete_UsedOnOpenSales" xml:space="preserve">
+    <value>Varen er i bruk på åpne salgsordre og kan derfor ikke slettes</value>
+  </data>
+  <data name="Xena_Document_MoveDocumentToNewInbox_DocumentAlreadyConnected" xml:space="preserve">
+    <value>Dokumentet er allerede tilknyttet</value>
+  </data>
+  <data name="Xena_Document_MoveDocumentToNewInbox_DocumentNotFound" xml:space="preserve">
+    <value>Dokumentet ble ikke funnet</value>
+  </data>
+  <data name="Xena_Domain_FailedToInviteUser" xml:space="preserve">
+    <value>Brukeren {0} kunne ikke inviteres til dette regnskapet.</value>
+  </data>
+  <data name="Xena_Domain_Validation_OrderLine_No_Article_Nor_ArticleGroup" xml:space="preserve">
+    <value>Manglende vare eller varegruppe på linje {0} - {1}</value>
+  </data>
+  <data name="Xena_Email_SendEmail_OnlyOneEmail" xml:space="preserve">
+    <value>Det kan kun være 1 e-post når noen inviteres til Xena</value>
+  </data>
+  <data name="Xena_FiscalSetup_DeleteFiscalSetup_FiscalSetupNotFound" xml:space="preserve">
+    <value>Virksomheten ble ikke funnet - id: {0}</value>
+  </data>
+  <data name="Xena_FiscalSetup_DeleteFiscalSetup_MustBeAdmin" xml:space="preserve">
+    <value>For å slette en virksomhet kreves administratorrettigheter</value>
+  </data>
+  <data name="Xena_FiscalSetup_DeleteFiscalSetup_MustBeLoggedIn" xml:space="preserve">
+    <value>Du må være logget inn i virksomheten for å kunne slette det.</value>
+  </data>
+  <data name="Xena_GetPartnerFromPartnerPost_PartnerPostNotFound" xml:space="preserve">
+    <value>Partnerposteringen ble ikke funnet</value>
+  </data>
+  <data name="Xena_Payment_BookkeepingFailed" xml:space="preserve">
+    <value>Bokføring feilet for partneren {0}</value>
+  </data>
+  <data name="Xena_Payment_InvalidPaymentLedgerTag" xml:space="preserve">
+    <value>Betalingskonto for det aktuelle regnskapet er ikke valgt eller den er deaktivert. </value>
+  </data>
+  <data name="Command_BulkInsertArticle_ImportFailed_ArticleNotFound" xml:space="preserve">
+    <value>Importen for {0} feilet fordi varen ikke ble funnet.</value>
+  </data>
+  <data name="Command_ImportFromBillysBilling_AlreadyHasArchive" xml:space="preserve">
+    <value>Kan kun importeres en gang per virksomhet</value>
+  </data>
+  <data name="Command_ImportFromC5_AlreadyHasArchive" xml:space="preserve">
+    <value>Kan kun importeres en gang per virksomhet</value>
+  </data>
+  <data name="Command_ImportFromEconomics_AlreadyHasArchive" xml:space="preserve">
+    <value>Kan kun importeres en gang per virksomhet</value>
+  </data>
+  <data name="Command_PostPartnerFromClient_Already_Partner" xml:space="preserve">
+    <value>Klienten er allerede en partner (id: {0})</value>
+  </data>
+  <data name="Command_RequestArchiveDeletion_FiscalSetupNotFound" xml:space="preserve">
+    <value>Virksomhet ikke funnet</value>
+  </data>
+  <data name="Deleters_Ledger_In_Use" xml:space="preserve">
+    <value>Kladden kan ikke slettes, den brukes av: {0}</value>
+  </data>
+  <data name="Domain_FiscalPeriod_No_CurrentResource" xml:space="preserve">
+    <value>Brukeren har ingen ressurs</value>
+  </data>
+  <data name="Domain_Ledger_Is_Out_Of_Numbers" xml:space="preserve">
+    <value>Kladden er tom for bilagsnumre</value>
+  </data>
+  <data name="Domain_Ledger_Minimum_Must_Be_Lower_Than_Maximum" xml:space="preserve">
+    <value>Maksimum må være større enn minimum</value>
+  </data>
+  <data name="Domain_Ledger_Too_High_Maximum" xml:space="preserve">
+    <value>Maksimum kan ikke være større enn 49.999</value>
+  </data>
+  <data name="Domain_LedgerNumberSeries_VoucherNumberHasBeenUsed" xml:space="preserve">
+    <value>Bilagsnummer {0} har allerede vært brukt i denne regnskapsperioden</value>
+  </data>
+  <data name="Domain_OrderLine_ArticleMapping_Quantity_Modulus_Fail" xml:space="preserve">
+    <value>{0} kan kun handles i enhet av {1}</value>
+  </data>
+  <data name="Domain_Validation_ArticleMapping_ArticleVariant_Missing" xml:space="preserve">
+    <value>Varen har varianter og varianten skal derfor angis</value>
+  </data>
+  <data name="Domain_Validation_ArticleMapping_PartnerArticle_Missing" xml:space="preserve">
+    <value>Må ha enten en vare eller en partner</value>
+  </data>
+  <data name="Domain_Validation_ArticleMapping_PartnerArticleNumber" xml:space="preserve">
+    <value>Mangler partnerens varenummer</value>
+  </data>
+  <data name="Domain_Validation_ArticleMapping_Quantity_NotPositive" xml:space="preserve">
+    <value>Antall må være positivt</value>
+  </data>
+  <data name="Domain_Validation_ReportLayout_Invalid_XML" xml:space="preserve">
+    <value>Ugyldig XML</value>
+  </data>
+  <data name="Domain_XenaApp_Missing_Description" xml:space="preserve">
+    <value>Mangler beskrivelse</value>
+  </data>
+  <data name="Updater_ArticleMapping_ArticleAlreadyMapped" xml:space="preserve">
+    <value>Vare eller varevariant er allerede koblet på id: {0}</value>
+  </data>
+  <data name="Updater_ArticleMapping_Duplicates_Exists" xml:space="preserve">
+    <value>Varekoblingen eksisterer allerede på id: {0}</value>
+  </data>
+  <data name="Updater_Ledger_OverLapping_Ledgers" xml:space="preserve">
+    <value>Følgende kladder overlapper: {0}</value>
+  </data>
+  <data name="Xena_ArticleGroup_DeleteArticles_Article" xml:space="preserve">
+    <value>Vare: {0} - {1}</value>
+  </data>
+  <data name="Xena_ArticleGroup_DeleteArticles_ArticleGroupNotFound" xml:space="preserve">
+    <value>Varegruppen ble ikke funnet: {0}</value>
+  </data>
+  <data name="Xena_ArticleGroup_DeleteArticles_TheFollowingArticlesCouldNotBeDeleted" xml:space="preserve">
+    <value>Følgende varer kunne ikke slettes da de er i bruk:</value>
+  </data>
+  <data name="Xena_ArticleVariantDisabler_ArticleNotFound" xml:space="preserve">
+    <value>Varen ble ikke funnet - id: {0}</value>
+  </data>
+  <data name="Xena_CurrencyAmountToPay_InvalidCurrency" xml:space="preserve">
+    <value>Ugyldig valuta ({0})</value>
+  </data>
+  <data name="Xena_CurrencyAmountToPay_NoExchangeRateFound" xml:space="preserve">
+    <value>Ingen valutakurs funnet for {0}, dato: {1}</value>
+  </data>
+  <data name="Command_BulkInserImportedPostingCommand_NoValidAccount" xml:space="preserve">
+    <value>{0} er ikke en gyldig konto</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_Invalid_ContextType" xml:space="preserve">
+    <value>{0} er ikke en gyldig kontekst</value>
+  </data>
+  <data name="Updater_ReportLayout_InvalidCulture" xml:space="preserve">
+    <value>{0} er ikke et gyldig språk</value>
+  </data>
+  <data name="Command_AdjustAveragePrice_Cannot_Have_Negative_AverageCostPrice" xml:space="preserve">
+    <value>Negativ kostpris ikke tillatt</value>
+  </data>
+  <data name="Command_AdjustAveragePrice_Latest_Movement_Date_Is_Later_Than_FiscalDate" xml:space="preserve">
+    <value>Siste bevegelse på varen var {0}. Datoen for reguleringen skal derfor være samme dato eller senere.</value>
+  </data>
+  <data name="Command_AdjustAveragePrice_No_Inventory_Management" xml:space="preserve">
+    <value>Lagerstyring er ikke aktivert på denne varen</value>
+  </data>
+  <data name="Command_BookkeepLedger_Bookkeeping_Was_Cancelled" xml:space="preserve">
+    <value>Bokføringen ble avbrutt av bruker</value>
+  </data>
+  <data name="Command_BookkeepStockCount_Negative_Stock" xml:space="preserve">
+    <value>Varen {0} får negativt lager</value>
+  </data>
+  <data name="Command_BookkeepStockCount_Nothing_To_Bookkeep" xml:space="preserve">
+    <value>Ingenting å bokføre</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccount_ImportFailed" xml:space="preserve">
+    <value>Import av {0} mislyktes</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccount_ImportFailed_DuplicateAccountNumber" xml:space="preserve">
+    <value>Følgende kontonumre ble kopiert:</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccountCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Importoppgaven ble ikke funnet</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Importoppgaven ble ikke funnet</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_DuplicateArticleGroups" xml:space="preserve">
+    <value>Følgende varegrupper ble kopiert:</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_ImportFailed" xml:space="preserve">
+    <value>Import av {0} mislyktes fordi varegruppen mangler beskrivelse</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Importoppgaven ble ikke funnet</value>
+  </data>
+  <data name="Command_BulkInsertImportedPostingCommand_ImportFailed" xml:space="preserve">
+    <value>Import av {0} mislyktes</value>
+  </data>
+  <data name="Command_BulkInsertImportedPostingCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Importoppgaven ble ikke funnet</value>
+  </data>
+  <data name="Command_CancelOrderDelivery_Already_Cancelled" xml:space="preserve">
+    <value>Levering er allerede kansellert</value>
+  </data>
+  <data name="Command_ChangePassword_OldPassword" xml:space="preserve">
+    <value>Det gamle passordet er ikke korrekt</value>
+  </data>
+  <data name="Command_ConfirmOrder_Nothing_To_Confirm" xml:space="preserve">
+    <value>Ingenting å bekrefte</value>
+  </data>
+  <data name="Command_CreateOffer_Nothing_To_Offer" xml:space="preserve">
+    <value>Ingenting å opprette et tilbud fra</value>
+  </data>
+  <data name="Command_CreateOffer_Nothing_To_Pick" xml:space="preserve">
+    <value>Ingenting å levere (til plukklisten)</value>
+  </data>
+  <data name="Command_CreatePurchaseDrafts_Nothing_To_Create" xml:space="preserve">
+    <value>Ingen leverandører ble funnet til opprettelsen av kjøpskladd</value>
+  </data>
+  <data name="Command_HandleOTPSetupRequest_IncorrectCode" xml:space="preserve">
+    <value>Koden er ikke korrekt. Lag ny kode.</value>
+  </data>
+  <data name="Command_HandleOTPSetupRequest_IncorrectPhoneNumber" xml:space="preserve">
+    <value>Ugyldig telefonnummer</value>
+  </data>
+  <data name="Command_HandleOTPSetupRequest_NoActivation" xml:space="preserve">
+    <value>Ingen kode er lagret. Hent ny kode.</value>
+  </data>
+  <data name="Command_ImportC5Account_CannotImport_Without_Ledger" xml:space="preserve">
+    <value>Kan ikke importere posteringer uten å importere kontoplanen</value>
+  </data>
+  <data name="Command_ImportPrimoArticlePost_No_Articles_Found" xml:space="preserve">
+    <value>Ingen varer passer med det angitte varenr.</value>
+  </data>
+  <data name="Command_ImportStockCountDrafts_Failed_To_Import" xml:space="preserve">
+    <value>Kunne ikke importere opptelling for vare {0} {1}</value>
+  </data>
+  <data name="Command_LinkArticlesInGroup_All_Articles_Linked" xml:space="preserve">
+    <value>Varegruppen ({0}) har ingen varer som ikke allerede er linket.</value>
+  </data>
+  <data name="Command_LinkArticlesInGroup_Not_Linked" xml:space="preserve">
+    <value>Varegruppen ({0}) er ikke linket med en varegruppe</value>
+  </data>
+  <data name="Command_MoveInvoiceToInbox_InvoiceNotFound" xml:space="preserve">
+    <value>Faktura ikke funnet</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_No_OrderLines_Selected" xml:space="preserve">
+    <value>Ingen ordrelinjer ble valgt</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_FiscalSetupNotFound" xml:space="preserve">
+    <value>Regnskap ikke funnet</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_ImportTaskNotFound" xml:space="preserve">
+    <value>Importoppgaven ble ikke funnet</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_NotAllowedToDeleteAccounts" xml:space="preserve">
+    <value>Ikke mulig å slette importerte kontoer, for de brukes av importerte posteringer</value>
+  </data>
+  <data name="Command_RequestResetDataImportTask_NotAllowedToDeleteArticleGroups" xml:space="preserve">
+    <value>Ikke tillatt å slette importerte varegrupper, for de brukes av importerte varer</value>
+  </data>
+  <data name="Command_SendOTPConfirmationCode_ErrorInSendingCode" xml:space="preserve">
+    <value>En feil oppstod under sendingen av engangskoden</value>
+  </data>
+  <data name="Command_SendOTPConfirmationCode_NotANumber" xml:space="preserve">
+    <value>Du har ikke skrevet inn et korrekt telefonnummer</value>
+  </data>
+  <data name="Command_TransferMembership_MembershipNotFound" xml:space="preserve">
+    <value>Medlemskap ble ikke funnet</value>
+  </data>
+  <data name="Command_TransferMembership_NotAllowed" xml:space="preserve">
+    <value>Ikke tillatt</value>
+  </data>
+  <data name="Command_TransferMembership_NotValidEmail" xml:space="preserve">
+    <value>Ikke en gyldig e-post</value>
+  </data>
+  <data name="Command_UpdateArticleSupplier_Article_Is_Not_Inventory_Managed" xml:space="preserve">
+    <value>Varen {0} har ikke lagerstyring</value>
+  </data>
+  <data name="Controller_ApiArticleMapping_Nothing_To_Insert" xml:space="preserve">
+    <value>Ingenting å sette inn</value>
+  </data>
+  <data name="Deleters_FixedAsset_Has_Purchases" xml:space="preserve">
+    <value>Kan ikke slette anleggsmidler med kjøp</value>
+  </data>
+  <data name="Deleters_FixedAssetPurchase_Depreciations_Exists" xml:space="preserve">
+    <value>Anleggsaktiver med avskrivninger kan ikke slettes</value>
+  </data>
+  <data name="Deleters_FixedAssetPurchase_Transaction" xml:space="preserve">
+    <value>Kan ikke slette kjøp som er finansbokført</value>
+  </data>
+  <data name="Domain_FiscalPeriod_Loced_At" xml:space="preserve">
+    <value>Regnskapsåret ({0}) er låst per {1}</value>
+  </data>
+  <data name="Domain_FixedAssetPurchase_Nothing_To_Depreciate" xml:space="preserve">
+    <value>Ingenting å avskrive</value>
+  </data>
+  <data name="Domain_Ledger_Bookkeeping_Date_Before_Locked_At_Date" xml:space="preserve">
+    <value>Kassakladdlinjen (bilag: {0} på {1}) er før finansperiodens låsedato ({2})</value>
+  </data>
+  <data name="Domain_LedgerPostPreview_Missing_LedgerTag" xml:space="preserve">
+    <value>Manglende finanskonto</value>
+  </data>
+  <data name="Domain_Order_Nothing_To_Cancel" xml:space="preserve">
+    <value>Ingenting å annulere</value>
+  </data>
+  <data name="Domain_Order_Nothing_To_Deliver" xml:space="preserve">
+    <value>Ingenting å levere</value>
+  </data>
+  <data name="Domain_Validation_BankSettlement_Must_Balance" xml:space="preserve">
+    <value>Bankavstemmingen balanserer ikke</value>
+  </data>
+  <data name="Domain_Validation_FixedAsset_Missing_Description" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Domain_Validation_OrderStatus_Color" xml:space="preserve">
+    <value>Manglende farge</value>
+  </data>
+  <data name="Domain_Validation_OrderStatus_Name" xml:space="preserve">
+    <value>Mangler navn</value>
+  </data>
+  <data name="Domain_Validation_OrderTask_IsAlreadyConfirmed" xml:space="preserve">
+    <value>Ordreoppgaven er allerede bekreftet</value>
+  </data>
+  <data name="Domain_Validation_PurchaseDraftLine_Missing_Article" xml:space="preserve">
+    <value>Manglende varenr.</value>
+  </data>
+  <data name="Domain_validation_StockCount_MissingDescription" xml:space="preserve">
+    <value>Manglende beskrivelse</value>
+  </data>
+  <data name="Domain_Validation_VoucherPreview_Nothing_To_Bookkeep" xml:space="preserve">
+    <value>Ingenting å bokføre</value>
+  </data>
+  <data name="Query_VatProblem_DefaultEUVAT_Goods_Marked_Non_EUVatGoods" xml:space="preserve">
+    <value>Stadard utlandsmoms på varer er ikke en utlands-vare-moms</value>
+  </data>
+  <data name="Query_VatProblem_DefaultEUVAT_Services_Marked_Non_EUVatServices" xml:space="preserve">
+    <value>Standard utlandsmoms på tjenester er ikke en utlands-tjeneste-moms</value>
+  </data>
+  <data name="Query_VatProblem_DefaultPurchaseVAT_Marked_Non_Purchasing" xml:space="preserve">
+    <value>Standard kjøpsmoms er ikke av typen kjøpsmoms</value>
+  </data>
+  <data name="Query_VatProblem_DefaultSalesVAT_Marked_Non_Sales" xml:space="preserve">
+    <value>Standard salgsmoms er ikke av typen salgsmoms</value>
+  </data>
+  <data name="Query_VatReconciliationPost_Cannot_Supply_Both_LedgerTag_And_ArticleGroup" xml:space="preserve">
+    <value>Kan ikke angi både finanskonto og varegruppe</value>
+  </data>
+  <data name="Query_VoucherPreviewSummary_Nothing_To_Bookkeep" xml:space="preserve">
+    <value>Ingenting å bokføre</value>
+  </data>
+  <data name="Updater_LedgerLine_Ledger_Is_Bookkeeping" xml:space="preserve">
+    <value>Kladden ({0}) holder på å bli bokført</value>
+  </data>
+  <data name="Updater_OrderLine_Order_Is_Deactivated" xml:space="preserve">
+    <value>Ordren (id: {0}) er deaktivert</value>
+  </data>
+  <data name="Updater_OrderLine_OrderTask_ReadOnly" xml:space="preserve">
+    <value>Ordreoppgaven (id: {0}) er skrivebeskyttet</value>
+  </data>
+  <data name="Updater_OrderTask_ReadOnly" xml:space="preserve">
+    <value>Ordreoppgaven (id: {0}) er skrivebeskyttet</value>
+  </data>
+  <data name="Updater_StockCountDraft_Article_Not_Inventory_Management" xml:space="preserve">
+    <value>Varen har ikke lagerstyring aktivert</value>
+  </data>
+  <data name="Updater_StockCountDraft_ArticleVariant_Does_Not_Belong_On_Article" xml:space="preserve">
+    <value>Varianten (id: {0}) tilhører ikke denne varen (id: {1})</value>
+  </data>
+  <data name="Validation_AccountManualImportData_Missing_Description" xml:space="preserve">
+    <value>Mangler beskrivelse</value>
+  </data>
+  <data name="Validation_AccountManualImportData_MissingAccountNumber" xml:space="preserve">
+    <value>Mangler kontonummer</value>
+  </data>
+  <data name="Xena_CanOrderBeSentElectronically_FiscalSetupNotSetup" xml:space="preserve">
+    <value>Regnskapet er ikke satt opp til å bruke Sproom</value>
+  </data>
+  <data name="Xena_Domain_Delivery_OrderTask_Has_Not_Been_Delivered" xml:space="preserve">
+    <value>Ordreoppgaven er ikke levert</value>
+  </data>
+  <data name="Xena_Domain_FailedToTransferMembership" xml:space="preserve">
+    <value>Kunne ikke overføre eierskapet av dette regnskapet til brukeren: {1}</value>
+  </data>
+  <data name="Xena_FiscalPeriodDeleter_CannotDeleteAnActiveFiscalPeriod" xml:space="preserve">
+    <value>Kan ikke slette en aktiv finansperiode</value>
+  </data>
+  <data name="Xena_FiscalSetup_InviteSupporter_NoSupporterWithTheGivenName" xml:space="preserve">
+    <value>Ingen supporter ble funnet med navnet: {0}</value>
+  </data>
+  <data name="Xena_OrderUpdater_NoTermsOfPayment" xml:space="preserve">
+    <value>Ingen betalingsbetingelser</value>
+  </data>
+  <data name="Xena_XenaPrice_GetXenaUserPrice_NotAllowed" xml:space="preserve">
+    <value>Ikke tillatt</value>
+  </data>
+  <data name="Command_BookkeepStockCount_Quantities_Changed_Refresh_StockCount" xml:space="preserve">
+    <value>Noen antall er endret etter at lagertellingen ble generert - oppdater antallene</value>
+  </data>
+  <data name="Command_DeleteOrderConfirmation_No_Confirmation" xml:space="preserve">
+    <value>Ordreoppgaven (id: {0}) er ikke blitt bekreftet. Ingenting å slette.</value>
+  </data>
+  <data name="Command_ElectronicInvoice_OrderLine_Missing_Description" xml:space="preserve">
+    <value>Ordrelinjen med varen {0} og prisen {1} har ingen beskrivelse</value>
+  </data>
+  <data name="Command_HandleOTPSetupRequest_UserNotFound" xml:space="preserve">
+    <value>Brukeren ble ikke funnet</value>
+  </data>
+  <data name="Command_InitializeC5Import_User_Not_Authorized" xml:space="preserve">
+    <value>Brukeren {0} har ikke rettigheter til å importere. (Import krever enten bokførings- eller administratorrolle)</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_OrderLineIds_Not_Found" xml:space="preserve">
+    <value>Følgende ordrelinjer ble ikke funnet: {0}</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_OrderLines_Delivered" xml:space="preserve">
+    <value>Følgende ordrelinjer er allerede levert: {0}</value>
+  </data>
+  <data name="Command_ReArrangeOrderLines_OrderLines_Invoiced" xml:space="preserve">
+    <value>Følgende ordrelinjer er allerede faktureret: {0}</value>
+  </data>
+  <data name="Command_RemovalFromSproom_DoesNotUseSproom" xml:space="preserve">
+    <value>Firmaet ditt er ikke registrert hos Sproom.net</value>
+  </data>
+  <data name="Command_SendOTPSetupConfirmationCode_PhoneNumberRequired" xml:space="preserve">
+    <value>Telefonnummer påkrevd</value>
+  </data>
+  <data name="Command_SendOTPSetupConfirmationCode_UserNotFound" xml:space="preserve">
+    <value>Brukeren ble ikke funnet</value>
+  </data>
+  <data name="Command_TransferMembership_AdminRequired" xml:space="preserve">
+    <value>Du må være administrator for å utføre denne handlingen.</value>
+  </data>
+  <data name="Command_TransferMembership_UserHasAccess" xml:space="preserve">
+    <value>Brukeren har allerede tilgang</value>
+  </data>
+  <data name="Domain_PriceDiscountAgreement_Must_Have_Either_Article_Or_ArticleGroup" xml:space="preserve">
+    <value>Rabattavtaler skal enten settes på en vare eller en varegruppe</value>
+  </data>
+  <data name="Domain_Validation_StockCountDraft_Negative" xml:space="preserve">
+    <value>Antall talt kan ikke være mindre enn 0</value>
+  </data>
+  <data name="Domain_Vat_Invalid_VatType" xml:space="preserve">
+    <value>Momstypen er ikke gyldig ({0}) - gyldige momstyper er: {1}</value>
+  </data>
+  <data name="Query_VatProblem_Marked_As_Default_Type" xml:space="preserve">
+    <value>Momskoden er markert som "ukjent". Velg en passende kode.</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_RequestSupport_SubscriptionMustBeActive" xml:space="preserve">
+    <value>Xena-abonnementet ditt må være aktivt for å få support</value>
+  </data>
+  <data name="Xena_PartnerResourceContext_ChangeTheme_NotAllowed" xml:space="preserve">
+    <value>Det er ikke tillatt å foreta denne endringen på medarbeideren</value>
+  </data>
+  <data name="Xena_PartnerResourceContext_ChangeTheme_ThemeNotFound" xml:space="preserve">
+    <value>Tema ble ikke funnet</value>
+  </data>
+  <data name="Command_BulkInsertImportedAccount_ImportFailedReasons" xml:space="preserve">
+    <value>Import for {0} mislyktes: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticle_ImportFailedReasons" xml:space="preserve">
+    <value>Import for {0} mislyktes: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedArticleGroupCommand_ImportFailedReasons" xml:space="preserve">
+    <value>Import for {0} mislyktes: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedPartnerCommand_ImportFailed" xml:space="preserve">
+    <value>Import for {0} mislyktes: {1}</value>
+  </data>
+  <data name="Command_BulkInsertImportedPartnerCommand_Validation_ContactNoMissing" xml:space="preserve">
+    <value>Kundenr. mangler</value>
+  </data>
+  <data name="Command_BulkInsertImportedPostingCommand_ImportFailedReasons" xml:space="preserve">
+    <value>Import for {0} mislyktes: {1}</value>
+  </data>
+  <data name="Validation_ArticleGroupImportData_Missing_Description" xml:space="preserve">
+    <value>Beskrivelse mangler</value>
+  </data>
+  <data name="Command_UpdateFiscalAccountantCommand_AccountantNotFound" xml:space="preserve">
+    <value>Revisor ikke funnet</value>
+  </data>
+  <data name="Command_BulkInsertImportedPartnerCommand_ImportTaskNotFound" xml:space="preserve">
+    <value>Importoppgaven ble ikke funnet</value>
+  </data>
+  <data name="Command_MergeLocation_Cannot_Merge_Location_Onto_It_Self" xml:space="preserve">
+    <value>Det skal angis forskjellige plasseringer</value>
+  </data>
+  <data name="Command_UpdateFiscalAccountantCommand_LedgerNotFound" xml:space="preserve">
+    <value>Kladd ikke funnet</value>
+  </data>
+  <data name="Command_UpdateFiscalAccountantCommand_NoFiscalSetup" xml:space="preserve">
+    <value>Ingen regnskap funnet</value>
+  </data>
+  <data name="Domain_Order_Cannot_Delete_Order_With_Deliveries" xml:space="preserve">
+    <value>Ordre {0} har minst én levering og kan derfor ikke slettes.</value>
+  </data>
+  <data name="Domain_Order_Cannot_Delete_Order_With_Invoices" xml:space="preserve">
+    <value>Ordre {0} har minst én faktura og kan derfor ikke slettes.</value>
+  </data>
+  <data name="Domain_StockCountDraft_Article_Does_Not_Have_Inventory_Management" xml:space="preserve">
+    <value>Varen {0} har ikke lagerstyring</value>
+  </data>
+  <data name="Domain_Validation_AccountantDepartment_Missing_Description" xml:space="preserve">
+    <value>Mangler beskrivelse</value>
+  </data>
+  <data name="Domain_VatSettlement_Has_Been_Paid" xml:space="preserve">
+    <value>Momsavregningen er allerede betalt</value>
+  </data>
+  <data name="Xena_ActivityUpdater_ActivityTypeRequired" xml:space="preserve">
+    <value>Aktivitetstype påkrevd</value>
+  </data>
+  <data name="Xena_ActivityUpdater_OrderRequiredForThisActivityType" xml:space="preserve">
+    <value>En ordre er påkrevd for denne aktivitetstypen</value>
+  </data>
+  <data name="Xena_Home_CreditCardRequiredRoleChanging_UserNotFound" xml:space="preserve">
+    <value>Brukeren ble ikke funnet for medlemskapet: {0}</value>
+  </data>
+  <data name="Xena_InvitePartner_Supporters_And_Accountants_Cannot_Invite" xml:space="preserve">
+    <value>Supportere og revisorer kan ikke invitere partnere</value>
+  </data>
+  <data name="ArticleBundleEnabler_On_Bundle" xml:space="preserve">
+    <value>Varen er brukt som en del av en stykkliste på: {0}</value>
+  </data>
+  <data name="Command_CreateActivityFromAppointmentCommand_AppointmentIsMissing" xml:space="preserve">
+    <value>Avtale mangler</value>
+  </data>
+  <data name="Command_CreateActivityFromAppointmentCommand_ResourceIsMissing" xml:space="preserve">
+    <value>Medarbeider mangler</value>
+  </data>
+  <data name="Command_MoveEconomicTransaction_No_Change" xml:space="preserve">
+    <value>Ingenting å endre</value>
+  </data>
+  <data name="Deleters_OrderLine_Cannot_Delete_Delivered_OrderLines" xml:space="preserve">
+    <value>Leverte varelinjer kan ikke slettes</value>
+  </data>
+  <data name="Deleters_OrderLine_Cannot_Delete_Invoiced_OrderLines" xml:space="preserve">
+    <value>Fakturerte varelinjer kan ikke slettes</value>
+  </data>
+  <data name="Domain_Validation_Article_Already_Is_Bundle" xml:space="preserve">
+    <value>Varen har allerede en stykkliste</value>
+  </data>
+  <data name="Domain_Validation_Article_InventoryManagement_Cannot_Be_Bundle" xml:space="preserve">
+    <value>En vare med stykkliste kan ikke ha lagerstyring</value>
+  </data>
+  <data name="Domain_Validation_Article_Variants_Cannot_Be_Bundle" xml:space="preserve">
+    <value>En vare med stykkliste kan ikke ha varianter</value>
+  </data>
+  <data name="Domain_Validation_BundledArticle_CannotHaveInventoryManagement" xml:space="preserve">
+    <value>En vare med stykkliste kan ikke ha lagerstyring</value>
+  </data>
+  <data name="Domain_Validation_BundledArticle_CannotHaveVariants" xml:space="preserve">
+    <value>En vare med stykkliste kan ikke ha varianter</value>
+  </data>
+  <data name="Domain_Validation_LedgerTagGroup_Description_Missing" xml:space="preserve">
+    <value>Mangler beskrivelse</value>
+  </data>
+  <data name="Updater_OrderPayer_No_Vouchers" xml:space="preserve">
+    <value>Ingen bilag til betaling</value>
+  </data>
+  <data name="Xena_Domain_Validation_Article_Already_Has_InventoryManagement" xml:space="preserve">
+    <value>Varen har allerede lagerstyring</value>
+  </data>
+  <data name="Xena_Subscription_ExecuteSubscriptions_MissingData" xml:space="preserve">
+    <value>Mangler data for å kunne fullføre online betaling</value>
+  </data>
+  <data name="Command_UserCommand_XenaSubscription_Creditcard_Required" xml:space="preserve">
+    <value>Du kan ikke tilføye en ny bruker uten å ha et betalingskort tilknyttet ditt Xena-abonnement</value>
+  </data>
+  <data name="Command_UserCommand_XenaSubscription_Inactive" xml:space="preserve">
+    <value>Xena-abonnementet er inaktivt</value>
+  </data>
+  <data name="Creator_Order_Invalid_ContextType" xml:space="preserve">
+    <value>Konteksttypen {0} er ikke gyldig. Gyldige muligheter er: {1}</value>
+  </data>
+  <data name="Command_OnlinePartnerPostPayment_DataTemperedWith" xml:space="preserve">
+    <value>Dataene er blitt endret, og betalingen kan derfor ikke registreres.</value>
+  </data>
+  <data name="Command_OnlinePartnerPostPayment_MD5KeyMissing" xml:space="preserve">
+    <value>Mottakeren har deaktivert online betaling</value>
+  </data>
+  <data name="Command_OnlinePartnerPostPayment_UnableToParseId" xml:space="preserve">
+    <value>Ikke muligt at behandle id: {0}</value>
+  </data>
+  <data name="Xena_ApiFiscalSetup_DeleteMembership_XenaSubscriptionMustBeActive" xml:space="preserve">
+    <value>Xena-abonnementet skal være aktivt</value>
+  </data>
+  <data name="Domain_Vat_Invalid_ExistingVatCode" xml:space="preserve">
+    <value>Momskoden er allerede brukt</value>
+  </data>
+  <data name="Command_BulkInsertBarcode_Missing_EANNumber" xml:space="preserve">
+    <value>{0} linjer hadde ikke et EAN-nummer</value>
+  </data>
+  <data name="Command_BulkInsertBarcode_Duplicate_EANNumbers" xml:space="preserve">
+    <value>Følgende EAN-numre har duplikater</value>
+  </data>
+  <data name="Command_BulkInsertBarcode_Missing_ArticleNumber" xml:space="preserve">
+    <value>Fant ikke varenummer: ({0})</value>
+  </data>
+  <data name="Command_CopyArticle_ArticleNumber_Exists" xml:space="preserve">
+    <value>Varenummer: {0} eksisterer allerede</value>
+  </data>
+  <data name="Controller_ApiBarcode_Nothing_To_Insert" xml:space="preserve">
+    <value>Ingenting å sette inn</value>
+  </data>
+  <data name="Domain_ArticleRelocationTask_Cannot_Move_More_Than" xml:space="preserve">
+    <value>Du kan ikke flytte flere enn angitt på linjen</value>
+  </data>
+  <data name="Domain_ArticleRelocationTask_Cannot_Move_Negative_Quantity" xml:space="preserve">
+    <value>Du kan ikke flytte et negativt antall</value>
+  </data>
+  <data name="Updater_AddtionalArticle_Parent_Cannot_Equal_Child" xml:space="preserve">
+    <value>En vare kan ikke ha seg selv som følgevare</value>
+  </data>
+  <data name="Updater_Barcode_EAN_Already_Exists" xml:space="preserve">
+    <value>EAN-nummeret finnes allerede</value>
+  </data>
+  <data name="Updater_Location_Already_Exists" xml:space="preserve">
+    <value>Lokasjonen finnes allerede</value>
+  </data>
+  <data name="Xena_Bookkeeping_OCRClient_ErrorOccured" xml:space="preserve">
+    <value>Det oppstod en feil under behandlingen. Oppgavestatusen var: {0}</value>
+  </data>
+  <data name="Xena_Bookkeeping_OCRClient_NotEnoughCredits" xml:space="preserve">
+    <value>Ikke nok kreditt til å OCR-behandle filen. Vennligst tilføy flere sider til kontoen din.</value>
+  </data>
+  <data name="Command_InsertBarCodesOnOrder_OrderNotFound" xml:space="preserve">
+    <value>Ordren ble ikke funnet</value>
+  </data>
+  <data name="Command_InsertBarCodesOnOrder_TaskNotFound" xml:space="preserve">
+    <value>Oppgaven ble ikke funnet</value>
+  </data>
+  <data name="Deleters_PartnerCustomerContext_Has_PartnerPosts" xml:space="preserve">
+    <value>Partneren har kundeposteringer</value>
+  </data>
+  <data name="Deleters_PartnerCustomerContext_Has_PriceDiscountAgreements" xml:space="preserve">
+    <value>Partneren har rabattavtaler</value>
+  </data>
+  <data name="Deleters_PartnerCustomerContext_Has_Subscriptions" xml:space="preserve">
+    <value>Partneren har abonnementer</value>
+  </data>
+  <data name="Deleters_PartnerSupplierContext_Has_PartnerPosts" xml:space="preserve">
+    <value>Partneren har leverandørposteringer</value>
+  </data>
+  <data name="Domain_ArticleRelocationTask_Locations_Are_Equal" xml:space="preserve">
+    <value>Til og fra lokasjon er like</value>
+  </data>
+  <data name="Updater_OrderReceptionDraft_Resource_Not_Allowed" xml:space="preserve">
+    <value>Medarbeideren (id: {0}, navn: {1}) har ikke rettigheter til å lage kladder i ordremottagelsen - vedkommende skal ha rettigheten "Vis på ordre".</value>
+  </data>
+  <data name="Xena_Domain_Validation_ArticleEANNumber_Quantity_Cannot_Be_NonPositive" xml:space="preserve">
+    <value>Antall</value>
+  </data>
+  <data name="Command_RequestFree_HaveMoreThanOneUser" xml:space="preserve">
+    <value>Du kan ikke nedgradere når du har mer enn 1 bruker.</value>
+  </data>
+  <data name="Command_RequestFree_HaveVirtualUsers" xml:space="preserve">
+    <value>Du kan ikke nedgradere når du har API-nøkler.</value>
+  </data>
+  <data name="Command_SetXenaAdvertisment_UpgradeToPremium" xml:space="preserve">
+    <value>Oppgrader til Premium for å endre denne</value>
+  </data>
+  <data name="Commands_RequestPremium_Already_Free" xml:space="preserve">
+    <value>Du har allerede et Xena Free-abonnement</value>
+  </data>
+  <data name="Domain_Supporter_Is_Not_XenaSupporter" xml:space="preserve">
+    <value>Brukeren er ikke markert som Xena-supporter</value>
+  </data>
+  <data name="Query_Cannot_Be_Sent_Electonically" xml:space="preserve">
+    <value>Fakturaen kan ikke sendes elektronisk</value>
+  </data>
+  <data name="Updater_Supporter_UserIsNotSupporter" xml:space="preserve">
+    <value>Brukeren er ikke en Xena-supporter</value>
+  </data>
+  <data name="Xena_Bookkeeping_ParseVoucherCommand_VoucherPreviewExists" xml:space="preserve">
+    <value>Bilagskladden er allerede opprettet manuelt for medarbeider innboks dokumentasjon relasjon (id: {0})</value>
+  </data>
+  <data name="Command_ParseVoucherCommand" xml:space="preserve">
+    <value>Premium-bruker nådde max antall gratis parsings for denne måneden (fiscalId: {0})</value>
+  </data>
+  <data name="Commands_CreateApiUser_NeedPremium_Subscription" xml:space="preserve">
+    <value>Du skal ha Xena Premium for å opprette API-nøkler</value>
+  </data>
+  <data name="Commands_RequestPremium_Already_Premium" xml:space="preserve">
+    <value>Du har allerede et Xena Premium-abonnement</value>
+  </data>
+  <data name="Commands_RequestPremium_NoCreditCard" xml:space="preserve">
+    <value>Du skal registrere et batlingskort for å få Xena Premium</value>
+  </data>
+  <data name="Limitied_Functionality_Article_NoMoreThan10InventoryManaged" xml:space="preserve">
+    <value>Du skal ha Xena Premium for å opprette mer enn 10 vaerer med lagerstyring</value>
+  </data>
+  <data name="Limitied_Functionality_Bookkeeping_NoMoreThan10Lines" xml:space="preserve">
+    <value>Du skal har Xena Premium for å bokføre mer enn 10 linjer om gangen i kassakladden.</value>
+  </data>
+  <data name="Commands_DeleteArticlesInArticleGroup_NothingToDelete" xml:space="preserve">
+    <value>Ingenting å slette</value>
+  </data>
+  <data name="Limitied_Functionality_Bookkeeping_NoMoreThan20Lines" xml:space="preserve">
+    <value>Du skal har Xena Premium for å bokføre mer enn 20 linjer om gangen i kassakladden.</value>
+  </data>
+  <data name="Domain_EconomicTransaction_SystemDifference_Too_Large" xml:space="preserve">
+    <value>Bilag {0} d. {1}: Differansen på {2} {3} er for høy. Den høyeste tillatte differansen for {3} er {4}.</value>
+  </data>
+  <data name="Domain_User_NameMustBeSet" xml:space="preserve">
+    <value>Brukernavn skal angis</value>
+  </data>
+  <data name="Updater_FiscalPeriod_CannotAddPeriodWhenPrimoposts" xml:space="preserve">
+    <value>Du kan ikke oprette en finansperiode før eksisterende periode når disse har åpningstall i resultatoppgjøret.</value>
+  </data>
+  <data name="Updater_FiscalPeriod_CannotOverlap" xml:space="preserve">
+    <value>Du kan ikke opprette perioder som overlapper.</value>
+  </data>
+  <data name="Updater_FiscalPeriod_LedgerPostsEnterNewPeriod" xml:space="preserve">
+    <value>Sluttdatoen er i en eksisterende regnskapsperiode; det er ikke tillatt.</value>
+  </data>
+  <data name="Updater_FiscalPeriod_LedgerPostsNoPeriod" xml:space="preserve">
+    <value>Sluttdatoen kan ikke justeres, ettersom det ligger finansposteringer mellom den nye og gamle sluttdatoen.</value>
+  </data>
+  <data name="Updater_FiscalPeriod_MustBeTheDayBeforeFirstDayOfNextPeriod" xml:space="preserve">
+    <value>Regnskabsperioden skal slutte dagen før den neste periode starter({0}).</value>
+  </data>
+  <data name="Updater_FiscalPeriod_MustCoverOneDay" xml:space="preserve">
+    <value>Regnskapsperioden skal vare minst 1 dag.</value>
+  </data>
+  <data name="Updater_FiscalPeriod_NextDayAfterLastDayInPrevious" xml:space="preserve">
+    <value>Regnskapsperioden skal starte dagen etter sluttdatoen i foregående periode({0}).</value>
+  </data>
+  <data name="Updater_FiscalPeriod_PeriodsAfter" xml:space="preserve">
+    <value>Sluttdatoen på regnskapsperioden kan ikke oppdateres når det er etterfølgende regnskapsperioder.</value>
+  </data>
+  <data name="Updater_FiscalPeriod_PeriodsBefore" xml:space="preserve">
+    <value>Regnskapsperiodens start kan ikke oppdateres når det er foregående regnskapsperioder. </value>
+  </data>
+  <data name="Updater_Supporter_Duplicate" xml:space="preserve">
+    <value>Supporteren er allerede tilføyd</value>
+  </data>
+  <data name="Xena_Domain_Bookkeeping_EconomicTransaction_Warning_SystemDifference_On_Vouchers" xml:space="preserve">
+    <value>Følgende bilag vil bokføres på differansekontoen: {0}</value>
+  </data>
+</root>
