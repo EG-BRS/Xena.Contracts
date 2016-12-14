@@ -1,0 +1,59 @@
+# configuration for develop branch
+# build in Debug mode and deployed to dev slot
+- 
+  branches:
+    only:
+      - develop
+
+  version: 0.0.{build}
+  force_https_clone: true
+  os: Visual Studio 2015
+  
+  configuration: Develop
+
+  build_script:
+    - cmd: nuget sources add -Name BetaFeed -Source https://www.myget.org/F/aspnet-contrib/api/v3/index.json
+    - cmd: dotnet --info
+    - cmd: dotnet restore
+    - cmd: dotnet build -c Debug src\EG.NBL.PayRoll
+
+  test_script:
+    - cmd: dotnet test test\EG.NBL.PayRoll.Service.IntegrationTest
+    - cmd: dotnet test test\EG.NBL.PayRoll.Service.Test
+
+  after_test:
+    - cmd: dotnet publish -c Debug src\EG.NBL.PayRoll
+    - cmd: dotnet pack -c Debug src\EG.NBL.PayRoll.Core
+
+  artifacts:
+    - path: src\EG.NBL.PayRoll\bin\Debug\netcoreapp1.0\publish
+      name: PayRoll
+
+    - path: src\EG.NBL.PayRoll.Core\bin\Debug\*.nupkg
+      name: PayRoll.Core.nupkg
+
+  deploy:
+
+    # Deploy NuGet to MyGet
+    - provider: NuGet
+      server: https://www.myget.org/F/eg/api/v2/package
+      api_key: e2e9d78a-a3ab-49a1-9f13-7cc055c11918
+      skip_symbols: false
+      symbol_server: https://www.myget.org/F/eg/symbols/api/v2/package
+      artifact: PayRoll.Core.nupkg
+
+    # Deploying to Azure
+    - provider: WebDeploy
+      server: https://dev-payroll-service.scm.azurewebsites.net:443/msdeploy.axd?site=Dev-PayRoll-Service
+      website: Dev-PayRoll-Service
+      username: $Dev-PayRoll-Service
+      password: dtZL6Zvpw36qsanykLlu7wMfD8tRPApuGEtbajRfhilpE9SlBz7w67PAsWrl
+      ntlm: false
+      remove_files: true
+      app_offline: true
+      artifact: PayRoll
+
+# "fall back" configuration for all other branches
+# do not build
+- 
+  build: off
