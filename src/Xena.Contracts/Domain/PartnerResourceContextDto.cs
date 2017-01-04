@@ -31,7 +31,7 @@ namespace Xena.Contracts.Domain
         public bool? MayBookkeepFinance { get; set; }
         public long PartnerId { get; set; }
         public long? WorkingHoursScheduleId { get; set; }
-        public long? WorkScheduleDescription { get; set; }
+        public string WorkScheduleDescription { get; set; }
         public string Theme { get; set; }
         public bool ShowInOrder { get; set; }
         public bool ShowInFinance { get; set; }
