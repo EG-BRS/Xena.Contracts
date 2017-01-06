@@ -32,5 +32,7 @@ namespace Xena.Contracts.Domain
         { get; set; }
 
         public string OrderStatusColor { get; set; }
+        public string OrderTaskDescription { get; set; }
+        public long OrderTaskId { get; set; }
     }
 }
