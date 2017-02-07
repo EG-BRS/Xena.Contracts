@@ -19,7 +19,10 @@ namespace Xena.Contracts.Domain
         public bool IsInvoiced { get; set; }
         public bool IsDelivered { get; set; }
         public bool IsConfirmed { get; set; }
-        public bool IsReadonly
-        { get; set; }
+        public bool IsReadonly { get; set; }
+        public long OrderTaskStatusId { get; set; }
+        public string OrderTaskStatusName { get; set; }
+        public string OrderTaskStatusColor { get; set; }
+        public long OrderNumber { get; set; }
     }
 }
