@@ -16,5 +16,6 @@ namespace Xena.Contracts.Domain
 
         public string ClientAccessTranslated { get; set; }
         public string SecurityGroups { get; set; }
+        public string UserId { get; set; }
     }
 }
