@@ -6,6 +6,7 @@ namespace Xena.Contracts.Helpers
     {
         public long? Id { get; set; }
         public long XenaAppId { get; set; }
+        public long? UserId { get; set; }
         public long ReferenceFiscalSetupId { get; set; }
         public long PartnerResourceContextId { get; set; }
         public string ResourceName { get; set; }
