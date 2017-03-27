@@ -24,7 +24,5 @@ namespace Xena.Contracts.Domain
         public string StartTimeFriendly { get; set; }
         public string OrderTaskDescription { get; set; }
         public int? OrderTaskId { get; set; }
-
-        public bool Attending { get; set; }
     }
 }
