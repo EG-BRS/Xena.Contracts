@@ -10,7 +10,6 @@ namespace Xena.Contracts.Helpers
         public long ReferenceFiscalSetupId { get; set; }
         public long PartnerResourceContextId { get; set; }
         public string ResourceName { get; set; }
-        public string ResourceSenderEmail { get; set; }
         public string ReferenceFiscalSetupName { get; set; }
         public int? ExpiresOnDays { get; set; }
     }
