@@ -7,5 +7,6 @@
         public long? PartnerId { get; set; }
         public string InitialPassword { get; set; }
         public string Culture { get; set; }
+        public int[] AppIds { get; set; }
     }
 }
