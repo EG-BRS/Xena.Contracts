@@ -4,7 +4,7 @@
 set -e
 
 dotnet pack ./src/Xena.Contracts/Xena.Contracts.csproj --configuration debug -o nugetPackage
-dotnet nuget push nugetPackage/*.nupkg -k 75066627-6f3d-47f6-bd90-b165f912392e
+dotnet nuget push nugetPackage/*.nupkg -k 75066627-6f3d-47f6-bd90-b165f912392e -s nuget.smbsrc.net
 
 # Anders '  test key 75066627-6f3d-47f6-bd90-b165f912392e'
 
