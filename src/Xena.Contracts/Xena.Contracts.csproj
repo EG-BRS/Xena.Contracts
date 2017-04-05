@@ -3,7 +3,7 @@
   <PropertyGroup>
     <VersionPrefix>1.0.7</VersionPrefix>
     <TargetFramework>netstandard1.6</TargetFramework>
-    <AssemblyName>Xena.Contracts</AssemblyName>
+    <AssemblyName>Xena.Contracts2</AssemblyName>
     <PackageId>Xena.Contracts</PackageId>
     <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
