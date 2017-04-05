@@ -35,5 +35,6 @@ namespace Xena.Contracts.Domain
         public string OrderTaskDescription { get; set; }
         public long OrderTaskId { get; set; }
         public int? OrderTaskIndex { get; set; }
+        public bool? ActivityTypeIsBillable { get; set; }
     }
 }
