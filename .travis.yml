@@ -5,6 +5,7 @@ branches:
     - feature/migrateAndPrepForTravis
 
 sudo: required
+dist: trusty
 
 language: csharp
 
