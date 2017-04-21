@@ -12,7 +12,8 @@ namespace Xena.Contracts.Domain
         public int? DefaultDurationHours { get; set; }
         public int? DefaultDurationMinutes { get; set; }
 
-        public string DefaultDurationFriendly
-        { get; set; }
+        public string DefaultDurationFriendly { get; set; }
+
+        public bool IsPaid { get; set; }
     }
 }
