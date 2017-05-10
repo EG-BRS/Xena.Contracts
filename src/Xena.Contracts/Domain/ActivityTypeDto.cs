@@ -15,5 +15,6 @@ namespace Xena.Contracts.Domain
         public string DefaultDurationFriendly { get; set; }
 
         public bool IsPaid { get; set; }
+        public bool IsAtWork { get; set; }
     }
 }
