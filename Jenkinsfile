@@ -17,7 +17,7 @@ node {
     }    
     stage('Deployment') {
         if (env.BRANCH_NAME == "master" || env.BRANCH_NAME == "develop") {
-            sh "dotnet nuget push Xena.Contracts/src/Xena.Contracts/nugetPackage/*.nupkg -k ${XENA_CONTRACTS_NUGET_KEY} -s https://www.nuget.org/api/v2/package"
+            sh "dotnet nuget push src/Xena.Contracts/nugetPackage/*.nupkg -k ${XENA_CONTRACTS_NUGET_KEY} -s https://www.nuget.org/api/v2/package"
         }
     }
 }
