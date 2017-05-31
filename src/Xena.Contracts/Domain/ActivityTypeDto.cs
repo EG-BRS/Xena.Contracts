@@ -9,10 +9,12 @@ namespace Xena.Contracts.Domain
         public string Description { get; set; }
         public string Colour { get; set; }
         public bool IsBillable { get; set; }
-        public bool IsAtWork { get; set; }
-        public bool IsPaid { get; set; }
         public int? DefaultDurationHours { get; set; }
         public int? DefaultDurationMinutes { get; set; }
+
         public string DefaultDurationFriendly { get; set; }
+
+        public bool IsPaid { get; set; }
+        public bool IsAtWork { get; set; }
     }
 }
