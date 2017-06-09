@@ -23,6 +23,7 @@ node {
                     curl --fail -F package=@"\$(find -name 'Xena.Contracts.*')" https://${GEMFURY_TOKEN}@push.fury.io/egci/
                 } || {
                     echo -e "Package version already exists. Please increment the version in the .csproj file"
+                    exit -1
                 }
             """
         }
