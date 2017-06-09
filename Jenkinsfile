@@ -7,7 +7,7 @@ def version = "$majorVersion.$minorVersion.$buildVersion";
 node { 
     stage('Restore') {
         checkout scm
-        
+        sh "rm -rf src/Xena.Contracts/nugetPackage"
         sh "dotnet restore"
     }
     stage('Package') {
