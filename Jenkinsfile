@@ -7,7 +7,7 @@ def version = "$majorVersion.$minorVersion.$buildVersion";
 node { 
     stage('Restore') {
         checkout scm
-        sh "rm -rf src/${projectName}/nugetPackage"
+
         sh "dotnet restore"
     }
     stage('Package') {
@@ -17,15 +17,7 @@ node {
     }    
     stage('Deployment') {
         if (env.BRANCH_NAME == "master" || env.BRANCH_NAME == "develop") {
-            sh"""#!/bin/bash -xe
-                cd src/${projectName}/nugetPackage/
-                { 
-                    curl --fail -F package=@"\$(find -name '${projectName}.*')" https://${GEMFURY_TOKEN}@push.fury.io/egci/
-                } || {
-                    echo -e "Package version already exists. Please increment the version in the .csproj file"
-                    exit -1
-                }
-            """
+            sh "dotnet nuget push src/${projectName}/nugetPackage/*.nupkg -k ${XENA_CONTRACTS_NUGET_KEY} -s https://www.nuget.org/api/v2/package"
         }
     }
 }
