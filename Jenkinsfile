@@ -18,9 +18,8 @@ node {
     stage('Deployment') {
         if (env.BRANCH_NAME == "master" || env.BRANCH_NAME == "develop") {
             sh"""#!/bin/bash -xe
-                set -e
                 cd src/Xena.Contracts/nugetPackage/
-                curl -F package=@"\$(find -name 'Xena.Contracts.*')" https://${GEMFURY_TOKEN}@push.fury.io/egci/
+                curl --fail -F package=@"\$(find -name 'Xena.Contracts.*')" https://${GEMFURY_TOKEN}@push.fury.io/egci/
             """
         }
     }
