@@ -6,3 +6,4 @@ src/NotaPlan.Xena.suo
 *.user
 *.orig
 .vs
+*.nupkg

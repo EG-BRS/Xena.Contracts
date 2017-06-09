@@ -17,7 +17,10 @@ node {
     }    
     stage('Deployment') {
         if (env.BRANCH_NAME == "master" || env.BRANCH_NAME == "develop") {
-            sh "dotnet nuget push src/Xena.Contracts/nugetPackage/*.nupkg -k ${XENA_CONTRACTS_NUGET_KEY} -s https://${GEMFURY_TOKEN}@repo.fury.io/egci/"
+            sh """
+                PACKAGE="$(find -name 'Xena.Contracts.*')"
+                curl -F package=@${PACKAGE} https://${GEMFURY_TOKEN}@push.fury.io/egci/
+            """
         }
     }
 }
