@@ -8,7 +8,7 @@ node {
     stage('Restore') {
         checkout scm
         sh "dotnet restore"
-        sh "dotnet nuget --help"
+        sh "dotnet nuget locals --clear all"
     }
     stage('Package') {
         if (env.BRANCH_NAME == "master" || env.BRANCH_NAME == "develop") {
