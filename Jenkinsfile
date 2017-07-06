@@ -7,11 +7,8 @@ def version = "$majorVersion.$minorVersion.$buildVersion";
 node { 
     stage('Restore') {
         checkout scm
-
         sh "dotnet restore"
-        sh "dotnet nuget locals all -list"
         sh "dotnet nuget locals all -clear"
-        sh "dotnet nuget locals all -list"
     }
     stage('Package') {
         if (env.BRANCH_NAME == "master" || env.BRANCH_NAME == "develop") {
