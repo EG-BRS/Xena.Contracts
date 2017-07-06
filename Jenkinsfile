@@ -7,7 +7,7 @@ def version = "$majorVersion.$minorVersion.$buildVersion";
 node { 
     stage('Restore') {
         checkout scm
-        sh "dotnet nuget locals --clear all"
+        sh "dotnet nuget locals --clear global-packages"
         sh"dotnet nuget locals –-list all"
         sh "dotnet restore"
     }
