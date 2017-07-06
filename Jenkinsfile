@@ -19,7 +19,7 @@ node {
     }    
     stage('Deployment') {
         if (env.BRANCH_NAME == "master" || env.BRANCH_NAME == "develop") {
-          def bla =  sh( "cat ./src/Xena.Contracts.Xena.Contracts.csproj | grep (?<=<VersionPrefix>).*(?=</VersionPrefix>)")
+          def bla =  sh(script: 'cat ./src/Xena.Contracts.Xena.Contracts.csproj | grep (?<=<VersionPrefix>).*(?=</VersionPrefix>)')
             sh "dotnet nuget push src/${projectName}/nugetPackage/${bla}.nupkg -k ${XENA_CONTRACTS_NUGET_KEY} -s https://www.nuget.org/api/v2/package"
         }
     }
