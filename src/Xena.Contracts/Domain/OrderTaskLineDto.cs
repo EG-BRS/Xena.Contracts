@@ -45,5 +45,6 @@ namespace Xena.Contracts.Domain
         public string FiscalDateDaysFriendly { get; set; }
         public string ArticleAbbreviation { get; set; }
         public int? Id { get; set; }
+        public string OrderTaskLineTypeTranslated { get; set; }
     }
 }
