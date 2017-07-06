@@ -8,12 +8,13 @@ node {
     stage('Restore') {
         checkout scm
         sh "dotnet nuget locals --clear all"
-        sh"dotnet nuget locals –l all"
+        sh"dotnet nuget locals –-list all"
         sh "dotnet restore"
     }
     stage('Package') {
         if (env.BRANCH_NAME == "master" || env.BRANCH_NAME == "develop") {
             sh "dotnet pack ./src/${projectName}/${projectName}.csproj --configuration debug -o nugetPackage"
+            sh"dotnet nuget locals –-list all"
         }       
     }    
     stage('Deployment') {
