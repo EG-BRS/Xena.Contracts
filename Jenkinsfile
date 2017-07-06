@@ -9,9 +9,9 @@ node {
         checkout scm
 
         sh "dotnet restore"
-        sh "nuget locals all -list"
-        sh "nuget locals all -clear"
-        sh "nuget locals all -list"
+        sh "dotnet nuget locals all -list"
+        sh "dotnet nuget locals all -clear"
+        sh "dotnet nuget locals all -list"
     }
     stage('Package') {
         if (env.BRANCH_NAME == "master" || env.BRANCH_NAME == "develop") {
