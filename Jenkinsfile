@@ -3,7 +3,7 @@ def majorVersion = 1;
 def minorVersion = 0;
 def buildVersion = env.BUILD_NUMBER;
 def version = "$majorVersion.$minorVersion.$buildVersion";
-def = packageDir = "src/${projectName}/nugetPackage";
+def packageDir = "src/${projectName}/nugetPackage";
 
 node { 
     stage('Restore') {
