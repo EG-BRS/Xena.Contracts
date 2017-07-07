@@ -14,7 +14,7 @@ node {
         if (env.BRANCH_NAME == "master" || env.BRANCH_NAME == "develop") {
             sh"""#!/bin/bash -xe
             rm -rf ${packageDir}
-            sh "dotnet pack ./src/${projectName}/${projectName}.csproj --configuration debug -o nugetPackage"
+            dotnet pack ./src/${projectName}/${projectName}.csproj --configuration debug -o nugetPackage
             """
         }       
     }    
