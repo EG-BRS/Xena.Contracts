@@ -15,6 +15,7 @@ node {
             sh"""#!/bin/bash -xe
             rm -rf ${packageDir}
             sh "dotnet pack ./src/${projectName}/${projectName}.csproj --configuration debug -o nugetPackage"
+            """
         }       
     }    
     stage('Deployment') {
