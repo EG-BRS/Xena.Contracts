@@ -1,5 +1,7 @@
 ﻿
 
+using System;
+
 namespace Xena.Contracts.Domain
 {
     public class CostTypeDto : EntityDto
