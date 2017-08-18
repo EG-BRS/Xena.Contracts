@@ -13,7 +13,7 @@ namespace Xena.Contracts.Domain
         public DateTime CreatedAt { get; set; }
         public string Description { get; set; }
         public long DefaultMargin { get; set; }
-        public long DefaultArticleGroupId { get; set; }
+        public long? DefaultArticleGroupId { get; set; }
         public string DefaultArticleGroupDescription { get; set; }
     }
 }

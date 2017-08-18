@@ -16,5 +16,8 @@ namespace Xena.Contracts.Domain
 
         public bool IsPaid { get; set; }
         public bool IsAtWork { get; set; }
+
+        public long? CostTypeId { get; set; }
+        public string CostTypeDescirption { get; set; }
     }
 }
