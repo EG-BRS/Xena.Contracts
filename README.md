@@ -1,6 +1,6 @@
 # How to use the Xena API
 
-You can use this function to get data from the API:
+You can use this function to GET data from the API:
 ```C#
 public async Task<T> GetData<T>(string apiUrl, string route = "Api")
 {
@@ -63,4 +63,4 @@ The functions are used like this:
 var result = await _xena.GetData<PagedResultSet<PartnerResourceContextDto>>($"Fiscal/{FiscalId}/Resource");
 ```
 
-Remember to use **PagedResultSet** when you request a list of stuff the the API.
+Remember to use **PagedResultSet** when you request a list of stuff from the API.
