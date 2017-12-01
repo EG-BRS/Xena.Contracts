@@ -14,6 +14,8 @@ namespace Xena.Contracts.Helpers
         public string ContextType { get; set; }
         public long? PartnerId { get; set; }
         public long? ProjectId { get; set; }
+        public int? OrderNumber { get; set; }
         public bool CreateTask { get; set; }
+        public string InternalNote { get; set; }
     }
 }
