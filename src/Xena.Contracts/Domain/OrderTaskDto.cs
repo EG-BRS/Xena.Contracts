@@ -10,6 +10,8 @@ namespace Xena.Contracts.Domain
             get { return _totals ?? new TotalsDto(); }
             set { _totals = value; }
         }
+        
+        public string Abbreviation { get; set; }
         public long OrderId { get; set; }
         public long? SubscriptionId { get; set; }
         public bool PrintDetails { get; set; }
