@@ -46,5 +46,6 @@ namespace Xena.Contracts.Domain
         public string ArticleAbbreviation { get; set; }
         public int? Id { get; set; }
         public string OrderTaskLineTypeTranslated { get; set; }
+        public string Note { get; set; }
     }
 }

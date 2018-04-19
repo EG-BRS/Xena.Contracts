@@ -33,5 +33,6 @@ namespace Xena.Contracts.Domain
         public decimal? CostEach { get; set; }
         public decimal? Total { get; set; }
         public decimal? SalesPrice { get; set; }
+        public string Note { get; set; }
     }
 }
