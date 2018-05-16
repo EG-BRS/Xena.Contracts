@@ -30,7 +30,7 @@ namespace Xena.Contracts.Domain
         public bool? ActivityTypeIsBillable { get; set; }
         public bool? ActivityTypeIsAtWork { get; set; }
         public bool? ActivityTypeIsPaid { get; set; }
-        public string ActivityTypeType { get; protected set; }
+        public string ActivityTypeType { get; set; }
         public decimal? CostEach { get; set; }
         public decimal? Total { get; set; }
         public decimal? SalesPrice { get; set; }
