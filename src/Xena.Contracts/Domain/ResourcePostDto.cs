@@ -50,7 +50,8 @@ namespace Xena.Contracts.Domain
         public int? StartTimeHours { get; set; }
         public int? DurationHours { get; set; }
         public int? DurationMinutes { get; set; }
-        public decimal? Duration { get; set; }
+        public decimal? CalculatedHours { get; set; }
+        public decimal? CalculatedQuantity { get; set; }
         public string StartFriendly { get; set; }
         public string StartTimeFriendly { get; set; }
         public int? EndTimeHours { get; set; }
