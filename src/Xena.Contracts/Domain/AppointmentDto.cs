@@ -17,9 +17,8 @@ namespace Xena.Contracts.Domain
         public long? ResourceId { get; set; }
         public long? TeamId { get; set; }
         public long? OrderTaskId { get; set; }
-        public int DurationHours { get; set; }
-        public int DurationMinutes { get; set; }
-        public bool IsFullDay { get; set; }
+        public int? DurationHours { get; set; }
+        public int? DurationMinutes { get; set; }
         public bool ReminderSet { get; set; }
         public int? ReminderTime { get; set; }
         public AddressDto Address { get; set; }
