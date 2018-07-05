@@ -14,7 +14,7 @@ namespace Xena.Contracts.Domain
         public string Abbreviation { get; set; }
         public long OrderId { get; set; }
         public long? SubscriptionId { get; set; }
-        public AddressDto Address { get; set; }½
+        public AddressDto Address { get; set; }
         public AddressDto DeliveryAddress { get; set; }
         public bool PrintDetails { get; set; }
         public string Details { get; set; }
