@@ -32,6 +32,7 @@ namespace Xena.Contracts.Domain
         public string ActivityTypeDescription { get; set; }
         public string ActivityTypeAbbreviation { get; set; }
         public string ActivityTypeType { get; set; }
+        public string Note { get; set; }
         public bool? ActivityTypeIsBillable { get; set; }
         public bool? ActivityTypeIsAtWork { get; set; }
         public bool? ActivityTypeIsPaid { get; set; }
