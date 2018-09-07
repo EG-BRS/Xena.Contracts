@@ -12,7 +12,7 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <Version>1.0.52</Version>
     <AssemblyVersion>1.0.52.0</AssemblyVersion>
-    <FileVersion>1.0.50.0</FileVersion>
+    <FileVersion>1.0.52.0</FileVersion>
   </PropertyGroup>
 
 </Project>
