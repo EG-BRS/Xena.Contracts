@@ -29,7 +29,7 @@ namespace Xena.Contracts.Domain
         public long? OrderLineId { get; set; }
         public long OrderId { get; set; }
         public bool IsApproved { get; set; }
-
         public long? ActivityTypeId { get; set; }
+        public string ActivityTypeType { get; set; }
     }
 }
