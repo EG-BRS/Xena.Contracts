@@ -1,4 +1,4 @@
-﻿namespace Xena.Contracts.Domain
+namespace Xena.Contracts.Domain
 {
     public class OrderLineDto : EntityDto
     {
@@ -23,27 +23,27 @@
         public string ArticleGroupDescription { get; set; }
         public bool ArticleHasInventoryManagement { get; set; }
         public bool ArticleHasVariants { get; set; }
+        public string ArticleInternalNote { get; set; }
         public bool ArticleIsBundle { get; set; }
         public string ArticleVariantAbbreviation { get; set; }
         public decimal? ArticleWeight { get; set; }
         public string LocationAbbreviation { get; set; }
         public string ArticleStatus { get; set; }
-        public long? CurrentPriceAgreementId { get; set; }
-        public long? CurrentCostPriceAgreementId { get; set; }
-        public long? CurrentPriceDiscountAgreementId { get; set; }
         public long? OrderDeliveryTransactionId { get; set; }
-        public string CurrentPriceAgreementDescription { get; set; }
-        public string CurrentCostPriceAgreementDescription { get; set; }
-        public string CurrentPriceDiscountAgreementDescription { get; set; }
         public long? ArticleMappingId { get; set; }
         public decimal? ArticleMappingQuantity { get; set; }
         public string PartnerArticleNumber { get; set; }
         public bool IsConfirmed { get; set; }
 
-        public string ArticleAbbreviation
-        { get; set; }
+        public string ArticleAbbreviation { get; set; }
 
         public bool IsDelivered { get; set; }
         public bool ArticleIsDeactivated { get; set; }
+        public decimal? AverageCostPrice { get; set; }
+        public decimal EstimatedCostTotal { get; set; }
+
+        public string OrderLineStatusColor { get; set; }
+        public string OrderLineStatusName { get; set; }
+        public bool HasLinkedLines { get; set; }
     }
 }
