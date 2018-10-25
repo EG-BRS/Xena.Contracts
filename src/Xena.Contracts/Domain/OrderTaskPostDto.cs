@@ -17,8 +17,8 @@ namespace Xena.Contracts.Domain
         public long? ProjectId { get; set; }
         public string CostTypeDescription { get; set; }
         public decimal? Quantity { get; set; }
-        public decimal CostEach { get; set; }
-        public decimal Total { get; set; }
+        public decimal? CostEach { get; set; }
+        public decimal? Total { get; set; }
         public decimal? SalesPrice { get; set; }
         public long? ArticleId { get; set; }
         public long? ResourceId { get; set; }
