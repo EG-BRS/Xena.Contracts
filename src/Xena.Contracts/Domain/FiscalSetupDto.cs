@@ -38,7 +38,10 @@ namespace Xena.Contracts.Domain
         public string PaymentLedgerTagDescription { get; set; }
         public int? PaymentLedgerTagNumber { get; set; }
         public bool IsMD5KeyEntered { get; set; }
-
+        
+        public long? ProviderId { get; set; }
+        public string ProviderName { get; set; }
+        
         public string Culture { get; set; }
         public string DepartmentDescription { get; set; }
         public string CustomerAccount { get; set; }
