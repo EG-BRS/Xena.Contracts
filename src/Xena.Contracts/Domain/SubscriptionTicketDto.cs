@@ -10,7 +10,6 @@ namespace Xena.Contracts.Domain
         public string CardNumberMasked { get; set; }
         public string CardTypeName { get; set; }
         public long FiscalSetupId { get; set; }
-        public long? CreatedBy { get; set; }
         public DateTime CreatedAt { get; set; }
         public  string LastErrorMessage { get; set; }
     }

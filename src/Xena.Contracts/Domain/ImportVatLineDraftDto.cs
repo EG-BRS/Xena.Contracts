@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace Xena.Contracts.Domain
 {
     public class ImportVatLineDraftDto : EntityDto
@@ -7,9 +9,14 @@ namespace Xena.Contracts.Domain
         public virtual decimal Amount { get; set; }
         public virtual int FiscalDateDays { get; set; }
         public virtual long? ArticleGroupId { get; set; }
-        public string ArticleGroupDescription { get; set; }
         public virtual long? LedgerTagId { get; set; }
+
+        //Convinience properties
+        [ReadOnly(true)]
+        public string ArticleGroupDescription { get; set; }
+        [ReadOnly(true)]
         public int? LedgerTagNumber { get; set; }
+        [ReadOnly(true)]
         public string LedgerTagDescription { get; set; }
     }
 }

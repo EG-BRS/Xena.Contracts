@@ -1,9 +1,7 @@
 bin
 obj
-_ReSharper.*
-src/NotaPlan.Xena.suo
 *.suo
 *.user
-*.orig
 .vs
-*.nupkg
+_ReSharper.*
+/src/packages

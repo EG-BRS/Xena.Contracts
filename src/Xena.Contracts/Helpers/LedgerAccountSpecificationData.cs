@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel;
 using Xena.Contracts.Domain;
-
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Helpers
 {
@@ -20,6 +21,17 @@ namespace Xena.Contracts.Helpers
         public decimal EndBalance { get; set; }
         public IList<LedgerPostDto> Movements { get; set; }
 
-        public string LedgerAccountTranslated { get; set; }
+        private string _ledgerAccountTranslated = null;
+        [ReadOnly(true)]
+        public string LedgerAccountTranslated
+        {
+            get
+            {
+                return _ledgerAccountTranslated ?? (string.IsNullOrEmpty(LedgerAccount)
+                           ? string.Empty
+                           : LedgerAccount.GetLocalizedConstant());
+            }
+            set { _ledgerAccountTranslated = value; }
+        }
     }
 }

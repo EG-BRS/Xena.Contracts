@@ -2,8 +2,16 @@
 {
     public class XenaSubscriptionData
     {
-        public string FiscalSetupName { get; set; }
         public long? XenaSubscriptionId { get; set; }
         public long? XenaSubscriptionTicketId { get; set; }
+    }
+
+    public class XenaValidPaymentData
+    {
+        public XenaValidPaymentData(bool hasValidPayment)
+        {
+            HasValidPayment = hasValidPayment;
+        }
+        public bool HasValidPayment { get; set; }
     }
 }

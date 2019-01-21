@@ -1,4 +1,5 @@
 using System;
+using Xena.Common.Constants;
 using Xena.Contracts.Domain;
 
 namespace Xena.Contracts.ExtensionMethods

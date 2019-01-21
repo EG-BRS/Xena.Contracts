@@ -7,5 +7,6 @@
         public long[] UserIds { get; set; }
         public string Description { get; set; }
         public string DocumentContent { get; set; }
+        public string FileName { get; set; }
     }
 }

@@ -6,6 +6,7 @@ namespace Xena.Contracts.Helpers
         public string RecipientAddressType { get; set; }
         public string RecipientAddress { get; set; }
         public string PartnerName { get; set; }
+        public long PartnerId { get; set; }
         public int PartnerAccountNumber { get; set; }
         public int InvoiceNumber { get; set; }
         public string GLNNumber { get; set; }

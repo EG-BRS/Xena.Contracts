@@ -1,4 +1,5 @@
-
+using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -7,7 +8,12 @@ namespace Xena.Contracts.Domain
         public long OrderId { get; set; }
         public int DeliveryDateDays { get; set; }
         public bool IsCancelled { get; set; }
+        private string _deliveryDateDaysFriendly = null;
+        [ReadOnly(true)]
         public string DeliveryDateDaysFriendly
-        { get; set; }
+        {
+            get { return _deliveryDateDaysFriendly ?? DeliveryDateDays.FriendlyString(); }
+            set { _deliveryDateDaysFriendly = value; }
+        }
     }
 }

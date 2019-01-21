@@ -5,8 +5,8 @@
         public string Email { get; set; }
         public string[] ChosenRoles { get; set; }
         public long? PartnerId { get; set; }
-        public string InitialPassword { get; set; }
         public string Culture { get; set; }
-        public int[] AppIds { get; set; }
+        public long[] AppIds { get; set; }
+
     }
 }

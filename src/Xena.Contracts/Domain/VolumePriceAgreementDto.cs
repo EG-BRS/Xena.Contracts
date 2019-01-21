@@ -1,5 +1,6 @@
 using System.Collections.Generic;
-
+using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -14,8 +15,20 @@ namespace Xena.Contracts.Domain
         public string ArticleDescription { get; set; }
         public int? ValidFromDays { get; set; }
         public int? ValidToDays { get; set; }
-        public string ValidFromDaysFriendly { get; set; }
-        public string ValidToDaysFriendly { get; set; }
+        private string _validFromDaysFriendly = null;
+        [ReadOnly(true)]
+        public string ValidFromDaysFriendly
+        {
+            get { return _validFromDaysFriendly ?? ValidFromDays.FriendlyString(); }
+            set { _validFromDaysFriendly = value; }
+        }
+        private string _validToDaysFriendly = null;
+        [ReadOnly(true)]
+        public string ValidToDaysFriendly
+        {
+            get { return _validToDaysFriendly ?? ValidToDays.FriendlyString(); }
+            set { _validToDaysFriendly = value; }
+        }
         public string ContextType { get; set; }
         public string Description { get; set; }
         public decimal BasePrice { get; set; }

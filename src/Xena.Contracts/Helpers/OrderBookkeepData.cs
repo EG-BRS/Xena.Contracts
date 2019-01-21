@@ -13,5 +13,6 @@ namespace Xena.Contracts.Helpers
         public long? DeliveryReportLayoutId { get; set; }
         public IEnumerable<LedgerPostDraftDto> LedgerPostDrafts { get; set; }
         public long[] OrderTaskIds { get; set; }
+        public long? OrderStatusId { get; set; }
     }
 }

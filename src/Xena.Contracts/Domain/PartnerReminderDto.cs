@@ -4,7 +4,7 @@ namespace Xena.Contracts.Domain
     {
         public long? Id { get; set; }
         public int InvoiceNumber { get; set; }
-        public long EconomicTransactionId { get; set; }
+        public long? EconomicTransactionId { get; set; }
         public object PartnerName { get; set; }
         public decimal Amount { get; set; }
         public long PartnerId { get; set; }
@@ -16,6 +16,7 @@ namespace Xena.Contracts.Domain
         public  object InvoiceEmail { get; set; }
         public int? OrderNumber { get; set; }
         public long? OrderId { get; set; }
+        public AddressDto OrderAddress { get; set; }
         public long? JournalId { get; set; }
         public long? NextReminderStepId { get; set; }
     }

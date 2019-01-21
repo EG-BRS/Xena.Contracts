@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
+using System.ComponentModel;
+using Xena.Common.Constants;
+using Xena.Common.ExtensionMethods;
 using Xena.Contracts.Domain;
-
 
 namespace Xena.Contracts.Search
 {
@@ -14,7 +15,7 @@ namespace Xena.Contracts.Search
         public LedgerAccountIndex(int? accountNumber, string ledgerAccount, long fiscalSetupId)
         {
             LedgerAccount = ledgerAccount;
-            Description = "";// ledgerAccount.GetLocalizedConstant();
+            Description = ledgerAccount.GetLocalizedConstant();
             AccountNumber = accountNumber;
             AccountNumberRaw = $"{accountNumber}";
             FiscalSetupId = fiscalSetupId;
@@ -98,8 +99,20 @@ namespace Xena.Contracts.Search
         public int? AccountNumber { get; set; }
         public string AccountNumberRaw { get; set; }
         public string Description { get; set; }
-        public string ShortDescription { get; set; }
-        public string LongDescription { get; set; }
+        private string _shortDescription = null;
+        [ReadOnly(true)]
+        public string ShortDescription
+        {
+            get { return _shortDescription ?? (AccountNumber.HasValue ? $"{AccountNumber.Value}" : GetDescription()); }
+            set { _shortDescription = value; }
+        }
+        private string _longDescription = null;
+        [ReadOnly(true)]
+        public string LongDescription
+        {
+            get { return _longDescription ?? (AccountNumber.HasValue ? $"{AccountNumber.Value} {GetDescription()}" : GetDescription()); }
+            set { _longDescription = value; }
+        }
         public string LedgerAccount { get; set; }
         public long? VatId { get; set; }
         public long? DefaultVatId { get; set; }
@@ -111,5 +124,31 @@ namespace Xena.Contracts.Search
         public string LedgerAccountIndexType { get; set; }
         public long FiscalSetupId { get; set; }
         public bool IsDeactivated { get; set; }
+        public string GetDescription()
+        {
+            return ArticleGroupId.HasValue ? $"{Description}, {LedgerAccount.GetLocalizedConstant()} " + GetVatDescription() : Description;
+        }
+
+        private string GetVatDescription() => DefaultVatId.HasValue
+            ? VatStatus.WithVAT.GetLocalizedConstant()
+            : VatStatus.WithoutVAT.GetLocalizedConstant();
+
+        protected bool Equals(LedgerAccountIndex other)
+        {
+            return string.Equals(Id, other.Id);
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(null, obj)) return false;
+            if (ReferenceEquals(this, obj)) return true;
+            if (obj.GetType() != GetType()) return false;
+            return Equals((LedgerAccountIndex)obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return Id?.GetHashCode() ?? 0;
+        }
     }
 }

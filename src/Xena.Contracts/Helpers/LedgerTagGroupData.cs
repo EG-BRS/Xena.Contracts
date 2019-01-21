@@ -4,8 +4,11 @@ namespace Xena.Contracts.Helpers
     {
         public long LedgerTagId { get; set; }
         public string LedgerTagDescription { get; set; }
+        public int? LedgerTagNumber { get; set; }
         public decimal AmountMonth { get; set; }
         public decimal AmountYearToDate { get; set; }
+        public decimal? AmountMonthPrevious { get; set; }
+        public decimal? AmountYearToDatePrevious { get; set; }
         public string Group { get; set; }
         public int GroupIndex { get; set; }
     }

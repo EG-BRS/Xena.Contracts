@@ -1,13 +1,24 @@
-﻿namespace Xena.Contracts.Domain
+﻿using System.ComponentModel;
+
+namespace Xena.Contracts.Domain
 {
     public class SupporterDto:IEntityDto
     {
         public string FiscalSetupName { get; set; }
         public long? VCardId { get; set; }
         public long? PictureLastVersionId { get; set; }
-        public string PictureUrl => PictureLastVersionId.HasValue && VCardId.HasValue
-            ? $"/Blob/Public/VCard/{VCardId}/{PictureLastVersionId}/MenuThumbnail"
-            : "/Content/images/avatar-company-xena.jpg";
+        private string _pictureUrl = null;
+        [ReadOnly(true)]
+        public string PictureUrl
+        {
+            get
+            {
+                return _pictureUrl ?? (PictureLastVersionId.HasValue && VCardId.HasValue
+                           ? $"/Blob/Public/VCard/{VCardId}/Thumbnail/{PictureLastVersionId}"
+                           : "/Content/images/avatar-company-xena.jpg");
+            }
+            set { _pictureUrl = value; }
+        }
 
         public long OnBehalfOfResourceId { get; set; }
         public string OnBehalfOfResourceTheme { get; set; }

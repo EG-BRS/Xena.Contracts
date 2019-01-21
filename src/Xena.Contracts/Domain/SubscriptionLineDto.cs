@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 
 namespace Xena.Contracts.Domain
 {
@@ -35,9 +36,51 @@ namespace Xena.Contracts.Domain
         public bool ArticleHasInventoryManagement { get; set; }
         public bool ArticleHasVariants { get; set; }
         public long? ArticleGroupId { get; set; }
-        public decimal PriceEach { get; set; }
-        public decimal MarginTotalRatio { get; set; }
-        public decimal MarginTotalPct { get; set; }
-        public string ArticleAbbreviation { get; set; }
+
+        private decimal? _priceEach = null;
+        [ReadOnly(true)]
+        public decimal PriceEach
+        {
+            get
+            {
+                return _priceEach ?? (Quantity == decimal.Zero
+                           ? decimal.Zero
+                           : (PriceNettTotal + DiscountTotal) / Quantity);
+            }
+            set { _priceEach = value; }
+        }
+
+        private decimal? _marginTotalRatio = null;
+        [ReadOnly(true)]
+        public decimal MarginTotalRatio
+        {
+            get
+            {
+                return _marginTotalRatio ??
+                       (PriceNettTotal == decimal.Zero ? decimal.Zero : MarginTotal / PriceNettTotal);
+            }
+            set { _marginTotalRatio = value; }
+        }
+
+        private decimal? _marginTotalPct = null;
+        [ReadOnly(true)]
+        public decimal MarginTotalPct
+        {
+            get { return _marginTotalPct ?? (Math.Round(MarginTotalRatio * 100, 1, MidpointRounding.AwayFromZero)); }
+            set { _marginTotalPct = value; }
+        }
+
+        private string _articleAbbreviation = null;
+        [ReadOnly(true)]
+        public string ArticleAbbreviation
+        {
+            get
+            {
+                return _articleAbbreviation ?? (string.IsNullOrEmpty(ArticleVariantAbbreviation)
+                           ? ArticleNumber
+                           : $"{ArticleNumber}-{ArticleVariantAbbreviation}");
+            }
+            set { _articleAbbreviation = value; }
+        }
     }
 }

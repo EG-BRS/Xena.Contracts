@@ -7,7 +7,7 @@ namespace Xena.Contracts.Helpers
         public decimal Quantity { get; set; }
         public override string ToString()
         {
-            return $"{ArticleNumber} {EANNumber} {Quantity.ToString("N2")}";
+            return $"{ArticleNumber} {EANNumber} {Quantity:N2}";
         }
     }
 }

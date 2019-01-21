@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace Xena.Contracts.Domain
 {
@@ -12,7 +12,11 @@ namespace Xena.Contracts.Domain
         public string Phone { get; set; }
         public string VATNo { get; set; }
         public long? MappedPartnerId { get; set; }
+
+        //Convinience properties
+        [ReadOnly(true)]
         public string MappedPartnerName { get; set; }
+        [ReadOnly(true)]
         public int? MappedPartnerAccountNumber { get; set; }
     }
 }

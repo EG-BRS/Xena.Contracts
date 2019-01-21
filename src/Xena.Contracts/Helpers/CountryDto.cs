@@ -2,7 +2,15 @@
 {
     public class CountryDto
     {
-        public string Abbreviation { get; set; }
-        public string TranslatedName { get; set; }
+        public CountryDto(){}
+
+        public CountryDto(string abbreviation, string translatedName)
+        {
+            Abbreviation = abbreviation;
+            TranslatedName = translatedName;
+        }
+
+        public string Abbreviation { get; }
+        public string TranslatedName { get; }
     }
 }

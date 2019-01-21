@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using Xena.Common.ExtensionMethods;
 using Xena.Contracts.Domain;
 
 namespace Xena.Contracts.Search
@@ -57,7 +57,7 @@ namespace Xena.Contracts.Search
         {
             return new LedgerAccountIndex(ledgerTag);
         }
-        public static LedgerTagSearchIndex CreateSearchIndex(this LedgerTagDto ledgerTag)
+        public static LedgerTagSearchIndex CreateSearchIndex(this LedgerTagDto ledgerTag, Func<long, long, IList<object>> getLedgerMetaData)
         {
             return new LedgerTagSearchIndex
             {
@@ -66,7 +66,8 @@ namespace Xena.Contracts.Search
                 NumberRaw = $"{ledgerTag.Number}",
                 LedgerAccount = ledgerTag.LedgerAccount,
                 Id = ledgerTag.Id.Value,
-                FiscalSetupId = ledgerTag.FiscalSetupId
+                FiscalSetupId = ledgerTag.FiscalSetupId,
+                MetaData = getLedgerMetaData(ledgerTag.FiscalSetupId, ledgerTag.Id.Value)
             };
         }
 
@@ -78,12 +79,12 @@ namespace Xena.Contracts.Search
                 FiscalSetupId = voucher.FiscalSetupId,
                 Id = voucher.Id.Value,
                 VoucherNumber = voucher.VoucherNumber,
-                VoucherNumberRaw = string.Format("{0}", voucher.VoucherNumber),
+                VoucherNumberRaw = $"{voucher.VoucherNumber}",
                 LineDescriptions = getLineDescriptions(voucher.Id.Value)
             };
         }
 
-        public static ArticleSearchIndex CreateSearchIndex(this ArticleDto article)
+        public static ArticleSearchIndex CreateSearchIndex(this ArticleDto article, Func<long, long, IList<object>> getArticleMetaData)
         {
             return new ArticleSearchIndex
             {
@@ -92,7 +93,30 @@ namespace Xena.Contracts.Search
                 ArticleNumberRaw = article.ArticleNumber,
                 Description = article.Description,
                 FiscalSetupId = article.FiscalSetupId,
-                GroupDescription = article.ArticleGroupDescription
+                GroupDescription = article.ArticleGroupDescription,
+                MetaData = getArticleMetaData(article.FiscalSetupId, article.Id.Value)
+            };
+        }
+        public static FiscalSetupSearchIndex CreateSearchIndex(this FiscalSetupDto fiscalSetup, PartnerDto partner, Func<long, long, IList<object>> getFiscalSetupMetaData)
+        {
+            return new FiscalSetupSearchIndex
+            {
+                Id = fiscalSetup.Id.Value,
+                IsDeactivated = fiscalSetup.IsDeactivated,
+                ProviderId = fiscalSetup.ProviderId,
+                Name = fiscalSetup.Address.Name,
+                Street = fiscalSetup.Address.Street,
+                PlaceName = fiscalSetup.Address.PlaceName,
+                Zip = fiscalSetup.Address.Zip,
+                City = fiscalSetup.Address.City,
+                CountryName = fiscalSetup.Address.CountryName,
+                OrgNumber = fiscalSetup.OrgNumber,
+                XenaSubscriptionId = fiscalSetup.XenaSubscriptionId,
+                PartnerId = partner?.Id,
+                AccountNumber = partner?.AccountNumber,
+                CreatedDate = fiscalSetup.CreatedAt.Date.DaysSince1970_01_01(),
+                Tags = partner?.Tags ?? new List<string>(),
+                MetaData = getFiscalSetupMetaData(fiscalSetup.Id.Value, fiscalSetup.Id.Value)
             };
         }
 
@@ -104,49 +128,126 @@ namespace Xena.Contracts.Search
                 Id = document.Id.Value,
                 FiscalSetupIds = getFiscalSetupIds(document.Id.Value),
                 UserIds = getUserIds(document.Id.Value),
-                DocumentContent = getDocumentContent(document.Id.Value)
+                DocumentContent = getDocumentContent(document.Id.Value),
+                FileName = document.LastFileName?.Replace('_', ' ') ?? string.Empty
             };
         }
 
-        public static OrderSearchIndex CreateSearchIndex(this OrderDto order, Func<long, IList<string>> getSupplierNumbers)
+        public static ProjectSearchIndex CreateSearchIndex(this ProjectDto project, Func<long, IEnumerable<OrderDto>> getOrders, Func<long, IEnumerable<OrderTaskDto>> getTasks)
         {
-            var orderNumberToStringed = order.OrderNumber.ToString();
-            var orderNumberParts = new string[orderNumberToStringed.Length];
-            for (int i = 0; i < orderNumberToStringed.Length; i++)
+            var orders = getOrders(project.Id.Value).ToList();
+            var tasks = getTasks(project.Id.Value).ToList();
+            return new ProjectSearchIndex
             {
-                orderNumberParts[i] = orderNumberToStringed.Substring(orderNumberToStringed.Length - i - 1);
-            }
+                Id = project.Id.Value,
+                FiscalSetupId = project.FiscalSetupId,
+                IsDeactivated = project.IsDeactivated,
+                Description = project.Description,
+                Details = project.Details,
+                ClosedDateDays = project.ClosedDateDays,
+                IsClosed = project.ClosedDateDays.HasValue,
+                Number = project.Number.ToString(),
+                NumberSplits = project.Number.SplitNumberInParts(),
+                PartnerName = project.PartnerName,
+                PartnerAccountNumber = project.PartnerAccountNumber.ToString(),
+                OrderNumber = string.Join(" ", orders.Select(o => o.OrderNumber)),
+                OrderNumberSplits = string.Join(" ", orders.Select(o => o.OrderNumber.SplitNumberInParts())),
+                OrderTaskNumberSplits = string.Join(" ", tasks.Select(t => t.Abbreviation.SplitStringInParts())),
+                OrderTaskNumber = string.Join(" ", tasks.Select(t => t.Abbreviation))
+            };
+        }
+        public static OrderTaskSearchIndex CreateSearchIndex(this OrderTaskDto task, Func<long, OrderDto> getOrder, Func<long, ProjectDto> getProject)
+        {
+            var order = getOrder(task.OrderId);
+            var project = order.ProjectId.HasValue ? getProject(order.ProjectId.Value) : null;
+            var deliveryAddress = order.DeliveryAddress ?? order.Address;
+            return new OrderTaskSearchIndex
+            {
+                Id = task.Id.Value,
+                FiscalSetupId = task.FiscalSetupId,
+                Description = task.Description,
+                Details = task.Details,
+                ProjectNumber = order.ProjectNumber.ToString(),
+                ProjectNumberSplits = order.ProjectNumber?.SplitNumberInParts(),
+                OrderId = order.Id.Value,
+                OrderNumber = order.OrderNumber.ToString(),
+                OrderInternalNote = order.InternalNote,
+                OrderNumberSplits = order.OrderNumber.SplitNumberInParts(),
+                OrderTaskNumber = task.Abbreviation,
+                OrderTaskNumberSplits = task.Abbreviation.SplitStringInParts(),
+                DeliveryAttention = string.Empty,
+                PartnerAccountNumber = $"{order.PartnerAccountNumber}",
+                DeliveryCity = deliveryAddress.City,
+                DeliveryCountryName = deliveryAddress.CountryName,
+                DeliveryName = deliveryAddress.Name,
+                DeliveryPlaceName = deliveryAddress.PlaceName,
+                DeliveryStreet = deliveryAddress.Street,
+                DeliveryZip = deliveryAddress.Zip,
+                OrderAttention = string.Empty,
+                OrderCity = order.Address.City,
+                OrderCountryName = order.Address.CountryName,
+                OrderName = order.Address.Name,
+                OrderPlaceName = order.Address.PlaceName,
+                OrderStreet = order.Address.Street,
+                OrderZip = order.Address.Zip,
+                IsDelivered = task.IsDelivered,
+                IsInvoiced = task.IsInvoiced,
+                ContextType = order.ContextType,
+                IsDeactivated = task.IsDeactivated,
+                ProjectDescription = order.ProjectDescription,
+                ProjectDetails = project?.Details
+            };
+        }
 
+        private static string SplitNumberInParts(this int number)
+        {
+            return number.ToString().SplitStringInParts();
+        }
+        private static string SplitStringInParts(this string numberString)
+        {
+            var parts = new string[numberString.Length];
+            for (int i = 0; i < numberString.Length; i++)
+            {
+                parts[i] = numberString.Substring(numberString.Length - i - 1);
+            }
+            return string.Join(" ", parts);
+        }
+
+        public static OrderSearchIndex CreateSearchIndex(this OrderDto order, Func<long, IList<string>> getSupplierNumbers, Func<long, long, IList<object>> getOrderMetaData)
+        {
+            long orderId = order.Id.Value;
             return new OrderSearchIndex
             {
-                Id = order.Id.Value,
+                Id = orderId,
                 IsDeactivated = order.IsDeactivated,
                 FiscalSetupId = order.FiscalSetupId,
-                OrderNumberSplits = string.Join(" ", orderNumberParts),
+                OrderNumberSplits = order.OrderNumber.SplitNumberInParts(),
                 Name = order.Address.Name,
                 PlaceName = order.Address.PlaceName,
                 City = order.Address.City,
                 Zip = order.Address.Zip,
                 Street = order.Address.Street,
                 CountryName = order.Address.CountryName,
-                DeliveryName = order.DeliveryAddress == null ? null : order.DeliveryAddress.Name,
-                DeliveryPlaceName = order.DeliveryAddress == null ? null : order.DeliveryAddress.PlaceName,
-                DeliveryCity = order.DeliveryAddress == null ? null : order.DeliveryAddress.City,
-                DeliveryZip = order.DeliveryAddress == null ? null : order.DeliveryAddress.Zip,
-                DeliveryStreet = order.DeliveryAddress == null ? null : order.DeliveryAddress.Street,
-                DeliveryCountryName = order.DeliveryAddress == null ? null : order.DeliveryAddress.CountryName,
+                DeliveryName = order.DeliveryAddress?.Name,
+                DeliveryPlaceName = order.DeliveryAddress?.PlaceName,
+                DeliveryCity = order.DeliveryAddress?.City,
+                DeliveryZip = order.DeliveryAddress?.Zip,
+                DeliveryStreet = order.DeliveryAddress?.Street,
+                DeliveryCountryName = order.DeliveryAddress?.CountryName,
                 PartnerName = order.PartnerName,
                 OurReference = order.OurReference,
                 PartnerId = order.PartnerId,
-                PartnerAccountNumber = order.PartnerAccountNumber,
+                PartnerAccountNumber = $"{order.PartnerAccountNumber}",
                 PartnerPhoneNumber = order.PartnerPhoneNumber,
                 YourReference = order.YourReference,
-                SupplierInvoiceNumbers = getSupplierNumbers(order.Id.Value),
+                SupplierInvoiceNumbers = getSupplierNumbers(orderId),
                 ContextType = order.ContextType,
                 IsFullyDelivered = order.Summary.IsFullyDelivered,
                 IsFullyInvoiced = order.Summary.IsFullyInvoiced,
                 OrderStatusId = order.OrderStatusId,
                 ResponsibleId = order.ResponsibleId,
+                InternalNote = order.InternalNote,
+                MetaData = getOrderMetaData(order.FiscalSetupId, orderId)
             };
         }
         public static SubscriptionSearchIndex CreateSearchIndex(this SubscriptionDto article)
@@ -157,6 +258,43 @@ namespace Xena.Contracts.Search
                 Description = article.Description,
                 FiscalSetupId = article.FiscalSetupId,
                 Details = article.Details
+            };
+        }
+
+        public static PartnerSearchIndex CreateSearchIndex(this PartnerDto partner, Func<long, IList<PartnerTelephoneNumberDto>> getTelephoneNumbers, Func<long, IList<PartnerEmailContactDto>> getEmailContacts, Func<long, IEnumerable<OrderContextDto>> getOrderContexts, Func<long, long, IList<object>> getPartnerMetaData)
+        {
+            var invoiceEmails = getOrderContexts(partner.Id.Value).Select(oc => oc.InvoiceEmail);
+            var emailContacts = getEmailContacts(partner.Id.Value);
+            var emails = new HashSet<string>(invoiceEmails.Concat(emailContacts.Select(ec => ec.Email)));
+            var emailNames = emailContacts.Select(ec => ec.Name).ToList();
+
+            var partnerTelephoneNumbers = getTelephoneNumbers(partner.Id.Value);
+            var telephoneNumbers = new HashSet<string>(partnerTelephoneNumbers.Select(pt => pt.Number));
+            if (!string.IsNullOrWhiteSpace(partner.PhoneNumber))
+                telephoneNumbers.Add(partner.PhoneNumber);
+            var telephoneNumberNames = new HashSet<string>(partnerTelephoneNumbers.Where(ptn => !string.IsNullOrWhiteSpace(ptn.Name)).Select(ptn => ptn.Name));
+            return new PartnerSearchIndex
+            {
+                Id = partner.Id.Value,
+                Name = partner.Address.Name,
+                AccountNumber = partner.AccountNumber.ToString(),
+                PlaceName = partner.Address.PlaceName,
+                City = partner.Address.City,
+                Zip = partner.Address.Zip,
+                Attention = partner.Attention,
+                Street = partner.Address.Street,
+                CountryName = partner.Address.CountryName,
+                GLNNumber = partner.GLNNumber,
+                URL = partner.URL,
+                OrgNumber = partner.OrgNumber,
+                FiscalSetupId = partner.FiscalSetupId,
+                Tags = partner.Tags,
+                Emails = emails.ToList(),
+                EmailNames = emailNames,
+                TelephoneNumbers = telephoneNumbers.ToList(),
+                TelephoneNumberNames = telephoneNumberNames.ToList(),
+                TelephoneNumbersStripped = telephoneNumbers.Select(tn => tn.StripTelephoneNumber()).ToList(),
+                MetaData = getPartnerMetaData(partner.FiscalSetupId, partner.Id.Value)
             };
         }
 

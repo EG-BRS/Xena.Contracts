@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-
-namespace Xena.Contracts.Domain
+﻿namespace Xena.Contracts.Domain
 {
     public class CalculatedAccountantMembershipDto : IHasIdDto
     {
@@ -12,7 +7,10 @@ namespace Xena.Contracts.Domain
         public long FiscalSetupId { get; set; }
         public long UserId { get; set; }
         public long? ResourceId { get; set; }
+        public long? VCardId { get; set; }
+        public long? PictureLastVersionId { get; set; }
         public string ResourceName { get; set; }
+        public string FiscalSetupName { get; set; }
         public string ResourceTheme { get; set; }
         public string CurrencyAbbreviation { get; set; }
         public long? XenaSubscriptionId { get; set; }

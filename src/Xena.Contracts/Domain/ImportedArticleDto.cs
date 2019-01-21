@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace Xena.Contracts.Domain
 {
     public class ImportedArticleDto : ImportedDto
@@ -9,9 +11,14 @@ namespace Xena.Contracts.Domain
         public decimal UnitPrice { get; set; }
         public string SuppliersProductNo { get; set; }
         public long? ArticleGroupId { get; set; }
-        public string ArticleGroupDescription { get; set; }
         public long? MappedArticleId { get; set; }
+
+        //Convinience properties
+        [ReadOnly(true)]
+        public string ArticleGroupDescription { get; set; }
+        [ReadOnly(true)]
         public string MappedArticleNumber { get; set; }
+        [ReadOnly(true)]
         public string MappedArticleDescription { get; set; }
     }
 }

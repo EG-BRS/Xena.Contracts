@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace Xena.Contracts.Helpers
 {
     public class HistoricStockValueData
@@ -10,7 +12,20 @@ namespace Xena.Contracts.Helpers
         public string ArticleGroupDescription { get; set; }
         public long FiscalSetupId { get; set; }
         public decimal AvailableQuantity { get; set; }
-        public decimal? AverageCostPrice { get; set; }
-        public decimal? TotalStockValue { get; set; }
+
+        private decimal? _averageCostPrice;
+        [ReadOnly(true)]
+        public decimal? AverageCostPrice
+        {
+            get
+            {
+                return _averageCostPrice ?? (AvailableQuantity != decimal.Zero
+                           ? TotalStockValue / AvailableQuantity
+                           : (decimal?) null);
+            }
+            set { _averageCostPrice = value; }
+        }
+
+        public decimal TotalStockValue { get; set; }
     }
 }

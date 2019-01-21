@@ -1,23 +1,19 @@
-﻿
+﻿using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
     public class UserProfileDto
     {
         public long Id { get; set; }
-        public int Version { get; set; }
         public string Name { get; set; }
-        public string Street { get; set; }
-        public string PlaceName { get; set; }
-        public string Zip { get; set; }
-        public string City { get; set; }
-        public string Country { get; set; }
-        public string CountryDisplayName
-        { get; set; }
         public string Culture { get; set; }
+        private string _cultureDisplayName = null;
+        [ReadOnly(true)]
         public string CultureDisplayName
-        { get; set; }
-        public string UserName { get; set; }
-        public string ConfirmedPhoneNumber { get; set; }
+        {
+            get { return _cultureDisplayName ?? Culture.GetLocalizedCultureName(); }
+            set { _cultureDisplayName = value; }
+        }
     }
 }
