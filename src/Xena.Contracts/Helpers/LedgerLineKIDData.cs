@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Xena.Contracts.Helpers
+﻿namespace Xena.Contracts.Helpers
 {
     public class LedgerLineKIDData
     {

@@ -6,5 +6,6 @@
         public int AccountNumber { get; set; }
         public string Name { get; set; }
         public decimal Balance { get; set; }
+        public decimal DueBalance { get; set; }
     }
 }

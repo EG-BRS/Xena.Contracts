@@ -3,6 +3,22 @@ using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
+    public class PartiallyPaidPartnerPostDto : FiscalDto, IHasIdDto
+    {
+        public long? Id { get; set; }
+        public long PartnerPostId { get; set; }
+        public long PartialSettlementId { get; set; }
+        public decimal AmountSettled { get; set; }
+        public int Date { get; set; }
+        public string LedgerTagNumber { get; set; }
+        public string Description { get; set; }
+        public long VoucherId { get; set; }
+        public int VoucherNumber { get; set; }
+        public decimal Saldo { get; set; }
+    }
+    public class PartialSettlementDto : EntityDto
+    {
+    }
     public class PartnerPostDto : TransactionalDto
     {
         public string SupplierInvoiceNumber { get; set; }

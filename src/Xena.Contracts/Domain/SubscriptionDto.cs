@@ -37,7 +37,7 @@ namespace Xena.Contracts.Domain
         public long? SubscriptionTicketId { get; set; }
         public TotalsDto Totals
         {
-            get { return _totals ?? new TotalsDto(); }
+            get { return _totals ?? (_totals = new TotalsDto()); }
             set { _totals = value; }
         }
 

@@ -1,6 +1,6 @@
 ﻿namespace Xena.Contracts.Helpers
 {
-    public class FIscalSetupStatisticsData
+    public class FiscalSetupStatisticsData
     {
         public bool HasDepartments { get; set; }
         public bool HasBearers { get; set; }

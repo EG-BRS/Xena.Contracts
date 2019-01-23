@@ -84,6 +84,7 @@ namespace Xena.Contracts.Domain
             }
             set { _cultureDisplayName = value; }
         }
+         
         [ReadOnly(true)]
         public int? LastInvoicedDateDays { get; set; }
         public int? SupplierInvoiceDateDays { get; set; }

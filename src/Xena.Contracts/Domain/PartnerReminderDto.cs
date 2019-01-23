@@ -19,5 +19,6 @@ namespace Xena.Contracts.Domain
         public AddressDto OrderAddress { get; set; }
         public long? JournalId { get; set; }
         public long? NextReminderStepId { get; set; }
+        public int Date { get; set; } // TODO: Magnus - Fix this fætter
     }
 }
