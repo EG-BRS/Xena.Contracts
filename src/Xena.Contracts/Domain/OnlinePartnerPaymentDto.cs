@@ -1,4 +1,5 @@
-﻿
+﻿using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -11,7 +12,12 @@ namespace Xena.Contracts.Domain
         public int PartnerAccountNumber { get; set; }
         public long PartnerId { get; set; }
         public string PartnerName { get; set; }
+        private string _paymentDateDaysFriendly = null;
+        [ReadOnly(true)]
         public string PaymentDateDaysFriendly
-        { get; set; }
+        {
+            get { return _paymentDateDaysFriendly ?? PaymentDateDays.FriendlyString(); }
+            set { _paymentDateDaysFriendly = value; }
+        }
     }
 }

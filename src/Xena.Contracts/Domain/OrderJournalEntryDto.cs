@@ -12,7 +12,8 @@ namespace Xena.Contracts.Domain
         public long? OrderDeliveryTransactionId { get; set; }
         public long TransactionId { get; set; }
         public int? VoucherNumber { get; set; }
-        public string CreatedByName { get; set; }
+        public long? ResponsibleId { get; set; }
+        public string ResponsibleName { get; set; }
 
         public static class EntryTypes
         {

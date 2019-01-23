@@ -1,12 +1,19 @@
-﻿
+﻿using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
     public class PostDto : TransactionalDto
     {
         public int FiscalDateDays { get; set; }
+
+        private string _fiscalDateDaysFriendly = null;
+        [ReadOnly(true)]
         public string FiscalDateDaysFriendly
-        { get; set; }
+        {
+            get { return _fiscalDateDaysFriendly ?? FiscalDateDays.FriendlyString(); }
+            set { _fiscalDateDaysFriendly = value; }
+        }
         public long? PartnerId { get; set; }
         public long? SettlementId { get; set; }
         public long? LedgerTagId { get; set; }
@@ -18,8 +25,18 @@ namespace Xena.Contracts.Domain
         public decimal VatAmount { get; set; }
         public DimensionsDto Dimensions { get; set; }
         public string LedgerAccount { get; set; }
+        private string _ledgerAccountTranslated = null;
+        [ReadOnly(true)]
         public string LedgerAccountTranslated
-        { get; set; }
+        {
+            get
+            {
+                return _ledgerAccountTranslated ?? (string.IsNullOrEmpty(LedgerAccount)
+                           ? string.Empty
+                           : LedgerAccount.GetLocalizedConstant());
+            }
+            set { _ledgerAccountTranslated = value; }
+        }
         public long EconomicTransactionId { get; set; }
         public string PostType { get; set; }
         public int? PartnerAccountNumber { get; set; }

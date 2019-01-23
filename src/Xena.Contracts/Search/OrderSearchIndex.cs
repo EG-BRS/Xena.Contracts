@@ -1,17 +1,13 @@
 ﻿using System.Collections.Generic;
-using Xena.Contracts.Domain;
 
 namespace Xena.Contracts.Search
 {
-    public class OrderSearchIndex
+    public class OrderSearchIndex: FiscalSearchDto
     {
-        public long Id { get; set; }
-        public long FiscalSetupId { get; set; }
         public bool IsDeactivated { get; set; }
         public string PartnerAccountNumber { get; set; }
         public string PartnerName { get; set; }
         public string PartnerPhoneNumber { get; set; }
-
         public string Name { get; set; }
         public string PlaceName { get; set; }
         public string Street { get; set; }
@@ -34,5 +30,13 @@ namespace Xena.Contracts.Search
         public long? OrderStatusId { get; set; }
         public long? PartnerId { get; set; }
         public long? ResponsibleId { get; set; }
+        public string InternalNote { get; set; }
+        public IList<object> MetaData { get; set; }
+    }
+
+    public class FiscalSearchDto
+    {
+        public long Id { get; set; }
+        public long FiscalSetupId { get; set; }
     }
 }

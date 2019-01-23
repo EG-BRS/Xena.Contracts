@@ -1,5 +1,7 @@
-﻿
-
+﻿using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
+using Xena.Common.ExtensionMethods;
+﻿using Xena.Common.Constants;
 
 namespace Xena.Contracts.Domain
 {
@@ -16,9 +18,39 @@ namespace Xena.Contracts.Domain
         public decimal? PriceNettTotal { get; set; }
         public int? InvoicingDateDays { get; set; }
 
-        public string InvoicingDateDaysFriendly { get; set; }
+        private string _invoicingDateDaysFriendly = null;
+        [ReadOnly(true)]
+        public string InvoicingDateDaysFriendly
+        {
+            get { return _invoicingDateDaysFriendly ?? (InvoicingDateDays.HasValue ? InvoicingDateDays.Value.FriendlyString() : string.Empty); }
+            set { _invoicingDateDaysFriendly = value; }
+        }
 
-        public string State { get; set; }
-        public string StateFriendly { get; set; }
+        private string _state = null;
+        [ReadOnly(true)]
+        public string State
+        {
+            get
+            {
+                if (_state != null)
+                {
+                    return _state;
+                }
+
+                if (SettlementId.HasValue)
+                    return SubscriptionInvoiceStates.Paid;
+                return OrderInvoiceTransactionId.HasValue 
+                    ? SubscriptionInvoiceStates.Invoiced 
+                    : SubscriptionInvoiceStates.Open;
+            }
+            set { _state = value; }
+        }
+        private string _stateFriendly = null;
+        [ReadOnly(true)]
+        public string StateFriendly
+        {
+            get { return _stateFriendly ?? State.GetLocalizedConstant(); }
+            set { _stateFriendly = value; }
+        }
     }
 }

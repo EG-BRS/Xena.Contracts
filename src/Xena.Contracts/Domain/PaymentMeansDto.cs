@@ -1,4 +1,6 @@
-﻿
+﻿using System.ComponentModel;
+using Xena.Common.Constants;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -9,54 +11,131 @@ namespace Xena.Contracts.Domain
         public string AccountIdentifier { get; set; }
         public string BankName { get; set; }
 
+        //Convinience properties
+        private string _exampleIdentification = null;
+        [ReadOnly(true)]
         public string ExampleIdentification
         {
-            get {
+            get
+            {
+                if (_exampleIdentification != null)
+                {
+                    return _exampleIdentification;
+                }
+
                 switch (PaymentMeansType)
                 {
                     case PaymentMeansTypes.Bank:
                     case PaymentMeansTypes.DK_Bank:
-                        return string.Format("{0} {1} {2}", BankName, AccountIdentifier, Account);
+                        return $"{BankName} {AccountIdentifier} {Account}";
                     case PaymentMeansTypes.DK_FIK_71:
-                        return string.Format("+71<ffffffkkkkkkkkc+{0}", Account);
+                        return $"+71<ffffffkkkkkkkkc+{Account}";
                     case PaymentMeansTypes.DK_FIK_73:
-                        return string.Format("+73< +{0}", Account);
+                        return $"+73< +{Account}";
                     case PaymentMeansTypes.DK_FIK_75:
-                        return string.Format("+75<0ffffffkkkkkkkkc+{0}", Account);
+                        return $"+75<0ffffffkkkkkkkkc+{Account}";
                     case PaymentMeansTypes.DK_Giro_01:
-                        return string.Format("+01< +{0}", Account);
+                        return $"+01< +{Account}";
                     case PaymentMeansTypes.DK_Giro_04:
-                        return string.Format("+04<ffffffkkkkkkkkc+{0}", Account);
+                        return $"+04<ffffffkkkkkkkkc+{Account}";
                     case PaymentMeansTypes.DK_Giro_15:
-                        return string.Format("+15<ffffffkkkkkkkkc+{0}", Account);
+                        return $"+15<ffffffkkkkkkkkc+{Account}";
                     case PaymentMeansTypes.NO_Bank:
-                        return string.Format("{0} {1}", BankName, Account);
+                        return $"{BankName} {Account}";
                     case PaymentMeansTypes.NO_Bank_Mod_10:
                     case PaymentMeansTypes.NO_Bank_Mod_11:
-                        return string.Format("KID NR. ffffffkkkkkkkkc KONTO NR. {0}", Account);
+                        return $"KID NR. ffffffkkkkkkkkc KONTO NR. {Account}";
                     case PaymentMeansTypes.IBAN_NON_EU:
-                        return string.Format("IBAN: {0} {1}", AccountIdentifier, Account);
+                        return $"IBAN: {AccountIdentifier} {Account}";
                     case PaymentMeansTypes.IBAN_SWIFT:
-                        return string.Format("SWIFT: {0} IBAN: {1}", AccountIdentifier, Account);
+                        return $"SWIFT: {AccountIdentifier} IBAN: {Account}";
                     default:
                         return string.Empty;
                 }
             }
+            set { _exampleIdentification = value; }
         }
-        public string PaymentMeansTypeTranslated
-        { get; set; }
-        public string PaymentMeansTypeHelp
-        { get; set; }
-        public bool AllowsBankName
-        { get; set; }
-        public bool AllowsAccount
-        { get; set; }
-        public bool AllowsAccountIdentification
-        { get; set; }
 
+        private string _paymentMeansTypeTranslated = null;
+        [ReadOnly(true)]
+        public string PaymentMeansTypeTranslated
+        {
+            get
+            {
+                return _paymentMeansTypeTranslated ?? (string.IsNullOrEmpty(PaymentMeansType)
+                           ? string.Empty
+                           : PaymentMeansType.GetLocalizedConstant());
+            }
+            set { _paymentMeansTypeTranslated = value; }
+        }
+        private string _paymentMeansTypeHelp = null;
+        [ReadOnly(true)]
+        public string PaymentMeansTypeHelp
+        {
+            get
+            {
+                return _paymentMeansTypeHelp ?? (string.IsNullOrEmpty(PaymentMeansType)
+                           ? string.Empty
+                           : $"{PaymentMeansType}_Help".GetLocalizedConstant());
+            }
+            set { _paymentMeansTypeHelp = value; }
+        }
+
+        private bool? _allowsBankName = null;
+        [ReadOnly(true)]
+        public bool AllowsBankName
+        {
+            get { return _allowsBankName ?? PaymentMeansTypes.AllowsBankName(PaymentMeansType); }
+            set { _allowsBankName = value; }
+        }
+
+        private bool? _allowsAccount = null;
+        [ReadOnly(true)]
+        public bool AllowsAccount
+        {
+            get { return _allowsAccount ?? PaymentMeansTypes.AllowsAccount(PaymentMeansType); }
+            set { _allowsAccount = value; }
+        }
+
+        private bool? _allowsDefaultMessage = null;
+        [ReadOnly(true)]
+        public bool AllowsDefaultMessage
+        {
+            get { return _allowsDefaultMessage ?? PaymentMeansTypes.AllowsDefaultMessage(PaymentMeansType); }
+            set { _allowsDefaultMessage = value; }
+        }
+
+        private bool? _allowsAccountIdentification = null;
+        [ReadOnly(true)]
+        public bool AllowsAccountIdentification
+        {
+            get { return _allowsAccountIdentification ?? PaymentMeansTypes.AllowsAccountIdentification(PaymentMeansType); }
+            set { _allowsAccountIdentification = value; }
+        }
+
+        private string _accountLabelTranslated = null;
+        [ReadOnly(true)]
         public string AccountLabelTranslated
-        { get; set; }
+        {
+            get
+            {
+                return _accountLabelTranslated ?? (string.IsNullOrEmpty(PaymentMeansType)
+                           ? string.Empty
+                           : $"{PaymentMeansType}_AccountLabel".GetLocalizedConstant());
+            }
+            set { _accountLabelTranslated = value; }
+        }
+        private string _accountIdentifierLabelTranslated = null;
+        [ReadOnly(true)]
         public string AccountIdentifierLabelTranslated
-        { get; set; }
+        {
+            get
+            {
+                return _accountIdentifierLabelTranslated ?? (string.IsNullOrEmpty(PaymentMeansType)
+                           ? string.Empty
+                           : $"{PaymentMeansType}_AccountIdentifierLabel".GetLocalizedConstant());
+            }
+            set { _accountIdentifierLabelTranslated = value; }
+        }
     }
 }

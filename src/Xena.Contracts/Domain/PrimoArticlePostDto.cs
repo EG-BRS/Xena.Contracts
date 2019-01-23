@@ -1,4 +1,6 @@
-﻿namespace Xena.Contracts.Domain
+﻿using System.ComponentModel;
+
+namespace Xena.Contracts.Domain
 {
     public class PrimoArticlePostDto : EntityDto
     {
@@ -13,10 +15,21 @@
         public string ArticleVariantAbbreviation { get; set; }
         public string ArticleVariantDescription { get; set; }
         public string ArticleNumber { get; set; }
-        public string ArticleAbbreviation
-        { get; set; }
 
+        private string _articleAbbreviation = null;
+        [ReadOnly(true)]
+        public string ArticleAbbreviation
+        {
+            get { return _articleAbbreviation ?? (string.IsNullOrEmpty(ArticleVariantAbbreviation) ? ArticleNumber : string.Format("{0}-{1}", ArticleNumber, ArticleVariantAbbreviation)); }
+            set { _articleAbbreviation = value; }
+        }
+
+        private string _description = null;
+        [ReadOnly(true)]
         public string Description
-        { get; set; }
+        {
+            get { return _description ?? (string.IsNullOrEmpty(ArticleVariantDescription) ? ArticleDescription : string.Format("{0} - {1}", ArticleDescription, ArticleVariantDescription)); }
+            set { _description = value; }
+        }
     }
 }

@@ -10,6 +10,6 @@ namespace Xena.Contracts.Domain
         public int FiscalDate { get; set; }
         public decimal Saldo { get; set; }
         public long? OrderJournalId { get; set; }
-        public int InvoiceNumber { get; set; }
+        public int? InvoiceNumber { get; set; }
     }
 }

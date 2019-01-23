@@ -1,5 +1,7 @@
 using System.Collections.Generic;
-
+using System.ComponentModel;
+using Xena.Common.Constants;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Helpers
 {
@@ -7,7 +9,7 @@ namespace Xena.Contracts.Helpers
     {
         public VatSettlementPreviewData()
         {
-            VatSystem = Constants.VatSystems.Xena_VatSystem_Default;
+            VatSystem = VatSystems.Xena_VatSystem_Default;
         }
         public string VatSystem { get; set; }
         public IList<VatSettlementPostData> VatPosts { get; set; }
@@ -17,7 +19,7 @@ namespace Xena.Contracts.Helpers
     {
         public SettleVatData()
         {
-            VatSystem = Constants.VatSystems.Xena_VatSystem_Default;
+            VatSystem = VatSystems.Xena_VatSystem_Default;
         }
         public string VatSystem { get; set; }
         public int VatPeriodStart { get; set; }
@@ -32,8 +34,13 @@ namespace Xena.Contracts.Helpers
         public string LedgerTagDescription { get; set; }
         public decimal Primo { get; set; }
         public decimal Movement { get; set; }
+        private decimal? _total = null;
+        [ReadOnly(true)]
         public decimal Total
-        { get; set; }
+        {
+            get { return _total ?? (Primo + Movement); }
+            set { _total = value; }
+        }
     }
     public class VatSettlementPostData
     {
@@ -43,11 +50,25 @@ namespace Xena.Contracts.Helpers
         public decimal Movement { get; set; }
         public decimal Basis { get; set; }
 
+        private decimal? _total = null;
+        [ReadOnly(true)]
         public decimal Total
-        { get; set; }
+        {
+            get { return _total ?? (Primo + Movement); }
+            set { _total = value; }
+        }
 
         public string VatType { get; set; }
+        private string _vatTypeTranslated = null;
+        [ReadOnly(true)]
         public string VatTypeTranslated
-        { get; set; }
+        {
+            get
+            {
+                return _vatTypeTranslated ??
+                       (string.IsNullOrEmpty(VatType) ? string.Empty : VatType.GetLocalizedConstant());
+            }
+            set { _vatTypeTranslated = value; }
+        }
     }
 }

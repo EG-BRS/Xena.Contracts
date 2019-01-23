@@ -1,4 +1,5 @@
-﻿
+﻿using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -7,7 +8,16 @@ namespace Xena.Contracts.Domain
         public long? Id { get; set; }
         public int VoucherNumber { get; set; }
         public string PostType { get; set; }
+        private string _postTypeTranslated = null;
+        [ReadOnly(true)]
         public string PostTypeTranslated
-        { get; set; }
+        {
+            get
+            {
+                return _postTypeTranslated ??
+                       (string.IsNullOrEmpty(PostType) ? string.Empty : PostType.GetLocalizedConstant());
+            }
+            set { _postTypeTranslated = value; }
+        }
     }
 }

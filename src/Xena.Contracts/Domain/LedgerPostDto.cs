@@ -1,4 +1,5 @@
-﻿
+﻿using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -18,11 +19,40 @@ namespace Xena.Contracts.Domain
         public decimal CurrencyAmount { get; set; }
         public string CurrencyAbbreviation { get; set; }
         public int FiscalDateDays { get; set; }
+
+        private string _fiscalDateDaysFriendly;
+        [ReadOnly(true)]
         public string FiscalDateDaysFriendly
-        { get; set; }
+        {
+            get { return _fiscalDateDaysFriendly ?? FiscalDateDays.FriendlyString(); }
+            set { _fiscalDateDaysFriendly = value; }
+        }
+
+        private int? _registrationDateDays;
+        [ReadOnly(true)]
+        public int RegistrationDateDays
+        {
+            get { return _registrationDateDays ?? CreatedAt.DaysSince1970_01_01(); }
+            set { _registrationDateDays = value; }
+        }
+
+        private string _registrationDateDaysFriendly;
+        [ReadOnly(true)]
+        public string RegistrationDateDaysFriendly
+        {
+            get { return _registrationDateDaysFriendly ?? ((int?)RegistrationDateDays).FriendlyString(); }
+            set { _registrationDateDaysFriendly = value; }
+        }
+
         public string LedgerAccount { get; set; }
+
+        private string _ledgerAccountTranslated = null;
+        [ReadOnly(true)]
         public string LedgerAccountTranslated
-        { get; set; }
+        {
+            get { return _ledgerAccountTranslated ?? LedgerAccount.GetLocalizedConstant(); }
+            set { _ledgerAccountTranslated = value; }
+        }
         public long? LedgerTagId { get; set; }
         public int? LedgerTagNumber { get; set; }
         public string LedgerTagDescription { get; set; }
@@ -40,7 +70,7 @@ namespace Xena.Contracts.Domain
 
         public DimensionsDto Dimensions
         {
-            get { return _dimensions?? new DimensionsDto(); }
+            get { return _dimensions ?? (_dimensions = new DimensionsDto()); }
             set { _dimensions = value; }
         }
 
@@ -50,5 +80,6 @@ namespace Xena.Contracts.Domain
         public int? PartnerAccountNumber { get; set; }
         public decimal RunningTotal { get; set; }
         public long? BankSettlementId { get; set; }
+        public long? PrimoArticlePostId { get; set; }
     }
 }

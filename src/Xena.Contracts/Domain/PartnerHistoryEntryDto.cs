@@ -1,5 +1,5 @@
-﻿using System;
-
+﻿using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -11,6 +11,16 @@ namespace Xena.Contracts.Domain
         public string Description { get; set; }
         public string ResourceName { get; set; }
         public string EntryType { get; set; }
-        public string EntryTypeTranslated { get; set; }
+        private string _entryTypeTranslated = null;
+        [ReadOnly(true)]
+        public string EntryTypeTranslated
+        {
+            get
+            {
+                return _entryTypeTranslated ??
+                       (string.IsNullOrEmpty(EntryType) ? string.Empty : EntryType.GetLocalizedConstant());
+            }
+            set { _entryTypeTranslated = value; }
+        }
     }
 }

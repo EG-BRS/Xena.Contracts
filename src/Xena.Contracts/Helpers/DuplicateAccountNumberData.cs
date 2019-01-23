@@ -1,4 +1,6 @@
-
+using System.ComponentModel;
+using Xena.Common.Constants;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Helpers
 {
@@ -14,7 +16,28 @@ namespace Xena.Contracts.Helpers
         public string VatAbbreviation { get; set; }
         public string VatDescription { get; set; }
 
-        public string Description { get; set; }
+        private string _description = null;
+        [ReadOnly(true)]
+        public string Description
+        {
+            get
+            {
+                if (_description != null)
+                {
+                    return _description;
+                }
+
+                if (ArticleGroupId.HasValue)
+                    return string.Format(DuplicateAccountNumber.AccountNumberUsedByArticleGroup.GetLocalizedConstant(), AccountNumber, ArticleGroupDescription, ArticleGroupAccount);
+                if (LedgerTagId.HasValue)
+                    return string.Format(DuplicateAccountNumber.AccountNumberUsedByLedgerTag.GetLocalizedConstant(), AccountNumber, LedgerTagDescription);
+                if (VatId.HasValue)
+                    return string.Format(DuplicateAccountNumber.AccountNumberUsedByVat.GetLocalizedConstant(), AccountNumber, VatDescription);
+                return string.Empty;
+            }
+            set { _description = value; }
+
+        }
 
         public string LedgerAccount { get; set; }
     }

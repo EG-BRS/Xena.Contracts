@@ -1,4 +1,4 @@
-﻿
+﻿using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -20,14 +20,20 @@ namespace Xena.Contracts.Domain
 
         public string City { get; set; }
         public string CountryName { get; set; }
-
-        public string CountryDisplayName { get; set; }
-
         public string PlaceName { get; set; }
         public string Street { get; set; }
         public string Zip { get; set; }
         public string Name { get; set; }
+        //Convinience properties
+        public string Description => string.IsNullOrEmpty(Name)
+            ? $"{Street} - {Zip} {City}"
+            : $"{Name} - {Street}, {Zip} {City}";
 
-        public string Description { get; set; }
+        private string _countryDisplayName = null;
+        public string CountryDisplayName
+        {
+            get { return _countryDisplayName ?? CountryName.GetLocalizedCountryName(); }
+            set { _countryDisplayName = value; }
+        }
     }
 }

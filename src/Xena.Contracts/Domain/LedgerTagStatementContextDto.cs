@@ -1,4 +1,5 @@
-
+using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -24,7 +25,12 @@ namespace Xena.Contracts.Domain
         public int? LedgerTagNumber { get; set; }
         public string LedgerTagDescription { get; set; }
 
+        private string _ledgerAccountTranslated = null;
+        [ReadOnly(true)]
         public string LedgerAccountTranslated
-        { get; set; }
+        {
+            get { return _ledgerAccountTranslated ?? (string.IsNullOrEmpty(LedgerAccount) ? string.Empty : LedgerAccount.GetLocalizedConstant()); }
+            set { _ledgerAccountTranslated = value; }
+        }
     }
 }

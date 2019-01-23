@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using Xena.Contracts.Domain;
 
 namespace Xena.Contracts.Helpers
@@ -5,7 +6,7 @@ namespace Xena.Contracts.Helpers
     public class CalculatedArticleAvailabilityTotalDto : IHasIdDto
     {
         public long? Id { get; set; }
-        public long ArticleId { get; set; }
+        public long? ArticleId { get; set; }
         public string ArticleNumber { get; set; }
         public string ArticleDescription { get; set; }
         public long? ArticleVariantId { get; set; }
@@ -20,20 +21,40 @@ namespace Xena.Contracts.Helpers
         public decimal OpenPurchaseOrderQuantity { get; set; }
         public decimal ConfirmedPurchaseQuantity { get; set; }
         public decimal ConfirmedSalesQuantity { get; set; }
-        public string Abbreviation
-        { get; set; }
-        public decimal DisposableQuantity
-        { get; set; }
 
+        private string _abbreviation;
+        [ReadOnly(true)]
+        public string Abbreviation
+        {
+            get
+            {
+                return _abbreviation ?? (string.IsNullOrEmpty(ArticleVariantAbbreviation)
+                    ? ArticleNumber
+                    : $"{ArticleNumber}-{ArticleVariantAbbreviation}");
+            }
+            set { _abbreviation = value; }
+        }
+
+        private decimal? _disposableQuanity;
+        [ReadOnly(true)]
+        public decimal DisposableQuantity
+        {
+            get { return _disposableQuanity ?? AvailableQuantity - ConfirmedSalesQuantity + ConfirmedPurchaseQuantity; }
+            set { _disposableQuanity = value; }
+        }
+
+        private string _description;
+        [ReadOnly(true)]
         public string Description
         {
             get
             {
-                var disposableQuantity = ArticleHasInventoryManagement ? string.Format(" - {0}", DisposableQuantity.ToString("N2")) : string.Empty;
-                return string.IsNullOrEmpty(ArticleVariantAbbreviation) 
-                ? string.Format("{0} - {1}{2}", ArticleNumber, ArticleDescription, disposableQuantity)
-                : string.Format("{0} - {1}{2}", ArticleDescription, ArticleVariantAbbreviation, disposableQuantity);
+                var disposableQuantity = ArticleHasInventoryManagement ? $" - {DisposableQuantity:N2}" : string.Empty;
+                return _description ?? (string.IsNullOrEmpty(ArticleVariantAbbreviation)
+                           ? $"{ArticleNumber} - {ArticleDescription}{disposableQuantity}"
+                           : $"{ArticleDescription} - {ArticleVariantAbbreviation}{disposableQuantity}");
             }
+            set { _description = value; }
         }
         protected bool Equals(CalculatedArticleAvailabilityTotalDto other)
         {
@@ -44,7 +65,7 @@ namespace Xena.Contracts.Helpers
         {
             if (ReferenceEquals(null, obj)) return false;
             if (ReferenceEquals(this, obj)) return true;
-            if (obj.GetType() != this.GetType()) return false;
+            if (obj.GetType() != GetType()) return false;
             return Equals((CalculatedArticleAvailabilityTotalDto)obj);
         }
 

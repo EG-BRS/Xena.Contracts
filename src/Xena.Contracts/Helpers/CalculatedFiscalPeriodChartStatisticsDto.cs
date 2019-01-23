@@ -12,5 +12,8 @@ namespace Xena.Contracts.Helpers
         public decimal AccumulatedRevenue { get; set; }
         public int Month { get; set; }
         public int Year { get; set; }
+        public long? DepartmentId { get; set; }
+        public long? BearerId { get; set; }
+        public long? PurposeId { get; set; }
     }
 }

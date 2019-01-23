@@ -1,4 +1,5 @@
-
+using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -14,13 +15,27 @@ namespace Xena.Contracts.Domain
         public bool CanHavePosts { get; set; }
         public long? MappedLedgerTagId { get; set; }
         public long? MappedVatId { get; set; }
-        public string MappedLedgerTagDescription { get; set; }
         public int? MappedLedgerTagNumber { get; set; }
+
+        //Convinience properties
+        [ReadOnly(true)]
+        public string MappedLedgerTagDescription { get; set; }
+        [ReadOnly(true)]
         public string MappedVatAbbreviation { get; set; }
+        [ReadOnly(true)]
         public string MappedVatDescription { get; set; }
 
+        private string _ledgerAccountTranslated = null;
+        [ReadOnly(true)]
         public string LedgerAccountTranslated
-        { get; set; }
-
+        {
+            get
+            {
+                return _ledgerAccountTranslated ?? (string.IsNullOrEmpty(LedgerAccount)
+                           ? string.Empty
+                           : LedgerAccount.GetLocalizedConstant());
+            }
+            set { _ledgerAccountTranslated = value; }
+        }
     }
 }

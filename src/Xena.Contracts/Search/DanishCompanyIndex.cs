@@ -1,4 +1,6 @@
-﻿namespace Xena.Contracts.Search
+﻿using System.ComponentModel;
+
+namespace Xena.Contracts.Search
 {
     public class DanishCompanyIndex
     {
@@ -11,6 +13,12 @@
         public string CVRNumber { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
-        public string Id { get; set; }
+        private string _id = null;
+        [ReadOnly(true)]
+        public string Id
+        {
+            get { return _id ?? CVRNumber; }
+            set { _id = value; }
+        }
     }
 }

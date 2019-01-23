@@ -1,11 +1,11 @@
 using System;
+using System.ComponentModel;
 using Xena.Contracts.Domain;
 
 namespace Xena.Contracts.Helpers
 {
     public class ArticleReplenishmentDto : IHasIdDto
     {
-        private decimal? _orderLineAmount;
         public long? Id { get; set; }
         public long ArticleId { get; set; }
         public string ArticleDescription { get; set; }
@@ -23,7 +23,10 @@ namespace Xena.Contracts.Helpers
         public decimal PurchaseDraftQuantity { get; set; }
         public long FiscalSetupId { get; set; }
         public long? SupplierId { get; set; }
-        public int? SupplierAccountNumber { get; set; }
+        public int? SupplierAccountNumber { get; set; } 
+
+        private decimal? _orderLineAmount;
+        [ReadOnly(true)]
         public decimal OrderLineAmount
         {
             get { return _orderLineAmount ?? Math.Max(Math.Ceiling((MaximumStock - AvailableQuantity - ConfirmedPurchaseQuantity + ConfirmedSalesQuantity - PurchaseDraftQuantity - AddedToPurchaseDraft) / DefaultPurchasingQuantity), 0) * DefaultPurchasingQuantity;}
@@ -31,6 +34,12 @@ namespace Xena.Contracts.Helpers
         }
         public long? UnitId { get; set; }
 
-        public string ArticleShortDescription { get; set; }
+        private string _articleShortDescription;
+        [ReadOnly(true)]
+        public string ArticleShortDescription
+        {
+            get { return _articleShortDescription ??  $"{ArticleNumber} - {ArticleDescription}"; }
+            set { _articleShortDescription = value; }
+        }
     }
 }

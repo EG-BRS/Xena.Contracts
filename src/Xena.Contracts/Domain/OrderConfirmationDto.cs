@@ -1,4 +1,5 @@
-
+using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -7,14 +8,12 @@ namespace Xena.Contracts.Domain
         public TotalsDto Totals { get; set; }
         public long? OrderId { get; set; }
         public int ConfirmationDateDays { get; set; }
+        private string _confirmationDateDaysFriendly = null;
+        [ReadOnly(true)]
         public string ConfirmationDateDaysFriendly
         {
-#if false
-            get { return ConfirmationDateDays.FriendlyString(); }
-#else
-            get; set;
-#endif
-
+            get { return _confirmationDateDaysFriendly ?? ConfirmationDateDays.FriendlyString(); }
+            set { _confirmationDateDaysFriendly = value; }
         }
         public long ReportLayoutId { get; set; }
         public int ConfirmationNumber { get; set; }

@@ -15,5 +15,7 @@ namespace Xena.Contracts.Domain
         public string ArticleDescription { get; set; }
         public long? ArticleGroupId { get; set; }
         public string ArticleGroupDescription { get; set; }
+        public bool IsBookkeeping { get; set; }
+        public bool LinesAreCreated { get; set; }
     }
 }
