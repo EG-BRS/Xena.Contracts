@@ -1,4 +1,6 @@
 
+using System.ComponentModel;
+
 namespace Xena.Contracts.Domain
 {
     public class OrderLineBundleItemDto : EntityDto
@@ -14,9 +16,20 @@ namespace Xena.Contracts.Domain
         public string ArticleVariantAbbreviation { get; set; }
         public long? LocationId { get; set; }
         public string LocationAbbreviation { get; set; }
+        [ReadOnly(true)]
+        public string ArticleInternalNote { get; set; }
+        private string _articleAbbreviation = null;
+        [ReadOnly(true)]
         public string ArticleAbbreviation
-        { get; set; }
-
+        {
+            get
+            {
+                return _articleAbbreviation ?? (string.IsNullOrEmpty(ArticleVariantAbbreviation)
+                           ? ArticleNumber
+                           : $"{ArticleNumber}-{ArticleVariantAbbreviation}");
+            }
+            set { _articleAbbreviation = value; }
+        }
         public bool IsConfirmed { get; set; }
         public bool IsDelivered { get; set; }
         public string ContextType { get; set; }

@@ -1,4 +1,5 @@
-
+using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -11,8 +12,16 @@ namespace Xena.Contracts.Domain
         public virtual string ContextType { get; set; }
         public long? Id { get; set; }
         public string ReportLayoutName { get; set; }
-
+        private string _contextTypeTranslated = null;
+        [ReadOnly(true)]
         public string ContextTypeTranslated
-        { get; set; }
+        {
+            get
+            {
+                return _contextTypeTranslated ??
+                       (string.IsNullOrEmpty(ContextType) ? string.Empty : ContextType.GetLocalizedConstant());
+            }
+            set { _contextTypeTranslated = value; }
+        }
     }
 }

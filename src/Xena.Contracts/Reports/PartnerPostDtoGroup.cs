@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using Xena.Contracts.Domain;
 
@@ -11,7 +12,12 @@ namespace Xena.Contracts.Reports
         public List<PartnerPostDto> PartnerPosts { get; set; }
         public decimal StartingTotal { get; set; }
 
+        private decimal? _endTotal = null;
+        [ReadOnly(true)]
         public decimal EndTotal
-        { get; set; }
+        {
+            get { return _endTotal ?? (StartingTotal + PartnerPosts.Sum(pp => pp.Amount)); }
+            set { _endTotal = value; }
+        }
     }
 }

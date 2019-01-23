@@ -23,5 +23,6 @@ namespace Xena.Contracts.Search
         public IList<string> TelephoneNumbersStripped { get; set; }
         public IList<string> Emails { get; set; }
         public IList<string> EmailNames { get; set; }
+        public IList<object> MetaData { get; set; }
     }
 }

@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace Xena.Contracts.Helpers
 {
     public class OrderDeliveryLineData
@@ -6,8 +8,18 @@ namespace Xena.Contracts.Helpers
         public string Description { get; set; }
         public long? ArticleId { get; set; }
         public string ArticleNumber { get; set; }
+        private string _articleAbbreviation = null;
+        [ReadOnly(true)]
         public string ArticleAbbreviation
-        { get; set; }
+        {
+            get
+            {
+                return _articleAbbreviation ?? (string.IsNullOrEmpty(ArticleVariantAbbreviation)
+                           ? ArticleNumber
+                           : string.Format("{0}-{1}", ArticleNumber, ArticleVariantAbbreviation));
+            }
+            set { _articleAbbreviation = value; }
+        }
         public long? ArticleVariantId { get; set; }
         public string ArticleVariantAbbreviation { get; set; }
         public long? UnitId { get; set; }

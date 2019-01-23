@@ -9,4 +9,5 @@ namespace Xena.Contracts.Helpers
         public string Description { get; set; }
         public IEnumerable<long?> Apps { get; set; }
     }
+
 }

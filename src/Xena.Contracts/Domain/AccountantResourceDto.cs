@@ -1,6 +1,5 @@
-using System;
-using System.Linq;
-
+using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -10,9 +9,22 @@ namespace Xena.Contracts.Domain
         public long PartnerId { get; set; }
         public AddressDto Address { get; set; }
         public string SecurityGroup { get; set; }
+        public long? AccountantDepartmentId { get; set; }
+        //Convinience properties
+        private string _securityGroupTranslated = null;
+        [ReadOnly(true)]
         public string SecurityGroupTranslated
-        { get; set; }
-        public long? AccountantDepartmentId { get; set; }  
-        public string AccountantDepartmentDescription { get; set; }  
+        {
+            get
+            {
+                return _securityGroupTranslated ?? (string.IsNullOrEmpty(SecurityGroup)
+                           ? string.Empty
+                           : SecurityGroup.GetLocalizedUserGroup());
+            }
+            set { _securityGroupTranslated = value; }
+        }
+
+        [ReadOnly(true)]
+        public string AccountantDepartmentDescription { get;  set; }  
     }
 }

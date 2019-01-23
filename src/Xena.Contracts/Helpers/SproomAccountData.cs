@@ -5,5 +5,6 @@ namespace Xena.Contracts.Helpers
         public string RecipientAddressType { get; set; }
         public string RecipientAddress { get; set; }
         public string Email { get; set; }
+        public string AgreementNumber { get; set; }
     }
 }

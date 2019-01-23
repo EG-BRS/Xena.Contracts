@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
-
-
+using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
+using Xena.Common.Constants;
 
 namespace Xena.Contracts.Domain
 {
@@ -29,11 +29,11 @@ namespace Xena.Contracts.Domain
         public string DeliveryReportLayoutName { get; set; }
         public string InvoiceReportLayoutName { get; set; }
         public string ConfirmationReportLayoutName { get; set; }
-
+        public string GLNNumber { get; set; }
         public string InternalNote
         {
-            get { return _internalNote??string.Empty; }
-            set { _internalNote = value; }
+            get => _internalNote ?? string.Empty;
+            set => _internalNote = value;
         }
 
         public TermsOfPaymentDto TermsOfPayment { get; set; }
@@ -42,7 +42,7 @@ namespace Xena.Contracts.Domain
         public long? ResponsibleId { get; set; }
         public string ResponsibleName { get; set; }
         public string InvoiceEmail { get; set; }
-        public string PartnerAccountNumber { get; set; }
+        public int? PartnerAccountNumber { get; set; }
         public string PartnerName { get; set; }
         public string PartnerNote { get; set; }
         public string PartnerPhoneNumber { get; set; }
@@ -50,8 +50,8 @@ namespace Xena.Contracts.Domain
 
         public OrderSummaryDto Summary
         {
-            get { return _summary??new OrderSummaryDto(); }
-            set { _summary = value; }
+            get => _summary ?? (_summary = new OrderSummaryDto());
+            set => _summary = value;
         }
 
         public IList<int> OrderInvoiceNumbers { get; set; }
@@ -68,8 +68,27 @@ namespace Xena.Contracts.Domain
         public string ProjectDescription { get; set; }
         public int? ProjectNumber { get; set; }
 
-        public string OrderDeliveryStatus { get; set; }
-        public string CultureDisplayName { get; set; }
-
+        public string OrderDeliveryStatus
+        {
+            get => _orderDeliveryStatus ?? SalesOrderDeliveryStatus.NotApplicable;
+            set => _orderDeliveryStatus = value;
+        }
+        private string _cultureDisplayName = null;
+        [ReadOnly(true)]
+        public string CultureDisplayName
+        {
+            get
+            {
+                return _cultureDisplayName ??
+                       (string.IsNullOrEmpty(Culture) ? string.Empty : Culture.GetLocalizedCultureName());
+            }
+            set { _cultureDisplayName = value; }
+        }
+         
+        [ReadOnly(true)]
+        public int? LastInvoicedDateDays { get; set; }
+        public int? SupplierInvoiceDateDays { get; set; }
+        public string SupplierInvoiceNumber { get; set; }
+        public string SupplierPaymentId { get; set; }
     }
 }

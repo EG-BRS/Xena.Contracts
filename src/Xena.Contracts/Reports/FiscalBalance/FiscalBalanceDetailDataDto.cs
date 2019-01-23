@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace Xena.Contracts.Reports.FiscalBalance
 {
     /// <summary>
@@ -5,7 +7,15 @@ namespace Xena.Contracts.Reports.FiscalBalance
     /// </summary>
     public class FiscalBalanceDetailDataDto
     {
-        public string Description { get; set; }
+        public int? AccountNumber { get; set; }
+        public string AccountDescription { get; set; }
+        private string _description = null;
+        [ReadOnly(true)]
+        public string Description
+        {
+            get { return _description ?? (AccountNumber.HasValue ? $"{AccountNumber} {AccountDescription}" : AccountDescription); }
+            set { _description = value; }
+        }
         public decimal AmountMonth { get; set; }
         public decimal AmountYearToDate { get; set; }
         public decimal AmountMonthPreviousYear { get; set; }

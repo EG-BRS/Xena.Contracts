@@ -1,4 +1,6 @@
-﻿namespace Xena.Contracts.Search
+﻿using System.Collections.Generic;
+
+namespace Xena.Contracts.Search
 {
     public class LedgerTagSearchIndex
     {
@@ -8,5 +10,6 @@
         public string NumberRaw { get; set; }
         public string Description { get; set; }
         public string LedgerAccount { get; set; }
+        public IList<object> MetaData { get; set; }
     }
 }

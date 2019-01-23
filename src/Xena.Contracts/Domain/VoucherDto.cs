@@ -1,4 +1,5 @@
-﻿
+﻿using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -7,12 +8,16 @@ namespace Xena.Contracts.Domain
         public long FiscalPeriodId { get; set; }
         public int VoucherNumber { get; set; }
         public string Description { get; set; }
-        public string CreatedByName { get; set; }
+        public long? ResponsibleId { get; set; }
+        public string ResponsibleName { get; set; }
         public int FiscalDateDays { get; set; }
-
+        private string _fiscalDateDaysFriendly = null;
+        [ReadOnly(true)]
         public string FiscalDateDaysFriendly
-        { get; set; }
-
+        {
+            get { return _fiscalDateDaysFriendly ?? FiscalDateDays.FriendlyString(); }
+            set { _fiscalDateDaysFriendly = value; }
+        }
         public decimal DebetAmount { get; set; }
         public decimal CreditAmount { get; set; }
         public long? FirstDocumentId { get; set; }

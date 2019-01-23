@@ -7,14 +7,14 @@ namespace Xena.Contracts.Domain
 
         public TotalsDto Totals
         {
-            get { return _totals??new TotalsDto(); }
-            set { _totals = value; }
+            get => _totals ?? (_totals = new TotalsDto());
+            set => _totals = value;
         }
 
         public TotalsDto NotInvoicedTotals
         {
-            get { return _notInvoicedTotals??new TotalsDto(); }
-            set { _notInvoicedTotals = value; }
+            get => _notInvoicedTotals ?? (_notInvoicedTotals = new TotalsDto());
+            set => _notInvoicedTotals = value;
         }
 
         public bool IsFullyInvoiced { get; set; }

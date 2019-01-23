@@ -1,4 +1,4 @@
-
+using System.ComponentModel;
 
 namespace Xena.Contracts.Helpers
 {
@@ -18,6 +18,13 @@ namespace Xena.Contracts.Helpers
         public long? WarehouseId { get; set; }
         public string WarehouseDescription { get; set; }
         public string LocationAbbreviation { get; set; }
-        public decimal? TotalStockValue { get; set; }
+
+        private decimal? _totalStockValue;
+        [ReadOnly(true)]
+        public decimal? TotalStockValue
+        {
+            get { return _totalStockValue ?? AvailableQuantity * AverageCostPrice; }
+            set { _totalStockValue = value; }
+        }
     }
 }

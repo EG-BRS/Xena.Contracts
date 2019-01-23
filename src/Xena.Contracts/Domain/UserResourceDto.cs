@@ -7,5 +7,6 @@
         public long? UserId { get; set; }
         public string Name { get; set; }
         public string Alias { get; set; }
+        public string Theme { get; set; }
     }
 }

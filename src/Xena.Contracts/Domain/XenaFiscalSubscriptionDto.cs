@@ -1,4 +1,5 @@
-﻿
+﻿using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -15,9 +16,33 @@ namespace Xena.Contracts.Domain
         public int Interval { get; set; }
         public long? SubscriptionTicketId { get; set; }
         public string CurrencyAbbreviation { get; set; }
-        public string NextRunDateDaysFriendly { get; set; }
-        public string IntervalTypeFriendly { get; set; }
-        public string IntervalDescription { get; set; }
-        public decimal Total { get; set; }
+        private string _nextRunDateDaysFriendly = null;
+        [ReadOnly(true)]
+        public string NextRunDateDaysFriendly
+        {
+            get { return _nextRunDateDaysFriendly ?? NextRunDateDays.FriendlyString(); }
+            set { _nextRunDateDaysFriendly = value; }
+        }
+        private string _intervalTypeFriendly = null;
+        [ReadOnly(true)]
+        public string IntervalTypeFriendly
+        {
+            get { return _intervalTypeFriendly ?? IntervalType.GetLocalizedIntervalType(Interval); }
+            set { _intervalTypeFriendly = value; }
+        }
+        private string _intervalDescription = null;
+        [ReadOnly(true)]
+        public string IntervalDescription
+        {
+            get { return _intervalDescription ?? (Interval + " " + IntervalType.GetLocalizedIntervalType(Interval)); }
+            set { _intervalDescription = value; }
+        }
+        private decimal? _total = null;
+        [ReadOnly(true)]
+        public decimal Total
+        {
+            get { return _total ?? (PriceNettTotal + VatEstTotal); }
+            set { _total = value; }
+        }
     }
 }

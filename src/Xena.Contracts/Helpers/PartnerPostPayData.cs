@@ -8,5 +8,6 @@ namespace Xena.Contracts.Helpers
         public long[] PartnerPostIds { get; set; }
         public string CurrencyAbbreviation { get; set; }
         public int? PayDate { get; set; }
+        public long PartialSettleId { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-
+using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -20,7 +21,29 @@ namespace Xena.Contracts.Domain
         public string WarehouseDimension5Description { get; set; }
         public string LocationType { get; set; }
         public int? LastCountedDays { get; set; }
-        public string LocationTypeTranslated { get; set; }
-        public string LastCountedDaysFriendly { get; set; }
+        private string _locationTypeTranslated = null;
+        [ReadOnly(true)]
+        public string LocationTypeTranslated
+        {
+            get
+            {
+                return _locationTypeTranslated ?? (string.IsNullOrEmpty(LocationType)
+                           ? string.Empty
+                           : LocationType.GetLocalizedConstant());
+            }
+            set { _locationTypeTranslated = value; }
+        }
+
+        private string _lastCountedDaysFriendly = null;
+        [ReadOnly(true)]
+        public string LastCountedDaysFriendly
+        {
+            get
+            {
+                return _lastCountedDaysFriendly ??
+                       (LastCountedDays.HasValue ? LastCountedDays.Value.FriendlyString() : string.Empty);
+            }
+            set { _lastCountedDaysFriendly = value; }
+        }
     }
 }

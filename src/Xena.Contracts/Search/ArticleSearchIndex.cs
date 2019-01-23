@@ -1,4 +1,6 @@
-﻿namespace Xena.Contracts.Search
+﻿using System.Collections.Generic;
+
+namespace Xena.Contracts.Search
 {
     public class ArticleSearchIndex
     {
@@ -8,5 +10,6 @@
         public string GroupDescription { get; set; }
         public long FiscalSetupId { get; set; }
         public string ArticleNumberRaw { get; set; }
+        public IList<object> MetaData { get; set; }
     }
 }

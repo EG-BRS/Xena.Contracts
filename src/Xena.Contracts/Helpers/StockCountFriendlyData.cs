@@ -1,3 +1,5 @@
+using Xena.Common.ExtensionMethods;
+
 namespace Xena.Contracts.Helpers
 {
     public class StockCountFriendlyData
@@ -10,13 +12,5 @@ namespace Xena.Contracts.Helpers
         public decimal Quantity_Translated { get; set; }
         public decimal QuantityReserved_Translated { get; set; }
         public decimal? QuantityCounted_Translated { get; set; }
-    }
-
-    public class StockCountProblemData
-    {
-        public long Id { get; set; }
-        public decimal OriginallyQuantity { get; set; }
-        public decimal OriginallyQuantityReserved { get; set; }
-        public decimal CurrentQuantity { get; set; }
     }
 }

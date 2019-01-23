@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using Xena.Contracts.Domain;
 
 namespace Xena.Contracts.Helpers
@@ -19,6 +20,12 @@ namespace Xena.Contracts.Helpers
         public long? MoveFromLocationId { get; set; }
         public string MoveFromLocationAbbreviation { get; set; }
         public long FiscalSetupId { get; set; }
-        public string ArticleShortDescription { get; set; }
+        private string _articleShortDescription = null;
+        [ReadOnly(true)]
+        public string ArticleShortDescription
+        {
+            get { return _articleShortDescription ?? $"{ArticleNumber} - {ArticleDescription}"; }
+            set { _articleShortDescription = value; }
+        }
     }
 }

@@ -1,8 +1,16 @@
-﻿namespace Xena.Contracts.Search
+﻿using System.ComponentModel;
+
+namespace Xena.Contracts.Search
 {
     public class AppData
     {
-        public string Id { get; set; }
+        private string _id = null;
+        [ReadOnly(true)]
+        public string Id
+        {
+            get { return _id ?? $"{XenaAppId}_{FiscalSetupId}_{EntityType}_{EntityId}"; }
+            set { _id = value; }
+        }
         public long XenaAppId { get; set; }
         public long FiscalSetupId { get; set; }
         public string EntityType { get; set; }
@@ -18,7 +26,7 @@
         {
             if (ReferenceEquals(null, obj)) return false;
             if (ReferenceEquals(this, obj)) return true;
-            if (obj.GetType() != this.GetType()) return false;
+            if (obj.GetType() != GetType()) return false;
             return Equals((AppData) obj);
         }
 
