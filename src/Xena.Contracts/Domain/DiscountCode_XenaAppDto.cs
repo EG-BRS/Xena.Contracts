@@ -18,7 +18,8 @@ namespace Xena.Contracts.Domain
 
         public long? AppId { get; set; }
 
-        public int ExpirationDateDays { get; protected set; }
+        [ReadOnly(true)]
+        public int ExpirationDateDays { get; set; }
         private string _expirationDateDaysFriendly;
         [ReadOnly(true)]
         public string ExpirationDateDaysFriendly
