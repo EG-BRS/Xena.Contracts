@@ -1,9 +1,13 @@
+using System.ComponentModel;
+
 namespace Xena.Contracts.Domain
 {
     public class XenaProviderReleaseNotesLinkDto : IHasIdDto
     {
-        public long? Id { get; protected set; }
-        public long ProviderId { get; protected set; }
+        [ReadOnly(true)]
+        public long? Id { get; set; }
+        [ReadOnly(true)]
+        public long ProviderId { get; set; }
         public string Culture { get; set; }
         public string Uri { get; set; }
     }
