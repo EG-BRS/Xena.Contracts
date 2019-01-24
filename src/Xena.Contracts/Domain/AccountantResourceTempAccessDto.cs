@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace Xena.Contracts.Domain
 {
     public class AccountantResourceTempAccessDto : FiscalDto, IHasIdDto
@@ -6,7 +8,9 @@ namespace Xena.Contracts.Domain
         public long ClientId { get; set; }
         public long? Id { get; set; }
         //Convinience properties
-        public string AccountantName { get; protected set; }
-        public string ClientName { get; protected set; }
+        [ReadOnly(true)]
+        public string AccountantName { get; set; }
+        [ReadOnly(true)]
+        public string ClientName { get; set; }
     }
 }
