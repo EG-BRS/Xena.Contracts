@@ -39,8 +39,8 @@ namespace Xena.Contracts.Domain
 
                 if (SettlementId.HasValue)
                     return SubscriptionInvoiceStates.Paid;
-                return OrderInvoiceTransactionId.HasValue 
-                    ? SubscriptionInvoiceStates.Invoiced 
+                return OrderInvoiceTransactionId.HasValue
+                    ? SubscriptionInvoiceStates.Invoiced
                     : SubscriptionInvoiceStates.Open;
             }
             set { _state = value; }

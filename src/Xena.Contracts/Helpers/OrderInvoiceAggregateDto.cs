@@ -4,7 +4,7 @@ using Xena.Contracts.Domain;
 
 namespace Xena.Contracts.Helpers
 {
-    public class OrderInvoiceAggregateDto:IHasIdDto
+    public class OrderInvoiceAggregateDto : IHasIdDto
     {
         public long? Id { get; set; }
         public string ContextType { get; set; }
@@ -23,6 +23,7 @@ namespace Xena.Contracts.Helpers
 
         public long? OrderId { get; set; }
         public AddressDto OrderAddress { get; set; }
+        public AddressDto OrderDeliveryAddress { get; set; }
         public long? PartnerId { get; set; }
         public string PartnerName { get; set; }
         public string CurrencyAbbreviation { get; set; }
