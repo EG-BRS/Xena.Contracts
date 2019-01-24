@@ -12,11 +12,11 @@
     <DocumentationFile>Xena.Contracts.xml</DocumentationFile>
   </PropertyGroup>
 
-  <ItemGroup Condition="!(Exists('..\..\..\Xena.Common\src\Xena.Common\Xena.Common.csproj') And Exists('..\..\..\Xena.sln'))">
+  <ItemGroup Condition="$(DefineConstants.Contains(BuildUsingXenaNuGetPackages)) Or !(Exists('..\..\..\Xena.Common\src\Xena.Common\Xena.Common.csproj') And Exists('..\..\..\Xena.sln'))">
     <PackageReference Include="Xena.Common" Version="1.0.1" />
   </ItemGroup>
 
-  <ItemGroup Condition="(Exists('..\..\..\Xena.Common\src\Xena.Common\Xena.Common.csproj') And Exists('..\..\..\Xena.sln'))">
+  <ItemGroup Condition="!$(DefineConstants.Contains(BuildUsingXenaNuGetPackages)) And Exists('..\..\..\Xena.Common\src\Xena.Common\Xena.Common.csproj') And Exists('..\..\..\Xena.sln')">
     <ProjectReference Include="..\..\..\Xena.Common\src\Xena.Common\Xena.Common.csproj" />
   </ItemGroup>
 
