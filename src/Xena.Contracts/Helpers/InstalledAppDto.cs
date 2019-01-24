@@ -6,12 +6,18 @@ namespace Xena.Contracts.Helpers
 {
     public class InstalledAppDto : IHasIdDto
     {
-        public long? Id { get; protected set; }
-        public long AppId { get; protected set; }
-        public long ResourceId { get; protected set; }
-        public string Name { get; protected set; }
-        public string Description { get; protected set; }
-        public string ApplicationVisibility { get; protected set; }
+        [ReadOnly(true)]
+        public long? Id { get; set; }
+        [ReadOnly(true)]
+        public long AppId { get; set; }
+        [ReadOnly(true)]
+        public long ResourceId { get; set; }
+        [ReadOnly(true)]
+        public string Name { get; set; }
+        [ReadOnly(true)]
+        public string Description { get; set; }
+        [ReadOnly(true)]
+        public string ApplicationVisibility { get; set; }
 
         private string _applicationVisibilityTranslated = null;
         [ReadOnly(true)]

@@ -3,11 +3,12 @@ using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
-    public class OrderOfferDto:TransactionalDto
+    public class OrderOfferDto : TransactionalDto
     {
         public TotalsDto Totals { get; set; }
         public long? OrderId { get; set; }
         public AddressDto OrderAddress { get; set; }
+        public AddressDto OrderDeliveryAddress { get; set; }
         public int OfferDateDays { get; set; }
         public long ReportLayoutId { get; set; }
         public string OfferNumber { get; set; }

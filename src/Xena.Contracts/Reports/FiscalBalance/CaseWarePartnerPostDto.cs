@@ -1,6 +1,5 @@
 using System.ComponentModel;
 using Xena.Common.ExtensionMethods;
-using Xena.Common.ExtensionMethods;
 using Xena.Contracts.Domain;
 
 namespace Xena.Contracts.Reports.FiscalBalance
