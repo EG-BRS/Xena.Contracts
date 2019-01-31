@@ -24,6 +24,14 @@ namespace Xena.Contracts.Domain
         public string SupplierInvoiceNumber { get; set; }
         public decimal RunningTotal { get; set; }
         public decimal Amount { get; set; }
+        public decimal? SettledAmount { get; set; }
+
+        public decimal RemainingAmount
+        {
+            get => _remainingAmount ?? Amount - (SettledAmount ?? decimal.Zero);
+            set => _remainingAmount = value;
+        }
+
         public string CurrencyAbbreviation { get; set; }
         public decimal CurrencyAmount { get; set; }
         public int DueDateDays { get; set; }
@@ -54,6 +62,8 @@ namespace Xena.Contracts.Domain
             set { _fiscalDateDaysFriendly = value; }
         }
         private string _postTypeTranslated = null;
+        private decimal? _remainingAmount;
+
         [ReadOnly(true)]
         public string PostTypeTranslated
         {
