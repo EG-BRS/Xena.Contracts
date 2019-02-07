@@ -120,7 +120,7 @@ node {
 				docker.image(dotnetDockerImage).inside('-e "HOME=/tmp"') {
 					sh"""#!/bin/bash -xe
 						rm -rf ./nugetPackage
-						dotnet pack ${csprojFilename} -c Release -o nugetPackage -p:PackageVersion=${packageVersionFull}
+						dotnet pack ${csprojFilename} -c Release -o nugetPackage -p:PackageVersion=${packageVersionFull} --no-restore --no-build
 						cd nugetPackage/
 						{ 
 							dotnet nuget push ${utilityName}.${packageVersion}.nupkg --source ${nugetPrivateSource} --api-key ${PRIVATE_APIKEY}
