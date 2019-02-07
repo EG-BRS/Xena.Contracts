@@ -9,5 +9,7 @@ namespace Xena.Contracts.Helpers
         public bool? IsAtWork { get; set; }
         public bool? IsBillable { get; set; }
         public long? ReportLayoutId { get; set; }
+        public long? OrderId { get; set; }
+        public long[] OrderTaskIds { get; set; }
     }
 }
