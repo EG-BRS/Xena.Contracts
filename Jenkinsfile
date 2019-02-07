@@ -128,7 +128,7 @@ node {
 							echo -e "Package version already exists in ${nugetPrivateSource}. Please check git tags and .csproj file"
 						}
 					"""
-					if (env.BRANCH_NAME == "master") {
+					if (env.BRANCH_NAME == "master" && nugetPublicSource != "" && nugetPublicSourceCredentialsId != "") {
 						withCredentials([string(credentialsId: nugetPublicSourceCredentialsId, variable: 'PUBLIC_APIKEY')]) {
 							sh"""#!/bin/bash -xe
 								cd nugetPackage/
