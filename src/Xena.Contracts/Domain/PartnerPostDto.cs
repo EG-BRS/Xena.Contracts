@@ -9,11 +9,7 @@ namespace Xena.Contracts.Domain
         public long PartnerPostId { get; set; }
         public long PartialSettlementId { get; set; }
         public decimal AmountSettled { get; set; }
-        public int Date { get; set; }
-        public string LedgerTagNumber { get; set; }
-        public string Description { get; set; }
-        public long VoucherId { get; set; }
-        public int VoucherNumber { get; set; }
+        public int FiscalDateDays { get; set; }
         public decimal Saldo { get; set; }
     }
     public class PartialSettlementDto : EntityDto
@@ -24,6 +20,14 @@ namespace Xena.Contracts.Domain
         public string SupplierInvoiceNumber { get; set; }
         public decimal RunningTotal { get; set; }
         public decimal Amount { get; set; }
+        public decimal? SettledAmount { get; set; }
+
+        public decimal RemainingAmount
+        {
+            get => _remainingAmount ?? Amount - (SettledAmount ?? decimal.Zero);
+            set => _remainingAmount = value;
+        }
+
         public string CurrencyAbbreviation { get; set; }
         public decimal CurrencyAmount { get; set; }
         public int DueDateDays { get; set; }
@@ -54,6 +58,8 @@ namespace Xena.Contracts.Domain
             set { _fiscalDateDaysFriendly = value; }
         }
         private string _postTypeTranslated = null;
+        private decimal? _remainingAmount;
+
         [ReadOnly(true)]
         public string PostTypeTranslated
         {
