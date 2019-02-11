@@ -28,6 +28,7 @@ namespace Xena.Contracts.Domain
         public long? PartnerId { get; set; }
         public long? CostTypeId { get; set; }
         public long? OrderTaskId { get; set; }
+        public long? PartiallySettledPostId { get; set; }
         public decimal? VatDeductionPercentage { get; set; }
         public string PaymentIdentification { get; set; }
         public IList<SettledPartnerPostDto> SettledPartnerPosts { get; set; }

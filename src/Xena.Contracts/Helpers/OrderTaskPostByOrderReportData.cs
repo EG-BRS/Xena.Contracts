@@ -8,6 +8,7 @@ namespace Xena.Contracts.Helpers
         public long? ResponsibleId { get; set; }
         public long? ResourceId { get; set; }
         public long? CostTypeId { get; set; }
+        public long? OrderId { get; set; }
         public long? OrderTaskId { get; set; }
         public long? OrderTaskStatusId { get; set; }
         public bool LimitToProject { get; set; }
