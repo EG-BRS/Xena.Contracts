@@ -8,7 +8,7 @@ namespace Xena.Contracts.Helpers
         public long ArticleId { get; set; }
         public string ArticleNumber { get; set; }
         public string ArticleDescription { get; set; }
-        public long ArticleGroupId { get; set; }
+        public long? ArticleGroupId { get; set; }
         public string ArticleGroupDescription { get; set; }
         public long FiscalSetupId { get; set; }
         public decimal AvailableQuantity { get; set; }
