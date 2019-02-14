@@ -25,7 +25,6 @@ namespace Xena.Contracts.Domain
         [Required]
         public string Description { get; set; }
         public OrderSetupDto SalesSetup { get; set; }
-        [Required]
         public long? GroupId { get; set; }
         public long? PartnerSupplierContextId { get; set; }
         public long? SupplierId { get; set; }
