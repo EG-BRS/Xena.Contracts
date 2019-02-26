@@ -2,7 +2,7 @@
 {
     public class PaymentData
     {
-        public long[] PartnerPostIds { get; set; }
+        public PaymentDetailData[] Details { get; set; }
         public long ContextId { get; set; }
     }
 }
