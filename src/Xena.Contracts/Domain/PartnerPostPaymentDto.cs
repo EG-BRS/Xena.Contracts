@@ -5,5 +5,6 @@ namespace Xena.Contracts.Domain
         public PartnerPostDto PartnerPost { get; set; }
         public decimal AmountPaid { get; set; }
         public long? Id { get; set; }
+        public long PaymentExportedId { get; set; }
     }
 }
