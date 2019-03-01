@@ -42,8 +42,6 @@ namespace Xena.Contracts.Domain
         [ReadOnly(true)]
         public long EconomicTransactionId { get; set; }
         [ReadOnly(true)]
-        public long? PaymentExportedId { get; set; }
-        [ReadOnly(true)]
         public long? SettlementId { get; set; }
         [ReadOnly(true)]
         public string PaymentIdentification { get; set; }
