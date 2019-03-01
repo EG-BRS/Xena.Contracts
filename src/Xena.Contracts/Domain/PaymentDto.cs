@@ -12,6 +12,8 @@ namespace Xena.Contracts.Domain
         [ReadOnly(true)]
         public decimal? SettledAmount { get; set; }
         [ReadOnly(true)]
+        public decimal? PaidAmount { get; set; }
+        [ReadOnly(true)]
         public decimal Amount { get; set; }
         [ReadOnly(true)]
         public decimal RemainingAmount
