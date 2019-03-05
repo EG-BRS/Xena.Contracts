@@ -15,7 +15,5 @@ namespace Xena.Contracts.Domain
         public decimal Amount { get; set; }
         [ReadOnly(true)]
         public string PaymentLine { get; set; }
-        [ReadOnly(true)]
-        public IList<long> SettledPartnerPostIds { get; set; }
     }
 }

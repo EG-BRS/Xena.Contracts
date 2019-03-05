@@ -39,7 +39,6 @@ namespace Xena.Contracts.Domain
         public long VoucherId { get; set; }
         public int? VoucherNumber { get; set; }
         public long? EconomicTransactionId { get; set; }
-        public long? PaymentExportedId { get; set; }
         public long? SettlementId { get; set; }
         public long? LedgerLineId { get; set; }
         //Convinience properties
