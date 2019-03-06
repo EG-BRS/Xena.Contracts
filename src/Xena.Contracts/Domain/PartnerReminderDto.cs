@@ -20,6 +20,6 @@ namespace Xena.Contracts.Domain
         public AddressDto OrderDeliveryAddress { get; set; }
         public long? JournalId { get; set; }
         public long? NextReminderStepId { get; set; }
-        public int FiscalDate { get; set; }
+        public int FiscalDateDays { get; set; }
     }
 }
