@@ -6,10 +6,10 @@ namespace Xena.Contracts.Domain
     public class PaymentExportDraftData : IHasIdDto
     {
         public long? Id { get; set; }
-        public long[] PaymentIds { get; set; }
+        public PaymentExportDraftDetailData[] Payments { get; set; }
         public int DueDateDays { get; set; }
         public string SupplierInvoiceNumber { get; set; }
-        public decimal Amount { get; set; }
+        public decimal AmountTotal { get; set; }
         public long PartnerId { get; set; }
         public int PartnerAccountNumber { get; set; }
         public string PartnerName { get; set; }
@@ -24,5 +24,11 @@ namespace Xena.Contracts.Domain
         public string PaymentIdentification { get; set; }
         public string[] Errors { get; set; }
         public long ContextId { get; set; }
+    }
+
+    public class PaymentExportDraftDetailData
+    {
+        public long PartnerPostId { get; set; }
+        public decimal AmountToBePaid { get; set; }
     }
 }

@@ -5,11 +5,22 @@ namespace Xena.Contracts.Domain
 {
     public class PaymentDto : TransactionalDto
     {
+        private decimal? _remainingAmount;
         //PartnerPost
         [ReadOnly(true)]
         public string SupplierInvoiceNumber { get; set; }
         [ReadOnly(true)]
+        public decimal? SettledAmount { get; set; }
+        [ReadOnly(true)]
+        public decimal? PaidAmount { get; set; }
+        [ReadOnly(true)]
         public decimal Amount { get; set; }
+        [ReadOnly(true)]
+        public decimal RemainingAmount
+        {
+            get => _remainingAmount ?? Amount - (SettledAmount ?? decimal.Zero);
+            set => _remainingAmount = value;
+        }
         [ReadOnly(true)]
         public string CurrencyAbbreviation { get; set; }
         [ReadOnly(true)]
@@ -32,8 +43,6 @@ namespace Xena.Contracts.Domain
         public int VoucherNumber { get; set; }
         [ReadOnly(true)]
         public long EconomicTransactionId { get; set; }
-        [ReadOnly(true)]
-        public long? PaymentExportedId { get; set; }
         [ReadOnly(true)]
         public long? SettlementId { get; set; }
         [ReadOnly(true)]
