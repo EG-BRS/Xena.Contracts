@@ -7,5 +7,6 @@ namespace Xena.Contracts.Helpers
         public long? PartnerId { get; set; }
         public long? ReportLayoutId { get; set; }
         public string ContextType { get; set; }
+        public bool? IncludeSettled { get; set; }
     }
 }
