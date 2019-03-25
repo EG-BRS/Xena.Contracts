@@ -2,7 +2,7 @@
 {
     public class ArticleVariantRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/ArticleVariant"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/ArticleVariant";
+        /// <summary>"Fiscal/{fiscalId}/ArticleVariant"</summary>
+        public const string Base = "Fiscal/{fiscalId}/ArticleVariant";
     }
 }

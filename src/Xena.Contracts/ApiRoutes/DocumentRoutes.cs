@@ -2,23 +2,23 @@
 {
     public class DocumentRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/Document"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/Document";
+        /// <summary>"Fiscal/{fiscalId}/Document"</summary>
+        public const string Base = "Fiscal/{fiscalId}/Document";
 
-        /// <summary>"Api/Fiscal/{fiscalId}/Document/DocumentVersion"</summary>
+        /// <summary>"Fiscal/{fiscalId}/Document/DocumentVersion"</summary>
         public const string BaseDocumentVersion = Base + "/DocumentVersion";
 
-        /// <summary>"Api/Fiscal/{fiscalId}/Document/{id}/Relation/{relationType}/{relationId}"</summary>
+        /// <summary>"Fiscal/{fiscalId}/Document/{id}/Relation/{relationType}/{relationId}"</summary>
         public const string RelationBase = Base + "/{id}/Relation/{relationType}/{relationId}";
 
         /// <summary>"{id}/Rotate"</summary>
         public const string PutRotate = "{id}/Rotate";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/{type}/{parentId}/Document"</summary>
-        public const string GetByTypeList = "~/Api/Fiscal/{fiscalId}/{type}/{parentId}/Document";
+        /// <summary>"~/Fiscal/{fiscalId}/{type}/{parentId}/Document"</summary>
+        public const string GetByTypeList = "~/Fiscal/{fiscalId}/{type}/{parentId}/Document";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/{type}/{parentId}/DocumentCount"</summary>
-        public const string GetDocumentCount = "~/Api/Fiscal/{fiscalId}/{type}/{parentId}/DocumentCount";
+        /// <summary>"~/Fiscal/{fiscalId}/{type}/{parentId}/DocumentCount"</summary>
+        public const string GetDocumentCount = "~/Fiscal/{fiscalId}/{type}/{parentId}/DocumentCount";
 
         /// <summary>"Partner/{id}/Shared"</summary>
         public const string GetSharedFromPartner = "Partner/{id}/Shared";
@@ -29,13 +29,13 @@
         /// <summary>"ResourceInboxRelations"</summary>
         public const string GetRelationsForInbox = "ResourceInboxRelations";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/Document/{id}/Relation/{relationType}/{relationId}"</summary>
+        /// <summary>"~/Fiscal/{fiscalId}/Document/{id}/Relation/{relationType}/{relationId}"</summary>
         public const string PostRelation = "~/" + RelationBase;
 
         /// <summary>"{id}/VersionFromXenaDocument/{parentId}"</summary>
         public const string PostVersionFromXenaDocument = "{id}/VersionFromXenaDocument/{parentId}";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/Document/{id}/Relation/{relationType}/{relationId}"</summary>
+        /// <summary>"~/Fiscal/{fiscalId}/Document/{id}/Relation/{relationType}/{relationId}"</summary>
         public const string DeleteRelation = "~/" + RelationBase;
 
         /// <summary>"{id}/Relation"</summary> 

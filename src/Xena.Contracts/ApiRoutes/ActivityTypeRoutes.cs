@@ -2,8 +2,8 @@
 {
     public class ActivityTypeRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/ActivityType"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/ActivityType";
+        /// <summary>"Fiscal/{fiscalId}/ActivityType"</summary>
+        public const string Base = "Fiscal/{fiscalId}/ActivityType";
 
         /// <summary>"NonBillable"</summary>
         public const string GetNonBillable = "NonBillable";

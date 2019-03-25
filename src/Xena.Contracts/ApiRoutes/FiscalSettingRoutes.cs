@@ -2,8 +2,8 @@
 {
     public class FiscalSettingRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/Setting"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/Setting";
+        /// <summary>"Fiscal/{fiscalId}/Setting"</summary>
+        public const string Base = "Fiscal/{fiscalId}/Setting";
 
         /// <summary>""</summary>
         public const string GetList = "";

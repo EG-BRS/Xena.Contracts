@@ -2,8 +2,8 @@
 {
     public class ImportVatLineDraftRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/ImportVatLineDraft"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/ImportVatLineDraft";
+        /// <summary>"Fiscal/{fiscalId}/ImportVatLineDraft"</summary>
+        public const string Base = "Fiscal/{fiscalId}/ImportVatLineDraft";
 
         /// <summary>"ImportVatLineType"</summary>
         public const string GetImportVatLineTypeList = "ImportVatLineType";

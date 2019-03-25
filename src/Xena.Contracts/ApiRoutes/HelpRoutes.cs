@@ -2,7 +2,7 @@
 {
     public class HelpRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/Help"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/Help";
+        /// <summary>"Fiscal/{fiscalId}/Help"</summary>
+        public const string Base = "Fiscal/{fiscalId}/Help";
     }
 }

@@ -2,8 +2,8 @@
 {
     public class AccountantAdminRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/AccountantAdmin"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/AccountantAdmin";
+        /// <summary>"Fiscal/{fiscalId}/AccountantAdmin"</summary>
+        public const string Base = "Fiscal/{fiscalId}/AccountantAdmin";
 
         /// <summary>"Client"</summary>
         public const string GetClientList = "Client";

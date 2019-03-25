@@ -2,8 +2,8 @@
 {
     public class EmailRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/Email"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/Email";
+        /// <summary>"Fiscal/{fiscalId}/Email"</summary>
+        public const string Base = "Fiscal/{fiscalId}/Email";
 
         /// <summary>""</summary>
         public const string GetList = "";

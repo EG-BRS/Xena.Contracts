@@ -2,8 +2,8 @@
 {
     public class FiscalSetupRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/FiscalSetup"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/FiscalSetup";
+        /// <summary>"Fiscal/{fiscalId}/FiscalSetup"</summary>
+        public const string Base = "Fiscal/{fiscalId}/FiscalSetup";
 
         /// <summary>"/VCard"</summary>
         public const string BaseVCard = Base + "/VCard";

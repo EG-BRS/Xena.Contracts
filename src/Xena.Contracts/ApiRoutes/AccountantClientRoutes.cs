@@ -2,7 +2,7 @@
 {
     public class AccountantClientRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/AccountantClient"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/AccountantClient";
+        /// <summary>"Fiscal/{fiscalId}/AccountantClient"</summary>
+        public const string Base = "Fiscal/{fiscalId}/AccountantClient";
     }
 }

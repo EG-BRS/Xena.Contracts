@@ -2,8 +2,8 @@
 {
     public class CurrencyRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/Currency"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/Currency";
+        /// <summary>"Fiscal/{fiscalId}/Currency"</summary>
+        public const string Base = "Fiscal/{fiscalId}/Currency";
 
         /// <summary>""</summary>
         public const string GetList = "";

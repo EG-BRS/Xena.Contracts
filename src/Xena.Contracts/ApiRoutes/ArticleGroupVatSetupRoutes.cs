@@ -2,10 +2,10 @@
 {
     public class ArticleGroupVatSetupRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/ArticleGroupVatSetup"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/ArticleGroupVatSetup";
+        /// <summary>"Fiscal/{fiscalId}/ArticleGroupVatSetup"</summary>
+        public const string Base = "Fiscal/{fiscalId}/ArticleGroupVatSetup";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/ArticleGroup/{id}/VatSetup"</summary>
-        public const string GetByArticleGroupList = "~/Api/Fiscal/{fiscalId}/ArticleGroup/{id}/VatSetup";
+        /// <summary>"~/Fiscal/{fiscalId}/ArticleGroup/{id}/VatSetup"</summary>
+        public const string GetByArticleGroupList = "~/Fiscal/{fiscalId}/ArticleGroup/{id}/VatSetup";
     }
 }

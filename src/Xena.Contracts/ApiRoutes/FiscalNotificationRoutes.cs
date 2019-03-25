@@ -2,8 +2,8 @@
 {
     public class FiscalNotificationRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/Notification"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/Notification";
+        /// <summary>"Fiscal/{fiscalId}/Notification"</summary>
+        public const string Base = "Fiscal/{fiscalId}/Notification";
 
         /// <summary>""</summary>
         public const string GetList = "";

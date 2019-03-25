@@ -2,8 +2,8 @@
 {
     public class HomeRoutes
     {
-        /// <summary>"Api/Home"</summary>
-        public const string Base = "Api/Home";
+        /// <summary>"Home"</summary>
+        public const string Base = "Home";
 
         /// <summary>"Accountant"</summary>
         public const string GetAccountantList = "Accountant";

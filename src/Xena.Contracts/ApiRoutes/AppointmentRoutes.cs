@@ -2,23 +2,23 @@
 {
     public class AppointmentRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/Appointment"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/Appointment";
+        /// <summary>"Fiscal/{fiscalId}/Appointment"</summary>
+        public const string Base = "Fiscal/{fiscalId}/Appointment";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/Resource/{id}/Appointment"</summary>
-        public const string GetByResourceList = "~/Api/Fiscal/{fiscalId}/Resource/{id}/Appointment";
+        /// <summary>"~/Fiscal/{fiscalId}/Resource/{id}/Appointment"</summary>
+        public const string GetByResourceList = "~/Fiscal/{fiscalId}/Resource/{id}/Appointment";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/Team/{id}/Appointment"</summary>
-        public const string GetByTeamList = "~/Api/Fiscal/{fiscalId}/Team/{id}/Appointment";
+        /// <summary>"~/Fiscal/{fiscalId}/Team/{id}/Appointment"</summary>
+        public const string GetByTeamList = "~/Fiscal/{fiscalId}/Team/{id}/Appointment";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/Team/{id}/Appointment"</summary>
-        public const string PostByTeam = "~/Api/Fiscal/{fiscalId}/Team/{id}/Appointment";
+        /// <summary>"~/Fiscal/{fiscalId}/Team/{id}/Appointment"</summary>
+        public const string PostByTeam = "~/Fiscal/{fiscalId}/Team/{id}/Appointment";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/Order/{id}/Appointment"</summary>
-        public const string GetByOrderList = "~/Api/Fiscal/{fiscalId}/Order/{id}/Appointment";
+        /// <summary>"~/Fiscal/{fiscalId}/Order/{id}/Appointment"</summary>
+        public const string GetByOrderList = "~/Fiscal/{fiscalId}/Order/{id}/Appointment";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/OrderTask/{id}/Appointment"</summary>
-        public const string GetByOrderTaskList = "~/Api/Fiscal/{fiscalId}/OrderTask/{id}/Appointment";
+        /// <summary>"~/Fiscal/{fiscalId}/OrderTask/{id}/Appointment"</summary>
+        public const string GetByOrderTaskList = "~/Fiscal/{fiscalId}/OrderTask/{id}/Appointment";
 
         /// <summary>"FilteredList"</summary>
         public const string GetFilteredList = "FilteredList";

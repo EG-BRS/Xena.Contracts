@@ -2,7 +2,7 @@
 {
     public class DataImportRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/DataImport"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/DataImport";
+        /// <summary>"Fiscal/{fiscalId}/DataImport"</summary>
+        public const string Base = "Fiscal/{fiscalId}/DataImport";
     }
 }

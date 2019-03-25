@@ -2,8 +2,8 @@
 {
     public class ArticleRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/Article"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/Article";
+        /// <summary>"Fiscal/{fiscalId}/Article"</summary>
+        public const string Base = "Fiscal/{fiscalId}/Article";
 
         /// <summary>"Multiple"</summary>
         public const string PostMultiple = "Multiple/{currency}";
@@ -68,8 +68,8 @@
         /// <summary>"{id}/Variant"</summary>
         public const string GetVariantList = "{id}/Variant";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/ArticleGroup/{id}/Article"</summary>
-        public const string GetByGroupList = "~/Api/Fiscal/{fiscalId}/ArticleGroup/{id}/Article";
+        /// <summary>"~/Fiscal/{fiscalId}/ArticleGroup/{id}/Article"</summary>
+        public const string GetByGroupList = "~/Fiscal/{fiscalId}/ArticleGroup/{id}/Article";
 
         /// <summary>"{id}/Availablity"</summary>
         public const string GetAvailabilityListByArticle = "{id}/Availablity";
@@ -95,11 +95,11 @@
         /// <summary>"Partner/{partnerId}"</summary>
         public const string PostMultiplePartnerArticles = "Partner/{partnerId}";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/ArticleGroup/{id}/Article/EnableInventory"</summary>
-        public const string PutEnableInventoryByGroup = "~/Api/Fiscal/{fiscalId}/ArticleGroup/{id}/Article/EnableInventory";
+        /// <summary>"~/Fiscal/{fiscalId}/ArticleGroup/{id}/Article/EnableInventory"</summary>
+        public const string PutEnableInventoryByGroup = "~/Fiscal/{fiscalId}/ArticleGroup/{id}/Article/EnableInventory";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/ArticleGroup/{id}/Article/DisableInventory"</summary>
-        public const string PutDisableInventoryByGroup = "~/Api/Fiscal/{fiscalId}/ArticleGroup/{id}/Article/DisableInventory";
+        /// <summary>"~/Fiscal/{fiscalId}/ArticleGroup/{id}/Article/DisableInventory"</summary>
+        public const string PutDisableInventoryByGroup = "~/Fiscal/{fiscalId}/ArticleGroup/{id}/Article/DisableInventory";
 
     }
 }

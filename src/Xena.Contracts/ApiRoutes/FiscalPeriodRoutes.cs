@@ -2,8 +2,8 @@
 {
     public class FiscalPeriodRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/FiscalPeriod"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/FiscalPeriod";
+        /// <summary>"Fiscal/{fiscalId}/FiscalPeriod"</summary>
+        public const string Base = "Fiscal/{fiscalId}/FiscalPeriod";
 
         /// <summary>"{id}/RecalculatePrimo"</summary>
         public const string PutRecalculatePrimo = "{id}/RecalculatePrimo";

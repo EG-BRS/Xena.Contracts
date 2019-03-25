@@ -2,8 +2,8 @@
 {
     public class AccountantDepartmentRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/AccountantDepartment"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/AccountantDepartment";
+        /// <summary>"Fiscal/{fiscalId}/AccountantDepartment"</summary>
+        public const string Base = "Fiscal/{fiscalId}/AccountantDepartment";
 
         /// <summary>"History"</summary>
         public const string GetHistoryList = "History";

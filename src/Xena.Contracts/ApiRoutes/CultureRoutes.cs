@@ -2,8 +2,8 @@
 {
     public class CultureRoutes
     {
-        /// <summary>"Api/Culture"</summary>
-        public const string Base = "Api/Culture";
+        /// <summary>"Culture"</summary>
+        public const string Base = "Culture";
 
         /// <summary>""</summary>
         public const string GetList = "";

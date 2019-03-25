@@ -2,19 +2,19 @@
 {
     public class BankPostingReconciliationSuggestionRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/BankPosting"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/BankPostingReconciliationSuggestion";
+        /// <summary>"Fiscal/{fiscalId}/BankPosting"</summary>
+        public const string Base = "Fiscal/{fiscalId}/BankPostingReconciliationSuggestion";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/BankPosting/{id}/RecreateSuggestions"</summary>
-        public const string PutRecreateSuggestions = "~/Api/Fiscal/{fiscalId}/BankPosting/{id}/RecreateSuggestions";
+        /// <summary>"~/Fiscal/{fiscalId}/BankPosting/{id}/RecreateSuggestions"</summary>
+        public const string PutRecreateSuggestions = "~/Fiscal/{fiscalId}/BankPosting/{id}/RecreateSuggestions";
 
         /// <summary>"Execute"</summary>
         public const string PutExecute = "Execute";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/BankPosting/{id}/ReconciliationSuggestion"</summary>
-        public const string GetReconciliationSuggestionsForBankPostingList = "~/Api/Fiscal/{fiscalId}/BankPosting/{id}/ReconciliationSuggestion";
+        /// <summary>"~/Fiscal/{fiscalId}/BankPosting/{id}/ReconciliationSuggestion"</summary>
+        public const string GetReconciliationSuggestionsForBankPostingList = "~/Fiscal/{fiscalId}/BankPosting/{id}/ReconciliationSuggestion";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/LedgerPost/{id}/ReconciliationSuggestion"</summary>
-        public const string GetReconciliationSuggestionsForLedgerPostList = "~/Api/Fiscal/{fiscalId}/LedgerPost/{id}/ReconciliationSuggestion";
+        /// <summary>"~/Fiscal/{fiscalId}/LedgerPost/{id}/ReconciliationSuggestion"</summary>
+        public const string GetReconciliationSuggestionsForLedgerPostList = "~/Fiscal/{fiscalId}/LedgerPost/{id}/ReconciliationSuggestion";
     }
 }

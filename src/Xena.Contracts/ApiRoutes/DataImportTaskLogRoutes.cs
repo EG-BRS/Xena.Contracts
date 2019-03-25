@@ -2,10 +2,10 @@
 {
     public class DataImportTaskLogRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/DataImportTask"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/DataImportTaskLog";
+        /// <summary>"Fiscal/{fiscalId}/DataImportTask"</summary>
+        public const string Base = "Fiscal/{fiscalId}/DataImportTaskLog";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/DataImport/{id}/Task"</summary>
-        public const string GetByDataImportTask = "~/Api/Fiscal/{fiscalId}/DataImportTask/{id}/Log";
+        /// <summary>"~/Fiscal/{fiscalId}/DataImport/{id}/Task"</summary>
+        public const string GetByDataImportTask = "~/Fiscal/{fiscalId}/DataImportTask/{id}/Log";
     }
 }

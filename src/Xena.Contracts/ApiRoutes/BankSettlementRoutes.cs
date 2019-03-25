@@ -2,7 +2,7 @@
 {
     public class BankSettlementRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/BankSettlement"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/BankSettlement";
+        /// <summary>"Fiscal/{fiscalId}/BankSettlement"</summary>
+        public const string Base = "Fiscal/{fiscalId}/BankSettlement";
     }
 }

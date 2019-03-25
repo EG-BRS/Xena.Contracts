@@ -2,15 +2,15 @@
 {
     public class ActivityRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/Activity"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/Activity";
+        /// <summary>"Fiscal/{fiscalId}/Activity"</summary>
+        public const string Base = "Fiscal/{fiscalId}/Activity";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/Resource/{id}/Activity"</summary>
-        public const string GetByResourceList = "~/Api/Fiscal/{fiscalId}/Resource/{id}/Activity";
-        /// <summary>"~/Api/Fiscal/{fiscalId}/Order/{id}/Activity"</summary>
-        public const string GetByOrderList = "~/Api/Fiscal/{fiscalId}/Order/{id}/Activity";
-        /// <summary>"~/Api/Fiscal/{fiscalId}/ActivityType/{id}/Activity"</summary>
-        public const string GetByActivityTypeList = "~/Api/Fiscal/{fiscalId}/ActivityType/{id}/Activity";
+        /// <summary>"~/Fiscal/{fiscalId}/Resource/{id}/Activity"</summary>
+        public const string GetByResourceList = "~/Fiscal/{fiscalId}/Resource/{id}/Activity";
+        /// <summary>"~/Fiscal/{fiscalId}/Order/{id}/Activity"</summary>
+        public const string GetByOrderList = "~/Fiscal/{fiscalId}/Order/{id}/Activity";
+        /// <summary>"~/Fiscal/{fiscalId}/ActivityType/{id}/Activity"</summary>
+        public const string GetByActivityTypeList = "~/Fiscal/{fiscalId}/ActivityType/{id}/Activity";
 
         /// <summary>"GroupedFiltered"</summary>
         public const string GetGroupedFilteredList = "GroupedFiltered";

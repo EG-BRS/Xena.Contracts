@@ -8,8 +8,8 @@
         /// <summary>"{orderId}/SettleUnpaidStock"</summary>
         public const string PutSettleUnpaidStock = "{orderId}/SettleUnpaidStock";
 
-        /// <summary>"Api/Fiscal/{fiscalId}/Bookkeeping"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/Bookkeeping";
+        /// <summary>"Fiscal/{fiscalId}/Bookkeeping"</summary>
+        public const string Base = "Fiscal/{fiscalId}/Bookkeeping";
 
         /// <summary>"VoucherModifiedHistory"</summary>
         public const string GetVoucherModifiedHistoryList = "VoucherModifiedHistory";

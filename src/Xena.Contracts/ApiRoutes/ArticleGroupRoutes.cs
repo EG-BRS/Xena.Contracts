@@ -2,8 +2,8 @@
 {
     public class ArticleGroupRoutes : BaseRoutes
     {
-            /// <summary>"Api/Fiscal/{fiscalId}/ArticleGroup"</summary>
-            public const string Base = "Api/Fiscal/{fiscalId}/ArticleGroup";
+            /// <summary>"Fiscal/{fiscalId}/ArticleGroup"</summary>
+            public const string Base = "Fiscal/{fiscalId}/ArticleGroup";
 
             /// <summary>"History"</summary>
             public const string GetHistoryList = "History";

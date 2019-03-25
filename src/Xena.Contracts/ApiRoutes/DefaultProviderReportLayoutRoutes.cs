@@ -2,7 +2,7 @@
 {
     public class DefaultProviderReportLayoutRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/DefaultProviderReportLayout"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/DefaultProviderReportLayout";
+        /// <summary>"Fiscal/{fiscalId}/DefaultProviderReportLayout"</summary>
+        public const string Base = "Fiscal/{fiscalId}/DefaultProviderReportLayout";
     }
 }

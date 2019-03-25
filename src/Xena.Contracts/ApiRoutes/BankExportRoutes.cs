@@ -2,8 +2,8 @@
 {
     public static class BankExportRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/BankExport"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/BankExport";
+        /// <summary>"Fiscal/{fiscalId}/BankExport"</summary>
+        public const string Base = "Fiscal/{fiscalId}/BankExport";
 
         /// <summary>""</summary>
         public const string GetBankExportList = "";

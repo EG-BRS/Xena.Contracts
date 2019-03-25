@@ -2,10 +2,10 @@
 {
     public class HelpLinkRoutes : BaseRoutes
     {
-        /// <summary>"Api/Fiscal/{fiscalId}/HelpLink"</summary>
-        public const string Base = "Api/Fiscal/{fiscalId}/HelpLink";
+        /// <summary>"Fiscal/{fiscalId}/HelpLink"</summary>
+        public const string Base = "Fiscal/{fiscalId}/HelpLink";
 
-        /// <summary>"~/Api/Fiscal/{fiscalId}/Help/{id}/HelpLink"</summary>
-        public const string GetByHelp = "~/Api/Fiscal/{fiscalId}/Help/{id}/HelpLink";
+        /// <summary>"~/Fiscal/{fiscalId}/Help/{id}/HelpLink"</summary>
+        public const string GetByHelp = "~/Fiscal/{fiscalId}/Help/{id}/HelpLink";
     }
 }

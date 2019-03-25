@@ -2,8 +2,8 @@
 {
     public class CountryRoutes
     {
-        /// <summary>"Api/Country"</summary>
-        public const string Base = "Api/Country";
+        /// <summary>"Country"</summary>
+        public const string Base = "Country";
 
         /// <summary>""</summary>
         public const string GetList = "";

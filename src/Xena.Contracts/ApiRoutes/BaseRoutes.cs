@@ -17,6 +17,6 @@
         /// <summary>"{id}"</summary>
         public const string Delete = "{id}";
 
-        protected const string BaseFiscalUri = "~/Api/Fiscal/{fiscalId}/";
+        protected const string BaseFiscalUri = "~/Fiscal/{fiscalId}/";
     }
 }
