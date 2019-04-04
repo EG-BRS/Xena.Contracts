@@ -12,18 +12,15 @@ namespace Xena.Contracts.Domain
         public long? VCardId { get; set; }
         public long? PictureLastVersionId { get; set; }
 
-        private string _pictureUrl = null;
+        private string _pictureUrl;
         [ReadOnly(true)]
         public string PictureUrl
         {
-            get
-            { return _pictureUrl ?? (PictureLastVersionId.HasValue && VCardId.HasValue
-                             ? $"/Blob/Public/VCard/{VCardId}/Thumbnail/{PictureLastVersionId}"
-                             : "/Content/images/avatar-company-xena.jpg");
-            }
-            set { _pictureUrl = value; }
+            get => _pictureUrl ?? (PictureLastVersionId.HasValue && VCardId.HasValue
+                    ? $"/Api/Blob/Public/VCard/{VCardId}/Thumbnail/{PictureLastVersionId}"
+                    : "/Content/images/avatar-company-xena.jpg");
+            set => _pictureUrl = value;
         }
-
     }
 
     public class IdSResourceDto : IHasIdDto
@@ -68,17 +65,14 @@ namespace Xena.Contracts.Domain
         public string SproomKey { get; set; }
         public long? PictureLastVersionId { get; set; }
 
-        private string _pictureUrl = null;
+        private string _pictureUrl;
         [ReadOnly(true)]
         public string PictureUrl
         {
-            get
-            {
-                return _pictureUrl ?? (PictureLastVersionId.HasValue && VCardId.HasValue
-                           ? $"/Blob/Public/VCard/{VCardId}/Thumbnail/{PictureLastVersionId}"
-                           : "/Content/images/avatar-company-xena.jpg");
-            }
-            set { _pictureUrl = value; }
+            get => _pictureUrl ?? (PictureLastVersionId.HasValue && VCardId.HasValue
+                    ? $"/Api/Blob/Public/VCard/{VCardId}/Thumbnail/{PictureLastVersionId}"
+                    : "/Content/images/avatar-company-xena.jpg");
+            set => _pictureUrl = value;
         }
 
         private string _securityGroups = null;
