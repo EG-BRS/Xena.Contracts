@@ -7,5 +7,6 @@ namespace Xena.Contracts.Helpers
         public long? DeliveryReportLayoutId { get; set; }
         public long[] OrderTaskIds { get; set; }
         public long? TemporaryLocationId { get; set; }
+        public long? OrderStatusId { get; set; }
     }
 }

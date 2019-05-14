@@ -4,5 +4,6 @@ namespace Xena.Contracts.Helpers
     {
         public int? OfferDate { get; set; }
         public long? OfferReportLayoutId { get; set; }
+        public long? OrderStatusId { get; set; }
     }
 }
