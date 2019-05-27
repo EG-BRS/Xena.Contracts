@@ -241,6 +241,9 @@
         public const string GetHasValidXenaPayment = "HasValidXenaPayment";
 
         /// <summary>"FiscalDiscounts"</summary>
-        public const string GetFiscalDiscounts = "FiscalDiscounts";
+        public const string GetFiscalDiscounts = "FiscalDiscounts"; 
+
+        /// <summary>"SendAndRenderCaseWare"</summary>
+        public const string PostSendAndRenderCaseWare = "SendAndRenderCaseWare";
     }
 }
