@@ -33,6 +33,6 @@
         public const string GetListForFilteredOrderStatus = "GetListForFilteredOrderStatus";
 
         /// <summary>"GetComposite"</summary>
-        public const string GetComposite = "GetComposite";
+        public const string GetComposite = "Composite";
     }
 }
