@@ -30,6 +30,9 @@ namespace Xena.Contracts.Search
         public long? OrderStatusId { get; set; }
         public long? PartnerId { get; set; }
         public long? ResponsibleId { get; set; }
+        public long? BearerId { get; set; }
+        public long? DepartmentId { get; set; }
+        public long? PurposeId { get; set; }
         public string InternalNote { get; set; }
         public IList<object> MetaData { get; set; }
     }
