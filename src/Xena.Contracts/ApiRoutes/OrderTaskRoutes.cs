@@ -31,5 +31,8 @@
 
         /// <summary>"GetListForFilteredOrderStatus"</summary>
         public const string GetListForFilteredOrderStatus = "GetListForFilteredOrderStatus";
+
+        /// <summary>"GetComposite"</summary>
+        public const string GetComposite = "Composite";
     }
 }
