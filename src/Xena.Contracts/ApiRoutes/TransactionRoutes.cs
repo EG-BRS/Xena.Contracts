@@ -59,6 +59,9 @@
         /// <summary>"LedgerPostReport"</summary>
         public const string GetLedgerPostReportList = "LedgerPostReport";
 
+        /// <summary>"VatReconciliationReport"</summary>
+        public const string GetVatReconciliationReportList = "VatReconciliationReport";
+
         /// <summary>"LedgerAccountSpecificationReport"</summary>
         public const string GetLedgerAccountSpecificationReportList = "LedgerAccountSpecificationReport";
 
