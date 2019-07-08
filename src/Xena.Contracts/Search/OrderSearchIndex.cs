@@ -23,7 +23,7 @@ namespace Xena.Contracts.Search
         public string OrderNumberSplits { get; set; }
         public string OurReference { get; set; }
         public string YourReference { get; set; }
-        public IList<string> SupplierInvoiceNumbers { get; set; }
+        public string SupplierInvoiceNumbers { get; set; }
         public bool IsFullyDelivered { get; set; }
         public string ContextType { get; set; }
         public bool IsFullyInvoiced { get; set; }
@@ -35,6 +35,7 @@ namespace Xena.Contracts.Search
         public long? PurposeId { get; set; }
         public string InternalNote { get; set; }
         public IList<object> MetaData { get; set; }
+        public string OrderTaskDescriptions { get; set; }
     }
 
     public class FiscalSearchDto

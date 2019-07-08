@@ -213,7 +213,7 @@ namespace Xena.Contracts.Search
             return string.Join(" ", parts);
         }
 
-        public static OrderSearchIndex CreateSearchIndex(this OrderDto order, Func<long, IList<string>> getSupplierNumbers, Func<long, long, IList<object>> getOrderMetaData)
+        public static OrderSearchIndex CreateSearchIndex(this OrderDto order, Func<long, IList<string>> getSupplierNumbers, Func<long, long, IList<object>> getOrderMetaData, Func<long, IList<string>> getOrderTaskDescriptions)
         {
             long orderId = order.Id.Value;
             return new OrderSearchIndex
@@ -240,14 +240,18 @@ namespace Xena.Contracts.Search
                 PartnerAccountNumber = $"{order.PartnerAccountNumber}",
                 PartnerPhoneNumber = order.PartnerPhoneNumber,
                 YourReference = order.YourReference,
-                SupplierInvoiceNumbers = getSupplierNumbers(orderId),
+                SupplierInvoiceNumbers = string.Join(" ", getSupplierNumbers(orderId)),
                 ContextType = order.ContextType,
                 IsFullyDelivered = order.Summary.IsFullyDelivered,
                 IsFullyInvoiced = order.Summary.IsFullyInvoiced,
                 OrderStatusId = order.OrderStatusId,
                 ResponsibleId = order.ResponsibleId,
                 InternalNote = order.InternalNote,
-                MetaData = getOrderMetaData(order.FiscalSetupId, orderId)
+                MetaData = getOrderMetaData(order.FiscalSetupId, orderId),
+                OrderTaskDescriptions = string.Join(" ", getOrderTaskDescriptions(orderId)),
+                BearerId = order.BearerId,
+                DepartmentId = order.DepartmentId,
+                PurposeId = order.PurposeId
             };
         }
         public static SubscriptionSearchIndex CreateSearchIndex(this SubscriptionDto article)
