@@ -20,7 +20,7 @@
   </PropertyGroup>
 
   <ItemGroup Condition="$(DefineConstants.Contains(BuildUsingXenaNuGetPackages)) Or !(Exists('..\..\..\Xena.Common\src\Xena.Common\Xena.Common.csproj') And Exists('..\..\..\Xena.sln'))">
-    <PackageReference Include="Xena.Common" Version="1.0.11" />
+    <PackageReference Include="Xena.Common" Version="1.0.12-beta.30+c9e6888" />
   </ItemGroup>
 
   <ItemGroup Condition="!$(DefineConstants.Contains(BuildUsingXenaNuGetPackages)) And Exists('..\..\..\Xena.Common\src\Xena.Common\Xena.Common.csproj') And Exists('..\..\..\Xena.sln')">
