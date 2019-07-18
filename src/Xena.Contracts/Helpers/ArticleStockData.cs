@@ -12,6 +12,7 @@ namespace Xena.Contracts.Helpers
         public string ArticleVariantAbbreviation { get; set; }
         public long FiscalSetupId { get; set; }
         public decimal AvailableQuantity { get; set; }
+        public decimal ReservedQuantity { get; set; }
         public decimal? AverageCostPrice { get; set; }
 
         public long? LocationId { get; set; }
