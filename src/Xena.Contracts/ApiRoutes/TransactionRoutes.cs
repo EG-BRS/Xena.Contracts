@@ -300,5 +300,11 @@
 
         /// <summary>"PostSendAndRenderInvoiceListReport"</summary>
         public const string PostSendAndRenderInvoiceListReport = "PostSendAndRenderInvoiceListReport";
+
+        /// <summary>"PostRenderVatReconciliationReport"</summary>
+        public const string PostRenderVatReconciliationReport = "RenderVatReconciliationReport";
+
+        /// <summary>"SendAndRenderVatReconciliationReport"</summary>
+        public const string PostSendAndRenderVatReconciliationReport = "SendAndRenderVatReconciliationReport";
     }
 }
