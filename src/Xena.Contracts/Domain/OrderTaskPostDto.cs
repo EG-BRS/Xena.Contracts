@@ -34,6 +34,8 @@ namespace Xena.Contracts.Domain
         [ReadOnly(true)]
         public string CostTypeDescription { get; set; }
         [ReadOnly(true)]
+        public int? CostTypeIndex { get; set; }
+        [ReadOnly(true)]
         public decimal? Quantity { get; set; }
         [ReadOnly(true)]
         public decimal CostEach { get; set; }

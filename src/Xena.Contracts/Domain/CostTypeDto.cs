@@ -10,5 +10,6 @@ namespace Xena.Contracts.Domain
         public decimal DefaultMargin { get; set; }
         public long? DefaultArticleGroupId { get; set; }
         public string DefaultArticleGroupDescription { get; set; }
+        public int Index { get; set; }
     }
 }
