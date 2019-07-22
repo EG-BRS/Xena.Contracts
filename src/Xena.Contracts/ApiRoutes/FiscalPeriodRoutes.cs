@@ -8,6 +8,9 @@
         /// <summary>"{id}/RecalculatePrimo"</summary>
         public const string PutRecalculatePrimo = "{id}/RecalculatePrimo";
 
+        /// <summary>"{id}/RecalculateSummary"</summary>
+        public const string GetRecalculateSummary = "{id}/RecalculateSummary";
+
         /// <summary>"{id}/Data"</summary>
         public const string GetData = "{id}/Data";
 
