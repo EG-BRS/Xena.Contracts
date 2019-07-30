@@ -27,7 +27,11 @@ namespace Xena.Contracts.Domain
         //Convinience properties
         public bool CopyFromLastLine { get; set; }
         [ReadOnly(true)]
+        public long? CreatedById { get; set; }
+        [ReadOnly(true)]
         public long? ResponsibleId { get; set; }
+        [ReadOnly(true)]
+        public string CreatedByName { get; set; }
         [ReadOnly(true)]
         public string ResponsibleName { get; set; }
         [ReadOnly(true)]
