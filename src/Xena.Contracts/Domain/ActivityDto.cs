@@ -10,6 +10,8 @@ namespace Xena.Contracts.Domain
 
         [Required]
         public long ResourceId { get; set; }
+        public long? CreatedById { get; set; }
+        public long? ApprovedById { get; set; }
         [Required]
         public int StartDateDays { get; set; }
         public int? StartTimeMinutes { get; set; }
@@ -42,6 +44,10 @@ namespace Xena.Contracts.Domain
         public long? OrderId { get; set; }
         [ReadOnly(true)]
         public string ResourceName { get; set; }
+        [ReadOnly(true)]
+        public string CreatedByName { get; set; }
+        [ReadOnly(true)]
+        public string ApprovedByName { get; set; }
         [ReadOnly(true)]
         public string OrderTaskDescription { get; set; }
         [ReadOnly(true)]

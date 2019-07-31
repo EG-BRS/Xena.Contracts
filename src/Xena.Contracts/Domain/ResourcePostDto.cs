@@ -11,6 +11,10 @@ namespace Xena.Contracts.Domain
 
         //Convinience properties
         [ReadOnly(true)]
+        public AddressDto Address { get; set; }
+        [ReadOnly(true)]
+        public AddressDto DeliveryAddress { get; set; }
+        [ReadOnly(true)]
         public string Type { get; set; }
         [ReadOnly(true)]
         public long? OrderTaskId { get; set; }

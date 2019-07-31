@@ -29,5 +29,12 @@ namespace Xena.Contracts.Helpers
         public decimal ExpectedVatAmount { get; set; }
         public decimal DeductableAmount { get; set; }
         public decimal DeductablePercentage { get; set; }
+
+        private decimal? _differenceAmount;
+        public decimal DifferenceAmount
+        {
+            get => _differenceAmount ?? VatAmount - ExpectedVatAmount;
+            set => _differenceAmount = value;
+        }
     }
 }
