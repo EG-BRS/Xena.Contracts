@@ -124,5 +124,6 @@ namespace Xena.Contracts.Domain
         public long? PurposeId { get; set; }
         public long? OrderTaskLedgerId { get; set; }
         public string Note { get; set; }
+        public string ActivityTypeType { get; set; }
     }
 }
