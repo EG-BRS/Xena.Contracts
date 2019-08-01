@@ -53,6 +53,9 @@
         /// <summary>"{id}/EnableArticleVariants"</summary>
         public const string PutEnableArticleVariants = "{id}/EnableArticleVariants";
 
+        /// <summary>"{id}/AveragePriceChange"</summary>
+        public const string GetAveragePriceChangeList = "{id}/AveragePriceChange";
+
         /// <summary>"{id}/UpdateSupplier"</summary>
         public const string PutUpdateSupplier = "{id}/UpdateSupplier";
 

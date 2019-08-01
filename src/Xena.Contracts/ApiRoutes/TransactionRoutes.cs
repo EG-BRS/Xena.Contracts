@@ -59,6 +59,9 @@
         /// <summary>"LedgerPostReport"</summary>
         public const string GetLedgerPostReportList = "LedgerPostReport";
 
+        /// <summary>"LedgerPostArticleSpecification"</summary>
+        public const string GetLedgerPostArticleSpecificationList = "LedgerPostArticleSpecification";
+
         /// <summary>"VatReconciliationReport"</summary>
         public const string GetVatReconciliationReportList = "VatReconciliationReport";
 
@@ -297,5 +300,11 @@
 
         /// <summary>"PostSendAndRenderInvoiceListReport"</summary>
         public const string PostSendAndRenderInvoiceListReport = "PostSendAndRenderInvoiceListReport";
+
+        /// <summary>"PostRenderVatReconciliationReport"</summary>
+        public const string PostRenderVatReconciliationReport = "RenderVatReconciliationReport";
+
+        /// <summary>"SendAndRenderVatReconciliationReport"</summary>
+        public const string PostSendAndRenderVatReconciliationReport = "SendAndRenderVatReconciliationReport";
     }
 }

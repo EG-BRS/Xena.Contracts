@@ -27,13 +27,19 @@ namespace Xena.Contracts.Domain
         //Convinience properties
         public bool CopyFromLastLine { get; set; }
         [ReadOnly(true)]
+        public long? CreatedById { get; set; }
+        [ReadOnly(true)]
         public long? ResponsibleId { get; set; }
+        [ReadOnly(true)]
+        public string CreatedByName { get; set; }
         [ReadOnly(true)]
         public string ResponsibleName { get; set; }
         [ReadOnly(true)]
         public string ResourceName { get; set; }
         [ReadOnly(true)]
         public string CostTypeDescription { get; set; }
+        [ReadOnly(true)]
+        public int? CostTypeIndex { get; set; }
         [ReadOnly(true)]
         public string ArticleNumber { get; set; }
         [ReadOnly(true)]
@@ -118,5 +124,6 @@ namespace Xena.Contracts.Domain
         public long? PurposeId { get; set; }
         public long? OrderTaskLedgerId { get; set; }
         public string Note { get; set; }
+        public string ActivityTypeType { get; set; }
     }
 }

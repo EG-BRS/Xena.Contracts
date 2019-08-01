@@ -34,6 +34,8 @@ namespace Xena.Contracts.Domain
         [ReadOnly(true)]
         public string CostTypeDescription { get; set; }
         [ReadOnly(true)]
+        public int? CostTypeIndex { get; set; }
+        [ReadOnly(true)]
         public decimal? Quantity { get; set; }
         [ReadOnly(true)]
         public decimal CostEach { get; set; }
@@ -46,7 +48,15 @@ namespace Xena.Contracts.Domain
         [ReadOnly(true)]
         public long? ResourceId { get; set; }
         [ReadOnly(true)]
+        public long? CreatedById { get; set; }
+        [ReadOnly(true)]
+        public long? ApprovedById { get; set; }
+        [ReadOnly(true)]
         public string ResourceName { get; set; }
+        [ReadOnly(true)]
+        public string CreatedByName { get; set; }
+        [ReadOnly(true)]
+        public string ApprovedByName { get; set; }
         public long? ActivityTypeId { get; set; }
         public string ActivityTypeType { get; set; }
         [ReadOnly(true)]
