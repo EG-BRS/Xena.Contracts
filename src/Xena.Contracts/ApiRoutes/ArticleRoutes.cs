@@ -59,6 +59,9 @@
         /// <summary>"{id}/UpdateSupplier"</summary>
         public const string PutUpdateSupplier = "{id}/UpdateSupplier";
 
+        /// <summary>"{id}/RecalculateStock"</summary>
+        public const string PutManuallyRecalculate = "{id}/RecalculateStock";
+
         /// <summary>"{id}/DisableArticleVariants"</summary>
         public const string PutDisableArticleVariants = "{id}/DisableArticleVariants";
 
