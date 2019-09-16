@@ -82,5 +82,9 @@
 
         /// <summary>"PartnerContextType"</summary>
         public const string GetPartnerContextType = "PartnerContextType";
+
+        /// <summary>"Partner/{id}/ConnectionData"</summary>
+        public const string GetConnectionDataForPartner = "Partner/{id}/ConnectionData";
+
     }
 }
