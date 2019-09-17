@@ -100,5 +100,9 @@
 
         /// <summary>"EpayTicketForExistingUserSubscription"</summary>
         public const string PostEpayTicketForExistingUserSubscription = "EpayTicketForExistingUserSubscription";
+
+        /// <summary>"XenaUserSubscription/{id}/XenaUserSubscriptionLine"</summary>
+        public const string GetXenaUserSubscriptionLineList = "XenaUserSubscription/{id}/XenaUserSubscriptionLine";
+
     }
 }

@@ -9,6 +9,8 @@ namespace Xena.Contracts.Domain
         public int FiscalDateDays { get; set; }
         public string PostType { get; set; }
 
+        public long? SubscriptionId { get; set; }
+
         private string _postTypeTranslated = null;
         [ReadOnly(true)]
         public string PostTypeTranslated
