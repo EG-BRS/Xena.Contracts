@@ -22,6 +22,7 @@ namespace Xena.Contracts.Domain
         public long? UnitId { get; set; }
         public long? LocationId { get; set; }
         public long? OrderTaskId { get; set; }
+        public long? OrderId { get; set; }
         public long? ResourceId { get; set; }
         public long? ArticleGroupId { get; set; }
         //Convinience properties
