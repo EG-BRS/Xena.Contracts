@@ -137,5 +137,9 @@ namespace Xena.Contracts.Domain
             }
             set { _accountIdentifierLabelTranslated = value; }
         }
+
+        public int? AccountLength { get; set; }
+        public int? InvoiceNumberLength { get; set; }
+        public string PaymentIdentificationLayout { get; set; }
     }
 }
