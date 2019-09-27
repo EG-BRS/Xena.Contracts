@@ -12,6 +12,7 @@ namespace Xena.Contracts.Domain
         [ReadOnly(true)]
         public long ResourceId { get; set; }
         public bool Parked { get; set; }
+        public bool IsNew { get; set; }
         public string ParkedNote { get; set; }
     }
 }
