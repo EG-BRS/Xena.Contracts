@@ -2,9 +2,8 @@
 
 namespace Xena.Contracts.Domain
 {
-    public class ResourceInboxDocumentRelationDto : FiscalDto, IHasIdDto
+    public class ResourceInboxDocumentRelationDto : EntityDto
     {
-        public long? Id { get; set; }
         [ReadOnly(true)]
         public string Description { get; set; }
         [ReadOnly(true)]
