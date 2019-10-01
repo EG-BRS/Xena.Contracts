@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using Xena.Common.ExtensionMethods;
 
 namespace Xena.Contracts.Domain
 {
@@ -13,5 +14,12 @@ namespace Xena.Contracts.Domain
         public bool Parked { get; set; }
         public bool IsNew { get; set; }
         public string ParkedNote { get; set; }
+        //Convinience properties
+        [ReadOnly(true)]
+        public string VoucherPreviewPartnerName { get; set; }
+        [ReadOnly(true)]
+        public int? VoucherPreviewDateDays { get; set; }
+        [ReadOnly(true)]
+        public string VoucherPreviewDateFriendly => VoucherPreviewDateDays.FriendlyString();
     }
 }
