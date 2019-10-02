@@ -35,6 +35,7 @@ namespace Xena.Contracts.Domain
 
         public string Account { get; set; }
         public string AccountIdentifier { get; set; }
+        public string BankBIC { get; set; }
         
         //Convinience propertiesS
         public string LedgerTagDescription { get; set; }
