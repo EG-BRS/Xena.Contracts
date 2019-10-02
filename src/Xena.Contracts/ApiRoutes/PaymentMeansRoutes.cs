@@ -20,6 +20,7 @@
         /// <summary>"PaymentIdentificationLayouts"</summary>
         public const string GetPaymentIdentificationLayoutsList = "PaymentIdentificationLayouts";
 
-
+        /// <summary>"PaymentIdentificationLayouts"</summary>
+        public const string GetPaymentLayoutExample = "GetPaymentLayoutExample";
     }
 }
