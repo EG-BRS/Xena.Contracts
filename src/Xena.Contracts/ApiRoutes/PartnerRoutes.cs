@@ -17,6 +17,12 @@
         /// <summary>"Search"</summary>
         public const string PostFromSearch = "Search";
 
+        /// <summary>"Old/Search"</summary>
+        public const string PostObsoleteFromSearch = "Old/Search";
+
+        /// <summary>"Old/ResetNumberSeries"</summary>
+        public const string PutObsoleteResetNumberSeries = "Old/ResetNumberSeries";
+
         /// <summary>"~/Fiscal/{fiscalId}/VCard/{id}/Partner"</summary>
         public const string PostFromVCard = BaseFiscalUri + "VCard/{id}/Partner";
 
