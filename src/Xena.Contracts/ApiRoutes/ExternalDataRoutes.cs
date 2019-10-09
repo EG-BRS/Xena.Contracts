@@ -11,11 +11,11 @@
         /// <summary>"DanishCompanyByProxy"</summary>
         public const string GetDanishCompanyByProxy = "DanishCompanyByProxy";
 
-        /// <summary>"NorweiganCompanyByOrgNumber"</summary>
-        public const string GetNorweiganCompanyByOrgNumberList = "NorweiganCompanyByOrgNumber";
+        /// <summary>"NorwegianCompanyByOrgNumber"</summary>
+        public const string GetNorwegianCompanyByOrgNumberList = "NorwegianCompanyByOrgNumber";
 
-        /// <summary>"NorweiganCompanyByProxy"</summary>
-        public const string GetNorweiganCompanyByProxy = "NorweiganCompanyByProxy";
+        /// <summary>"NorwegianCompanyByProxy"</summary>
+        public const string GetNorwegianCompanyByProxy = "NorwegianCompanyByProxy";
 
 
 
