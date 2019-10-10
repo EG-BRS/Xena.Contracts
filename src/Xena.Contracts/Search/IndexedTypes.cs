@@ -17,7 +17,7 @@
         public const string FiscalSetup = "fiscalsetup";
         public const string DanishCVR = "danish_cvr";
         public const string DanishEniro = "danish_eniro";
-        public const string NorweiganEnheter = "norweigan_enheter";
+        public const string NorwegianEnheter = "norwegian_enheter";
         public const string AppData = "app_data";
         public const string Virksomhed = "virksomhed";
     }
