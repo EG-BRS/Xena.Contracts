@@ -19,6 +19,5 @@
         public const string DanishEniro = "danish_eniro";
         public const string NorwegianEnheter = "norwegian_enheter";
         public const string AppData = "app_data";
-        public const string Virksomhed = "virksomhed";
     }
 }
