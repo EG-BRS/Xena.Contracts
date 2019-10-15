@@ -9,10 +9,14 @@ namespace Xena.Contracts.Domain
         public long? VoucherPreviewId { get; set; }
         public long? CostTypeId { get; set; }
         public string Description { get; set; }
+        public string ArticleNumber { get; set; }
         public decimal Amount { get; set; }
         public long? OrderTaskId { get; set; }
+        public long? ArticleId { get; set; }
         public bool IsBookkept { get; set; }
         public int Index { get; set; }
+        public decimal? CostEach { get; set; }
+        public decimal? Quantity { get; set; }
 
         //Convinience properties
         [ReadOnly(true)]
@@ -39,5 +43,6 @@ namespace Xena.Contracts.Domain
             }
             set { _orderTaskAbbreviation = value; }
         }
+
     }
 }

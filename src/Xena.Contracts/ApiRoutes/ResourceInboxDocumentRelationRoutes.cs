@@ -10,5 +10,8 @@
 
         /// <summary>"GetResourceInbox"</summary>
         public const string GetResourceInbox = "GetResourceInbox";
+
+        /// <summary>"{id}/MarkRead"</summary>
+        public const string PutMarkRead = "{id}/MarkRead";
     }
 }
