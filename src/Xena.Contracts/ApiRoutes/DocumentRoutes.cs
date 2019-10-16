@@ -68,6 +68,9 @@
         /// <summary>"FiscalSetup/{id}/Shared"</summary>
         public const string GetSharedFromFiscal = "FiscalSetup/{id}/Shared";
 
+        /// <summary>"DocumentFolderList"</summary>
+        public const string GetDocumentFolderList = "DocumentFolderList";
+
         /// <summary>"DocumentFolderConfiguration"</summary>
         public const string GetDocumentFolderConfiguration = "DocumentFolderConfiguration";
     }
