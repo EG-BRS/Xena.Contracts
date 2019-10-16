@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using Xena.Common.ExtensionMethods;
 using Xena.Contracts.Domain;
+using Xena.Contracts.Domain.DocumentRelated;
 
 namespace Xena.Contracts.Search
 {
