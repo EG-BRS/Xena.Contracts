@@ -14,8 +14,8 @@ namespace Xena.Contracts.Domain.DocumentRelated
 
         public int Order { get; set; }
 
-        public int? EntityId { get; set; }
-
         public string EntityType { get; set; }
+
+        public long EntityId { get; set; }
     }
 }

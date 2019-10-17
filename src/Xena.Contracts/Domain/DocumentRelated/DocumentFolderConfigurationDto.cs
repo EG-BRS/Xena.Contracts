@@ -14,7 +14,8 @@ namespace Xena.Contracts.Domain.DocumentRelated
 
         public int Order { get; set; }
 
-        public int FiscalSetupId { get; set; }
         public string EntityType { get; set; }
+
+        public int FiscalSetupId { get; set; }
     }
 }
