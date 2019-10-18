@@ -8,8 +8,8 @@
         /// <summary>"Multiple"</summary>
         public const string PostMultiple = "{ledgerId}/Multiple";
 
-        /// <summary>"KID/Multiple"</summary>
-        public const string PostMultipleFromKID = "{ledgerId}/KIDMultiple";
+        /// <summary>"MultipleBasic"</summary>
+        public const string PostMultipleBasic = "{ledgerId}/MultipleBasic";
 
         /// <summary>"Bulk"</summary>
         public const string PostBulk = "{ledgerId}/Bulk";

@@ -1,6 +1,6 @@
 ﻿namespace Xena.Contracts.Helpers
 {
-    public class LedgerLineKIDData
+    public class LedgerLineBasicData
     {
         public int FiscalDateDays { get; set; }
         public long LedgerTagId { get; set; }
