@@ -3,7 +3,7 @@ using System.ComponentModel;
 
 namespace Xena.Contracts.Search
 {
-    public class NorweiganCompanyIndex
+    public class NorwegianCompanyIndex
     {
         public string CompanyName { get; set; }
         public string Street { get; set; }
