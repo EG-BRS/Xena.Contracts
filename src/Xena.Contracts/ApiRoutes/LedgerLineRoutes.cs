@@ -9,7 +9,7 @@
         public const string PostMultiple = "{ledgerId}/Multiple";
 
         /// <summary>"MultipleBasic"</summary>
-        public const string PostMultipleBasic = "{ledgerId}/MultipleBasic";
+        public const string PostMultiplePayment = "{ledgerId}/MultiplePayment";
 
         /// <summary>"Bulk"</summary>
         public const string PostBulk = "{ledgerId}/Bulk";
