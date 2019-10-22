@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 
 namespace Xena.Contracts.Domain.DocumentRelated
 {
@@ -9,6 +10,9 @@ namespace Xena.Contracts.Domain.DocumentRelated
 
         [ReadOnly(true)]
         public bool IsDeactivated { get; set; }
+
+        [ReadOnly(true)]
+        public DateTime CreatedAt { get; set; }
 
         public string Name { get; set; }
 
