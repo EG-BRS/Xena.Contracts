@@ -1,4 +1,4 @@
-namespace Xena.Contracts.Helpers
+namespace Xena.Contracts.Helpers.DocumentRelated
 {
     public class CreateDocumentRelationData
     {
