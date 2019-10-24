@@ -10,7 +10,21 @@
         
         public string Bynavn { get; set; }
         
+        public string HusnummerFra { get; set; }
+        
+        public string HusnummerTil { get; set; }
+        
+        public string BogstavFra { get; set; }
+        
+        public string BogstavTil { get; set; }
+        
+        public string Etage { get; set; }
+        
+        public string Sidedoer { get; set; }
+        
         public string Postnummer { get; set; }
+        
+        public string Postdistrikt { get; set; }
         
         public Kommune Kommune { get; set; }
     }
@@ -24,7 +38,10 @@
         public NyesteNavn NyesteNavn { get; set; }
         
         public NyesteBeliggenhedsadresse NyesteBeliggenhedsadresse { get; set; }
+        
+        public string[] NyesteKontaktoplysninger { get; set; }
     }
+
     public class Vrvirksomhed
     {
         public string CvrNummer { get; set; }
