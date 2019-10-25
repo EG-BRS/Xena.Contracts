@@ -56,6 +56,9 @@
         /// <summary>"PartnerBalanceAgeReport"</summary>
         public const string GetPartnerBalanceAgeReportList = "PartnerBalanceAgeReport";
 
+        /// <summary> "PartnerBalanceByDueDateReport" </summary>
+        public const string GetPartnerBalanceByDueDateReport = "PartnerBalanceByDueDateReport";
+
         /// <summary>"LedgerPostReport"</summary>
         public const string GetLedgerPostReportList = "LedgerPostReport";
 
@@ -191,6 +194,9 @@
 
         /// <summary>"PartnerBalanceAgeReportTotals"</summary>
         public const string GetPartnerBalanceAgeReportTotals = "PartnerBalanceAgeReportTotals";
+
+        /// <summary>"PartnerBalanceByDueDateReportTotals"</summary>
+        public const string GetPartnerBalanceByDueDateReportTotals = "PartnerBalanceByDueDateReportTotals";
 
         /// <summary>"SendAndRenderPartnerSaldoReport"</summary>
         public const string PostSendAndRenderPartnerSaldoReportList = "SendAndRenderPartnerSaldoReport";
