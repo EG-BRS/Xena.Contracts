@@ -6,9 +6,37 @@ namespace Xena.Contracts.Helpers
     {
         public long OrderInvoiceTransactionId { get; set; }
         [Obsolete("Use Endpoint instead")]
-        public string RecipientAddressType { get; set; }
+        public string RecipientAddressType
+        {
+            get => Endpoint?.RecipientAddressType;
+            set
+            {
+                if (Endpoint == null)
+                {
+                    Endpoint = new InvoiceRecipientData() { RecipientAddressType = value };
+                }
+                else
+                {
+                    Endpoint.RecipientAddressType = value;
+                }
+            }
+        }
         [Obsolete("Use Endpoint instead")]
-        public string RecipientAddress { get; set; }
+        public string RecipientAddress
+        {
+            get => Endpoint?.RecipientAddress;
+            set
+            {
+                if (Endpoint == null)
+                {
+                    Endpoint = new InvoiceRecipientData() { RecipientAddress = value };
+                }
+                else
+                {
+                    Endpoint.RecipientAddress = value;
+                }
+            }
+        }
         public string PartnerName { get; set; }
         public long PartnerId { get; set; }
         public int PartnerAccountNumber { get; set; }
