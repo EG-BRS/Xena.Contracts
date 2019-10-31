@@ -44,6 +44,6 @@ namespace Xena.Contracts.Helpers
         public string GLNNumber { get; set; }
         public string OrgNumber { get; set; }
         public InvoiceRecipientData Endpoint { get; set; }
-        public InvoiceRecipientData PartyIdentification { get; set; }
+        public InvoiceRecipientData[] PartyIdentifications { get; set; }
     }
 }
