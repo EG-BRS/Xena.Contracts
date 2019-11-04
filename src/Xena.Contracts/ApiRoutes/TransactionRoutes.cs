@@ -95,6 +95,9 @@
         /// <summary>"{id}/PartnerPost"</summary>
         public const string GetPartnerPostByTransactionList = "{id}/PartnerPost";
 
+        /// <summary>"PartnerPost"</summary>
+        public const string GetPartnerPostList = "PartnerPost";
+
         /// <summary>"Settlment/{id}/PartnerPost"</summary>
         public const string GetPartnerPostBySettlementList = "Settlment/{id}/PartnerPost";
 
