@@ -1,4 +1,6 @@
-﻿namespace Xena.Contracts.ApiRoutes
+﻿using System;
+
+namespace Xena.Contracts.ApiRoutes
 {
     public class LedgerLineRoutes : BaseRoutes
     {
@@ -9,7 +11,11 @@
         public const string PostMultiple = "{ledgerId}/Multiple";
 
         /// <summary>"KID/Multiple"</summary>
+        [Obsolete("It will be replace with PostPayment")]
         public const string PostMultipleFromKID = "{ledgerId}/KIDMultiple";
+
+        /// <summary>"Payment"</summary>
+        public const string PostPayment = "{ledgerId}/Payment";
 
         /// <summary>"Bulk"</summary>
         public const string PostBulk = "{ledgerId}/Bulk";
