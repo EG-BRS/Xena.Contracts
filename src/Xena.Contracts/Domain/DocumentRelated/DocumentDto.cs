@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace Xena.Contracts.Domain
+namespace Xena.Contracts.Domain.DocumentRelated
 {
     public class DocumentDto : IHasIdDto
     {

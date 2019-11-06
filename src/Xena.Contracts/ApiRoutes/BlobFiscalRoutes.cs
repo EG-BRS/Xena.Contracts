@@ -9,7 +9,7 @@
         public const string Post = "";
 
         /// <summary>"{relationType}/{relationId}"</summary>
-        public const string PostByType = "{relationType}/{relationId}";
+        public const string PostByType = "{relationType}/{relationId}/{documentFolderId?}";
 
         /// <summary>"FromUrl"</summary>
         public const string PostFromUrl = "FromUrl";

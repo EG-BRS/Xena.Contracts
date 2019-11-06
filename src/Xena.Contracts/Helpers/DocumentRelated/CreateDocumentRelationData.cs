@@ -1,8 +1,9 @@
-namespace Xena.Contracts.Helpers
+namespace Xena.Contracts.Helpers.DocumentRelated
 {
     public class CreateDocumentRelationData
     {
         public long DocumentId { get; set; }
+        public long? DocumentFolderId { get; set; }
         public long EntityId { get; set; }
         public string ChosenEntity { get; set; }
         public bool NewDocument { get; set; }

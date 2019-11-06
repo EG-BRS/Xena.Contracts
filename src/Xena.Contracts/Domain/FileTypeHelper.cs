@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using Xena.Contracts.Domain.DocumentRelated;
 
 namespace Xena.Contracts.Domain
 {
