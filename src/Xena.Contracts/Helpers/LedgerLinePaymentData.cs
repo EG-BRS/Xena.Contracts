@@ -1,9 +1,6 @@
-﻿using System;
-
-namespace Xena.Contracts.Helpers
+﻿namespace Xena.Contracts.Helpers
 {
-    [Obsolete("It will be replace with LedgerLinePaymentData")]
-    public class LedgerLineKIDData
+    public class LedgerLinePaymentData
     {
         public int FiscalDateDays { get; set; }
         public long LedgerTagId { get; set; }
