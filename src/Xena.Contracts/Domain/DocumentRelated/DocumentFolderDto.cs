@@ -1,22 +1,12 @@
-﻿using System;
-using System.ComponentModel;
-
-namespace Xena.Contracts.Domain.DocumentRelated
+﻿namespace Xena.Contracts.Domain.DocumentRelated
 {
-    public class DocumentFolderDto : IHasIdDto
+    public class DocumentFolderDto : EntityDto
     {
-        public long? Id { get; set; }
-        public int Version { get; set; }
-
-        [ReadOnly(true)]
-        public bool IsDeactivated { get; set; }
-
-        [ReadOnly(true)]
-        public DateTime CreatedAt { get; set; }
-
         public string Name { get; set; }
 
-        public int Order { get; set; }
+        public int Index { get; set; }
+
+        public string Tags { get; set; }
 
         public string EntityType { get; set; }
 
