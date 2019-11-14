@@ -56,6 +56,9 @@
         /// <summary>"PartnerBalanceAgeReport"</summary>
         public const string GetPartnerBalanceAgeReportList = "PartnerBalanceAgeReport";
 
+        /// <summary> "PartnerBalanceByDueDateReport" </summary>
+        public const string GetPartnerBalanceByDueDateReport = "PartnerBalanceByDueDateReport";
+
         /// <summary>"LedgerPostReport"</summary>
         public const string GetLedgerPostReportList = "LedgerPostReport";
 
@@ -174,6 +177,9 @@
         /// <summary>"SendAndRenderPartnerSaldoAgeReportList"</summary>
         public const string PostSendAndRenderPartnerSaldoAgeReportList = "SendAndRenderPartnerSaldoAgeReportList";
 
+        /// <summary>"SendAndRenderPartnerSaldoByDueDateReportList"</summary>
+        public const string PostSendAndRenderPartnerSaldoByDueDateReportList = "SendAndRenderPartnerSaldoByDueDateReportList";
+
         /// <summary>"PostRenderPartnerPostReportList"</summary>
         public const string PostRenderPartnerPostReportList = "RenderPartnerPostReport";
 
@@ -189,11 +195,17 @@
         /// <summary>"RenderPartnerSaldoReport"</summary>
         public const string PostRenderPartnerSaldoReportList = "RenderPartnerSaldoReport";
 
-        /// <summary>"RenderPartnerSaldoAGeReport"</summary>
+        /// <summary>"RenderPartnerSaldoAgeReport"</summary>
         public const string PostRenderPartnerSaldoAgeReportList = "RenderPartnerSaldoAgeReport";
+
+        /// <summary>"RenderPartnerSaldoByDueDateReport"</summary>
+        public const string PostRenderPartnerSaldoByDueDateReportList = "RenderPartnerSaldoByDueDateReport";
 
         /// <summary>"PartnerBalanceAgeReportTotals"</summary>
         public const string GetPartnerBalanceAgeReportTotals = "PartnerBalanceAgeReportTotals";
+
+        /// <summary>"PartnerBalanceByDueDateReportTotals"</summary>
+        public const string GetPartnerBalanceByDueDateReportTotals = "PartnerBalanceByDueDateReportTotals";
 
         /// <summary>"SendAndRenderPartnerSaldoReport"</summary>
         public const string PostSendAndRenderPartnerSaldoReportList = "SendAndRenderPartnerSaldoReport";

@@ -68,6 +68,9 @@
         /// <summary>"ContextType"</summary>
         public const string GetContextType = "ContextType";
 
+        /// <summary>"ScheduleMethods"</summary>
+        public const string GetScheduleMethods = "ScheduleMethods";
+
         /// <summary>"PartnerType"</summary>
         public const string GetPartnerType = "PartnerType";
 
