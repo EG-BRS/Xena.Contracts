@@ -40,6 +40,7 @@ namespace Xena.Contracts.Search
                 LocationType = location.LocationType,
                 IndexedDimensions = dimensions.ToString(),
                 Id = location.Id.Value,
+                WarehouseAbbreviation = location.WarehouseAbbreviation,
                 FiscalSetupId = location.FiscalSetupId
             };
         }
