@@ -8,5 +8,6 @@
         public string Description { get; set; }
         public string LocationType { get; set; }
         public string IndexedDimensions { get; set; }
+        public string WarehouseAbbreviation { get; set; }
     }
 }
