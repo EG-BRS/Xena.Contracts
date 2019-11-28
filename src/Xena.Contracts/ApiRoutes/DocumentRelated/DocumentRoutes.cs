@@ -1,4 +1,4 @@
-﻿namespace Xena.Contracts.ApiRoutes
+﻿namespace Xena.Contracts.ApiRoutes.DocumentRelated
 {
     public class DocumentRoutes : BaseRoutes
     {
@@ -67,5 +67,8 @@
 
         /// <summary>"FiscalSetup/{id}/Shared"</summary>
         public const string GetSharedFromFiscal = "FiscalSetup/{id}/Shared";
+
+        /// <summary>"DocumentFolderConfiguration"</summary>
+        public const string GetDocumentFolderConfiguration = "DocumentFolderConfiguration";
     }
 }

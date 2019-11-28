@@ -33,6 +33,8 @@ namespace Xena.Contracts.Domain
         public bool? HasSerialNumber { get; set; }
         public bool? HasBatchNumber { get; set; }
         public long? DefaultLocationId { get; set; }
+        
+        public string PriceProvider { get; set; }
         public decimal? Weight { get; set; }
         public bool HasInventoryManagement { get; set; }
 

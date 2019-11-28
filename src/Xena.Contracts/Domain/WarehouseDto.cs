@@ -2,6 +2,7 @@
 {
     public class WarehouseDto : EntityDto
     {
+        public string Abbreviation { get; set; }
         public string Description { get; set; }
         public AddressDto Address { get; set; }
         public string Dimension1Description { get; set; }

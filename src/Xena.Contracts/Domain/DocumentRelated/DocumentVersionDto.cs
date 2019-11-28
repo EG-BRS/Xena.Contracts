@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 
-namespace Xena.Contracts.Domain
+namespace Xena.Contracts.Domain.DocumentRelated
 {
     public class DocumentVersionDto : IHasIdDto
     {
