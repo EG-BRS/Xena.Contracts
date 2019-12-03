@@ -10,7 +10,7 @@ namespace Xena.Contracts.Reports.SAF_T
     public class Account
     {
         /// <remarks/>
-        public ushort AccountID { get; set; }
+        public int AccountID { get; set; }
 
         /// <remarks/>
         public string AccountDescription { get; set; }
