@@ -41,5 +41,10 @@
         /// <summary>"{id}/RemoveFavorite"</summary>
         public const string DeleteMarkFavorite = "{id}/RemoveFavorite";
 
+        /// <summary>"{id}/BookkeepMultiple"</summary>
+        public const string PutBookkeepMultiple = "{id}/BookkeepMultiple";
+
+
+
     }
 }
