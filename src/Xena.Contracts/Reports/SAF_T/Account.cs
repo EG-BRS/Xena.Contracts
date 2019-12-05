@@ -23,7 +23,7 @@ namespace Xena.Contracts.Reports.SAF_T
 
         /// <remarks/>
         [XmlElementAttribute(DataType = "date")]
-        public System.DateTime AccountCreationDate { get; set; }
+        public DateTime AccountCreationDate { get; set; }
 
         /// <remarks/>
         public decimal OpeningCreditBalance { get; set; }
