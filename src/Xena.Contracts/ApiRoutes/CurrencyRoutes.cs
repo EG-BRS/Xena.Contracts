@@ -13,5 +13,8 @@
 
         /// <summary>"{currencyAbbreviation}/CurrencyAmountToPay"</summary>
         public const string GetCurrencyAmountToPay = "{currencyAbbreviation}/CurrencyAmountToPay";
+
+        /// <summary>"/Abbreviation"</summary>
+        public const string GetAbbreviations = "Abbreviations";
     }
 }

@@ -307,6 +307,9 @@
         /// <summary>"RenderPartnerStatement"</summary>
         public const string PostRenderPartnerStatement = "Partner/{id}/RenderStatement";
 
+        /// <summary>"RenderPartnerStatement2"</summary>
+        public const string PostRenderPartnerStatement2 = "Partner/{id}/RenderStatement2";
+
         /// <summary>"Ledger/{id}/RenderJournal"</summary>
         public const string PostRenderLedgerJournal = "Ledger/{id}/RenderJournal";
 
