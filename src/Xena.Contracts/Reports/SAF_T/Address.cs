@@ -13,7 +13,7 @@ namespace Xena.Contracts.Reports.SAF_T
         public string StreetName { get; set; }
 
         /// <remarks/>
-        public byte Number { get; set; }
+        public string Number { get; set; }
 
         /// <remarks/>
         public string AdditionalAddressDetail { get; set; }

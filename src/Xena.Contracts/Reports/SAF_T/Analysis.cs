@@ -15,6 +15,6 @@ namespace Xena.Contracts.Reports.SAF_T
         public string AnalysisType { get; set; }
 
         /// <remarks/>
-        public byte AnalysisID { get; set; }
+        public string AnalysisID { get; set; }
     }
 }

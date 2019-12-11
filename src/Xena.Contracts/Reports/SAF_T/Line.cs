@@ -8,7 +8,7 @@ namespace Xena.Contracts.Reports.SAF_T
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true, Namespace = "urn:StandardAuditFile-Taxation-Financial:NO")]
-    public class TransactionLine
+    public class Line
     {
         /// <remarks/>
         public string RecordID { get; set; }

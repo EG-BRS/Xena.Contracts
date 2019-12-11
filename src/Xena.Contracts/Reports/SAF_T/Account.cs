@@ -16,7 +16,7 @@ namespace Xena.Contracts.Reports.SAF_T
         public string AccountDescription { get; set; }
 
 //        /// <remarks/>
-//        public byte StandardAccountID { get; set; }
+//        public string StandardAccountID { get; set; }
 
         /// <remarks/>
         public string AccountType { get; set; }

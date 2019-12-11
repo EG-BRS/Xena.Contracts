@@ -51,6 +51,6 @@ namespace Xena.Contracts.Reports.SAF_T
 
         /// <remarks/>
         [XmlElement("Line")]
-        public TransactionLine[] Line { get; set; }
+        public Line[] Line { get; set; }
     }
 }
