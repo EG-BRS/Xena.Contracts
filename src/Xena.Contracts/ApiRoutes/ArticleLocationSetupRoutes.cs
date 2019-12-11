@@ -10,5 +10,8 @@
 
         /// <summary>"~/Fiscal/{fiscalId}/Location/{id}/ArticleSetup"</summary>
         public const string GetByLocationList = "~/Fiscal/{fiscalId}/Location/{id}/ArticleSetup";
+
+        /// <summary>"/Multiple"</summary>
+        public const string PostMultiple = "Multiple";
     }
 }
