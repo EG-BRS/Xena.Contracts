@@ -44,6 +44,6 @@ namespace Xena.Contracts.Reports.SAF_T
         public string TaxAccountingBasis { get; set; }
 
         /// <remarks/>
-        public ushort UserID { get; set; }
+        public string UserID { get; set; }
     }
 }

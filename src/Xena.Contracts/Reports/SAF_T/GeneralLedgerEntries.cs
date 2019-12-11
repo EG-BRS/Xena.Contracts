@@ -7,18 +7,18 @@ namespace Xena.Contracts.Reports.SAF_T
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true, Namespace = "urn:StandardAuditFile-Taxation-Financial:NO")]
-    public class SelectionCriteria
+    public class GeneralLedgerEntries
     {
         /// <remarks/>
-        public int PeriodStart { get; set; }
+        public int NumberOfEntries { get; set; }
 
         /// <remarks/>
-        public int PeriodStartYear { get; set; }
+        public decimal TotalDebit { get; set; }
 
         /// <remarks/>
-        public int PeriodEnd { get; set; }
+        public decimal TotalCredit { get; set; }
 
         /// <remarks/>
-        public int PeriodEndYear { get; set; }
+        public Journal Journal { get; set; }
     }
 }

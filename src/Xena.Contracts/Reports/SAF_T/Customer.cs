@@ -11,7 +11,7 @@ namespace Xena.Contracts.Reports.SAF_T
     public class Customer
     {
         /// <remarks/>
-        public uint RegistrationNumber { get; set; }
+        public string RegistrationNumber { get; set; }
 
         /// <remarks/>
         public string Name { get; set; }
@@ -30,10 +30,10 @@ namespace Xena.Contracts.Reports.SAF_T
         public BankAccount BankAccount { get; set; }
 
         /// <remarks/>
-        public ushort CustomerID { get; set; }
+        public string CustomerID { get; set; }
 
         /// <remarks/>
-        public ushort AccountID { get; set; }
+        public string AccountID { get; set; }
 
         /// <remarks/>
         public decimal OpeningDebitBalance { get; set; }

@@ -10,7 +10,13 @@ namespace Xena.Contracts.Reports.SAF_T
     public class BankAccount
     {
         /// <remarks/>
-        public ulong BankAccountNumber { get; set; }
+        public string BankAccountNumber { get; set; }
+
+        /// <remarks/>
+        public string BankAccountName { get; set; }
+
+        /// <remarks/>
+        public string SortCode { get; set; }
 
         /// <remarks/>
         public string BIC { get; set; }
@@ -19,6 +25,6 @@ namespace Xena.Contracts.Reports.SAF_T
         public string CurrencyCode { get; set; }
 
         /// <remarks/>
-        public ushort GeneralLedgerAccountID { get; set; }
+        public string GeneralLedgerAccountID { get; set; }
     }
 }

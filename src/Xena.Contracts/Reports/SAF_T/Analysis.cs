@@ -4,21 +4,17 @@ using System.Xml.Serialization;
 
 namespace Xena.Contracts.Reports.SAF_T
 {
+    /// <remarks/>
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true, Namespace = "urn:StandardAuditFile-Taxation-Financial:NO")]
-    public class SelectionCriteria
+    public class Analysis
     {
-        /// <remarks/>
-        public int PeriodStart { get; set; }
 
         /// <remarks/>
-        public int PeriodStartYear { get; set; }
+        public string AnalysisType { get; set; }
 
         /// <remarks/>
-        public int PeriodEnd { get; set; }
-
-        /// <remarks/>
-        public int PeriodEndYear { get; set; }
+        public byte AnalysisID { get; set; }
     }
 }

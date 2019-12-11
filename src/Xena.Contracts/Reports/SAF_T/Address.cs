@@ -22,7 +22,7 @@ namespace Xena.Contracts.Reports.SAF_T
         public string City { get; set; }
 
         /// <remarks/>
-        public ushort PostalCode { get; set; }
+        public string PostalCode { get; set; }
 
         /// <remarks/>
         public string Region { get; set; }

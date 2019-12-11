@@ -13,10 +13,10 @@ namespace Xena.Contracts.Reports.SAF_T
         public ContactPerson ContactPerson { get; set; }
 
         /// <remarks/>
-        public uint Telephone { get; set; }
+        public string Telephone { get; set; }
 
         /// <remarks/>
-        public uint Fax { get; set; }
+        public string Fax { get; set; }
 
         /// <remarks/>
         public string Email { get; set; }
@@ -25,6 +25,6 @@ namespace Xena.Contracts.Reports.SAF_T
         public string Website { get; set; }
 
         /// <remarks/>
-        public uint MobilePhone { get; set; }
+        public string MobilePhone { get; set; }
     }
 }

@@ -25,7 +25,7 @@ namespace Xena.Contracts.Reports.SAF_T
         public string Status { get; set; }
 
         /// <remarks/>
-        public AuditFileMasterFilesCustomersCustomerPartyInfoAnalysis Analysis { get; set; }
+        public Analysis Analysis { get; set; }
 
         /// <remarks/>
         public string Notes { get; set; }
