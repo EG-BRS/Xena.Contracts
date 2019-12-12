@@ -27,7 +27,7 @@ namespace Xena.Contracts.Reports.SAF_T
         public TaxRegistration TaxRegistration { get; set; }
 
         /// <remarks/>
-        public BankAccount BankAccount { get; set; }
+        // public BankAccount BankAccount { get; set; }
 
         /// <remarks/>
         public string CustomerID { get; set; }
@@ -35,11 +35,11 @@ namespace Xena.Contracts.Reports.SAF_T
         /// <remarks/>
         public string AccountID { get; set; }
 
-        /// <remarks/>
-        public decimal OpeningDebitBalance { get; set; }
-
-        /// <remarks/>
-        public decimal ClosingDebitBalance { get; set; }
+        // /// <remarks/>
+        // public decimal OpeningDebitBalance { get; set; }
+        //
+        // /// <remarks/>
+        // public decimal ClosingDebitBalance { get; set; }
 
         /// <remarks/>
         public PartyInfo PartyInfo { get; set; }

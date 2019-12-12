@@ -4,13 +4,12 @@ using System.Xml.Serialization;
 
 namespace Xena.Contracts.Reports.SAF_T
 {
-    /// <remarks/>
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true, Namespace = "urn:StandardAuditFile-Taxation-Financial:NO")]
     public class Customers
     {
         /// <remarks/>
-        public Customer Customer { get; set; }
+        public Customer[] Customer { get; set; }
     }
 }

@@ -18,7 +18,7 @@ namespace Xena.Contracts.Reports.SAF_T
 
         /// <remarks/>
         [XmlElement("Analysis")]
-        public AuditFileGeneralLedgerEntriesJournalTransactionLineAnalysis[] Analysis { get; set; }
+        public Analysis[] Analysis { get; set; }
 
         /// <remarks/>
         [XmlElement(DataType = "date")]
@@ -38,10 +38,10 @@ namespace Xena.Contracts.Reports.SAF_T
         public string Description { get; set; }
 
         /// <remarks/>
-        public AuditFileGeneralLedgerEntriesJournalTransactionLineCreditAmount CreditAmount { get; set; }
+        public CreditAmount CreditAmount { get; set; }
 
         /// <remarks/>
-        public AuditFileGeneralLedgerEntriesJournalTransactionLineDebitAmount DebitAmount { get; set; }
+        public DebitAmount DebitAmount { get; set; }
 
         /// <remarks/>
         public string CrossReference { get; set; }
@@ -51,7 +51,7 @@ namespace Xena.Contracts.Reports.SAF_T
         public bool CrossReferenceSpecified { get; set; }
 
         /// <remarks/>
-        public AuditFileGeneralLedgerEntriesJournalTransactionLineTaxInformation TaxInformation { get; set; }
+        public TaxInformation TaxInformation { get; set; }
 
         /// <remarks/>
         public string ReferenceNumber { get; set; }
