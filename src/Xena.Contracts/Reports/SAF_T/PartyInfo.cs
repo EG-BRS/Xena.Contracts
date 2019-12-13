@@ -13,7 +13,7 @@ namespace Xena.Contracts.Reports.SAF_T
         public PaymentTerms PaymentTerms { get; set; }
 
         /// <remarks/>
-        public decimal NaceCode { get; set; }
+        public string NaceCode { get; set; }
 
         /// <remarks/>
         public string CurrencyCode { get; set; }
@@ -24,8 +24,8 @@ namespace Xena.Contracts.Reports.SAF_T
         /// <remarks/>
         public string Status { get; set; }
 
-        /// <remarks/>
-        public Analysis Analysis { get; set; }
+        // /// <remarks/>
+        // public Analysis Analysis { get; set; }
 
         /// <remarks/>
         public string Notes { get; set; }

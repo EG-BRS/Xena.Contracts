@@ -11,13 +11,13 @@ namespace Xena.Contracts.Reports.SAF_T
     {
 
         /// <remarks/>
-        public byte Days { get; set; }
+        public int Days { get; set; }
 
-        /// <remarks/>
-        public byte CashDiscountDays { get; set; }
-
-        /// <remarks/>
-        public decimal CashDiscountRate { get; set; }
+        // /// <remarks/>
+        // public byte CashDiscountDays { get; set; }
+        //
+        // /// <remarks/>
+        // public decimal CashDiscountRate { get; set; }
 
         /// <remarks/>
         public bool FreeBillingMonth { get; set; }
