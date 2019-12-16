@@ -11,6 +11,6 @@ namespace Xena.Contracts.Reports.SAF_T
     public class TaxTable
     {
         /// <remarks/>
-        public TaxTableEntry TaxTableEntry { get; set; }
+        public TaxTableEntry[] TaxTableEntry { get; set; }
     }
 }
