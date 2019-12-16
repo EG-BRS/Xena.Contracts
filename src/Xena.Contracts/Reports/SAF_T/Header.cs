@@ -10,7 +10,7 @@ namespace Xena.Contracts.Reports.SAF_T
     public class Header
     {
         /// <remarks/>
-        public decimal AuditFileVersion { get; set; }
+        public string AuditFileVersion { get; set; }
 
         /// <remarks/>
         public string AuditFileCountry { get; set; }
@@ -26,7 +26,7 @@ namespace Xena.Contracts.Reports.SAF_T
         public string SoftwareID { get; set; }
 
         /// <remarks/>
-        public decimal SoftwareVersion { get; set; }
+        public string SoftwareVersion { get; set; }
 
         /// <remarks/>
         public Company Company { get; set; }

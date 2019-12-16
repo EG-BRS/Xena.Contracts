@@ -10,8 +10,8 @@ namespace Xena.Contracts.Reports.SAF_T
     [XmlRoot(Namespace = "urn:StandardAuditFile-Taxation-Financial:NO", IsNullable = false)]
     public class AuditFile
     {
-//        /// <remarks/>
-//        public Header Header { get; set; }
+        /// <remarks/>
+        public Header Header { get; set; }
 
         /// <remarks/>
         public MasterFiles MasterFiles { get; set; }
