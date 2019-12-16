@@ -26,7 +26,7 @@ namespace Xena.Contracts.Reports.SAF_T
         /// <remarks/>
         public TaxRegistration TaxRegistration { get; set; }
 
-        /// <remarks/>
+        // /// <remarks/>
         // public BankAccount BankAccount { get; set; }
 
         /// <remarks/>
