@@ -37,8 +37,8 @@ namespace Xena.Contracts.Reports.SAF_T
         /// <remarks/>
         public SelectionCriteria SelectionCriteria { get; set; }
 
-        /// <remarks/>
-        public string HeaderComment { get; set; }
+        // /// <remarks/>
+        // public string HeaderComment { get; set; }
 
         /// <remarks/>
         public string TaxAccountingBasis { get; set; }

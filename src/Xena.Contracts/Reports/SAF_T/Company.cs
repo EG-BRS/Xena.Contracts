@@ -22,10 +22,10 @@ namespace Xena.Contracts.Reports.SAF_T
         /// <remarks/>
         public Contact Contact { get; set; }
 
-        /// <remarks/>
-        public TaxRegistration TaxRegistration { get; set; }
+        // /// <remarks/>
+        // public TaxRegistration TaxRegistration { get; set; }
 
-        /// <remarks/>
-        public BankAccount BankAccount { get; set; }
+        // /// <remarks/>
+        // public BankAccount BankAccount { get; set; }
     }
 }
