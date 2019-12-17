@@ -14,13 +14,13 @@ namespace Xena.Contracts.Reports.SAF_T
         public Account[] GeneralLedgerAccounts { get; set; }
 
         /// <remarks/>
-        public Customers Customers { get; set; }
+        public Customer[] Customers { get; set; }
 
         /// <remarks/>
-        public Suppliers Suppliers { get; set; }
+        public Supplier[] Suppliers { get; set; }
 
         /// <remarks/>
-        public TaxTable TaxTable { get; set; }
+        public TaxTableEntry[] TaxTable { get; set; }
 
         /// <remarks/>
         [XmlArrayItem("AnalysisTypeTableEntry", IsNullable = false)]
