@@ -66,10 +66,19 @@
         public const string GetTag = "Tag";
 
         /// <summary>"ContextType"</summary>
-        public const string GetContextType = "ContextType";
+        public const string GetContextTypes = "ContextTypes";
 
         /// <summary>"ScheduleMethods"</summary>
         public const string GetScheduleMethods = "ScheduleMethods";
+
+        /// <summary>"Postings"</summary>
+        public const string GetPostings = "Postings";
+
+        /// <summary>"CurrencySettings"</summary>
+        public const string GetCurrencySettings = "CurrencySettings";
+
+        /// <summary>"PrintLanguages"</summary>
+        public const string GetPrintLanguages = "PrintLanguages";
 
         /// <summary>"PartnerType"</summary>
         public const string GetPartnerType = "PartnerType";
