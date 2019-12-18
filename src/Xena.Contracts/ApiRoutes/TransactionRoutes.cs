@@ -308,7 +308,13 @@
         public const string PostRenderPartnerStatement = "Partner/{id}/RenderStatement";
 
         /// <summary>"RenderPartnerStatement2"</summary>
-        public const string PostRenderPartnerStatement2 = "Partner/{id}/RenderStatement2";
+        public const string PostRenderPartnerExtendedStatement = "Partner/{id}/RenderExtendedStatement";
+
+        /// <summary>"SendEmailWithPartnerExtendedStatement"</summary>
+        public const string SendEmailWithPartnerExtendedStatement = "Partner/{id}/SendExtendedStatement";
+
+        /// <summary>"PostSendAndRenderPartnerExtendedStatement"</summary>
+        public const string PostSendAndRenderPartnerExtendedStatement = "Partner/{id}/SendAndRenderExtendedStatement";
 
         /// <summary>"Ledger/{id}/RenderJournal"</summary>
         public const string PostRenderLedgerJournal = "Ledger/{id}/RenderJournal";
