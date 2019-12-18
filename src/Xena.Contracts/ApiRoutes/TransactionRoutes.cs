@@ -307,7 +307,7 @@
         /// <summary>"RenderPartnerStatement"</summary>
         public const string PostRenderPartnerStatement = "Partner/{id}/RenderStatement";
 
-        /// <summary>"RenderPartnerStatement2"</summary>
+        /// <summary>"PostRenderPartnerExtendedStatement"</summary>
         public const string PostRenderPartnerExtendedStatement = "Partner/{id}/RenderExtendedStatement";
 
         /// <summary>"SendEmailWithPartnerExtendedStatement"</summary>
