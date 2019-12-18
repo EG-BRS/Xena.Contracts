@@ -16,7 +16,7 @@ namespace Xena.Contracts.Reports.SAF_T
         /// <remarks/>
         public MasterFiles MasterFiles { get; set; }
 
-//        /// <remarks/>
-//        public AuditFileGeneralLedgerEntries GeneralLedgerEntries { get; set; }
+        /// <remarks/>
+        public GeneralLedgerEntries GeneralLedgerEntries { get; set; }
     }
 }
