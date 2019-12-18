@@ -4,27 +4,30 @@ using System.Xml.Serialization;
 
 namespace Xena.Contracts.Reports.SAF_T
 {
+    /// <remarks/>
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true, Namespace = "urn:StandardAuditFile-Taxation-Financial:NO")]
-    public class BankAccount
+    public class TaxCodeDetails
     {
-        /// <remarks/>
-        public string BankAccountNumber { get; set; }
 
         /// <remarks/>
-        public string BankAccountName { get; set; }
+        public string TaxCode { get; set; }
 
         /// <remarks/>
-        public string SortCode { get; set; }
+        public string Description { get; set; }
 
         /// <remarks/>
-        public string BIC { get; set; }
+        public decimal TaxPercentage { get; set; }
 
         /// <remarks/>
-        public string CurrencyCode { get; set; }
+        public string Country { get; set; }
 
         /// <remarks/>
-        public string GeneralLedgerAccountID { get; set; }
+        public string StandardTaxCode { get; set; }
+
+        /// <remarks/>
+        [XmlElement("BaseRate")]
+        public decimal[] BaseRate { get; set; }
     }
 }

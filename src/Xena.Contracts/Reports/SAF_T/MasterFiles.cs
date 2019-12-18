@@ -10,24 +10,24 @@ namespace Xena.Contracts.Reports.SAF_T
     public class MasterFiles
     {
         /// <remarks/>
-        [XmlArrayItemAttribute("Account", IsNullable = false)]
+        [XmlArrayItem("Account", IsNullable = false)]
         public Account[] GeneralLedgerAccounts { get; set; }
 
-//        /// <remarks/>
-//        public AuditFileMasterFilesCustomers Customers { get; set; }
-//
-//        /// <remarks/>
-//        public AuditFileMasterFilesSuppliers Suppliers { get; set; }
-//
-//        /// <remarks/>
-//        public AuditFileMasterFilesTaxTable TaxTable { get; set; }
-//
-//        /// <remarks/>
-//        [XmlArrayItemAttribute("AnalysisTypeTableEntry", IsNullable = false)]
-//        public AuditFileMasterFilesAnalysisTypeTableEntry[] AnalysisTypeTable { get; set; }
-//
-//        /// <remarks/>
-//        [XmlArrayItemAttribute("Owner", IsNullable = false)]
-//        public AuditFileMasterFilesOwner[] Owners { get; set; }
+        /// <remarks/>
+        public Customer[] Customers { get; set; }
+
+        /// <remarks/>
+        public Supplier[] Suppliers { get; set; }
+
+        /// <remarks/>
+        public TaxTableEntry[] TaxTable { get; set; }
+
+        /// <remarks/>
+        [XmlArrayItem("AnalysisTypeTableEntry", IsNullable = false)]
+        public AnalysisTypeTableEntry[] AnalysisTypeTable { get; set; }
+
+        /// <remarks/>
+        [XmlArrayItem("Owner", IsNullable = false)]
+        public Owner[] Owners { get; set; }
     }
 }

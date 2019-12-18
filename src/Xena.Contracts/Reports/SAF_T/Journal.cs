@@ -7,24 +7,19 @@ namespace Xena.Contracts.Reports.SAF_T
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true, Namespace = "urn:StandardAuditFile-Taxation-Financial:NO")]
-    public class Contact
+    public class Journal
     {
-        // /// <remarks/>
-        // public ContactPerson ContactPerson { get; set; }
+        /// <remarks/>
+        public string JournalID { get; set; }
 
         /// <remarks/>
-        public string Telephone { get; set; }
-
-        // /// <remarks/>
-        // public string Fax { get; set; }
+        public string Description { get; set; }
 
         /// <remarks/>
-        public string Email { get; set; }
+        public string Type { get; set; }
 
         /// <remarks/>
-        public string Website { get; set; }
-
-        /// <remarks/>
-        public string MobilePhone { get; set; }
+        [XmlElement("Transaction")]
+        public Transaction[] Transaction { get; set; }
     }
 }

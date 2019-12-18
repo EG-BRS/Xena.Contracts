@@ -10,19 +10,19 @@ namespace Xena.Contracts.Reports.SAF_T
     public class Account
     {
         /// <remarks/>
-        public int AccountID { get; set; }
+        public string AccountID { get; set; }
 
         /// <remarks/>
         public string AccountDescription { get; set; }
 
 //        /// <remarks/>
-//        public byte StandardAccountID { get; set; }
+//        public string StandardAccountID { get; set; }
 
         /// <remarks/>
         public string AccountType { get; set; }
 
         /// <remarks/>
-        [XmlElementAttribute(DataType = "date")]
+        [XmlElement(DataType = "date")]
         public DateTime AccountCreationDate { get; set; }
 
         /// <remarks/>
