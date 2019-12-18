@@ -13,7 +13,7 @@ namespace Xena.Contracts.Reports.SAF_T
         public string StreetName { get; set; }
 
         /// <remarks/>
-        public byte Number { get; set; }
+        public string Number { get; set; }
 
         /// <remarks/>
         public string AdditionalAddressDetail { get; set; }
@@ -22,7 +22,7 @@ namespace Xena.Contracts.Reports.SAF_T
         public string City { get; set; }
 
         /// <remarks/>
-        public ushort PostalCode { get; set; }
+        public string PostalCode { get; set; }
 
         /// <remarks/>
         public string Region { get; set; }

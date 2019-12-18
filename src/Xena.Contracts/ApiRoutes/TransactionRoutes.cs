@@ -307,6 +307,15 @@
         /// <summary>"RenderPartnerStatement"</summary>
         public const string PostRenderPartnerStatement = "Partner/{id}/RenderStatement";
 
+        /// <summary>"PostRenderPartnerExtendedStatement"</summary>
+        public const string PostRenderPartnerExtendedStatement = "Partner/{id}/RenderExtendedStatement";
+
+        /// <summary>"SendEmailWithPartnerExtendedStatement"</summary>
+        public const string SendEmailWithPartnerExtendedStatement = "Partner/{id}/SendExtendedStatement";
+
+        /// <summary>"PostSendAndRenderPartnerExtendedStatement"</summary>
+        public const string PostSendAndRenderPartnerExtendedStatement = "Partner/{id}/SendAndRenderExtendedStatement";
+
         /// <summary>"Ledger/{id}/RenderJournal"</summary>
         public const string PostRenderLedgerJournal = "Ledger/{id}/RenderJournal";
 

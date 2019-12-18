@@ -7,18 +7,19 @@ namespace Xena.Contracts.Reports.SAF_T
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true, Namespace = "urn:StandardAuditFile-Taxation-Financial:NO")]
-    public class SelectionCriteria
+    public class PaymentTerms
     {
-        /// <remarks/>
-        public int PeriodStart { get; set; }
 
         /// <remarks/>
-        public int PeriodStartYear { get; set; }
+        public int Days { get; set; }
+
+        // /// <remarks/>
+        // public byte CashDiscountDays { get; set; }
+        //
+        // /// <remarks/>
+        // public decimal CashDiscountRate { get; set; }
 
         /// <remarks/>
-        public int PeriodEnd { get; set; }
-
-        /// <remarks/>
-        public int PeriodEndYear { get; set; }
+        public bool FreeBillingMonth { get; set; }
     }
 }
