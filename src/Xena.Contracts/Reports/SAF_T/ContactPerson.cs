@@ -16,6 +16,9 @@ namespace Xena.Contracts.Reports.SAF_T
         public string Initials { get; set; }
 
         /// <remarks/>
+        public string LastNamePrefix { get; set; }
+
+        /// <remarks/>
         public string LastName { get; set; }
 
         /// <remarks/>
