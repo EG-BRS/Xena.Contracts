@@ -9,8 +9,8 @@ namespace Xena.Contracts.Reports.SAF_T
     [XmlType(AnonymousType = true, Namespace = "urn:StandardAuditFile-Taxation-Financial:NO")]
     public class Contact
     {
-        // /// <remarks/>
-        // public ContactPerson ContactPerson { get; set; }
+        /// <remarks/>
+        public ContactPerson ContactPerson { get; set; }
 
         /// <remarks/>
         public string Telephone { get; set; }
