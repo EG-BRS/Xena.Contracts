@@ -16,7 +16,7 @@ namespace Xena.Contracts.Reports
         [ReadOnly(true)]
         public decimal EndTotal
         {
-            get { return _endTotal ?? (StartingTotal + PartnerPosts.Sum(pp => pp.Amount)); }
+            get { return _endTotal ?? (StartingTotal + PartnerPosts.Sum(pp => pp.RemainingAmount)); }
             set { _endTotal = value; }
         }
     }
