@@ -1,8 +1,8 @@
 ﻿namespace Xena.Contracts.Domain
 {
-    public class StockCountDraftProblemDto : FiscalDto
+    public class StockCountDraftProblemDto : FiscalDto, IHasIdDto
     {
-        public long Id { get; set; }
+        public long? Id { get; set; }
         public long StockCountId { get; set; }
         public decimal? Sum { get; set; }
         public int Count { get; set; }
