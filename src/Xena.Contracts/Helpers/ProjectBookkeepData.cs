@@ -7,5 +7,6 @@ namespace Xena.Contracts.Helpers
         public long[] OrderIds { get; set; }
         public long? OrderStatusId { get; set; }
         public bool ShowTasks { get; set; }
+        public bool ShowLines { get; set; }
     }
 }
