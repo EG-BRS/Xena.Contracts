@@ -35,5 +35,6 @@
         public bool IsDelivered { get; set; }
         public bool IsInvoiced { get; set; }
         public long OrderId { get; set; }
+        public int CreatedDate { get; set; }
     }
 }
