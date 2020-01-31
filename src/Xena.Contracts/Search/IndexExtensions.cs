@@ -197,7 +197,8 @@ namespace Xena.Contracts.Search
                 ContextType = order.ContextType,
                 IsDeactivated = task.IsDeactivated,
                 ProjectDescription = order.ProjectDescription,
-                ProjectDetails = project?.Details
+                ProjectDetails = project?.Details,
+                CreatedDate = task.CreatedAt.Date.DaysSince1970_01_01()
             };
         }
 
