@@ -6,7 +6,7 @@ namespace Xena.Contracts.Helpers.DocumentRelated
     public class BulkCreateDocumentFolderData
     {
         public long EntityId { get; set; }
-        public string EntityType { get; set; }
+        public string DocumentFolderType { get; set; }
         public IEnumerable<DocumentFolderDto> DocumentFolders { get; set; }
     }
 }
