@@ -1,8 +1,7 @@
 ﻿using System.ComponentModel;
-using Xena.Contracts.Domain;
 using Xena.Common.ExtensionMethods;
 
-namespace Xena.Contracts.Helpers
+namespace Xena.Contracts.Domain
 {
     public class AvailableDefaultReportLayoutDto : IHasIdDto
     {
