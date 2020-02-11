@@ -1,11 +1,9 @@
-﻿using System.Globalization;
-
-namespace Xena.Contracts.Domain
+﻿namespace Xena.Contracts.Domain
 {
-    // public interface IHasXSLLayout : IHasIdDto
-    // {
-    //     string Group { get; }
-    //     string XSL { get; }
-    //     CultureInfo Culture { get; }
-    // }
+    public interface IHasXSLLayoutDto : IHasIdDto
+    {
+        string Group { get; }
+        string XSL { get; }
+        string Culture { get; }
+    }
 }
