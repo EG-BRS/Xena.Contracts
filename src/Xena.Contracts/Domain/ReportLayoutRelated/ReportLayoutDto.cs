@@ -7,11 +7,12 @@ namespace Xena.Contracts.Domain
 {
     public class ReportLayoutDto : EntityDto, IHasXSLLayoutDto
     {
-        public static ReportLayoutDto GetStandardReportLayout(string reportModule, long fiscalSetupId, string culture)
+        public static ReportLayoutDto GetStandardReportLayout(string reportGroup, long fiscalSetupId, string culture)
         {
             return new ReportLayoutDto
             {
-                Name = reportModule.GetLocalizedReportName(),
+                Name = reportGroup.GetLocalizedReportName(),
+                Group = reportGroup,
                 FiscalSetupId = fiscalSetupId,
                 Culture = culture
             };
@@ -31,7 +32,7 @@ namespace Xena.Contracts.Domain
 
                 try
                 {
-                    return Group.GetLocalizedReportXSLT(new CultureInfo(Culture));
+                    return Group.GetLocalizedReportXSLT(string.IsNullOrEmpty(Culture) ? null : new CultureInfo(Culture));
                 }
                 catch (Exception)
                 {
