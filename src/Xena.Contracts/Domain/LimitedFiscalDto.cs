@@ -2,6 +2,6 @@
 {
     public class LimitedFiscalDto
     {
-        public long FiscalSetupId { get; }
+        public virtual long FiscalSetupId { get; set; }
     }
 }
