@@ -1,6 +1,7 @@
 using System;
+using Xena.Contracts.Domain;
 
-namespace Xena.Contracts.Domain
+namespace Xena.Contracts.Helpers
 {
     public class ProviderDefaultReportLayoutDto : IHasIdDto
     {

@@ -2,8 +2,9 @@
 using System.ComponentModel;
 using System.Globalization;
 using Xena.Common.ExtensionMethods;
+using Xena.Contracts.Domain;
 
-namespace Xena.Contracts.Domain
+namespace Xena.Contracts.Helpers
 {
     public class ReportLayoutDto : EntityDto, IHasXSLLayoutDto
     {

@@ -1,4 +1,6 @@
-﻿namespace Xena.Contracts.Domain
+﻿using Xena.Contracts.Domain;
+
+namespace Xena.Contracts.Helpers
 {
     public class ReportLayoutTextDto : EntityDto
     {
