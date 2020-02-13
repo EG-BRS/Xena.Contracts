@@ -22,6 +22,7 @@ namespace Xena.Contracts.Helpers
         public long? ResourceId { get; set; }
 
         public long? OrderId { get; set; }
+        public int OrderNumber { get; set; }
         public AddressDto OrderAddress { get; set; }
         public AddressDto OrderDeliveryAddress { get; set; }
         public long? PartnerId { get; set; }
