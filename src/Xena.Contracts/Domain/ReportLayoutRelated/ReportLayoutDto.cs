@@ -1,12 +1,24 @@
 ﻿using System;
 using System.ComponentModel;
-using Xena.Contracts.Domain;
+using System.Globalization;
 using Xena.Common.ExtensionMethods;
+using Xena.Contracts.Domain;
 
 namespace Xena.Contracts.Helpers
 {
-    public class ReportLayoutDto : EntityDto
+    public class ReportLayoutDto : EntityDto, IHasXSLLayoutDto
     {
+        public static ReportLayoutDto GetStandardReportLayout(string reportGroup, long fiscalSetupId, string culture)
+        {
+            return new ReportLayoutDto
+            {
+                Name = reportGroup.GetLocalizedReportName(),
+                Group = reportGroup,
+                FiscalSetupId = fiscalSetupId,
+                Culture = culture
+            };
+        }
+
         private string _xsl;
         public string Group { get; set; }
         public string Name { get; set; }
@@ -21,25 +33,28 @@ namespace Xena.Contracts.Helpers
 
                 try
                 {
-                    return Group.GetLocalizedReportXSLT();
+                    return Group.GetLocalizedReportXSLT(string.IsNullOrEmpty(Culture) ? null : new CultureInfo(Culture));
                 }
                 catch (Exception)
                 {
                     return null;
                 }
             }
-            set { _xsl = value; }
+            set => _xsl = value;
         }
 
         private string _groupTranslated = null;
+
         [ReadOnly(true)]
         public string GroupTranslated
         {
             get { return _groupTranslated ?? Group.GetLocalizedReportName(); }
             set { _groupTranslated = value; }
         }
+
         public string Culture { get; set; }
         private string _cultureDisplayName = null;
+
         [ReadOnly(true)]
         public string CultureDisplayName
         {
