@@ -21,12 +21,12 @@
         public const string GetFiscalSetupMembershipList = "~/XenaAdmin/FiscalSetup/{id}/Membership";
 
         /// <summary>"~/Fiscal/{fiscalSetupId}/LimitedFiscal"</summary>
-        public const string GetLimitedFiscal = "FiscalSetup/{fiscalSetupId}/LimitedFiscal";
+        public const string IsLimitedFiscal = "FiscalSetup/{fiscalSetupId}/IsLimitedFiscal";
 
         /// <summary>"~/Fiscal/{fiscalSetupId}/LimitedFiscal"</summary>
         public const string PostLimitedFiscal = "FiscalSetup/{fiscalSetupId}/LimitedFiscal";
 
         /// <summary> "~/LimitedFiscal/{limitedFiscalId}" </summary>
-        public const string DeleteLimitedFiscal = "FiscalSetup/{fiscalSetupId}/LimitedFiscal/{limitedFiscalId}";
+        public const string DeleteLimitedFiscal = "FiscalSetup/{fiscalSetupId}/LimitedFiscal";
 }
 }
