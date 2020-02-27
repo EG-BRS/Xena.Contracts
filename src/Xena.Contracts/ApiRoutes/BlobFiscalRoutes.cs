@@ -20,9 +20,6 @@
         /// <summary>"Download/{versionId}"</summary>
         public const string GetDownload = "Download/{versionId}";
 
-        /// <summary>"Download/FiscalBackup/{backupId}"</summary>
-        public const string GetFiscalBackup = "Download/FiscalBackup/{backupId}";
-
         /// <summary>"{id}/Download"</summary>
         public const string GetDownloadByDocument = "{id}/Download";
 
