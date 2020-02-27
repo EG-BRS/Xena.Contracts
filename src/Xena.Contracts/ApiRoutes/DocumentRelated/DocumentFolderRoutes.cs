@@ -4,5 +4,7 @@
     {
         /// <summary>"Fiscal/{fiscalId}/Document/DocumentFolder"</summary>
         public const string Base = "Fiscal/{fiscalId}/DocumentFolder";
+
+        public const string GetListWithDocuments = "ListWithDocuments";
     }
 }
