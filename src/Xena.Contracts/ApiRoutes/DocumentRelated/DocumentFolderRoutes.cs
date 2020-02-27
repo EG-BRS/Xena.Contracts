@@ -5,6 +5,7 @@
         /// <summary>"Fiscal/{fiscalId}/Document/DocumentFolder"</summary>
         public const string Base = "Fiscal/{fiscalId}/DocumentFolder";
 
+        /// <summary>"Fiscal/{fiscalId}/Document/DocumentFolder/ListWithDocuments"</summary>
         public const string GetListWithDocuments = "ListWithDocuments";
     }
 }
