@@ -41,5 +41,13 @@
         /// <summary>"{id}/RemoveFavorite"</summary>
         public const string DeleteMarkFavorite = "{id}/RemoveFavorite";
 
+        /// <summary>"{id}/BookkeepInvoice"</summary>
+        public const string PutBookkeepInvoice = "{id}/BookkeepInvoice";
+
+        /// <summary>"{id}/PayOnAccount"</summary>
+        public const string PutPayOnAccount = "{id}/PayOnAccount";
+
+
+
     }
 }
