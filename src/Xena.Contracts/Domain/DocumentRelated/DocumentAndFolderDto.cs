@@ -25,7 +25,7 @@ namespace Xena.Contracts.Domain.DocumentRelated
 
         public DocumentAndFolderDto(DocumentDto document)
         {
-            IsFolder = true;
+            IsFolder = false;
             Id = document.Id;
             Name = document.LastFileName;
             Date = document.LastCreated;
