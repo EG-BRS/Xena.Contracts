@@ -6,8 +6,6 @@
 
         public string Tags { get; set; }
 
-        public string DocumentFolderType { get; set; }
-
         public long EntityId { get; set; }
     }
 }
