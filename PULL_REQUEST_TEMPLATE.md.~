@@ -4,8 +4,8 @@
 - [ ] I have compiled and tested my own code.
 
 # Deployment
-- [ ] Moved Jira issue [XNA-xxx](https://jira.eg.dk/browse/XNA-xxx) to "Code complete".
-- [ ] Issue [XNA-xxx](https://jira.eg.dk/browse/XNA-xxx) needs to be merged before merging this PR.
+- [ ] Moved Jira issue [BRS-xxx](https://eg-xena.atlassian.net/browse/BRS-xxx) to "Code complete".
+- [ ] Issue [BRS-xxx](https://eg-xena.atlassian.net/browse/BRS-xxx) needs to be merged before merging this PR.
 - [ ] If accepted, reviewer can merge this PR.
 - [ ] This branch can be deleted after merge.
 
