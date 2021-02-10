@@ -38,5 +38,5 @@ Other:
 - [x] All communication is done with encryption (https).
 - [x] All Sensitivity personal data is encrypted in the DB. 
 - [x] All viewing, searching, changesing and deletions of ['GDPR sensitive data'](https://github.com/EG-BRS/Documentation/blob/master/GDPR/Datatypes-examples.md) is logged.
-- [ ] Will this PR added any new 'Sensitivity personal data' to our systems? __If YES, @thehusted must be added as reviewer.__
+- [ ] Will this PR added any new 'Sensitivity personal data' to our systems? __If YES, @majbrittpeglau must be added as reviewer.__
 
